@@ -1396,6 +1396,31 @@ body {
           }
         }
 			}
+
+      .podcast-meta {
+        @include column(12,12);
+        padding: 0;
+        margin-top: 0.8em;
+        margin-bottom: 0.5em;
+
+        .links {
+          @include column(12,12);
+          padding: 0;
+          margin-bottom: 0;
+          font-family: "brandon-grotesque", sans-serif;
+          text-transform: uppercase;
+          font-size: 0.8em;
+
+          a {
+            display: inline-block;
+            color: $dark-text;
+
+            &:hover {
+              color: $red;
+            }
+          }
+        } 
+      }
 		}
 
 		.post-footer {
@@ -1738,8 +1763,7 @@ body {
 		  }
 
       .top-nav {
-        @include column(5,10);
-        @include push(1,10);
+        @include column(6,10);
         padding: 1.8em 0 0;
         text-align: right;
 

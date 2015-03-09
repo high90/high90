@@ -34,6 +34,18 @@
 
 		<!-- feed -->
 		<link rel="alternate" type="application/rss+xml" href="{{ _site_url }}/feed" title="The Mindful Bit" />
+
+		<!-- Huffduffer -->
+		<meta name="description" content="{{ if summary }}{{ summary }}{{ endif }}">
+  		<meta name="keywords" content="{{ if tags }}{{ tags_list }}{{ endif }}">
+
+		<script>
+		  $(document).ready(function(){ 
+		    $("#huffduffer").click(function() {
+		      window.open('http://huffduffer.com/add?popup=true&page='+encodeURIComponent(location.href),'huffduff','scrollbars=1,status=0,resizable=1,location=0,toolbar=0,width=360,height=480');
+		    });
+		  });
+		</script>
 	</head>
 	<body onload="prettyPrint()">
 		<div id="container">

@@ -87,11 +87,7 @@
         {{ endif }}
       	</h2> 
       	<div class="title-date">Posted <span class="nice-date">{{ datestamp format="M d, 'y" }}</span> at <span class="time">{{ datestamp format="g:i A" }}</span></div> 
-        <div class="title-author">By
-          {{ author }}
-            <a href="{{ _site_root }}blog/author/{{ name|slugify }}">{{ name }}</a>
-          {{ /author }}  
-        </div>
+        <div class="title-author">By {{ author_sentence_url_list }}</div>
       </div>
       <div class="post-body">
 
@@ -101,6 +97,23 @@
             {{ epigram|markdown }}
             <cite>{{ epi-cite|markdown }}</cite>
           </blockquote>
+
+        {{ endif }}
+
+        {{ if category == podcast }}
+
+          <div class="podcast-meta">
+            <div class="player">
+              <iframe frameborder='0' height='36px' scrolling='no' seamless src='{{ player }}?style=dark' width='100%'></iframe>
+            </div>
+            <div class="links">
+              <a href="{{ download }}">Download</a> &ndash;
+              <a id="huffduffer">Huffduff It</a> &ndash;
+              <a href="{{ twitter }}">Twitter-friendly Link</a>
+            </div>
+          </div>
+
+          {{ summary|markdown|widont }}
 
         {{ endif }}
 
