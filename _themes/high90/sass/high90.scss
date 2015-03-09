@@ -885,39 +885,39 @@ body {
 		    background-image: url('../img/stripes.svg');
 		    background-repeat: repeat;
         height: 1.2em;
-          border-bottom: 0.5em solid $light-grey !important;
+        border-bottom: 0.5em solid $light-grey !important;
 
-		    &.news {
-		      border-bottom: 0.5em solid $red !important;
-		    }
+        &.high90 {
+          border-bottom: 0.5em solid $red !important;
+        }
 
-		    &.design {
-		      border-bottom: 0.5em solid $blue !important;
-		    }
+        &.news {
+          border-bottom: 0.5em solid $red !important;
+        }
 
-		    &.technology {
-		      border-bottom: 0.5em solid $bright-green !important;
-		    }
+        &.podcast {
+          border-bottom: 0.5em solid $orange !important;
+        }
 
-		    &.news.design {
-		      border-bottom: 0.5em solid $orange !important;
-		    }
+        &.technology {
+          border-bottom: 0.5em solid $yellow !important;
+        }
 
-		    &.design.technology {
-		      border-bottom: 0.5em solid $dark-green !important;
-		    }
+        &.productivity {
+            border-bottom: 0.5em solid $green !important;
+        }
 
-		    &.news.technology {
-		      border-bottom: 0.5em solid $bright-green !important;
-		    }
+        &.design {
+          border-bottom: 0.5em solid $bright-blue !important;
+        }
 
-		    &.news.design.technology {
-		      border-bottom: 0.5em solid $dark-grey !important;
-		    }
+        &.ideas {
+          border-bottom: 0.5em solid $blue !important;
+        }
 
-		    &.no-color {
-		      border-bottom: 0.5em solid $light-grey !important;
-		    }
+        &.all {
+          border-bottom: 0.5em solid $dark-grey !important;
+        }
 
 		  }
 
@@ -1221,7 +1221,6 @@ body {
 				margin: 0.7em 0 0.9em 0;
 				border-left: 0.5em solid $hover-background;
 				color: $mid-text;
-
 				p:first-child {
 					font-size: 1em;
 				}
@@ -1476,36 +1475,36 @@ body {
 		  background-image: url('../img/stripes.svg');
       border-left: 0.5em solid $light-grey !important;
 
+      &.high90 {
+        border-left: 0.5em solid $red !important;
+      }
+
       &.news {
         border-left: 0.5em solid $red !important;
       }
 
-      &.design {
-        border-left: 0.5em solid $blue !important;
-      }
-
-      &.technology {
-        border-left: 0.5em solid $bright-green !important;
-      }
-
-      &.news.design {
+      &.podcast {
         border-left: 0.5em solid $orange !important;
       }
 
-      &.design.technology {
-        border-left: 0.5em solid $dark-green !important;
+      &.technology {
+        border-left: 0.5em solid $yellow !important;
       }
 
-      &.news.technology {
-        border-left: 0.5em solid $bright-green !important;
+      &.productivity {
+          border-left: 0.5em solid $green !important;
       }
 
-      &.news.design.technology {
+      &.design {
+        border-left: 0.5em solid $bright-blue !important;
+      }
+
+      &.ideas {
+        border-left: 0.5em solid $blue !important;
+      }
+
+      &.all {
         border-left: 0.5em solid $dark-grey !important;
-      }
-
-      &.no-color {
-        border-left: 0.5em solid $light-grey !important;
       }
 
 			.older,
@@ -1566,6 +1565,10 @@ body {
       }
 
       &.news {
+        border-left: 0.5em solid $red !important;
+      }
+
+      &.podcast {
         border-left: 0.5em solid $orange !important;
       }
 
@@ -1956,6 +1959,8 @@ body {
 	          color: $bright-link;
 	          font-size: 1.5em;
 	          line-height: 1.3em;
+            font-weight: 500;
+
 	        }
 	  		}
 
@@ -2873,6 +2878,11 @@ body {
 }
 
 .news {
+  background-color: $red !important;
+  color: $white !important;
+}
+
+.podcast {
   background-color: $orange !important;
   color: $white !important;
 }
