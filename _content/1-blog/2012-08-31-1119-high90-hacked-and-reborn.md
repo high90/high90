@@ -1,5 +1,6 @@
 ---
 title: 'High90.com Hacked and Reborn'
+author: [Erik Hess]
 categories: [design, technology]
 tags: [high90, sass, 'responsive design', typography, svg, compass, typekit]
 ---

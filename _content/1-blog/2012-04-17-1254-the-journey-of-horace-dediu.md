@@ -1,5 +1,6 @@
 ---
 title: 'The Journey of Horace Dediu'
+author: [Erik Hess]
 categories: [technology]
 tags: [education]
 ---

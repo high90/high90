@@ -1,5 +1,6 @@
 ---
 title: "Steve Jobs Didn't..."
+author: [Erik Hess]
 categories: [technology, design]
 tags: [apple]
 ---

@@ -1,5 +1,6 @@
 ---
 title: 'Playing Catch Up'
+author: [Erik Hess]
 categories: [mindfulness, design, technology]
 tags: [generational, criticmarkup]
 banner: catch-up.jpg

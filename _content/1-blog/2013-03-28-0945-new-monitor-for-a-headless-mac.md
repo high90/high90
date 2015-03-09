@@ -1,5 +1,6 @@
 ---
 title: 'A New Monitor for a Headless Mac'
+author: [Erik Hess]
 categories: [technology]
 tags: [hardware, high90, resistance, takitapart]
 banner: 100-ohm.png

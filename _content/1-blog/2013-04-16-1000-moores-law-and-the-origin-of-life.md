@@ -1,5 +1,6 @@
 ---
 title: "Moore's Law and the Origin of Life"
+author: [Erik Hess]
 categories: [technology]
 tags: [evolution, computing, science, cosmology]
 banner: origin-of-life.jpg

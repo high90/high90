@@ -1,5 +1,6 @@
 ---
 title: 'On the Surveillance Dragnet'
+author: [Erik Hess]
 categories: [technology, mindfulness]
 tags: [security, prism, surveillance]
 banner: elephant-cage.jpg

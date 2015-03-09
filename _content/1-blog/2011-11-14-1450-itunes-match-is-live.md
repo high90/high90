@@ -1,5 +1,6 @@
 ---
 title: 'iTunes Match is Live'
+author: [Erik Hess]
 categories: [technology]
 tags: ['itunes match', apple]
 ---

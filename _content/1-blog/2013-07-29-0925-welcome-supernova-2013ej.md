@@ -1,5 +1,6 @@
 ---
 title: 'Welcome Supernova 2013ej'
+author: [Erik Hess]
 categories: [mindfulness, technology]
 tags: [astronomy, space, supernova, hubble]
 banner: m74-banner.jpg

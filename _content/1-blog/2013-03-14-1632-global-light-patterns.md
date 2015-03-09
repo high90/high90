@@ -1,5 +1,6 @@
 ---
 title: 'Global Night Light Patterns Reveal Economic Shift to the East'
+author: [Erik Hess]
 categories: [technology]
 tags: [space, defense]
 link: http://www.technologyreview.com/view/512531/global-night-light-patterns-reveal-economic-shift-to-the-east/

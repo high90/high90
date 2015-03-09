@@ -1,5 +1,6 @@
 ---
 title: 'To Profile or Not to Profile?'
+author: [Erik Hess]
 categories: [technology]
 tags: [security]
 ---

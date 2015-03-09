@@ -1,5 +1,6 @@
 ---
 title: 'Fear and Failure'
+author: [Erik Hess]
 categories: [mindfulness, flying]
 tags: [fear, failure, the boat]
 favorite: yes

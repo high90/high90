@@ -1,5 +1,6 @@
 ---
 title: 'Point your naked domain to Dropbox with Site44'
+author: [Erik Hess]
 categories: [technology]
 tags: [blogging, dropbox]
 ---

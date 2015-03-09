@@ -1,5 +1,6 @@
 ---
 title: 'iPhone 4s Preorder Issues'
+author: [Erik Hess]
 categories: [technology]
 tags: [iphone, verizon, apple]
 ---

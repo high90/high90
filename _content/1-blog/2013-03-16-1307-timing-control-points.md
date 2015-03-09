@@ -1,5 +1,6 @@
 ---
 title: 'Timing Control Points'
+author: [Erik Hess]
 categories: [flying]
 tags: [productivity]
 banner: tcp-1.png

@@ -1,5 +1,6 @@
 ---
 title: 'Fonts, the Blues, Celestial Mechanics, Evolution and Ideas'
+author: [Erik Hess]
 categories: [technology]
 tags: [science, music, instapaper, blues]
 ---

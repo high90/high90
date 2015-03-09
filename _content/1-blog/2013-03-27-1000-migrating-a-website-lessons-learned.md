@@ -1,5 +1,6 @@
 ---
 title: 'Migrating a Website: Lessons Learned'
+author: [Erik Hess]
 categories: [design, technology]
 tags: [squarespace, statamic]
 link: http://curiousrat.com/migrating-a-website-lessons-learned

@@ -1,5 +1,6 @@
 ---
 title: 'Everyday Sounds from the Station'
+author: [Erik Hess]
 categories: [technology]
 tags: [space, nasa, iss, the boat]
 banner: iss.jpg

@@ -1,5 +1,6 @@
 ---
 title: 'Technical Difficulties, Please Stand By'
+author: [Erik Hess]
 categories: [ design, technology ]
 tags: ['technical difficulties', generational, podcasting, typography, typekit, statamic, takitapart, compass, flickr ]
 banner: td-banner.jpg

@@ -1,5 +1,6 @@
 ---
 title: 'Blogging Platforms with Bob&nbsp;VanderClay'
+author: [Erik Hess]
 categories: [technology, design]
 tags: [generational, blogging, docpad, statamic, ruhoh, appfog, squarespace, sublime text, textexpander, takitapart, macminicolo, bob vanderclay]
 banner: bob.jpg

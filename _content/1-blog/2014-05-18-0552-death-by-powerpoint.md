@@ -1,5 +1,6 @@
 ---
 title: 'Death by Powerpoint'
+author: [Erik Hess]
 categories: [design]
 tags: [presentations, powerpoint, military]
 banner: pp-banner.jpg
@@ -28,7 +29,7 @@ Another influential factor in many of these ugly presentations is a lack of time
 
 The time of the audience also comes into play here. The targets of these products are some of the busiest executives in the world. They want information products that cut the noise and get to the heart of complicated issues so they can make a decision and get on to the next problem. These are noble goals. 
 
-{{ theme:partial src="image" class="" title="Edward Tufte's Analysis of a Columbia Risk Assessment Slide from [PowerPoint Does Rocket Science](http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0001yB)" file="columbia-pp.gif" }}
+{{ theme:partial src="image" class="" title="Edward Tufte's Analysis of a Columbia Risk Assessment Slide from **PowerPoint Does Rocket Science**" file="columbia-pp.gif" }}
 
 Tragically, the military shares a misconception with the rest of the government and much of the business world that the slides should be able to act as a substitute for the speaker. While you'd think this would drive presentation designers towards clarity, it often does exactly the opposite. Diagrams with bulleted annotations can rarely provide the clarity and fidelity of well-written prose supported by a few well-chosen graphics. Yet busy executives don't want to take the time to read a multipage essay.
 

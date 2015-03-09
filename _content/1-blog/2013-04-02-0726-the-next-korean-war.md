@@ -1,5 +1,6 @@
 ---
 title: 'The Next Korean War'
+author: [Erik Hess]
 categories: [technology]
 tags: [war, korea, the bomb, proliferation]
 link: http://www.foreignaffairs.com/articles/139091/keir-a-lieber-and-daryl-g-press/the-next-korean-war

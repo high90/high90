@@ -1,5 +1,6 @@
 ---
 title: 'Two Minutes Hate'
+author: [Erik Hess]
 categories: [mindfulness]
 tags: [aversion, media]
 banner: big-brother.jpg

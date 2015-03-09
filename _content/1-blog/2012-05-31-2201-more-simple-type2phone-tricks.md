@@ -1,5 +1,6 @@
 ---
 title: 'More simple Type2Phone and Keyboard Maestro tricks'
+author: [Erik Hess]
 categories: [technology]
 tags: [type2phone, 'keyboard maestro', productivity]
 ---

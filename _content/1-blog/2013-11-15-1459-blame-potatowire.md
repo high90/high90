@@ -1,5 +1,6 @@
 ---
 title: 'Blame Potatowire'
+author: [Erik Hess]
 categories: [mindfulness, design, technology]
 tags: [technical difficulties, generational, networking, ethernet, podcasting, potatowire]
 banner: ethernetworking.jpg

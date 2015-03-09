@@ -1,5 +1,6 @@
 ---
 title: 'Sage 2012 Lessons Learned'
+author: [Erik Hess]
 categories: [design, technology]
 tags: ['responsive design', sass, compass, typekit, takitapart, svg, mobile-first]
 ---

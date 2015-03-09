@@ -1,31 +1,42 @@
 ---
 title: 'About'
-categories: [mindfulness, technology, design]
-tags: [technical difficulties, criticmarkup, generational, nerdquery, clc, high90, tiger, rhino, tomcat]
-planes: [tomcat, rhino, tiger]
-units: [vf-11, vf-101, lso school, jsf, cvw-1, cnal, vfc-13]
-cruised: [cv-67, cvn-65]
-waved: [cvn-69, cvn-70, cvn-71, cvn-72, cvn-73, cvn-75, cvn-76, cvn-77]
-banner: waving.jpg
-caption: Waving an F/A-18C Hornet aboard the USS Enterprise (CVN-65).
+author: [Erik Hess]
+categories: [high90]
+tags: []
+banner: plane.svg
+caption: At high90, we've got the experience to get your business airborne.
 _template: about
 _fieldset: page
 ---
 
-## About the Author
+# Taking your business to the cloud? Let high90 build your engines.
 
-My name is Erik Hess and I'm a web designer, illustrator and recovering fighter pilot living in Carson City, NV. I spent thirteen years in the Navy flying [Tomcats](http://en.wikipedia.org/wiki/F-14_Tomcat) and [Super Hornets](http://en.wikipedia.org/wiki/Boeing_F/A-18E/F_Super_Hornet) off aircraft carriers and teaching others to do the same.
+Welcome to the 21st century. All businesses—whether they like it or not—are becoming web software businesses. We can help.
 
-In 2010, I left active duty to work full-time as partner, designer and developer at [high90](http://high90.com), a software company I founded with [Bob VanderClay](http://takitapart.com/) in 2005. I'm also co-founder of [Carrier Landing Consultants, LLC](http://carrierlandingconsultants.com), the world’s only Landing Signal Officer and Carrier Operations consulting firm.
+Just ask [Senex Law, PC](http://senexlaw.com/).
 
-Outside of the Navy and high90, I've collaborated with [Gabe Weatherhead](http://macdrifter.com) on a few cool projects, namely [NerdQuery](http://nerdquery.com), [CriticMarkup](http://criticmarkup.com), [Generational](http://www.70decibels.com/generational/), and our new podcast, [Technical Difficulties](http://technicaldifficulties.us). For a short while, I was even lucky enough to keep flying in the Naval Reserves.
+Starting as Sage Law Practice Group with one lawyer, a tiny team, and a dream, they set out to become the best online multifamily law firm in the country. To bring that dream to life, high90 built Senex.
 
-## About This Site
+With the ability to process tens of thousands of legal documents a month, Senex lets a dozen people perform high-volume monthly legal processing that would need a staff of thousands the old way. They do it faster, better and cheaper too.
 
-I created The Mindful Bit in late 2011 to look for an intersection of mindfulness, productivity, and technology. I'm trying to see the world of tech while keeping an eye on its impermanent, emergent, and inherently unsatisfying nature. While I don’t have any good answers, I do think it’s possible to have enlightening conversations around the questions this world throws at us.
+The Senex web application is all online, so clients can work from anywhere. We moved their entire email and document management system to the cloud, then upgraded the staff to reliable and secure Macs, iPads and iPhones. Costs dropped, availability soared.
 
-Since its launch, I've posted a lot of flying stories and pictures, along with a few articles on technology and related fields. I'm still working on the mindfulness part and probably will be for the rest of my life.
+People liked our app so much, they renamed the company after it.
 
-The site was rebuilt five times in 18 months, using [Tumblr](http://tumblr.com), [WordPress](http://wordpress.org), [Squarespace](http://squarespace.com), [Ruhoh](http://ruhoh.com) and now [Statamic](http://statamic.com). Statamic seems to have stuck for a while, so that must mean something. I also use the site to prototype new web technologies, so it changes a bunch. I hope that doesn't get too annoying for you.
+Along the way, we made them a [responsive website](http://senexlaw.com/), [a snappy trade-show booth](../assets/img/booth.jpg), [a cool paint job for their '67 Mustang](../assets/img/mustang.jpg), [brochures](../assets/img/brochure.jpg), [fact-sheets](../assets/img/factsheet.jpg), and [letterhead](../assets/img/letterhead.jpg).
 
-We are what we do, not what we claim to be. In that regard, this site is no exception.
+Senex Law is now the fastest growing multifamily law firm in the country, more than doubling in size and revenue each of the last three years. Additional law firms and multifamily properties are lining up to use Senex because it's the best in the business.
+
+# We built it for them. We can build it for you too.
+
+It doesn't matter if you're a small-business trying to expand your reach or a large, established company looking for a modern way to do business. We offer information, design and development services to fit your needs.
+
+You can't run a business without knowing what's going on and how it's changing. We can present that information in an intelligible, actionable way, allowing you to make the best decision at the right time.
+
+Once you know where you want to go, you have to craft an identity and a message that speaks to your customers. Our designers will help you reach that market in a memorable and effective way.
+
+Many existing business processes work even better online. Our developers will look at your current methods and help you adapt and improve them for today's changing online environment.
+
+At high90, we're ready to help you take your business to the next level. Take your business global, take it online.
+
+Contact us today to make your dream a reality.

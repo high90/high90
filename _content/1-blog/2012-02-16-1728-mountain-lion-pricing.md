@@ -1,5 +1,6 @@
 ---
 title: 'Mountain Lion Pricing'
+author: [Erik Hess]
 categories: [technology]
 tags: ['mountain lion', apple]
 ---

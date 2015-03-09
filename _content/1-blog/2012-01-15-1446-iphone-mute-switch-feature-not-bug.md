@@ -1,5 +1,6 @@
 ---
 title: 'The iPhone Mute Switch: Feature, not Bug'
+author: [Erik Hess]
 categories: [technology]
 tags: [iphone]
 ---

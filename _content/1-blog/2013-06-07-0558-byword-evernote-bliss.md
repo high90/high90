@@ -1,5 +1,6 @@
 ---
 title: 'Byword 2.0 Makes Evernote Work'
+author: [Erik Hess]
 categories: [technology]
 tags: [productivity, byword, evernote, markdown]
 banner: byword-evernote-bliss.jpg

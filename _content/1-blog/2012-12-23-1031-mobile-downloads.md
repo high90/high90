@@ -1,5 +1,6 @@
 ---
 title: 'Mobile Downloads with IFTTT'
+author: [Erik Hess]
 categories: [technology]
 tags: [dropbox, bitly, ifttt]
 ---

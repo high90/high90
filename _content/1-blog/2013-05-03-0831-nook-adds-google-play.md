@@ -1,5 +1,6 @@
 ---
 title: 'Nook HD and HD+ add Google Play'
+author: [Erik Hess]
 categories: [technology]
 tags: [mobile, nook, reading]
 banner: nook-toast.jpg

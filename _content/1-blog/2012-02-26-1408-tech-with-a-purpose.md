@@ -1,5 +1,6 @@
 ---
 title: 'Tech with a Purpose'
+author: [Erik Hess]
 categories: [mindfulness, technology]
 tags: [dayone]
 ---

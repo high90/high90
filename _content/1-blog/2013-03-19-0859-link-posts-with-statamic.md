@@ -1,5 +1,6 @@
 ---
 title: 'Creating Link Posts with Statamic'
+author: [Erik Hess]
 categories: [technology]
 tags: [statamic, blogging]
 ---
@@ -14,7 +15,8 @@ Raw posts are typically written in Markdown, prefaced with YAML [Content Fields]
 
 	---
 	title: 'Creating Link Posts with Statamic'
-	categories: [technology]
+	author: [Erik Hess]
+categories: [technology]
 	tags: [statamic, blogging]
 	---
 
@@ -24,7 +26,8 @@ To make a normal post into a link post I start by simply adding `link:` and the 
 
 	---
 	title: 'Creating Link Posts with Statamic'
-	categories: [technology]
+	author: [Erik Hess]
+categories: [technology]
 	tags: [statamic, blogging]
 	link: http://statamic.com
 	---

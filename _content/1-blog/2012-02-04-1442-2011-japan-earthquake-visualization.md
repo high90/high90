@@ -1,5 +1,6 @@
 ---
 title: 2011 Japan Earthquake Visualization
+author: [Erik Hess]
 categories: [technology]
 tags: [visualization, earthquakes]
 ---

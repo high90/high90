@@ -1,5 +1,6 @@
 ---
 title: 'Political Failure Modes'
+author: [Erik Hess]
 categories: [mindfulness]
 tags: [politics, media]
 ---

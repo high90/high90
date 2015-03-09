@@ -1,5 +1,6 @@
 ---
 title: 'The Podcasters'
+author: [Erik Hess]
 categories: [technology]
 tags: [podcasting, technical difficulties]
 banner: vintagezen.jpg

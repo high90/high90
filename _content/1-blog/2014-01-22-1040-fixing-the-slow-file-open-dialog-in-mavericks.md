@@ -1,5 +1,6 @@
 ---
 title: 'Fixing the Slow File Open Dialog in Mavericks'
+author: [Erik Hess]
 categories: [technology]
 tags: [apple, os x, mavericks, terminal]
 banner: beach-ball.jpg

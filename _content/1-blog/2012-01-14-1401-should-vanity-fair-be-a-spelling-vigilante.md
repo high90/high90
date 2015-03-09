@@ -1,5 +1,6 @@
 ---
 title: 'Should Vanity Fair Be A Spelling Vigilante?'
+author: [Erik Hess]
 categories: [technology]
 tags: [journalism, media]
 ---

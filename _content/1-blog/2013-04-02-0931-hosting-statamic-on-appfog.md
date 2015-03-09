@@ -1,5 +1,6 @@
 ---
 title: 'Hosting Statamic on AppFog'
+author: [Erik Hess]
 categories: [technology]
 tags: [appfog, statamic, blogging, hosting]
 banner: af-banner.jpg

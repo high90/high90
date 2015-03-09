@@ -1,5 +1,6 @@
 ---
 title: 'Tweaking BookBook for iPhone'
+author: [Erik Hess]
 categories: [technology]
 tags: [twelve south]
 ---

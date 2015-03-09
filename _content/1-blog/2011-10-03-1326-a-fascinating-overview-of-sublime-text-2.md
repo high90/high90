@@ -1,5 +1,6 @@
 ---
 title: 'A fascinating overview of Sublime Text 2'
+author: [Erik Hess]
 categories: [technology]
 tags: ['sublime text']
 ---

@@ -21,16 +21,16 @@ _language: en
 _site_root: /
 
 # Name of your site
-_site_name: The Mindful Bit
+_site_name: high90
 
 # Change the folder name for your content directory
 _content_root: _content
 
 # Used for permalinks
-_site_url: http://themindfulbit.com
+_site_url: http://high90.haus
 
 # Folder name of your desired theme
-_theme: tmb
+_theme: high90
 
 # Entries should include timestamp YYYY-MM-DD-HHII
 _entry_timestamps: true
@@ -46,6 +46,7 @@ _timezone: America/New_York
 
 # List of desired taxonomy triggers
 _taxonomy:
+  - author
   - categories
   - tags
 

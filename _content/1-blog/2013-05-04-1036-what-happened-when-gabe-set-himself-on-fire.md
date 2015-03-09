@@ -1,5 +1,6 @@
 ---
 title: 'What Happened When Gabe Set Himself on Fire'
+author: [Erik Hess]
 categories: [mindfulness, technology, design]
 tags: [generational, storage, careers, education]
 link: http://www.70decibels.com/generational/2013/5/4/033-what-happened-when-gabe-set-himself-on-fire.html

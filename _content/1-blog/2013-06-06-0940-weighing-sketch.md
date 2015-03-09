@@ -1,5 +1,6 @@
 ---
 title: 'Weighing Sketch and Photoshop'
+author: [Erik Hess]
 categories: [design, technology]
 tags: [adobe, sketch, pixelmator]
 banner: adobe-heavy.jpg

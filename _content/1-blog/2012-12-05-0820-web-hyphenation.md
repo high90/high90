@@ -1,5 +1,6 @@
 ---
 title: 'Web Hyphenation Lives'
+author: [Erik Hess]
 categories: [design, technology]
 tags: [typography, compass]
 ---

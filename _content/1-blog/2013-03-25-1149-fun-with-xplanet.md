@@ -1,5 +1,6 @@
 ---
 title: 'Fun With Xplanet'
+author: [Erik Hess]
 categories: [technology]
 tags: [xplanet, wallpaper, osx, nasa]
 banner: 2013083121633.jpg

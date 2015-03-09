@@ -1,5 +1,6 @@
 ---
 title: 'Nest on the Panic Status Board'
+author: [Erik Hess]
 categories: [technology]
 tags: [nest, panic]
 banner: takitapart-nest.jpg

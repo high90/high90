@@ -1,5 +1,6 @@
 ---
 title: 'Meet NerdQuery'
+author: [Erik Hess]
 categories: [technology, design]
 tags: [nerdquery, colorschemer, typekit]
 

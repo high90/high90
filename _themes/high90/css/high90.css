@@ -1,0 +1,5232 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/*
+*  Normalization, bugfixes, workarounds, and defaults.
+*
+*  Part of the takitapart CSS framework [ http://takitapart.net/framework ].
+*
+*  See readme.md for details, licensing, and acknowledgments. 
+*
+*/
+/*  mostly adopted from http://necolas.github.com/normalize.css/ */
+/* =============================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/*
+ * Corrects block display not defined in IE6/7/8/9 & FF3
+ */
+/* line 20, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+
+/*
+ * Corrects inline-block display not defined in IE6/7/8/9 & FF3
+ */
+/* line 38, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/*
+ * Prevents modern browsers from displaying 'audio' without controls
+ */
+/* line 50, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+audio:not([controls]) {
+  display: none;
+}
+
+/*
+ * Addresses styling for 'hidden' attribute not present in IE7/8/9, FF3, S4
+ * Known issue: no IE6 support
+ */
+/* line 59, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+[hidden] {
+  display: none;
+}
+
+/* =============================================================================
+   Base
+   ========================================================================== */
+/* line 69, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, p, blockquote, th, td {
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * 1. Corrects text resizing oddly in IE6/7 when body font-size is set using em units
+ *    http://clagnut.com/blog/348/#c790
+ * 2. Prevents iOS text size adjust after orientation change, without disabling user zoom
+ *    www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/
+ */
+/* line 82, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+html {
+  font-size: 100%;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/*
+ * Addresses font-family inconsistency between 'textarea' and other form elements.
+ */
+/* line 92, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif;
+}
+
+/*
+ * Addresses margins handled incorrectly in IE6/7
+ */
+/* line 104, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+body {
+  margin: 0;
+}
+
+/* =============================================================================
+   Links
+   ========================================================================== */
+/*
+ * Addresses outline displayed oddly in Chrome
+ */
+/* line 119, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+a:focus {
+  outline: thin dotted;
+}
+
+/*
+ * Improves readability when focused and also mouse hovered in all browsers
+ * people.opera.com/patrickl/experiments/keyboard/test
+ */
+/* line 128, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+a:hover,
+a:active {
+  outline: 0;
+}
+
+/* =============================================================================
+   Typography
+   ========================================================================== */
+/*
+ * Addresses styling not present in IE7/8/9, S5, Chrome
+ */
+/* line 141, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+/*
+ * Addresses style set to 'bolder' in FF3+, S4/5, Chrome
+*/
+/* line 149, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+b,
+strong {
+  font-weight: bold;
+}
+
+/* line 154, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+blockquote {
+  margin: 1em 40px;
+}
+
+/*
+ * Addresses styling not present in S5, Chrome
+ */
+/* line 162, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+dfn {
+  font-style: italic;
+}
+
+/*
+ * Addresses styling not present in IE6/7/8/9
+ */
+/* line 170, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+/*
+ * Addresses margins set differently in IE6/7
+ */
+/* line 179, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+p,
+pre {
+  margin: 1em 0;
+}
+
+/*
+ * Corrects font family set oddly in IE6, S4/5, Chrome
+ * en.wikipedia.org/wiki/User:Davidgothberg/Test59
+ */
+/* line 189, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+pre,
+code,
+kbd,
+samp {
+  font-family: monospace, serif;
+  _font-family: 'courier new', monospace;
+  font-size: 1em;
+}
+
+/*
+ * Improves readability of pre-formatted text in all browsers
+ */
+/* line 202, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+pre {
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/*
+ * 1. Addresses CSS quotes not supported in IE6/7
+ * 2. Addresses quote property not supported in S4
+ */
+/* 1 */
+/* line 215, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+q {
+  quotes: none;
+}
+
+/* 2 */
+/* line 221, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+/* line 227, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+small {
+  font-size: 75%;
+}
+
+/*
+ * Prevents sub and sup affecting line-height in all browsers
+ * gist.github.com/413930
+ */
+/* line 236, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 244, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+sup {
+  top: -0.5em;
+}
+
+/* line 248, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+sub {
+  bottom: -0.25em;
+}
+
+/* =============================================================================
+   Lists
+   ========================================================================== */
+/*
+ * Addresses margins set differently in IE6/7
+ */
+/* line 261, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+dl,
+menu,
+ol,
+ul {
+  margin: 1em 0;
+}
+
+/* line 268, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+dd {
+  margin: 0 0 0 40px;
+}
+
+/*
+ * Addresses paddings set differently in IE6/7
+ */
+/* line 276, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+menu,
+ol,
+ul {
+  padding: 0 0 0 40px;
+}
+
+/*
+ * Corrects list images handled incorrectly in IE7
+ */
+/* line 286, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+nav ul,
+nav ol {
+  list-style: none;
+  list-style-image: none;
+}
+
+/* =============================================================================
+   Embedded content
+   ========================================================================== */
+/*
+ * 1. Removes border when inside 'a' element in IE6/7/8/9, FF3
+ * 2. Improves image quality when scaled in IE7
+ *    code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/
+ */
+/* line 303, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+img {
+  border: 0;
+  /* 1 */
+  -ms-interpolation-mode: bicubic;
+  /* 2 */
+}
+
+/*
+ * Corrects overflow displayed oddly in IE9
+ */
+/* line 312, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* =============================================================================
+   Figures
+   ========================================================================== */
+/*
+ * Addresses margin not present in IE6/7/8/9, S5, O11
+ */
+/* line 325, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+figure {
+  margin: 0;
+}
+
+/* =============================================================================
+   Forms
+   ========================================================================== */
+/*
+ * Corrects margin displayed oddly in IE6/7
+ */
+/* line 338, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+form {
+  margin: 0;
+}
+
+/*
+ * Define consistent border, margin, and padding
+ */
+/* line 346, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/*
+ * 1. Corrects color not being inherited in IE6/7/8/9
+ * 2. Corrects text not wrapping in FF3 
+ * 3. Corrects alignment displayed oddly in IE6/7
+ */
+/* line 358, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+legend {
+  border: 0;
+  /* 1 */
+  padding: 0;
+  white-space: normal;
+  /* 2 */
+  *margin-left: -7px;
+  /* 3 */
+}
+
+/*
+ * 1. Corrects font size not being inherited in all browsers
+ * 2. Addresses margins set differently in IE6/7, FF3+, S5, Chrome
+ * 3. Improves appearance and consistency in all browsers
+ */
+/* line 371, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+button,
+input,
+select,
+textarea {
+  font-size: 100%;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+  vertical-align: baseline;
+  /* 3 */
+  *vertical-align: middle;
+  /* 3 */
+}
+
+/*
+ * Addresses FF3/4 setting line-height on 'input' using !important in the UA stylesheet
+ */
+/* line 385, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+button,
+input {
+  line-height: normal;
+  /* 1 */
+}
+
+/*
+ * 1. Improves usability and consistency of cursor style between image-type 'input' and others
+ * 2. Corrects inability to style clickable 'input' types in iOS
+ * 3. Removes inner spacing in IE7 without affecting normal text inputs
+ *    Known issue: inner spacing remains in IE6
+ */
+/* line 397, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  cursor: pointer;
+  /* 1 */
+  -webkit-appearance: button;
+  /* 2 */
+  *overflow: visible;
+  /* 3 */
+}
+
+/*
+ * Re-set default cursor for disabled elements
+ */
+/* line 410, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+
+/*
+ * 1. Addresses box sizing set to content-box in IE8/9
+ * 2. Removes excess padding in IE8/9
+ * 3. Removes excess padding in IE7
+      Known issue: excess padding remains in IE6
+ */
+/* line 422, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+  *height: 13px;
+  /* 3 */
+  *width: 13px;
+  /* 3 */
+}
+
+/*
+ * 1. Addresses appearance set to searchfield in S5, Chrome
+ * 2. Addresses box-sizing set to border-box in S5, Chrome (include -moz to future-proof)
+ */
+/* line 435, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+input[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  -moz-box-sizing: content-box;
+  -webkit-box-sizing: content-box;
+  /* 2 */
+  box-sizing: content-box;
+}
+
+/*
+ * Removes inner padding and search cancel button in S5, Chrome on OS X
+ */
+/* line 446, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+}
+
+/*
+ * Removes inner padding and border in FF3+
+ * www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/
+ */
+/* line 456, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+/*
+ * 1. Removes default vertical scrollbar in IE6/7/8/9
+ * 2. Improves readability and alignment in all browsers
+ */
+/* line 467, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+textarea {
+  overflow: auto;
+  /* 1 */
+  vertical-align: top;
+  /* 2 */
+}
+
+/* =============================================================================
+   Tables
+   ========================================================================== */
+/*
+ * Remove most spacing between table cells
+ */
+/* line 481, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*
+*  Zoomable baseline grid, with mixins intended for responsive zooming.
+*  Along with some sensible typographic defaults. 
+*
+*
+*  Part of the takitapart CSS framework [ http://takitapart.net/framework ].
+*
+*  See readme.md for details, licensing, and acknowledgments. 
+*
+*/
+/*
+*  Base configuration stylesheet for the takitapart CSS framework.
+*  This module will be included by the other modules.
+*  These variables can be overridden in your site's stylesheets.
+*
+*  Part of the takitapart CSS framework [ http://takitapart.net/framework ].
+*
+*  See readme.md for details, licensing, and acknowledgments. 
+*
+*/
+/* line 42, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_typography.scss */
+body {
+  /* 16px / 24px */
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+/* line 52, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_typography.scss */
+.small {
+  /* 13px / 18px */
+  font-size: 0.8125em;
+  line-height: 1.38462em;
+  margin: 1.5em 0;
+}
+
+/* line 60, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_typography.scss */
+.medium, .normal, h3, p {
+  /* 16px / 24px */
+  font-size: 1em;
+  line-height: 1.5em;
+  /* 24 */
+  margin: 1.5em 0;
+}
+
+/* line 68, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_typography.scss */
+.large, h2, h1 {
+  /* 26 / 36px */
+  font-size: 1.625em;
+  line-height: 1.38462em;
+  margin: 0.92308em 0;
+}
+
+/* line 76, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_typography.scss */
+.huge {
+  /* 42px / 48px */
+  font-size: 2.625em;
+  line-height: 1.14286em;
+  margin: 0.57143em 0;
+}
+
+/* line 84, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_typography.scss */
+.massive {
+  /* 68px / 72px */
+  font-size: 4.25em;
+  line-height: 1.05882em;
+  margin: 1.5em 0;
+}
+
+/* line 92, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_typography.scss */
+.gigantic {
+  /* 110px / 120px */
+  font-size: 6.875em;
+  line-height: 1.09091em;
+  margin: 1.5em 0;
+}
+
+/*
+*  A semantic, fluid, responsive grid system.
+*
+*  Part of the takitapart CSS framework [ http://takitapart.net/framework ].
+*
+*  See readme.md for details, licensing, and acknowledgments. 
+*
+*/
+/*
+*  A fluid, responsive-friendly form framework. 
+*
+*
+*  Part of the takitapart CSS framework [ http://takitapart.net/framework ].
+*
+*  See readme.md for details, licensing, and acknowledgments. 
+*
+*
+*  Notes on use
+*  ------------
+*  + Wrap field elements with label elements. 
+*
+*/
+/* line 25, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_form.scss */
+form {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/* line 32, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_form.scss */
+form fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+/* line 42, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_form.scss */
+form fieldset input, form fieldset textarea, form fieldset select {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  border-width: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0 0.25em;
+}
+/* line 53, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_form.scss */
+form fieldset label {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+*  Print specifc style defaults. From HTML5 Boilerplate.
+*
+*  Part of the takitapart CSS framework [ http://takitapart.net/framework ].
+*
+*  See readme.md for details, licensing, and acknowledgments. 
+*
+*/
+/* ==|== print styles =======================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+@media print {
+  /* line 16, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_print.scss */
+  * {
+    background: transparent !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+    filter: none !important;
+    -ms-filter: none !important;
+  }
+
+  /* Black prints faster: h5bp.com/s */
+  /* line 17, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_print.scss */
+  a, a:visited {
+    text-decoration: underline;
+  }
+
+  /* line 18, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_print.scss */
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  /* line 19, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_print.scss */
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  /* line 20, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_print.scss */
+  .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+    content: "";
+  }
+
+  /* Don't show links for images, or javascript/internal links */
+  /* line 21, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_print.scss */
+  pre, blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /* line 22, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_print.scss */
+  thead {
+    display: table-header-group;
+  }
+
+  /* h5bp.com/t */
+  /* line 23, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_print.scss */
+  tr, img {
+    page-break-inside: avoid;
+  }
+
+  /* line 24, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_print.scss */
+  img {
+    max-width: 100% !important;
+  }
+
+  @page {
+    margin: 0.5cm;
+  }
+  /* line 26, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_print.scss */
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  /* line 27, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_print.scss */
+  h2, h3 {
+    page-break-after: avoid;
+  }
+}
+/* line 71, ../sass/high90.scss */
+.icon {
+  display: none;
+}
+/* line 74, ../sass/high90.scss */
+.icon.skype, .icon.tomcat, .icon.textexpander, .icon.nasa, .icon.type2phone, .icon.high90, .icon.typekit, .icon.keyboard.maestro, .icon.dayone, .icon.sublime.text, .icon.apple, .icon.dropbox, .icon.siri, .icon.verizon, .icon.swiftype, .icon.hazel, .icon.textastic, .icon.squarespace, .icon.nerdquery, .icon.colorschemer, .icon.pad.and.quill, .icon.twelve.south, .icon.beast, .icon.manos, .icon.server, .icon.the.oatmeal, .icon.mst3k, .icon.compass, .icon.typography, .icon.bitly, .icon.ifttt, .icon.zagg, .icon.love, .icon.yosemite, .icon.tiger, .icon.generational, .icon.appletv, .icon.statamic, .icon.keynote, .icon.osx, .icon.humor, .icon.resistance, .icon.takitapart, .icon.frailty, .icon.daleks, .icon.korea, .icon.the.bomb, .icon.appfog, .icon.pebble, .icon.mail, .icon.panic, .icon.nest, .icon.cosmology, .icon.security, .icon.media, .icon.tmb, .icon.rhino, .icon.vf-11, .icon.vf-101, .icon.lso.school, .icon.jsf, .icon.cvw-1, .icon.cnal, .icon.vfc-13, .icon.cv-67, .icon.cvn-65, .icon.cvn-69, .icon.cvn-70, .icon.cvn-71, .icon.cvn-72, .icon.cvn-73, .icon.cvn-75, .icon.cvn-76, .icon.cvn-77, .icon.nyan.cat, .icon.reading, .icon.criticmarkup, .icon.rss, .icon.netnewswire, .icon.adobe, .icon.sketch, .icon.pixelmator, .icon.evernote, .icon.byword, .icon.superman, .icon.prism, .icon.newsblur, .icon.readkit, .icon.slowfeeds, .icon.copyright, .icon.amazon, .icon.kindle, .icon.android, .icon.iss, .icon.spacex, .icon.orbital, .icon.technical.difficulties, .icon.flickr, .icon.sonos, .icon.huffduffer, .icon.clc, .icon.powerpoint, .icon.dawn.patrol, .icon.dr.drang, .icon.heretics, .icon.emptiness {
+  display: block;
+  padding: 0;
+  background-position: 50% 50%;
+  background-size: 3.2em auto;
+  background-repeat: no-repeat;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=90);
+  opacity: 0.9;
+  -moz-page-break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+  break-inside: avoid;
+}
+/* line 189, ../sass/high90.scss */
+.icon.tomcat {
+  background-image: url("../../../assets/icons/flying.png");
+  background-size: 4.5em auto;
+  width: 5em !important;
+}
+/* line 195, ../sass/high90.scss */
+.icon.textexpander {
+  background-image: url("../../../assets/icons/textexpander.png");
+  background-size: 4em auto;
+}
+/* line 200, ../sass/high90.scss */
+.icon.nasa {
+  background-image: url("../../../assets/icons/nasa.png");
+  background-size: 4.25em auto;
+}
+/* line 205, ../sass/high90.scss */
+.icon.type2phone {
+  background-image: url("../../../assets/icons/type2phone.png");
+  background-size: 3.3em auto;
+}
+/* line 210, ../sass/high90.scss */
+.icon.high90 {
+  background-image: url("../../../assets/icons/high90.png");
+}
+/* line 214, ../sass/high90.scss */
+.icon.typekit {
+  background-image: url("../../../assets/icons/typekit.png");
+}
+/* line 218, ../sass/high90.scss */
+.icon.keyboard.maestro {
+  background-image: url("../../../assets/icons/keyboardmaestro.png");
+  background-size: 3.3em auto;
+}
+/* line 223, ../sass/high90.scss */
+.icon.dayone {
+  background-image: url("../../../assets/icons/dayone.png");
+}
+/* line 227, ../sass/high90.scss */
+.icon.sublime.text {
+  background-image: url("../../../assets/icons/sublime-text.png");
+}
+/* line 231, ../sass/high90.scss */
+.icon.apple {
+  background-image: url("../../../assets/icons/apple.png");
+}
+/* line 235, ../sass/high90.scss */
+.icon.dropbox {
+  background-image: url("../../../assets/icons/dropbox.png");
+}
+/* line 239, ../sass/high90.scss */
+.icon.siri {
+  background-image: url("../../../assets/icons/siri.png");
+  background-size: 3.7em auto;
+}
+/* line 244, ../sass/high90.scss */
+.icon.verizon {
+  background-image: url("../../../assets/icons/verizon.png");
+  background-size: 4.5em auto;
+}
+/* line 249, ../sass/high90.scss */
+.icon.swiftype {
+  background-image: url("../../../assets/icons/swiftype.png");
+  background-size: 4em auto;
+}
+/* line 254, ../sass/high90.scss */
+.icon.hazel {
+  background-image: url("../../../assets/icons/hazel.png");
+}
+/* line 258, ../sass/high90.scss */
+.icon.textastic {
+  background-image: url("../../../assets/icons/textastic.png");
+}
+/* line 262, ../sass/high90.scss */
+.icon.squarespace {
+  background-image: url("../../../assets/icons/squarespace.png");
+  background-size: 4.5em auto;
+}
+/* line 267, ../sass/high90.scss */
+.icon.nerdquery {
+  background-image: url("../../../assets/icons/nerdquery.png");
+}
+/* line 271, ../sass/high90.scss */
+.icon.colorschemer {
+  background-image: url("../../../assets/icons/colorschemer.png");
+}
+/* line 275, ../sass/high90.scss */
+.icon.pad.and.quill {
+  background-image: url("../../../assets/icons/pq.png");
+}
+/* line 279, ../sass/high90.scss */
+.icon.twelve.south {
+  background-image: url("../../../assets/icons/twelvesouth.png");
+}
+/* line 283, ../sass/high90.scss */
+.icon.beast, .icon.the.oatmeal, .icon.humor {
+  background-image: url("../../../assets/icons/beast.png");
+  height: 7em !important;
+}
+/* line 293, ../sass/high90.scss */
+.icon.manos, .icon.mst3k {
+  background-image: url("../../../assets/icons/manos.png");
+  height: 7em !important;
+  background-size: 6em 6em;
+}
+/* line 300, ../sass/high90.scss */
+.icon.server {
+  background-image: url("../../../assets/icons/server.png");
+  height: 7em !important;
+}
+/* line 305, ../sass/high90.scss */
+.icon.compass {
+  background-image: url("../../../assets/icons/compass.png");
+}
+/* line 309, ../sass/high90.scss */
+.icon.typography {
+  background-image: url("../../../assets/icons/typography.png");
+}
+/* line 313, ../sass/high90.scss */
+.icon.bitly {
+  background-image: url("../../../assets/icons/bitly.png");
+}
+/* line 317, ../sass/high90.scss */
+.icon.ifttt {
+  background-image: url("../../../assets/icons/ifttt.png");
+}
+/* line 321, ../sass/high90.scss */
+.icon.zagg {
+  background-image: url("../../../assets/icons/zagg.png");
+}
+/* line 325, ../sass/high90.scss */
+.icon.love {
+  background-image: url("../../../assets/icons/love.png");
+}
+/* line 329, ../sass/high90.scss */
+.icon.yosemite {
+  background-image: url("../../../assets/icons/yosemite.png");
+}
+/* line 333, ../sass/high90.scss */
+.icon.tiger {
+  background-image: url("../../../assets/icons/tiger.png");
+  background-size: 4.5em auto;
+  width: 5em !important;
+}
+/* line 339, ../sass/high90.scss */
+.icon.generational {
+  background-image: url("../../../assets/icons/generational.png");
+}
+/* line 343, ../sass/high90.scss */
+.icon.appletv {
+  background-image: url("../../../assets/icons/appletv.png");
+}
+/* line 347, ../sass/high90.scss */
+.icon.statamic {
+  background-image: url("../../../assets/icons/statamic.png");
+}
+/* line 351, ../sass/high90.scss */
+.icon.keynote {
+  background-image: url("../../../assets/icons/keynote.png");
+}
+/* line 355, ../sass/high90.scss */
+.icon.osx {
+  background-image: url("../../../assets/icons/osx.png");
+}
+/* line 359, ../sass/high90.scss */
+.icon.resistance {
+  background-image: url("../../../assets/icons/resistance.png");
+}
+/* line 363, ../sass/high90.scss */
+.icon.takitapart {
+  background-image: url("../../../assets/icons/takitapart.png");
+  background-size: 3em auto;
+}
+/* line 368, ../sass/high90.scss */
+.icon.frailty {
+  background-image: url("../../../assets/icons/frailty.png");
+  background-size: 2.5em auto;
+}
+/* line 373, ../sass/high90.scss */
+.icon.daleks {
+  background-image: url("../../../assets/icons/daleks.png");
+  background-size: 2em auto;
+}
+/* line 378, ../sass/high90.scss */
+.icon.korea {
+  background-image: url("../../../assets/icons/korea.png");
+  background-size: 4.5em auto;
+}
+/* line 383, ../sass/high90.scss */
+.icon.the.bomb {
+  background-image: url("../../../assets/icons/the-bomb.png");
+  background-size: 2.8em auto;
+}
+/* line 388, ../sass/high90.scss */
+.icon.appfog {
+  background-image: url("../../../assets/icons/appfog.png");
+  background-size: 3em auto;
+}
+/* line 393, ../sass/high90.scss */
+.icon.pebble {
+  background-image: url("../../../assets/icons/pebble.png");
+}
+/* line 397, ../sass/high90.scss */
+.icon.mail {
+  background-image: url("../../../assets/icons/mail.png");
+  background-size: 4em auto;
+}
+/* line 402, ../sass/high90.scss */
+.icon.panic {
+  background-image: url("../../../assets/icons/panic.png");
+}
+/* line 406, ../sass/high90.scss */
+.icon.nest {
+  background-image: url("../../../assets/icons/nest.png");
+}
+/* line 410, ../sass/high90.scss */
+.icon.cosmology {
+  background-image: url("../../../assets/icons/cosmology.png");
+}
+/* line 414, ../sass/high90.scss */
+.icon.security {
+  background-image: url("../../../assets/icons/security.png");
+}
+/* line 418, ../sass/high90.scss */
+.icon.media {
+  background-image: url("../../../assets/icons/media.png");
+}
+/* line 422, ../sass/high90.scss */
+.icon.tmb {
+  background-image: url("../../../assets/icons/tmb.png");
+}
+/* line 426, ../sass/high90.scss */
+.icon.rhino {
+  background-image: url("../../../assets/icons/rhino.png");
+  background-size: 4.5em auto;
+  height: 4em !important;
+  width: 5em !important;
+}
+/* line 433, ../sass/high90.scss */
+.icon.vf-11 {
+  background-image: url("../../../assets/icons/vf11.png");
+  background-size: 4.5em auto;
+  height: 4em !important;
+}
+/* line 439, ../sass/high90.scss */
+.icon.vf-101 {
+  background-image: url("../../../assets/icons/vf101.png");
+  background-size: 4em auto;
+}
+/* line 444, ../sass/high90.scss */
+.icon.lso.school {
+  background-image: url("../../../assets/icons/lso-school.png");
+  height: 6em !important;
+}
+/* line 449, ../sass/high90.scss */
+.icon.jsf {
+  background-image: url("../../../assets/icons/jsf.png");
+  background-size: 4em auto;
+}
+/* line 454, ../sass/high90.scss */
+.icon.cvw-1 {
+  background-image: url("../../../assets/icons/cvw1.png");
+  background-size: 4em auto;
+}
+/* line 459, ../sass/high90.scss */
+.icon.cnal {
+  background-image: url("../../../assets/icons/cnal.png");
+  background-size: 4.7em auto;
+}
+/* line 464, ../sass/high90.scss */
+.icon.vfc-13 {
+  background-image: url("../../../assets/icons/vfc13.png");
+  background-size: 4.2em auto;
+}
+/* line 469, ../sass/high90.scss */
+.icon.cv-67 {
+  background-image: url("../../../assets/icons/cv67.png");
+  background-size: 4.2em auto;
+}
+/* line 474, ../sass/high90.scss */
+.icon.cvn-65 {
+  background-image: url("../../../assets/icons/cvn65.png");
+  background-size: 4.2em auto;
+}
+/* line 479, ../sass/high90.scss */
+.icon.cvn-69 {
+  background-image: url("../../../assets/icons/cvn69.png");
+  background-size: 4.2em auto;
+}
+/* line 484, ../sass/high90.scss */
+.icon.cvn-70 {
+  background-image: url("../../../assets/icons/cvn70.png");
+  background-size: 4.2em auto;
+}
+/* line 489, ../sass/high90.scss */
+.icon.cvn-71 {
+  background-image: url("../../../assets/icons/cvn71.png");
+  background-size: 4.2em auto;
+}
+/* line 494, ../sass/high90.scss */
+.icon.cvn-72 {
+  background-image: url("../../../assets/icons/cvn72.png");
+  background-size: 4.2em auto;
+}
+/* line 499, ../sass/high90.scss */
+.icon.cvn-73 {
+  background-image: url("../../../assets/icons/cvn73.png");
+  background-size: 4.2em auto;
+}
+/* line 504, ../sass/high90.scss */
+.icon.cvn-74 {
+  background-image: url("../../../assets/icons/cvn74.png");
+  background-size: 4.2em auto;
+}
+/* line 509, ../sass/high90.scss */
+.icon.cvn-75 {
+  background-image: url("../../../assets/icons/cvn75.png");
+  background-size: 4.2em auto;
+  height: 3.8em !important;
+}
+/* line 515, ../sass/high90.scss */
+.icon.cvn-76 {
+  background-image: url("../../../assets/icons/cvn76.png");
+  background-size: 4.2em auto;
+  height: 3.8em !important;
+}
+/* line 521, ../sass/high90.scss */
+.icon.cvn-77 {
+  background-image: url("../../../assets/icons/cvn77.png");
+  background-size: 4.2em auto;
+}
+/* line 526, ../sass/high90.scss */
+.icon.nyan.cat {
+  background-image: url("../../../assets/icons/nyan.png");
+  background-size: 5em auto;
+}
+/* line 531, ../sass/high90.scss */
+.icon.reading {
+  background-image: url("../../../assets/icons/reading.png");
+  background-size: 3em;
+  height: 6em !important;
+}
+/* line 537, ../sass/high90.scss */
+.icon.criticmarkup {
+  background-image: url("../../../assets/icons/criticmarkup.png");
+}
+/* line 541, ../sass/high90.scss */
+.icon.rss {
+  background-image: url("../../../assets/icons/rss.png");
+  background-size: 3em;
+}
+/* line 546, ../sass/high90.scss */
+.icon.netnewswire {
+  background-image: url("../../../assets/icons/netnewswire.png");
+}
+/* line 550, ../sass/high90.scss */
+.icon.adobe {
+  background-image: url("../../../assets/icons/adobe.png");
+}
+/* line 554, ../sass/high90.scss */
+.icon.sketch {
+  background-image: url("../../../assets/icons/sketch.png");
+}
+/* line 558, ../sass/high90.scss */
+.icon.pixelmator {
+  background-image: url("../../../assets/icons/pixelmator.png");
+}
+/* line 562, ../sass/high90.scss */
+.icon.skype {
+  background-image: url("../../../assets/icons/skype.png");
+}
+/* line 566, ../sass/high90.scss */
+.icon.evernote {
+  background-image: url("../../../assets/icons/evernote.png");
+}
+/* line 570, ../sass/high90.scss */
+.icon.byword {
+  background-image: url("../../../assets/icons/byword.png");
+}
+/* line 574, ../sass/high90.scss */
+.icon.superman {
+  background-image: url("../../../assets/icons/superman.png");
+}
+/* line 578, ../sass/high90.scss */
+.icon.prism {
+  background-image: url("../../../assets/icons/prism.png");
+}
+/* line 582, ../sass/high90.scss */
+.icon.newsblur {
+  background-image: url("../../../assets/icons/newsblur.png");
+}
+/* line 586, ../sass/high90.scss */
+.icon.readkit {
+  background-image: url("../../../assets/icons/readkit.png");
+}
+/* line 590, ../sass/high90.scss */
+.icon.slowfeeds {
+  background-image: url("../../../assets/icons/slowfeeds.png");
+}
+/* line 594, ../sass/high90.scss */
+.icon.copyright {
+  background-image: url("../../../assets/icons/copyright.png");
+}
+/* line 598, ../sass/high90.scss */
+.icon.amazon {
+  background-image: url("../../../assets/icons/amazon.png");
+  height: 3.5em !important;
+}
+/* line 603, ../sass/high90.scss */
+.icon.kindle {
+  background-image: url("../../../assets/icons/kindle.png");
+  background-size: 3.2em auto;
+}
+/* line 608, ../sass/high90.scss */
+.icon.android {
+  background-image: url("../../../assets/icons/android.png");
+  background-size: 3.8em auto;
+}
+/* line 613, ../sass/high90.scss */
+.icon.iss {
+  background-image: url("../../../assets/icons/iss.png");
+  background-size: 4em auto;
+  height: 4em !important;
+}
+/* line 619, ../sass/high90.scss */
+.icon.spacex {
+  background-image: url("../../../assets/icons/spacex.png");
+  background-size: 5.2em auto;
+  height: 3em !important;
+}
+/* line 625, ../sass/high90.scss */
+.icon.orbital {
+  background-image: url("../../../assets/icons/orbital.png");
+  background-size: 4em auto;
+  height: 3em !important;
+}
+/* line 631, ../sass/high90.scss */
+.icon.technical.difficulties {
+  background-image: url("../../../assets/icons/td.png");
+}
+/* line 635, ../sass/high90.scss */
+.icon.flickr {
+  background-image: url("../../../assets/icons/flickr.png");
+}
+/* line 639, ../sass/high90.scss */
+.icon.sonos {
+  background-image: url("../../../assets/icons/sonos.png");
+}
+/* line 643, ../sass/high90.scss */
+.icon.huffduffer {
+  background-image: url("../../../assets/icons/huffduffer.png");
+  height: 3em !important;
+}
+/* line 648, ../sass/high90.scss */
+.icon.clc {
+  background-image: url("../../../assets/icons/clc.png");
+  background-size: 4em;
+}
+/* line 653, ../sass/high90.scss */
+.icon.powerpoint {
+  background-image: url("../../../assets/icons/powerpoint.png");
+}
+/* line 657, ../sass/high90.scss */
+.icon.dawn.patrol {
+  background-image: url("../../../assets/icons/dp.png");
+}
+/* line 661, ../sass/high90.scss */
+.icon.dr.drang {
+  background-image: url("../../../assets/icons/drang-avatar.png");
+}
+/* line 665, ../sass/high90.scss */
+.icon.heretics {
+  background-image: url("../../../assets/icons/heretics-icon.png");
+}
+/* line 669, ../sass/high90.scss */
+.icon.emptiness {
+  background-image: url("../../../assets/icons/emptiness.png");
+}
+
+/* line 676, ../sass/high90.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "brandon-grotesque",sans-serif;
+  text-transform: uppercase;
+  margin-top: 0.5em;
+  margin-bottom: 0.2em;
+  letter-spacing: 1.5px;
+  font-weight: 500;
+  line-height: 1.2em;
+}
+
+/* line 691, ../sass/high90.scss */
+a,
+a:active,
+a:visited,
+a:focus {
+  color: #333;
+  text-decoration: none;
+  outline: none;
+}
+/* line 699, ../sass/high90.scss */
+a:hover,
+a:active:hover,
+a:visited:hover,
+a:focus:hover {
+  color: #333;
+  text-decoration: none;
+}
+
+/* line 705, ../sass/high90.scss */
+p {
+  margin-top: 0;
+  margin-bottom: 0.7em;
+}
+
+/* line 710, ../sass/high90.scss */
+em, i {
+  font-style: italic;
+}
+
+/* line 717, ../sass/high90.scss */
+body {
+  display: block;
+  width: 100%;
+  margin: 0 0;
+  *zoom: 1;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  font-family: "livory", serif;
+  background-color: #fbfaf5;
+  color: #333;
+  overflow-x: hidden;
+}
+/* line 22, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_grid.scss */
+body:before, body:after {
+  content: "";
+  display: table;
+}
+/* line 27, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_grid.scss */
+body:after {
+  clear: both;
+}
+/* line 725, ../sass/high90.scss */
+body #container {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 0.8em;
+}
+/* line 730, ../sass/high90.scss */
+body #header,
+body #core,
+body #footer {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+}
+/* line 737, ../sass/high90.scss */
+body #header {
+  margin-bottom: 1em;
+}
+/* line 741, ../sass/high90.scss */
+body #footer {
+  font-family: "brandon-grotesque", sans-serif;
+  text-transform: uppercase;
+  color: #777;
+  line-height: 1.3em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-weight: 200;
+}
+/* line 750, ../sass/high90.scss */
+body #footer p {
+  font-size: 0.7em;
+}
+/* line 754, ../sass/high90.scss */
+body #footer a,
+body #footer a:visited,
+body #footer a:active {
+  color: #333;
+  font-weight: 400;
+}
+/* line 761, ../sass/high90.scss */
+body #footer a:hover {
+  color: #de3907;
+  text-decoration: none;
+}
+/* line 766, ../sass/high90.scss */
+body #footer .cc-text {
+  padding-top: 0.5em;
+}
+/* line 769, ../sass/high90.scss */
+body #footer .cc-text img {
+  padding: 0.3em 0.5em 0.5em 0;
+  float: left;
+}
+
+/* line 779, ../sass/high90.scss */
+.text-logo {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  position: relative;
+  font-family: "livory", serif;
+  text-transform: capitalize;
+  line-height: 1em;
+  letter-spacing: 0;
+  text-align: center;
+}
+/* line 789, ../sass/high90.scss */
+.text-logo img {
+  display: inline-block;
+  height: 3em;
+  padding: 0 0 0.2em 0;
+}
+/* line 795, ../sass/high90.scss */
+.text-logo .site-title {
+  position: relative;
+  top: -0.3em;
+}
+
+/* line 801, ../sass/high90.scss */
+.top-nav {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "brandon-grotesque", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 400;
+}
+/* line 811, ../sass/high90.scss */
+.top-nav li {
+  display: inline-block;
+  padding: 0 0.3em;
+  font-size: 1.3em;
+}
+/* line 816, ../sass/high90.scss */
+.top-nav li a:hover {
+  color: #de3907;
+}
+
+/* line 822, ../sass/high90.scss */
+.search-box {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+}
+/* line 827, ../sass/high90.scss */
+.search-box input {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0.5em 0.5em 0.5em 2.5em;
+  background-color: #eee;
+  background-image: url("../img/search.svg");
+  background-size: 1.2em auto;
+  background-repeat: no-repeat;
+  background-position: 0.7em 0.6em;
+  border: 0;
+  color: #333;
+  font-family: "livory", serif;
+  -webkit-appearance: none;
+  outline: none;
+  font-size: 0.9em;
+  font-style: italic;
+}
+
+/* line 845, ../sass/high90.scss */
+.content,
+.search {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+}
+/* line 850, ../sass/high90.scss */
+.content .message,
+.search .message {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  font-style: italic;
+}
+/* line 856, ../sass/high90.scss */
+.content .empty-message,
+.search .empty-message {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 1.5em 0 0;
+  font-style: italic;
+}
+/* line 862, ../sass/high90.scss */
+.content .post,
+.search .post {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+}
+/* line 866, ../sass/high90.scss */
+.content .post .post-header,
+.search .post .post-header {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+}
+/* line 870, ../sass/high90.scss */
+.content .post .post-header .title-banner,
+.search .post .post-header .title-banner {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 0 0.5em 0;
+  background-color: #e6e6e5;
+}
+/* line 875, ../sass/high90.scss */
+.content .post .post-header .title-banner img,
+.search .post .post-header .title-banner img {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  height: auto;
+}
+/* line 882, ../sass/high90.scss */
+.content .post .post-header .title-pattern,
+.search .post .post-header .title-pattern {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  background-image: url("../img/stripes.svg");
+  background-repeat: repeat;
+  height: 1.2em;
+  border-bottom: 0.5em solid #e6e6e5 !important;
+}
+/* line 890, ../sass/high90.scss */
+.content .post .post-header .title-pattern.news,
+.search .post .post-header .title-pattern.news {
+  border-bottom: 0.5em solid #de3907 !important;
+}
+/* line 894, ../sass/high90.scss */
+.content .post .post-header .title-pattern.design,
+.search .post .post-header .title-pattern.design {
+  border-bottom: 0.5em solid #4386af !important;
+}
+/* line 898, ../sass/high90.scss */
+.content .post .post-header .title-pattern.technology,
+.search .post .post-header .title-pattern.technology {
+  border-bottom: 0.5em solid #88c425 !important;
+}
+/* line 902, ../sass/high90.scss */
+.content .post .post-header .title-pattern.news.design,
+.search .post .post-header .title-pattern.news.design {
+  border-bottom: 0.5em solid #f98d28 !important;
+}
+/* line 906, ../sass/high90.scss */
+.content .post .post-header .title-pattern.design.technology,
+.search .post .post-header .title-pattern.design.technology {
+  border-bottom: 0.5em solid #244821 !important;
+}
+/* line 910, ../sass/high90.scss */
+.content .post .post-header .title-pattern.news.technology,
+.search .post .post-header .title-pattern.news.technology {
+  border-bottom: 0.5em solid #88c425 !important;
+}
+/* line 914, ../sass/high90.scss */
+.content .post .post-header .title-pattern.news.design.technology,
+.search .post .post-header .title-pattern.news.design.technology {
+  border-bottom: 0.5em solid #353739 !important;
+}
+/* line 918, ../sass/high90.scss */
+.content .post .post-header .title-pattern.no-color,
+.search .post .post-header .title-pattern.no-color {
+  border-bottom: 0.5em solid #e6e6e5 !important;
+}
+/* line 924, ../sass/high90.scss */
+.content .post .post-header .caption,
+.search .post .post-header .caption {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0.5em 0 0.5em;
+  font-style: italic;
+  font-size: 0.8em;
+  text-align: right;
+  color: #999;
+}
+/* line 932, ../sass/high90.scss */
+.content .post .post-header .caption p,
+.search .post .post-header .caption p {
+  margin: 0;
+  line-height: 1.2em;
+}
+/* line 937, ../sass/high90.scss */
+.content .post .post-header .caption a:before,
+.search .post .post-header .caption a:before {
+  content: "\00a0";
+  background-image: url("../../../assets/img/photo.svg");
+  background-repeat: no-repeat;
+  width: 1.25em;
+  display: inline-block;
+  background-size: 1.1em auto;
+  position: relative;
+  top: -0.05em;
+}
+/* line 948, ../sass/high90.scss */
+.content .post .post-header .caption a,
+.search .post .post-header .caption a {
+  color: #ad2c05;
+}
+/* line 951, ../sass/high90.scss */
+.content .post .post-header .caption a:hover,
+.search .post .post-header .caption a:hover {
+  color: #de3907;
+}
+/* line 958, ../sass/high90.scss */
+.content .post .pre-bar,
+.search .post .pre-bar {
+  display: none;
+}
+/* line 962, ../sass/high90.scss */
+.content .post .post-title,
+.search .post .post-title {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0.5em 0 0.6em;
+}
+/* line 966, ../sass/high90.scss */
+.content .post .post-title .title,
+.search .post .post-title .title {
+  margin: 0 0 0.2em;
+  font-weight: 500;
+}
+/* line 971, ../sass/high90.scss */
+.content .post .post-title .title-date,
+.search .post .post-title .title-date {
+  padding: 0;
+  font-family: "brandon-grotesque",sans-serif;
+  text-transform: uppercase;
+  color: #777;
+  font-weight: 300;
+  font-size: 0.9em;
+  line-height: 1.4em;
+}
+/* line 980, ../sass/high90.scss */
+.content .post .post-title .title-date .nice-date,
+.content .post .post-title .title-date .time,
+.search .post .post-title .title-date .nice-date,
+.search .post .post-title .title-date .time {
+  font-weight: 500;
+}
+/* line 986, ../sass/high90.scss */
+.content .post .post-title .title-author,
+.search .post .post-title .title-author {
+  font-family: "brandon-grotesque",sans-serif;
+  text-transform: uppercase;
+  color: #777;
+  font-weight: 300;
+  font-size: 0.9em;
+  line-height: 1.4em;
+}
+/* line 994, ../sass/high90.scss */
+.content .post .post-title .title-author a,
+.search .post .post-title .title-author a {
+  font-weight: 500;
+}
+/* line 997, ../sass/high90.scss */
+.content .post .post-title .title-author a:hover,
+.search .post .post-title .title-author a:hover {
+  color: #de3907;
+}
+/* line 1004, ../sass/high90.scss */
+.content .post .post-body,
+.search .post .post-body {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+}
+/* line 1008, ../sass/high90.scss */
+.content .post .post-body h1,
+.content .post .post-body h2,
+.content .post .post-body h3,
+.content .post .post-body h4,
+.content .post .post-body h5,
+.content .post .post-body h6,
+.search .post .post-body h1,
+.search .post .post-body h2,
+.search .post .post-body h3,
+.search .post .post-body h4,
+.search .post .post-body h5,
+.search .post .post-body h6 {
+  padding: 0;
+  margin-top: 1.5em;
+  margin-bottom: 0.6em;
+}
+/* line 1019, ../sass/high90.scss */
+.content .post .post-body h1,
+.search .post .post-body h1 {
+  font-size: 1.6em;
+}
+/* line 1023, ../sass/high90.scss */
+.content .post .post-body h2,
+.search .post .post-body h2 {
+  font-size: 1.4em;
+}
+/* line 1027, ../sass/high90.scss */
+.content .post .post-body h3,
+.search .post .post-body h3 {
+  font-family: "livory", serif;
+  font-style: italic;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 1.3em;
+}
+/* line 1035, ../sass/high90.scss */
+.content .post .post-body h4,
+.search .post .post-body h4 {
+  font-family: "livory", serif;
+  font-style: italic;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+/* line 1043, ../sass/high90.scss */
+.content .post .post-body h5,
+.search .post .post-body h5 {
+  font-family: "livory", serif;
+  font-style: italic;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+/* line 1051, ../sass/high90.scss */
+.content .post .post-body h6,
+.search .post .post-body h6 {
+  font-family: "livory", serif;
+  font-style: italic;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 1em;
+}
+/* line 1059, ../sass/high90.scss */
+.content .post .post-body a,
+.content .post .post-body a:visited,
+.content .post .post-body a:active,
+.content .post .post-body a:focus,
+.search .post .post-body a,
+.search .post .post-body a:visited,
+.search .post .post-body a:active,
+.search .post .post-body a:focus {
+  color: #ad2c05;
+}
+/* line 1065, ../sass/high90.scss */
+.content .post .post-body a:hover,
+.content .post .post-body a:visited:hover,
+.content .post .post-body a:active:hover,
+.content .post .post-body a:focus:hover,
+.search .post .post-body a:hover,
+.search .post .post-body a:visited:hover,
+.search .post .post-body a:active:hover,
+.search .post .post-body a:focus:hover {
+  color: #de3907;
+}
+/* line 1070, ../sass/high90.scss */
+.content .post .post-body img,
+.search .post .post-body img {
+  display: block;
+  width: 100%;
+  padding: 0.5em 0 0.8em 0;
+  height: auto;
+}
+/* line 1077, ../sass/high90.scss */
+.content .post .post-body p:first-child,
+.search .post .post-body p:first-child {
+  font-size: 1.3em;
+  line-height: 1.4em;
+  margin-bottom: 0.6em;
+}
+/* line 1083, ../sass/high90.scss */
+.content .post .post-body p,
+.search .post .post-body p {
+  padding: 0;
+}
+/* line 1087, ../sass/high90.scss */
+.content .post .post-body table,
+.search .post .post-body table {
+  font-family: "brandon-grotesque",sans-serif;
+  background-color: #eee;
+  width: 100%;
+}
+/* line 1096, ../sass/high90.scss */
+.content .post .post-body table tbody tr th,
+.search .post .post-body table tbody tr th {
+  padding: 0.2em 0.5em;
+  font-weight: bold;
+  border: 1px solid #fbfaf5;
+  letter-spacing: 1px;
+}
+/* line 1103, ../sass/high90.scss */
+.content .post .post-body table tbody tr td,
+.search .post .post-body table tbody tr td {
+  padding: 0.2em 0.5em;
+  border: 1px solid #fbfaf5;
+}
+/* line 1108, ../sass/high90.scss */
+.content .post .post-body table tbody tr:nth-child(even),
+.search .post .post-body table tbody tr:nth-child(even) {
+  background-color: #ddd;
+}
+/* line 1115, ../sass/high90.scss */
+.content .post .post-body dl,
+.search .post .post-body dl {
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0.8em;
+  list-style-type: none;
+}
+/* line 1121, ../sass/high90.scss */
+.content .post .post-body dl dt,
+.search .post .post-body dl dt {
+  font-style: italic;
+}
+/* line 1125, ../sass/high90.scss */
+.content .post .post-body dl dd,
+.search .post .post-body dl dd {
+  padding: 0;
+  line-height: 1.5em;
+  margin: 0 0 1em;
+}
+/* line 1132, ../sass/high90.scss */
+.content .post .post-body ul,
+.search .post .post-body ul {
+  padding: 0 0 0 1em;
+  margin-top: 0;
+  margin-bottom: 0.8em;
+  list-style-type: disc;
+}
+/* line 1138, ../sass/high90.scss */
+.content .post .post-body ul ul, .content .post .post-body ul ol,
+.search .post .post-body ul ul,
+.search .post .post-body ul ol {
+  margin-bottom: 0;
+}
+/* line 1142, ../sass/high90.scss */
+.content .post .post-body ul li,
+.search .post .post-body ul li {
+  padding: 0;
+  display: list-item;
+  line-height: 1.5em;
+}
+/* line 1147, ../sass/high90.scss */
+.content .post .post-body ul li p:first-child,
+.search .post .post-body ul li p:first-child {
+  font-size: 1em;
+}
+/* line 1151, ../sass/high90.scss */
+.content .post .post-body ul li p,
+.search .post .post-body ul li p {
+  float: none;
+}
+/* line 1157, ../sass/high90.scss */
+.content .post .post-body ol,
+.search .post .post-body ol {
+  padding: 0 0 0 1.3em;
+  margin-top: 0;
+  margin-bottom: 0.8em;
+  list-style-type: decimal;
+}
+/* line 1163, ../sass/high90.scss */
+.content .post .post-body ol ul, .content .post .post-body ol ol,
+.search .post .post-body ol ul,
+.search .post .post-body ol ol {
+  margin-bottom: 0;
+}
+/* line 1167, ../sass/high90.scss */
+.content .post .post-body ol li,
+.search .post .post-body ol li {
+  padding: 0;
+  display: list-item;
+  line-height: 1.5em;
+}
+/* line 1172, ../sass/high90.scss */
+.content .post .post-body ol li p:first-child,
+.search .post .post-body ol li p:first-child {
+  font-size: 1em;
+}
+/* line 1176, ../sass/high90.scss */
+.content .post .post-body ol li p,
+.search .post .post-body ol li p {
+  float: none;
+}
+/* line 1182, ../sass/high90.scss */
+.content .post .post-body pre.prettyprint,
+.search .post .post-body pre.prettyprint {
+  padding: 0;
+  font-size: 0.7em;
+}
+/* line 1186, ../sass/high90.scss */
+.content .post .post-body pre.prettyprint.linenums,
+.search .post .post-body pre.prettyprint.linenums {
+  box-shadow: inset 3em 0 0 #fbfbfc, inset 2em 0 0 #ececf0;
+}
+/* line 1190, ../sass/high90.scss */
+.content .post .post-body pre.prettyprint ol.linenums,
+.search .post .post-body pre.prettyprint ol.linenums {
+  padding-left: 3em;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+/* line 1195, ../sass/high90.scss */
+.content .post .post-body pre.prettyprint ol.linenums li,
+.search .post .post-body pre.prettyprint ol.linenums li {
+  padding: 0.5em;
+  margin-bottom: 0;
+}
+/* line 1202, ../sass/high90.scss */
+.content .post .post-body code.prettyprint,
+.search .post .post-body code.prettyprint {
+  font-size: 0.8em;
+  color: #777;
+}
+/* line 1207, ../sass/high90.scss */
+.content .post .post-body acronym,
+.search .post .post-body acronym {
+  font-variant: small-caps;
+}
+/* line 1211, ../sass/high90.scss */
+.content .post .post-body kbd,
+.content .post .post-body tt,
+.content .post .post-body var,
+.search .post .post-body kbd,
+.search .post .post-body tt,
+.search .post .post-body var {
+  font-family: monospace;
+  font-size: 0.9em;
+}
+/* line 1218, ../sass/high90.scss */
+.content .post .post-body blockquote,
+.content .post .post-body address,
+.search .post .post-body blockquote,
+.search .post .post-body address {
+  padding: 0 0 0 1em;
+  margin: 0.7em 0 0.9em 0;
+  border-left: 0.5em solid #ddd;
+  color: #777;
+}
+/* line 1225, ../sass/high90.scss */
+.content .post .post-body blockquote p:first-child,
+.content .post .post-body address p:first-child,
+.search .post .post-body blockquote p:first-child,
+.search .post .post-body address p:first-child {
+  font-size: 1em;
+}
+/* line 1229, ../sass/high90.scss */
+.content .post .post-body blockquote p:last-child,
+.content .post .post-body address p:last-child,
+.search .post .post-body blockquote p:last-child,
+.search .post .post-body address p:last-child {
+  margin: 0;
+  padding-bottom: 0;
+}
+/* line 1234, ../sass/high90.scss */
+.content .post .post-body blockquote cite,
+.content .post .post-body address cite,
+.search .post .post-body blockquote cite,
+.search .post .post-body address cite {
+  display: block;
+  padding: 0;
+  text-align: right;
+  font-size: 0.7em;
+  font-style: italic;
+}
+/* line 1242, ../sass/high90.scss */
+.content .post .post-body blockquote.epigram,
+.content .post .post-body address.epigram,
+.search .post .post-body blockquote.epigram,
+.search .post .post-body address.epigram {
+  border: none;
+  font-size: 1.3em;
+  padding-left: 0;
+}
+/* line 1247, ../sass/high90.scss */
+.content .post .post-body blockquote.epigram p,
+.content .post .post-body address.epigram p,
+.search .post .post-body blockquote.epigram p,
+.search .post .post-body address.epigram p {
+  line-height: 1.3em;
+}
+/* line 1251, ../sass/high90.scss */
+.content .post .post-body blockquote.epigram cite,
+.content .post .post-body address.epigram cite,
+.search .post .post-body blockquote.epigram cite,
+.search .post .post-body address.epigram cite {
+  font-size: 0.8em;
+}
+/* line 1257, ../sass/high90.scss */
+.content .post .post-body .image-block .fancybox img,
+.search .post .post-body .image-block .fancybox img {
+  padding-bottom: 0.5em;
+}
+/* line 1261, ../sass/high90.scss */
+.content .post .post-body .caption,
+.search .post .post-body .caption {
+  color: #999;
+  text-align: center;
+  font-style: italic;
+  font-size: 0.8em;
+}
+/* line 1267, ../sass/high90.scss */
+.content .post .post-body .caption p,
+.search .post .post-body .caption p {
+  margin-bottom: 0.2em;
+  font-size: 0.9em;
+  line-height: 1.2em;
+}
+/* line 1272, ../sass/high90.scss */
+.content .post .post-body .caption p:first-child,
+.search .post .post-body .caption p:first-child {
+  font-size: 0.9em;
+  line-height: 1.2em;
+}
+/* line 1279, ../sass/high90.scss */
+.content .post .post-body aside,
+.search .post .post-body aside {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0.8em 0 0;
+  margin-top: 0.3em;
+  margin-bottom: 1em;
+  border-top: 1px dotted #ccc;
+  border-bottom: 1px dotted #ccc;
+  font-size: 1em;
+}
+/* line 1288, ../sass/high90.scss */
+.content .post .post-body aside.video,
+.search .post .post-body aside.video {
+  border: none;
+}
+/* line 1292, ../sass/high90.scss */
+.content .post .post-body aside p:first-child,
+.search .post .post-body aside p:first-child {
+  font-size: 1em;
+}
+/* line 1296, ../sass/high90.scss */
+.content .post .post-body aside blockquote,
+.search .post .post-body aside blockquote {
+  padding: 0.3em 0 0.3em;
+  color: #777;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  font-size: 1.5em;
+  line-height: 1.3em;
+  border: 0;
+}
+/* line 1308, ../sass/high90.scss */
+.content .post .post-body div.image,
+.search .post .post-body div.image {
+  display: none;
+}
+/* line 1312, ../sass/high90.scss */
+.content .post .post-body .product,
+.content .post .post-body .app,
+.search .post .post-body .product,
+.search .post .post-body .app {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+  border: none;
+}
+/* line 1323, ../sass/high90.scss */
+.content .post .post-body .product .fancybox img,
+.content .post .post-body .app .fancybox img,
+.search .post .post-body .product .fancybox img,
+.search .post .post-body .app .fancybox img {
+  display: block;
+  float: left;
+  width: 50%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-left: 25%;
+  padding: 0;
+  background-color: transparent;
+}
+/* line 1330, ../sass/high90.scss */
+.content .post .post-body .product .fancybox.icon img,
+.content .post .post-body .app .fancybox.icon img,
+.search .post .post-body .product .fancybox.icon img,
+.search .post .post-body .app .fancybox.icon img {
+  border: 0;
+  padding: 0.5em;
+}
+/* line 1337, ../sass/high90.scss */
+.content .post .post-body .product .details,
+.content .post .post-body .app .details,
+.search .post .post-body .product .details,
+.search .post .post-body .app .details {
+  display: block;
+  float: left;
+  width: 83.33333%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  margin-left: 8.33333%;
+  padding: 1em 0 0;
+  margin-bottom: 0;
+  list-style-type: none;
+}
+/* line 1344, ../sass/high90.scss */
+.content .post .post-body .product .details li::before,
+.content .post .post-body .app .details li::before,
+.search .post .post-body .product .details li::before,
+.search .post .post-body .app .details li::before {
+  display: none;
+}
+/* line 1348, ../sass/high90.scss */
+.content .post .post-body .product .details li,
+.content .post .post-body .app .details li,
+.search .post .post-body .product .details li,
+.search .post .post-body .app .details li {
+  text-indent: 0;
+  padding: 0;
+}
+/* line 1353, ../sass/high90.scss */
+.content .post .post-body .product .details .name,
+.content .post .post-body .app .details .name,
+.search .post .post-body .product .details .name,
+.search .post .post-body .app .details .name {
+  font-family: "brandon-grotesque", sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 0.5em;
+}
+/* line 1358, ../sass/high90.scss */
+.content .post .post-body .product .details .name a,
+.content .post .post-body .product .details .name a:active,
+.content .post .post-body .product .details .name a:visited,
+.content .post .post-body .product .details .name a:focus,
+.content .post .post-body .app .details .name a,
+.content .post .post-body .app .details .name a:active,
+.content .post .post-body .app .details .name a:visited,
+.content .post .post-body .app .details .name a:focus,
+.search .post .post-body .product .details .name a,
+.search .post .post-body .product .details .name a:active,
+.search .post .post-body .product .details .name a:visited,
+.search .post .post-body .product .details .name a:focus,
+.search .post .post-body .app .details .name a,
+.search .post .post-body .app .details .name a:active,
+.search .post .post-body .app .details .name a:visited,
+.search .post .post-body .app .details .name a:focus {
+  color: #333;
+}
+/* line 1364, ../sass/high90.scss */
+.content .post .post-body .product .details .name a:hover,
+.content .post .post-body .product .details .name a:active:hover,
+.content .post .post-body .product .details .name a:visited:hover,
+.content .post .post-body .product .details .name a:focus:hover,
+.content .post .post-body .app .details .name a:hover,
+.content .post .post-body .app .details .name a:active:hover,
+.content .post .post-body .app .details .name a:visited:hover,
+.content .post .post-body .app .details .name a:focus:hover,
+.search .post .post-body .product .details .name a:hover,
+.search .post .post-body .product .details .name a:active:hover,
+.search .post .post-body .product .details .name a:visited:hover,
+.search .post .post-body .product .details .name a:focus:hover,
+.search .post .post-body .app .details .name a:hover,
+.search .post .post-body .app .details .name a:active:hover,
+.search .post .post-body .app .details .name a:visited:hover,
+.search .post .post-body .app .details .name a:focus:hover {
+  color: #de3907;
+}
+/* line 1370, ../sass/high90.scss */
+.content .post .post-body .product .details .description,
+.content .post .post-body .app .details .description,
+.search .post .post-body .product .details .description,
+.search .post .post-body .app .details .description {
+  font-style: italic;
+  font-size: 0.9em;
+  text-align: left;
+  padding-bottom: 0.5em;
+}
+/* line 1377, ../sass/high90.scss */
+.content .post .post-body .product .details .price,
+.content .post .post-body .app .details .price,
+.search .post .post-body .product .details .price,
+.search .post .post-body .app .details .price {
+  font-family: "brandon-grotesque", sans-serif;
+  text-transform: uppercase;
+  padding-bottom: 0.5em;
+}
+/* line 1383, ../sass/high90.scss */
+.content .post .post-body .product .details .link,
+.content .post .post-body .app .details .link,
+.search .post .post-body .product .details .link,
+.search .post .post-body .app .details .link {
+  line-height: 1.4em;
+}
+/* line 1389, ../sass/high90.scss */
+.content .post .post-body .permalink,
+.search .post .post-body .permalink {
+  font-size: 1.5em;
+}
+/* line 1392, ../sass/high90.scss */
+.content .post .post-body .permalink a,
+.search .post .post-body .permalink a {
+  color: #de3907;
+}
+/* line 1395, ../sass/high90.scss */
+.content .post .post-body .permalink a:hover,
+.search .post .post-body .permalink a:hover {
+  color: #ad2c05;
+}
+/* line 1402, ../sass/high90.scss */
+.content .post .post-footer,
+.search .post .post-footer {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0.5em 0 0;
+  margin: 1em 0;
+  letter-spacing: 1.5px;
+}
+/* line 1408, ../sass/high90.scss */
+.content .post .post-footer .title,
+.search .post .post-footer .title {
+  display: block;
+  float: left;
+  width: 33.33333%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  clear: both;
+  padding: 0;
+  margin-bottom: 0.4em;
+  font-family: "brandon-grotesque", sans-serif;
+  text-transform: uppercase;
+  color: #999;
+  font-size: 0.8em;
+  line-height: 1.1em;
+  font-weight: 300;
+}
+/* line 1421, ../sass/high90.scss */
+.content .post .post-footer ul.category-list,
+.content .post .post-footer ul.tag-list,
+.search .post .post-footer ul.category-list,
+.search .post .post-footer ul.tag-list {
+  display: block;
+  float: left;
+  width: 66.66667%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0.4em;
+  text-align: right;
+  font-size: 0.8em;
+  line-height: 1.3em;
+}
+/* line 1431, ../sass/high90.scss */
+.content .post .post-footer ul.category-list li,
+.content .post .post-footer ul.tag-list li,
+.search .post .post-footer ul.category-list li,
+.search .post .post-footer ul.tag-list li {
+  display: inline;
+  font-family: "brandon-grotesque", sans-serif;
+  text-transform: uppercase;
+  padding-left: 0.3em;
+}
+/* line 1437, ../sass/high90.scss */
+.content .post .post-footer ul.category-list li a,
+.content .post .post-footer ul.category-list li a:active,
+.content .post .post-footer ul.category-list li a:visited,
+.content .post .post-footer ul.tag-list li a,
+.content .post .post-footer ul.tag-list li a:active,
+.content .post .post-footer ul.tag-list li a:visited,
+.search .post .post-footer ul.category-list li a,
+.search .post .post-footer ul.category-list li a:active,
+.search .post .post-footer ul.category-list li a:visited,
+.search .post .post-footer ul.tag-list li a,
+.search .post .post-footer ul.tag-list li a:active,
+.search .post .post-footer ul.tag-list li a:visited {
+  color: #333;
+  text-decoration: none;
+}
+/* line 1443, ../sass/high90.scss */
+.content .post .post-footer ul.category-list li a:hover,
+.content .post .post-footer ul.category-list li a:active:hover,
+.content .post .post-footer ul.category-list li a:visited:hover,
+.content .post .post-footer ul.tag-list li a:hover,
+.content .post .post-footer ul.tag-list li a:active:hover,
+.content .post .post-footer ul.tag-list li a:visited:hover,
+.search .post .post-footer ul.category-list li a:hover,
+.search .post .post-footer ul.category-list li a:active:hover,
+.search .post .post-footer ul.category-list li a:visited:hover,
+.search .post .post-footer ul.tag-list li a:hover,
+.search .post .post-footer ul.tag-list li a:active:hover,
+.search .post .post-footer ul.tag-list li a:visited:hover {
+  color: #de3907;
+}
+/* line 1452, ../sass/high90.scss */
+.content .more-header,
+.content .pagination-header,
+.content .search-header,
+.search .more-header,
+.search .pagination-header,
+.search .search-header {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  font-weight: 500;
+  font-size: 1.3em;
+  margin-top: 1em;
+  margin-bottom: 0.7em;
+}
+/* line 1463, ../sass/high90.scss */
+.content .pagination-wide,
+.search .pagination-wide {
+  display: none;
+}
+/* line 1467, ../sass/high90.scss */
+.content .pagination-narrow,
+.search .pagination-narrow {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+}
+/* line 1471, ../sass/high90.scss */
+.content .pagination-narrow .post,
+.search .pagination-narrow .post {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 0 0 0.5em;
+  margin-top: 0em;
+  margin-bottom: 0.2em;
+  background-image: url("../img/stripes.svg");
+  border-left: 0.5em solid #e6e6e5 !important;
+}
+/* line 1479, ../sass/high90.scss */
+.content .pagination-narrow .post.news,
+.search .pagination-narrow .post.news {
+  border-left: 0.5em solid #de3907 !important;
+}
+/* line 1483, ../sass/high90.scss */
+.content .pagination-narrow .post.design,
+.search .pagination-narrow .post.design {
+  border-left: 0.5em solid #4386af !important;
+}
+/* line 1487, ../sass/high90.scss */
+.content .pagination-narrow .post.technology,
+.search .pagination-narrow .post.technology {
+  border-left: 0.5em solid #88c425 !important;
+}
+/* line 1491, ../sass/high90.scss */
+.content .pagination-narrow .post.news.design,
+.search .pagination-narrow .post.news.design {
+  border-left: 0.5em solid #f98d28 !important;
+}
+/* line 1495, ../sass/high90.scss */
+.content .pagination-narrow .post.design.technology,
+.search .pagination-narrow .post.design.technology {
+  border-left: 0.5em solid #244821 !important;
+}
+/* line 1499, ../sass/high90.scss */
+.content .pagination-narrow .post.news.technology,
+.search .pagination-narrow .post.news.technology {
+  border-left: 0.5em solid #88c425 !important;
+}
+/* line 1503, ../sass/high90.scss */
+.content .pagination-narrow .post.news.design.technology,
+.search .pagination-narrow .post.news.design.technology {
+  border-left: 0.5em solid #353739 !important;
+}
+/* line 1507, ../sass/high90.scss */
+.content .pagination-narrow .post.no-color,
+.search .pagination-narrow .post.no-color {
+  border-left: 0.5em solid #e6e6e5 !important;
+}
+/* line 1511, ../sass/high90.scss */
+.content .pagination-narrow .post .older,
+.content .pagination-narrow .post .newer,
+.search .pagination-narrow .post .older,
+.search .pagination-narrow .post .newer {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0.5em 0.5em 0.8em;
+  background-color: #eee;
+}
+/* line 1517, ../sass/high90.scss */
+.content .pagination-narrow .post .older .key,
+.content .pagination-narrow .post .newer .key,
+.search .pagination-narrow .post .older .key,
+.search .pagination-narrow .post .newer .key {
+  font-family: "brandon-grotesque", sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  color: #777;
+  font-weight: 200;
+}
+/* line 1525, ../sass/high90.scss */
+.content .pagination-narrow .post .older .title,
+.content .pagination-narrow .post .newer .title,
+.search .pagination-narrow .post .older .title,
+.search .pagination-narrow .post .newer .title {
+  font-family: "brandon-grotesque", sans-serif;
+  text-transform: uppercase;
+  color: #333;
+  font-weight: 500;
+  line-height: 1em;
+  font-size: 1.1em;
+}
+/* line 1534, ../sass/high90.scss */
+.content .pagination-narrow .post .older:hover,
+.content .pagination-narrow .post .newer:hover,
+.search .pagination-narrow .post .older:hover,
+.search .pagination-narrow .post .newer:hover {
+  background-color: #ddd;
+}
+/* line 1541, ../sass/high90.scss */
+.content .more-posts,
+.content .search-list,
+.search .more-posts,
+.search .search-list {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0em;
+}
+/* line 1548, ../sass/high90.scss */
+.content .more-posts .no-more,
+.content .search-list .no-more,
+.search .more-posts .no-more,
+.search .search-list .no-more {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  font-style: italic;
+  margin-bottom: 1em;
+  color: #777;
+}
+/* line 1556, ../sass/high90.scss */
+.content .more-posts .post,
+.content .search-list .post,
+.search .more-posts .post,
+.search .search-list .post {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0 0 0 0.5em;
+  margin-top: 0em;
+  margin-bottom: 0.2em;
+  background-image: url("../img/stripes.svg");
+  border-left: 0.5em solid #e6e6e5 !important;
+}
+/* line 1564, ../sass/high90.scss */
+.content .more-posts .post.high90,
+.content .search-list .post.high90,
+.search .more-posts .post.high90,
+.search .search-list .post.high90 {
+  border-left: 0.5em solid #de3907 !important;
+}
+/* line 1568, ../sass/high90.scss */
+.content .more-posts .post.news,
+.content .search-list .post.news,
+.search .more-posts .post.news,
+.search .search-list .post.news {
+  border-left: 0.5em solid #f98d28 !important;
+}
+/* line 1572, ../sass/high90.scss */
+.content .more-posts .post.technology,
+.content .search-list .post.technology,
+.search .more-posts .post.technology,
+.search .search-list .post.technology {
+  border-left: 0.5em solid #fbc71c !important;
+}
+/* line 1576, ../sass/high90.scss */
+.content .more-posts .post.productivity,
+.content .search-list .post.productivity,
+.search .more-posts .post.productivity,
+.search .search-list .post.productivity {
+  border-left: 0.5em solid #519548 !important;
+}
+/* line 1580, ../sass/high90.scss */
+.content .more-posts .post.design,
+.content .search-list .post.design,
+.search .more-posts .post.design,
+.search .search-list .post.design {
+  border-left: 0.5em solid #26ade3 !important;
+}
+/* line 1584, ../sass/high90.scss */
+.content .more-posts .post.ideas,
+.content .search-list .post.ideas,
+.search .more-posts .post.ideas,
+.search .search-list .post.ideas {
+  border-left: 0.5em solid #4386af !important;
+}
+/* line 1588, ../sass/high90.scss */
+.content .more-posts .post.all,
+.content .search-list .post.all,
+.search .more-posts .post.all,
+.search .search-list .post.all {
+  border-left: 0.5em solid #353739 !important;
+}
+/* line 1594, ../sass/high90.scss */
+.content .more-posts .post a,
+.content .more-posts .post a:visited,
+.content .more-posts .post a:active,
+.content .more-posts .post a:focus,
+.content .search-list .post a,
+.content .search-list .post a:visited,
+.content .search-list .post a:active,
+.content .search-list .post a:focus,
+.search .more-posts .post a,
+.search .more-posts .post a:visited,
+.search .more-posts .post a:active,
+.search .more-posts .post a:focus,
+.search .search-list .post a,
+.search .search-list .post a:visited,
+.search .search-list .post a:active,
+.search .search-list .post a:focus {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  background-color: #eee;
+  letter-spacing: 1.5px;
+}
+/* line 1603, ../sass/high90.scss */
+.content .more-posts .post a .post-title,
+.content .more-posts .post a:visited .post-title,
+.content .more-posts .post a:active .post-title,
+.content .more-posts .post a:focus .post-title,
+.content .search-list .post a .post-title,
+.content .search-list .post a:visited .post-title,
+.content .search-list .post a:active .post-title,
+.content .search-list .post a:focus .post-title,
+.search .more-posts .post a .post-title,
+.search .more-posts .post a:visited .post-title,
+.search .more-posts .post a:active .post-title,
+.search .more-posts .post a:focus .post-title,
+.search .search-list .post a .post-title,
+.search .search-list .post a:visited .post-title,
+.search .search-list .post a:active .post-title,
+.search .search-list .post a:focus .post-title {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0.8em 1em 0.5em;
+}
+/* line 1607, ../sass/high90.scss */
+.content .more-posts .post a .post-title .title,
+.content .more-posts .post a:visited .post-title .title,
+.content .more-posts .post a:active .post-title .title,
+.content .more-posts .post a:focus .post-title .title,
+.content .search-list .post a .post-title .title,
+.content .search-list .post a:visited .post-title .title,
+.content .search-list .post a:active .post-title .title,
+.content .search-list .post a:focus .post-title .title,
+.search .more-posts .post a .post-title .title,
+.search .more-posts .post a:visited .post-title .title,
+.search .more-posts .post a:active .post-title .title,
+.search .more-posts .post a:focus .post-title .title,
+.search .search-list .post a .post-title .title,
+.search .search-list .post a:visited .post-title .title,
+.search .search-list .post a:active .post-title .title,
+.search .search-list .post a:focus .post-title .title {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+  font-size: 0.9em;
+}
+/* line 1615, ../sass/high90.scss */
+.content .more-posts .post a .post-title .title-date,
+.content .more-posts .post a:visited .post-title .title-date,
+.content .more-posts .post a:active .post-title .title-date,
+.content .more-posts .post a:focus .post-title .title-date,
+.content .search-list .post a .post-title .title-date,
+.content .search-list .post a:visited .post-title .title-date,
+.content .search-list .post a:active .post-title .title-date,
+.content .search-list .post a:focus .post-title .title-date,
+.search .more-posts .post a .post-title .title-date,
+.search .more-posts .post a:visited .post-title .title-date,
+.search .more-posts .post a:active .post-title .title-date,
+.search .more-posts .post a:focus .post-title .title-date,
+.search .search-list .post a .post-title .title-date,
+.search .search-list .post a:visited .post-title .title-date,
+.search .search-list .post a:active .post-title .title-date,
+.search .search-list .post a:focus .post-title .title-date {
+  display: block;
+  float: left;
+  width: 100%;
+  padding: 0 0.75em;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  font-size: 0.8em;
+  line-height: 1.6em;
+  font-family: "brandon-grotesque",sans-serif;
+  text-transform: uppercase;
+  color: #777;
+  font-weight: 300;
+}
+/* line 1625, ../sass/high90.scss */
+.content .more-posts .post a .post-title .title-date .nice-date,
+.content .more-posts .post a .post-title .title-date .time,
+.content .more-posts .post a:visited .post-title .title-date .nice-date,
+.content .more-posts .post a:visited .post-title .title-date .time,
+.content .more-posts .post a:active .post-title .title-date .nice-date,
+.content .more-posts .post a:active .post-title .title-date .time,
+.content .more-posts .post a:focus .post-title .title-date .nice-date,
+.content .more-posts .post a:focus .post-title .title-date .time,
+.content .search-list .post a .post-title .title-date .nice-date,
+.content .search-list .post a .post-title .title-date .time,
+.content .search-list .post a:visited .post-title .title-date .nice-date,
+.content .search-list .post a:visited .post-title .title-date .time,
+.content .search-list .post a:active .post-title .title-date .nice-date,
+.content .search-list .post a:active .post-title .title-date .time,
+.content .search-list .post a:focus .post-title .title-date .nice-date,
+.content .search-list .post a:focus .post-title .title-date .time,
+.search .more-posts .post a .post-title .title-date .nice-date,
+.search .more-posts .post a .post-title .title-date .time,
+.search .more-posts .post a:visited .post-title .title-date .nice-date,
+.search .more-posts .post a:visited .post-title .title-date .time,
+.search .more-posts .post a:active .post-title .title-date .nice-date,
+.search .more-posts .post a:active .post-title .title-date .time,
+.search .more-posts .post a:focus .post-title .title-date .nice-date,
+.search .more-posts .post a:focus .post-title .title-date .time,
+.search .search-list .post a .post-title .title-date .nice-date,
+.search .search-list .post a .post-title .title-date .time,
+.search .search-list .post a:visited .post-title .title-date .nice-date,
+.search .search-list .post a:visited .post-title .title-date .time,
+.search .search-list .post a:active .post-title .title-date .nice-date,
+.search .search-list .post a:active .post-title .title-date .time,
+.search .search-list .post a:focus .post-title .title-date .nice-date,
+.search .search-list .post a:focus .post-title .title-date .time {
+  font-weight: 300;
+}
+/* line 1632, ../sass/high90.scss */
+.content .more-posts .post a:hover,
+.content .more-posts .post a:visited:hover,
+.content .more-posts .post a:active:hover,
+.content .more-posts .post a:focus:hover,
+.content .search-list .post a:hover,
+.content .search-list .post a:visited:hover,
+.content .search-list .post a:active:hover,
+.content .search-list .post a:focus:hover,
+.search .more-posts .post a:hover,
+.search .more-posts .post a:visited:hover,
+.search .more-posts .post a:active:hover,
+.search .more-posts .post a:focus:hover,
+.search .search-list .post a:hover,
+.search .search-list .post a:visited:hover,
+.search .search-list .post a:active:hover,
+.search .search-list .post a:focus:hover {
+  background-color: #ddd;
+}
+
+/* @media screen and (min-width: 480px) */
+@media screen and (min-width: 30em) {
+  /* line 1645, ../sass/high90.scss */
+  body #container {
+    padding: 0 2em;
+  }
+  /* line 1649, ../sass/high90.scss */
+  body .content .post .post-body .image-block.small,
+  body .content .post .post-body .caption.small {
+    display: block;
+    float: left;
+    width: 33.33333%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0 2em 0 0;
+  }
+  /* line 1657, ../sass/high90.scss */
+  body .content .post .post-body .image-block.set,
+  body .content .post .post-body .caption.set {
+    display: block;
+    float: left;
+    width: 33.33333%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0 1em 0 0;
+  }
+  /* line 1664, ../sass/high90.scss */
+  body .content .post .post-body .image-block.set:nth-child(3n+1),
+  body .content .post .post-body .caption.set:nth-child(3n+1) {
+    clear: left;
+  }
+  /* line 1671, ../sass/high90.scss */
+  body .content .post .post-body .product,
+  body .content .post .post-body .app {
+    margin-bottom: 1.8em;
+  }
+  /* line 1676, ../sass/high90.scss */
+  body .content .post .post-body .product .fancybox,
+  body .content .post .post-body .app .fancybox {
+    display: block;
+    float: left;
+    width: 25%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 0%;
+    padding: 0;
+  }
+  /* line 1681, ../sass/high90.scss */
+  body .content .post .post-body .product .fancybox img,
+  body .content .post .post-body .app .fancybox img {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 0%;
+    padding: 0;
+  }
+  /* line 1687, ../sass/high90.scss */
+  body .content .post .post-body .product .fancybox.icon img,
+  body .content .post .post-body .app .fancybox.icon img {
+    border: 0;
+    padding: 0.5em;
+  }
+  /* line 1694, ../sass/high90.scss */
+  body .content .post .post-body .product .details,
+  body .content .post .post-body .app .details {
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 8.33333%;
+    padding: 0;
+    text-align: left;
+  }
+}
+/* @media screen and (min-width: 640px) */
+@media screen and (min-width: 40em) {
+  /* line 14, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_typography.scss */
+  body {
+    font-size: 1.125em;
+  }
+
+  /* line 1711, ../sass/high90.scss */
+  body #container {
+    padding: 0;
+  }
+  /* line 1715, ../sass/high90.scss */
+  body #header,
+  body #core,
+  body #footer {
+    display: block;
+    float: left;
+    width: 83.33333%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 8.33333%;
+    padding: 0;
+  }
+  /* line 1723, ../sass/high90.scss */
+  body #header {
+    margin-bottom: 0.2em;
+  }
+  /* line 1726, ../sass/high90.scss */
+  body #header .text-logo {
+    display: block;
+    float: left;
+    width: 40%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    text-align: left;
+  }
+  /* line 1731, ../sass/high90.scss */
+  body #header .text-logo img {
+    height: 2em;
+    padding-bottom: 0;
+  }
+  /* line 1737, ../sass/high90.scss */
+  body #header .top-nav {
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 10%;
+    padding: 1.8em 0 0;
+    text-align: right;
+  }
+  /* line 1743, ../sass/high90.scss */
+  body #header .top-nav li {
+    font-size: 1em;
+  }
+  /* line 1748, ../sass/high90.scss */
+  body #header .search-box {
+    display: block;
+    float: left;
+    width: 40%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 1.4em 0 0;
+  }
+  /* line 1755, ../sass/high90.scss */
+  body .content,
+  body .search {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  /* line 1760, ../sass/high90.scss */
+  body .content .post,
+  body .search .post {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  /* line 1764, ../sass/high90.scss */
+  body .content .post .post-header,
+  body .search .post .post-header {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  /* line 1768, ../sass/high90.scss */
+  body .content .post .post-header .title-banner,
+  body .search .post .post-header .title-banner {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 0 0.5em 0;
+  }
+  /* line 1772, ../sass/high90.scss */
+  body .content .post .post-header .title-banner img,
+  body .search .post .post-header .title-banner img {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  /* line 1778, ../sass/high90.scss */
+  body .content .post .post-header .title-pattern,
+  body .search .post .post-header .title-pattern {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  /* line 1783, ../sass/high90.scss */
+  body .content .post .post-header .caption,
+  body .search .post .post-header .caption {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0.5em 0 0.5em;
+  }
+  /* line 1789, ../sass/high90.scss */
+  body .content .post .post-title,
+  body .search .post .post-title {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0.5em 0 1em;
+  }
+  /* line 1794, ../sass/high90.scss */
+  body .content .post .post-body,
+  body .search .post .post-body {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  /* line 1798, ../sass/high90.scss */
+  body .content .post .post-body .image-block,
+  body .search .post .post-body .image-block {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 0%;
+    padding: 0 0 0.5em;
+  }
+  /* line 1803, ../sass/high90.scss */
+  body .content .post .post-body .image-block.left,
+  body .search .post .post-body .image-block.left {
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 2em 0 0;
+  }
+  /* line 1807, ../sass/high90.scss */
+  body .content .post .post-body .image-block.left.small,
+  body .search .post .post-body .image-block.left.small {
+    display: block;
+    float: left;
+    width: 30%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 2em 0 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* line 1815, ../sass/high90.scss */
+  body .content .post .post-body .image-block.right,
+  body .search .post .post-body .image-block.right {
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    float: right;
+    padding: 0 0 0 2em;
+  }
+  /* line 1820, ../sass/high90.scss */
+  body .content .post .post-body .image-block.right.small,
+  body .search .post .post-body .image-block.right.small {
+    display: block;
+    float: left;
+    width: 30%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 0 0 2em;
+    float: right;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* line 1831, ../sass/high90.scss */
+  body .content .post .post-body .caption,
+  body .search .post .post-body .caption {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 0%;
+    padding: 0 0 0.5em;
+  }
+  /* line 1836, ../sass/high90.scss */
+  body .content .post .post-body .caption.left,
+  body .search .post .post-body .caption.left {
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 2em 0 0;
+    clear: left;
+    text-align: left;
+  }
+  /* line 1842, ../sass/high90.scss */
+  body .content .post .post-body .caption.left.small,
+  body .search .post .post-body .caption.left.small {
+    display: block;
+    float: left;
+    width: 30%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 2em 0 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* line 1850, ../sass/high90.scss */
+  body .content .post .post-body .caption.right,
+  body .search .post .post-body .caption.right {
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    float: right;
+    padding: 0 0 0 2em;
+    clear: right;
+    text-align: right;
+  }
+  /* line 1857, ../sass/high90.scss */
+  body .content .post .post-body .caption.right.small,
+  body .search .post .post-body .caption.right.small {
+    display: block;
+    float: left;
+    width: 30%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 0 0 2em;
+    float: right;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* line 1869, ../sass/high90.scss */
+  body .content .post .post-body aside,
+  body .search .post .post-body aside {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 0%;
+    padding: 0.5em 0;
+  }
+  /* line 1874, ../sass/high90.scss */
+  body .content .post .post-body aside blockquote,
+  body .search .post .post-body aside blockquote {
+    padding: 0.5em 0 0.5em;
+  }
+  /* line 1878, ../sass/high90.scss */
+  body .content .post .post-body aside.left,
+  body .search .post .post-body aside.left {
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0.5em 0;
+    margin-right: 2em;
+    margin-bottom: 0;
+    border: none;
+  }
+  /* line 1885, ../sass/high90.scss */
+  body .content .post .post-body aside.left.small,
+  body .search .post .post-body aside.left.small {
+    display: block;
+    float: left;
+    width: 30%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: 2em;
+    padding: 0.5em 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* line 1894, ../sass/high90.scss */
+  body .content .post .post-body aside.right,
+  body .search .post .post-body aside.right {
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    float: right;
+    padding: 0.5em 0;
+    margin-left: 2em;
+    margin-bottom: 0;
+    border: none;
+  }
+  /* line 1902, ../sass/high90.scss */
+  body .content .post .post-body aside.right.small,
+  body .search .post .post-body aside.right.small {
+    display: block;
+    float: left;
+    width: 30%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0.5em 0;
+    float: right;
+    margin-left: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* line 1913, ../sass/high90.scss */
+  body .content .post .post-body .product,
+  body .content .post .post-body .app,
+  body .search .post .post-body .product,
+  body .search .post .post-body .app {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 0%;
+    padding: 0;
+    margin-bottom: 1.8em;
+  }
+  /* line 1921, ../sass/high90.scss */
+  body .content .post .post-body .product .fancybox,
+  body .content .post .post-body .app .fancybox,
+  body .search .post .post-body .product .fancybox,
+  body .search .post .post-body .app .fancybox {
+    display: block;
+    float: left;
+    width: 20%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 0%;
+    padding: 0;
+  }
+  /* line 1926, ../sass/high90.scss */
+  body .content .post .post-body .product .fancybox img,
+  body .content .post .post-body .app .fancybox img,
+  body .search .post .post-body .product .fancybox img,
+  body .search .post .post-body .app .fancybox img {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 0%;
+    padding: 0;
+  }
+  /* line 1932, ../sass/high90.scss */
+  body .content .post .post-body .product .fancybox.icon img,
+  body .content .post .post-body .app .fancybox.icon img,
+  body .search .post .post-body .product .fancybox.icon img,
+  body .search .post .post-body .app .fancybox.icon img {
+    border: 0;
+    padding: 0.5em;
+  }
+  /* line 1939, ../sass/high90.scss */
+  body .content .post .post-body .product .details,
+  body .content .post .post-body .app .details,
+  body .search .post .post-body .product .details,
+  body .search .post .post-body .app .details {
+    display: block;
+    float: left;
+    width: 60%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 10%;
+    padding: 0;
+    text-align: left;
+  }
+  /* line 1947, ../sass/high90.scss */
+  body .content .post .post-body .has-pullquote:before,
+  body .search .post .post-body .has-pullquote:before {
+    content: attr(data-pullquote);
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 0%;
+    padding: 0 0 0em 1em;
+    float: right;
+    font-family: "brandon-grotesque", sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    color: #de3907;
+    font-size: 1.5em;
+    line-height: 1.3em;
+  }
+  /* line 1962, ../sass/high90.scss */
+  body .content .post .post-footer,
+  body .search .post .post-footer {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0.5em 0 0;
+  }
+  /* line 1968, ../sass/high90.scss */
+  body .content .more-header,
+  body .content .pagination-header,
+  body .content .search-header,
+  body .content .more-posts,
+  body .content .search-list,
+  body .search .more-header,
+  body .search .pagination-header,
+  body .search .search-header,
+  body .search .more-posts,
+  body .search .search-list {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  /* line 1977, ../sass/high90.scss */
+  body .content .pagination-narrow,
+  body .search .pagination-narrow {
+    display: none;
+  }
+  /* line 1981, ../sass/high90.scss */
+  body .content .pagination-wide,
+  body .search .pagination-wide {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    display: table;
+  }
+  /* line 1989, ../sass/high90.scss */
+  body .content .pagination-wide tr,
+  body .search .pagination-wide tr {
+    width: 100%;
+    background-color: #eee;
+    border-left: 0.5em solid #4386af !important;
+    border-right: 0.5em solid #de3907 !important;
+    background-image: url("../img/stripes.svg");
+  }
+  /* line 1997, ../sass/high90.scss */
+  body .content .pagination-wide .post,
+  body .search .pagination-wide .post {
+    display: table-cell;
+    background-color: #eee;
+    float: none;
+    width: 50%;
+    height: 100%;
+    vertical-align: top;
+  }
+  /* line 2005, ../sass/high90.scss */
+  body .content .pagination-wide .post.prev,
+  body .search .pagination-wide .post.prev {
+    padding: 0 0 0 0.5em;
+  }
+  /* line 2009, ../sass/high90.scss */
+  body .content .pagination-wide .post.next,
+  body .search .pagination-wide .post.next {
+    padding: 0 0.5em 0 0;
+    text-align: right;
+  }
+  /* line 2014, ../sass/high90.scss */
+  body .content .pagination-wide .post:hover,
+  body .search .pagination-wide .post:hover {
+    background-color: #ddd;
+  }
+  /* line 2018, ../sass/high90.scss */
+  body .content .pagination-wide .post .older,
+  body .content .pagination-wide .post .newer,
+  body .search .pagination-wide .post .older,
+  body .search .pagination-wide .post .newer {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 1em;
+    height: 100%;
+  }
+  /* line 2024, ../sass/high90.scss */
+  body .content .pagination-wide .post .older .key,
+  body .content .pagination-wide .post .newer .key,
+  body .search .pagination-wide .post .older .key,
+  body .search .pagination-wide .post .newer .key {
+    font-family: "brandon-grotesque", sans-serif;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: #777;
+    font-weight: 200;
+  }
+  /* line 2032, ../sass/high90.scss */
+  body .content .pagination-wide .post .older .title,
+  body .content .pagination-wide .post .newer .title,
+  body .search .pagination-wide .post .older .title,
+  body .search .pagination-wide .post .newer .title {
+    font-family: "brandon-grotesque", sans-serif;
+    text-transform: uppercase;
+    color: #333;
+    font-weight: 500;
+    line-height: 1em;
+    font-size: 1.1em;
+  }
+}
+/* @media screen and (min-width: 720px) */
+@media screen and (min-width: 45em) {
+  /* line 14, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_typography.scss */
+  body {
+    font-size: 1.25em;
+  }
+
+  /* line 2055, ../sass/high90.scss */
+  body #core {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 0%;
+    padding: 0;
+  }
+  /* line 2061, ../sass/high90.scss */
+  body .content,
+  body .search {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  /* line 2066, ../sass/high90.scss */
+  body .content .message,
+  body .search .message {
+    display: block;
+    float: left;
+    width: 83.33333%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 8.33333%;
+    padding: 0;
+  }
+  /* line 2072, ../sass/high90.scss */
+  body .content .empty-message,
+  body .search .empty-message {
+    display: block;
+    float: left;
+    width: 83.33333%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 8.33333%;
+    padding: 1.5em 0 0;
+  }
+  /* line 2078, ../sass/high90.scss */
+  body .content .post,
+  body .search .post {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  /* line 2082, ../sass/high90.scss */
+  body .content .post .post-header,
+  body .search .post .post-header {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  /* line 2086, ../sass/high90.scss */
+  body .content .post .post-header .title-banner,
+  body .search .post .post-header .title-banner {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 0 0.5em 0;
+  }
+  /* line 2090, ../sass/high90.scss */
+  body .content .post .post-header .title-banner img,
+  body .search .post .post-header .title-banner img {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  /* line 2096, ../sass/high90.scss */
+  body .content .post .post-header .title-pattern,
+  body .search .post .post-header .title-pattern {
+    display: block;
+    float: left;
+    width: 83.33333%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 8.33333%;
+    padding: 0;
+  }
+  /* line 2102, ../sass/high90.scss */
+  body .content .post .post-header .caption,
+  body .search .post .post-header .caption {
+    display: block;
+    float: left;
+    width: 83.33333%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 8.33333%;
+    padding: 0.5em 0 0.5em;
+  }
+  /* line 2109, ../sass/high90.scss */
+  body .content .post .post-core,
+  body .search .post .post-core {
+    display: block;
+    float: left;
+    width: 83.33333%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 8.33333%;
+    padding: 0;
+  }
+  /* line 2115, ../sass/high90.scss */
+  body .content .post .post-title,
+  body .search .post .post-title {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0.5em 0 1em;
+  }
+  /* line 2120, ../sass/high90.scss */
+  body .content .post .post-body,
+  body .search .post .post-body {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  /* line 2124, ../sass/high90.scss */
+  body .content .post .post-body .image-block, body .content .post .post-body caption,
+  body .search .post .post-body .image-block,
+  body .search .post .post-body caption {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 0%;
+    padding: 0 0 0.5em;
+  }
+  /* line 2129, ../sass/high90.scss */
+  body .content .post .post-body .image-block.left, body .content .post .post-body caption.left,
+  body .search .post .post-body .image-block.left,
+  body .search .post .post-body caption.left {
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 2em 0 0;
+  }
+  /* line 2133, ../sass/high90.scss */
+  body .content .post .post-body .image-block.left.small, body .content .post .post-body caption.left.small,
+  body .search .post .post-body .image-block.left.small,
+  body .search .post .post-body caption.left.small {
+    display: block;
+    float: left;
+    width: 30%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 2em 0 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* line 2141, ../sass/high90.scss */
+  body .content .post .post-body .image-block.right, body .content .post .post-body caption.right,
+  body .search .post .post-body .image-block.right,
+  body .search .post .post-body caption.right {
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    float: right;
+    padding: 0 0 0 2em;
+  }
+  /* line 2146, ../sass/high90.scss */
+  body .content .post .post-body .image-block.right.small, body .content .post .post-body caption.right.small,
+  body .search .post .post-body .image-block.right.small,
+  body .search .post .post-body caption.right.small {
+    display: block;
+    float: left;
+    width: 30%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 0 0 2em;
+    float: right;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* line 2155, ../sass/high90.scss */
+  body .content .post .post-body .image-block.wide, body .content .post .post-body caption.wide,
+  body .search .post .post-body .image-block.wide,
+  body .search .post .post-body caption.wide {
+    display: block;
+    float: left;
+    width: 120%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: -10%;
+    padding: 0 0 0.5em;
+  }
+  /* line 2162, ../sass/high90.scss */
+  body .content .post .post-body aside,
+  body .search .post .post-body aside {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 0%;
+    padding: 0.5em 0;
+  }
+  /* line 2167, ../sass/high90.scss */
+  body .content .post .post-body aside blockquote,
+  body .search .post .post-body aside blockquote {
+    padding: 0.5em 0 0.5em;
+  }
+  /* line 2171, ../sass/high90.scss */
+  body .content .post .post-body aside.left,
+  body .search .post .post-body aside.left {
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0.5em 0;
+    margin-right: 2em;
+    margin-bottom: 0;
+  }
+  /* line 2177, ../sass/high90.scss */
+  body .content .post .post-body aside.left.small,
+  body .search .post .post-body aside.left.small {
+    display: block;
+    float: left;
+    width: 30%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: 2em;
+    padding: 0.5em 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* line 2186, ../sass/high90.scss */
+  body .content .post .post-body aside.right,
+  body .search .post .post-body aside.right {
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    float: right;
+    padding: 0.5em 0;
+    margin-left: 2em;
+    margin-bottom: 0;
+  }
+  /* line 2193, ../sass/high90.scss */
+  body .content .post .post-body aside.right.small,
+  body .search .post .post-body aside.right.small {
+    display: block;
+    float: left;
+    width: 30%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0.5em 0;
+    float: right;
+    margin-left: 2em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* line 2203, ../sass/high90.scss */
+  body .content .post .post-body aside.wide,
+  body .search .post .post-body aside.wide {
+    display: block;
+    float: left;
+    width: 120%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: -10%;
+    padding: 0.5em 0;
+  }
+  /* line 2210, ../sass/high90.scss */
+  body .content .post .post-body aside.has-pullquote:before,
+  body .search .post .post-body aside.has-pullquote:before {
+    content: attr(data-pullquote);
+    display: block;
+    float: left;
+    width: 40%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 0%;
+    padding: 0 0 0em 1em;
+    float: right;
+    font-family: "brandon-grotesque", sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: left;
+    color: #de3907;
+    font-size: 1.5em;
+    line-height: 1.3em;
+  }
+  /* line 2226, ../sass/high90.scss */
+  body .content .post .post-footer,
+  body .search .post .post-footer {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0.5em 0 0;
+  }
+  /* line 2232, ../sass/high90.scss */
+  body .content .more-header,
+  body .content .pagination-header,
+  body .content .search-header,
+  body .content .pagination-wide,
+  body .content .more-posts,
+  body .content .search-list,
+  body .content .search-box,
+  body .search .more-header,
+  body .search .pagination-header,
+  body .search .search-header,
+  body .search .pagination-wide,
+  body .search .more-posts,
+  body .search .search-list,
+  body .search .search-box {
+    display: block;
+    float: left;
+    width: 83.33333%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 8.33333%;
+    padding: 0;
+  }
+  /* line 2244, ../sass/high90.scss */
+  body .content .pagination-wide,
+  body .search .pagination-wide {
+    display: table;
+  }
+}
+/* @media screen and (min-width: 880px) */
+@media screen and (min-width: 50em) {
+  /* line 2256, ../sass/high90.scss */
+  body #header,
+  body #footer {
+    display: block;
+    float: left;
+    width: 66.66667%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 16.66667%;
+    padding: 0;
+  }
+  /* line 2263, ../sass/high90.scss */
+  body #core {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 0%;
+    padding: 0;
+  }
+  /* line 2269, ../sass/high90.scss */
+  body .content,
+  body .search {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  /* line 2274, ../sass/high90.scss */
+  body .content .message,
+  body .search .message {
+    display: block;
+    float: left;
+    width: 66.66667%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 16.66667%;
+    padding: 0;
+  }
+  /* line 2280, ../sass/high90.scss */
+  body .content .empty-message,
+  body .search .empty-message {
+    display: block;
+    float: left;
+    width: 66.66667%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 16.66667%;
+    padding: 1.5em 0 0;
+  }
+  /* line 2286, ../sass/high90.scss */
+  body .content .post,
+  body .search .post {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  /* line 2290, ../sass/high90.scss */
+  body .content .post .post-header,
+  body .search .post .post-header {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  /* line 2294, ../sass/high90.scss */
+  body .content .post .post-header .title-banner,
+  body .search .post .post-header .title-banner {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 0 0.5em 0;
+  }
+  /* line 2298, ../sass/high90.scss */
+  body .content .post .post-header .title-banner img,
+  body .search .post .post-header .title-banner img {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  /* line 2304, ../sass/high90.scss */
+  body .content .post .post-header .title-pattern,
+  body .search .post .post-header .title-pattern {
+    display: block;
+    float: left;
+    width: 66.66667%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 16.66667%;
+    padding: 0;
+  }
+  /* line 2310, ../sass/high90.scss */
+  body .content .post .post-header .caption,
+  body .search .post .post-header .caption {
+    display: block;
+    float: left;
+    width: 66.66667%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 16.66667%;
+    padding: 0.5em 0 0.5em;
+  }
+  /* line 2317, ../sass/high90.scss */
+  body .content .post .pre-bar,
+  body .search .post .pre-bar {
+    display: block;
+    float: left;
+    width: 16.66667%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 0%;
+    padding: 0.5em 0 0 0;
+    text-align: center;
+  }
+  /* line 2323, ../sass/high90.scss */
+  body .content .post .pre-bar .date-ball,
+  body .search .post .pre-bar .date-ball {
+    display: block;
+    position: relative;
+    height: 4em;
+    width: 4em;
+    margin: 0 auto;
+  }
+  /* line 2330, ../sass/high90.scss */
+  body .content .post .pre-bar .date-ball .ball,
+  body .search .post .pre-bar .date-ball .ball {
+    position: absolute;
+    top: 0;
+    left: 0.25em;
+    width: 3.5em;
+    height: 3.5em;
+    border-radius: 50%;
+    background-color: #e6e6e5;
+  }
+  /* line 2340, ../sass/high90.scss */
+  body .content .post .pre-bar .date-ball .text-block,
+  body .search .post .pre-bar .date-ball .text-block {
+    position: relative;
+    top: 3em;
+    left: 0;
+    width: 5em;
+    padding: 0;
+    white-space: nowrap;
+    font-family: "brandon-grotesque", sans-serif;
+    text-transform: uppercase;
+    display: block;
+    color: #333;
+    font-size: 0.4em;
+    line-height: 1.2em;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: 300;
+  }
+  /* line 2357, ../sass/high90.scss */
+  body .content .post .pre-bar .date-ball .text-block.news.design.technology,
+  body .search .post .pre-bar .date-ball .text-block.news.design.technology {
+    color: #FFFFFF;
+  }
+  /* line 2362, ../sass/high90.scss */
+  body .content .post .pre-bar .date-ball:hover,
+  body .search .post .pre-bar .date-ball:hover {
+    text-decoration: none;
+  }
+  /* line 2367, ../sass/high90.scss */
+  body .content .post .pre-bar .icon,
+  body .search .post .pre-bar .icon {
+    width: 4em;
+    height: 4em;
+    clear: both;
+    margin: 0.5em auto 0;
+  }
+  /* line 2376, ../sass/high90.scss */
+  body .content .post .post-core,
+  body .search .post .post-core {
+    display: block;
+    float: left;
+    width: 66.66667%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 0%;
+    padding: 0;
+  }
+  /* line 2382, ../sass/high90.scss */
+  body .content .post .post-title,
+  body .search .post .post-title {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0.8em 0 0.7em;
+  }
+  /* line 2386, ../sass/high90.scss */
+  body .content .post .post-title .title-date,
+  body .search .post .post-title .title-date {
+    display: none;
+  }
+  /* line 2391, ../sass/high90.scss */
+  body .content .post .post-body,
+  body .search .post .post-body {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  /* line 2395, ../sass/high90.scss */
+  body .content .post .post-body .image-block,
+  body .search .post .post-body .image-block {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 0%;
+    padding: 0 0 0.5em;
+  }
+  /* line 2400, ../sass/high90.scss */
+  body .content .post .post-body .image-block.left,
+  body .search .post .post-body .image-block.left {
+    display: block;
+    float: left;
+    width: 62.5%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: -25%;
+    padding: 0 2em 0 0.5em;
+  }
+  /* line 2405, ../sass/high90.scss */
+  body .content .post .post-body .image-block.left.small,
+  body .search .post .post-body .image-block.left.small {
+    display: block;
+    float: left;
+    width: 25%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: -25%;
+    padding: 0 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* line 2414, ../sass/high90.scss */
+  body .content .post .post-body .image-block.right,
+  body .search .post .post-body .image-block.right {
+    display: block;
+    float: left;
+    width: 62.5%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: -25%;
+    float: right;
+    padding: 0 0.5em 0 2em;
+  }
+  /* line 2420, ../sass/high90.scss */
+  body .content .post .post-body .image-block.right.small,
+  body .search .post .post-body .image-block.right.small {
+    display: block;
+    float: left;
+    width: 25%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: -25%;
+    padding: 0 1em;
+    float: right;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* line 2430, ../sass/high90.scss */
+  body .content .post .post-body .image-block.wide,
+  body .search .post .post-body .image-block.wide {
+    display: block;
+    float: left;
+    width: 150%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: -25%;
+    padding: 0 0 0.5em;
+  }
+  /* line 2437, ../sass/high90.scss */
+  body .content .post .post-body .caption,
+  body .search .post .post-body .caption {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 0%;
+    padding: 0 0 0.5em;
+  }
+  /* line 2442, ../sass/high90.scss */
+  body .content .post .post-body .caption.left,
+  body .search .post .post-body .caption.left {
+    display: block;
+    float: left;
+    width: 25%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: -25%;
+    padding: 0 0.7em;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* line 2449, ../sass/high90.scss */
+  body .content .post .post-body .caption.left p,
+  body .search .post .post-body .caption.left p {
+    border-top: 1px solid #ddd;
+    padding-top: 0.5em;
+  }
+  /* line 2455, ../sass/high90.scss */
+  body .content .post .post-body .caption.right,
+  body .search .post .post-body .caption.right {
+    display: block;
+    float: left;
+    width: 25%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: -25%;
+    padding: 0 0.7em;
+    float: right;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: left;
+  }
+  /* line 2464, ../sass/high90.scss */
+  body .content .post .post-body .caption.right p,
+  body .search .post .post-body .caption.right p {
+    border-top: 1px solid #ddd;
+    padding-top: 0.5em;
+  }
+  /* line 2470, ../sass/high90.scss */
+  body .content .post .post-body .caption.wide,
+  body .search .post .post-body .caption.wide {
+    display: block;
+    float: left;
+    width: 150%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: -25%;
+    padding: 0 0 0.5em;
+  }
+  /* line 2477, ../sass/high90.scss */
+  body .content .post .post-body aside,
+  body .search .post .post-body aside {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 0%;
+    padding: 0.5em 0;
+  }
+  /* line 2482, ../sass/high90.scss */
+  body .content .post .post-body aside blockquote,
+  body .search .post .post-body aside blockquote {
+    padding: 0.5em 0 0.5em;
+  }
+  /* line 2486, ../sass/high90.scss */
+  body .content .post .post-body aside.left,
+  body .search .post .post-body aside.left {
+    display: block;
+    float: left;
+    width: 62.5%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: -25%;
+    padding: 0.5em 0 0 1em;
+    margin-right: 2em;
+    margin-bottom: 0;
+  }
+  /* line 2493, ../sass/high90.scss */
+  body .content .post .post-body aside.left.small,
+  body .search .post .post-body aside.left.small {
+    display: block;
+    float: left;
+    width: 25%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: -25%;
+    margin-right: 0;
+    padding: 0.5em 1em;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 0.5em;
+  }
+  /* line 2504, ../sass/high90.scss */
+  body .content .post .post-body aside.right,
+  body .search .post .post-body aside.right {
+    display: block;
+    float: left;
+    width: 62.5%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: -25%;
+    float: right;
+    padding: 0.5em 1em 0.5em 0;
+    margin-left: 2em;
+    margin-bottom: 0;
+  }
+  /* line 2512, ../sass/high90.scss */
+  body .content .post .post-body aside.right.small,
+  body .search .post .post-body aside.right.small {
+    display: block;
+    float: left;
+    width: 25%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: -25%;
+    padding: 0.5em 1em;
+    float: right;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 0.5em;
+  }
+  /* line 2524, ../sass/high90.scss */
+  body .content .post .post-body aside.wide,
+  body .search .post .post-body aside.wide {
+    display: block;
+    float: left;
+    width: 150%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: -25%;
+    padding: 0.5em 0;
+  }
+  /* line 2531, ../sass/high90.scss */
+  body .content .post .post-body .has-pullquote:before,
+  body .search .post .post-body .has-pullquote:before {
+    content: attr(data-pullquote);
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: -12.5%;
+    padding: 0 0 0em 1em;
+    float: right;
+    font-family: "brandon-grotesque", sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    color: #de3907;
+    font-size: 1.5em;
+    line-height: 1.3em;
+  }
+  /* line 2546, ../sass/high90.scss */
+  body .content .post .post-footer,
+  body .search .post .post-footer {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0.5em 0 0;
+  }
+  /* line 2552, ../sass/high90.scss */
+  body .content .more-header,
+  body .content .pagination-header,
+  body .content .search-header,
+  body .content .search-box,
+  body .content .pagination-wide,
+  body .content .more-posts,
+  body .content .search-list,
+  body .search .more-header,
+  body .search .pagination-header,
+  body .search .search-header,
+  body .search .search-box,
+  body .search .pagination-wide,
+  body .search .more-posts,
+  body .search .search-list {
+    display: block;
+    float: left;
+    width: 66.66667%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 16.66667%;
+    padding: 0;
+  }
+  /* line 2564, ../sass/high90.scss */
+  body .content .pagination-wide,
+  body .search .pagination-wide {
+    display: table;
+  }
+}
+/* @media screen and (min-width: 960px) */
+@media screen and (min-width: 60em) {
+  /* line 2576, ../sass/high90.scss */
+  body #container {
+    width: 960px;
+    padding: 0;
+    margin: 0 auto;
+    float: none;
+  }
+  /* line 2583, ../sass/high90.scss */
+  body #header,
+  body #footer {
+    display: block;
+    float: left;
+    width: 66.66667%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 16.66667%;
+    padding: 0;
+  }
+  /* line 2590, ../sass/high90.scss */
+  body #core {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 0%;
+    padding: 0;
+  }
+  /* line 2596, ../sass/high90.scss */
+  body .content,
+  body .search {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  /* line 2601, ../sass/high90.scss */
+  body .content .post,
+  body .search .post {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  /* line 2605, ../sass/high90.scss */
+  body .content .post .post-header,
+  body .search .post .post-header {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  /* line 2609, ../sass/high90.scss */
+  body .content .post .post-header .title-banner,
+  body .search .post .post-header .title-banner {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 0 0.5em 0;
+  }
+  /* line 2613, ../sass/high90.scss */
+  body .content .post .post-header .title-banner img,
+  body .search .post .post-header .title-banner img {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  /* line 2619, ../sass/high90.scss */
+  body .content .post .post-header .title-pattern,
+  body .search .post .post-header .title-pattern {
+    display: block;
+    float: left;
+    width: 66.66667%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 16.66667%;
+    padding: 0;
+  }
+  /* line 2625, ../sass/high90.scss */
+  body .content .post .post-header .caption,
+  body .search .post .post-header .caption {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 0%;
+    padding: 0.5em 0 0.5em;
+  }
+  /* line 2632, ../sass/high90.scss */
+  body .content .post .pre-bar,
+  body .search .post .pre-bar {
+    display: block;
+    float: left;
+    width: 16.66667%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 0%;
+    padding: 0.5em 0 0 0;
+    text-align: center;
+  }
+  /* line 2638, ../sass/high90.scss */
+  body .content .post .pre-bar .date-ball,
+  body .search .post .pre-bar .date-ball {
+    display: block;
+    position: relative;
+    height: 4em;
+    width: 4em;
+    margin: 0 auto;
+  }
+  /* line 2645, ../sass/high90.scss */
+  body .content .post .pre-bar .date-ball .ball,
+  body .search .post .pre-bar .date-ball .ball {
+    position: absolute;
+    top: 0;
+    left: 0.25em;
+    width: 3.5em;
+    height: 3.5em;
+    border-radius: 50%;
+    background-color: #e6e6e5;
+  }
+  /* line 2655, ../sass/high90.scss */
+  body .content .post .pre-bar .date-ball .text-block,
+  body .search .post .pre-bar .date-ball .text-block {
+    position: relative;
+    top: 3em;
+    left: 0;
+    width: 5em;
+    padding: 0;
+    white-space: nowrap;
+    font-family: "brandon-grotesque", sans-serif;
+    text-transform: uppercase;
+    display: block;
+    color: #333;
+    font-size: 0.4em;
+    line-height: 1.2em;
+    text-align: center;
+    margin: 0 auto;
+  }
+  /* line 2672, ../sass/high90.scss */
+  body .content .post .pre-bar .date-ball:hover,
+  body .search .post .pre-bar .date-ball:hover {
+    text-decoration: none;
+  }
+  /* line 2677, ../sass/high90.scss */
+  body .content .post .pre-bar .icon,
+  body .search .post .pre-bar .icon {
+    width: 4em;
+    height: 4em;
+    clear: both;
+    margin: 0.5em auto 0;
+  }
+  /* line 2686, ../sass/high90.scss */
+  body .content .post .post-core,
+  body .search .post .post-core {
+    display: block;
+    float: left;
+    width: 66.66667%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 0%;
+    padding: 0;
+  }
+  /* line 2692, ../sass/high90.scss */
+  body .content .post .post-title,
+  body .search .post .post-title {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0.8em 0 0.7em;
+  }
+  /* line 2696, ../sass/high90.scss */
+  body .content .post .post-title .title-date,
+  body .search .post .post-title .title-date {
+    display: none;
+  }
+  /* line 2701, ../sass/high90.scss */
+  body .content .post .post-body,
+  body .search .post .post-body {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  /* line 2705, ../sass/high90.scss */
+  body .content .post .post-body .image-block,
+  body .search .post .post-body .image-block {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 0%;
+    padding: 0 0 0.5em;
+  }
+  /* line 2710, ../sass/high90.scss */
+  body .content .post .post-body .image-block.left,
+  body .search .post .post-body .image-block.left {
+    display: block;
+    float: left;
+    width: 62.5%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: -25%;
+    padding: 0 2em 0 0;
+  }
+  /* line 2715, ../sass/high90.scss */
+  body .content .post .post-body .image-block.left.small,
+  body .search .post .post-body .image-block.left.small {
+    display: block;
+    float: left;
+    width: 25%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: -25%;
+    padding: 0 2em 0 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* line 2724, ../sass/high90.scss */
+  body .content .post .post-body .image-block.right,
+  body .search .post .post-body .image-block.right {
+    display: block;
+    float: left;
+    width: 62.5%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: -25%;
+    float: right;
+    padding: 0 0 0 2em;
+  }
+  /* line 2730, ../sass/high90.scss */
+  body .content .post .post-body .image-block.right.small,
+  body .search .post .post-body .image-block.right.small {
+    display: block;
+    float: left;
+    width: 25%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: -25%;
+    padding: 0 0 0 2em;
+    float: right;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* line 2740, ../sass/high90.scss */
+  body .content .post .post-body .image-block.wide,
+  body .search .post .post-body .image-block.wide {
+    display: block;
+    float: left;
+    width: 150%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: -25%;
+    padding: 0 0 0.5em;
+  }
+  /* line 2747, ../sass/high90.scss */
+  body .content .post .post-body .caption,
+  body .search .post .post-body .caption {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 0%;
+    padding: 0 0 0.5em;
+  }
+  /* line 2752, ../sass/high90.scss */
+  body .content .post .post-body .caption.left,
+  body .search .post .post-body .caption.left {
+    display: block;
+    float: left;
+    width: 25%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: -25%;
+    padding: 0 0.7em 0 0;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* line 2760, ../sass/high90.scss */
+  body .content .post .post-body .caption.right,
+  body .search .post .post-body .caption.right {
+    display: block;
+    float: left;
+    width: 25%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: -25%;
+    padding: 0 0 0 0.7em;
+    float: right;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /* line 2769, ../sass/high90.scss */
+  body .content .post .post-body .caption.wide,
+  body .search .post .post-body .caption.wide {
+    display: block;
+    float: left;
+    width: 150%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: -25%;
+    padding: 0 0 0.5em;
+  }
+  /* line 2776, ../sass/high90.scss */
+  body .content .post .post-body aside,
+  body .search .post .post-body aside {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 0%;
+    padding: 0.5em 0;
+  }
+  /* line 2781, ../sass/high90.scss */
+  body .content .post .post-body aside blockquote,
+  body .search .post .post-body aside blockquote {
+    padding: 0.5em 0 0.5em;
+  }
+  /* line 2785, ../sass/high90.scss */
+  body .content .post .post-body aside.left,
+  body .search .post .post-body aside.left {
+    display: block;
+    float: left;
+    width: 62.5%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: -25%;
+    padding: 0.5em 0;
+    margin-right: 2em;
+    margin-bottom: 0;
+  }
+  /* line 2792, ../sass/high90.scss */
+  body .content .post .post-body aside.left.small,
+  body .search .post .post-body aside.left.small {
+    display: block;
+    float: left;
+    width: 25%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: -25%;
+    margin-right: 0;
+    padding: 0.5em 2em 0.5em 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 0.5em;
+  }
+  /* line 2803, ../sass/high90.scss */
+  body .content .post .post-body aside.right,
+  body .search .post .post-body aside.right {
+    display: block;
+    float: left;
+    width: 62.5%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: -25%;
+    float: right;
+    padding: 0.5em 0;
+    margin-left: 2em;
+    margin-bottom: 0;
+  }
+  /* line 2811, ../sass/high90.scss */
+  body .content .post .post-body aside.right.small,
+  body .search .post .post-body aside.right.small {
+    display: block;
+    float: left;
+    width: 25%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: -25%;
+    padding: 0.5em 2em 0.5em 0;
+    float: right;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 0.5em;
+  }
+  /* line 2823, ../sass/high90.scss */
+  body .content .post .post-body aside.wide,
+  body .search .post .post-body aside.wide {
+    display: block;
+    float: left;
+    width: 150%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: -25%;
+    padding: 0.5em 0;
+  }
+  /* line 2830, ../sass/high90.scss */
+  body .content .post .post-body .has-pullquote:before,
+  body .search .post .post-body .has-pullquote:before {
+    content: attr(data-pullquote);
+    display: block;
+    float: left;
+    width: 50%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-right: -25%;
+    padding: 0 0 0.5em 1em;
+    float: right;
+    font-family: "brandon-grotesque", sans-serif;
+    text-transform: uppercase;
+    text-align: left;
+    color: #de3907;
+    font-size: 1.5em;
+    line-height: 1.3em;
+  }
+  /* line 2845, ../sass/high90.scss */
+  body .content .post .post-footer,
+  body .search .post .post-footer {
+    display: block;
+    float: left;
+    width: 100%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0.5em 0 0;
+  }
+  /* line 2851, ../sass/high90.scss */
+  body .content .more-header,
+  body .content .pagination-header,
+  body .content .search-header,
+  body .content .search-box,
+  body .content .pagination-wide,
+  body .content .more-posts,
+  body .content .search-list,
+  body .search .more-header,
+  body .search .pagination-header,
+  body .search .search-header,
+  body .search .search-box,
+  body .search .pagination-wide,
+  body .search .more-posts,
+  body .search .search-list {
+    display: block;
+    float: left;
+    width: 66.66667%;
+    padding: 0 0.75em;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: 16.66667%;
+    padding: 0;
+  }
+  /* line 2863, ../sass/high90.scss */
+  body .content .pagination-wide,
+  body .search .pagination-wide {
+    display: table;
+  }
+}
+/* line 2870, ../sass/high90.scss */
+.high90 {
+  background-color: #de3907 !important;
+  color: #FFFFFF !important;
+}
+
+/* line 2875, ../sass/high90.scss */
+.news {
+  background-color: #f98d28 !important;
+  color: #FFFFFF !important;
+}
+
+/* line 2880, ../sass/high90.scss */
+.technology {
+  background-color: #fbc71c !important;
+}
+
+/* line 2884, ../sass/high90.scss */
+.productivity {
+  background-color: #519548 !important;
+  color: #FFFFFF !important;
+}
+
+/* line 2889, ../sass/high90.scss */
+.design {
+  background-color: #26ade3 !important;
+  color: #FFFFFF !important;
+}
+
+/* line 2894, ../sass/high90.scss */
+.ideas {
+  background-color: #4386af !important;
+  color: #FFFFFF !important;
+}
+
+/* line 2899, ../sass/high90.scss */
+.all {
+  background-color: #353739 !important;
+  color: #FFFFFF !important;
+}

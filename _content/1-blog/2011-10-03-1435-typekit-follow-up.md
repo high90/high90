@@ -1,5 +1,6 @@
 ---
 title: 'Typekit follow-up'
+author: [Erik Hess]
 categories: [technology]
 ---
 [Scrubbar][1] commented on tumblr:

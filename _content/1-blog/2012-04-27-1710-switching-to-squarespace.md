@@ -1,5 +1,6 @@
 ---
 title: 'Switching to Squarespace'
+author: [Erik Hess]
 categories: [design, technology]
 tags: [mobile-first, compass, sass, 'responsive design', typekit, typography, takitapart, squarespace, 'basic maths']
 ---

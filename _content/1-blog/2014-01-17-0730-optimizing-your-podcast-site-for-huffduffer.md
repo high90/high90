@@ -1,5 +1,6 @@
 ---
 title: 'Optimizing Your Podcast Site for Huffduffer'
+author: [Erik Hess]
 categories: [design, technology]
 tags: [podcasting, technical difficulties, huffduffer, statamic]
 banner: u-boat.jpg

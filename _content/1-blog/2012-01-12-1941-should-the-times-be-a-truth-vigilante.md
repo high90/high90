@@ -1,5 +1,6 @@
 ---
 title: 'Should the Times be a Truth Vigilante?'
+author: [Erik Hess]
 categories: [mindfulness]
 tags: [journalism, media]
 ---

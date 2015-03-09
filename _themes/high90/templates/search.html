@@ -1,0 +1,50 @@
+<div class="content search">
+
+       {{ theme:partial src="search-box" }}
+
+
+{{ bloodhound:search }}
+
+      {{ if no_query }}
+
+      <p class="empty-message">Seek and ye shall find.</p>
+
+      {{ elseif no_results }}
+        
+        <h2 class="search-header">Nothing Found</h2>
+        <p class="message">Sorry, no results found for <b>{{ _query }}</b>. Try another search term, or <a href="/blog">return to the list of all posts.</a></p>
+
+      {{ else }}
+        {{ if first }}
+        
+          <h2 class="search-header">Search Results: {{ _query }}</h2>
+          <ul class="search-list">
+
+        {{ endif }}
+
+          <li class="post {{ categories_spaced_list }}">
+            <a alt="{{ title }}" title="{{ title }}" rel="page" href="{{ url }}" >
+              
+              <div class="post-title">
+                <h2 class="title">
+
+                    {{ title }}
+
+                </h2> 
+
+                <div class="title-date">Posted <span class="nice-date">{{ datestamp format="M d, 'y" }}</span> at <span class="time">{{ datestamp format="g:i A" }}</span></div>
+              </div>
+
+            </a>
+          </li> 
+
+        {{ if last }}
+          </ul>
+        {{ endif }}
+      {{ endif }}
+
+  {{ /bloodhound:search }}
+
+  {{ theme:partial src="nav" }}
+
+</div>

@@ -1,5 +1,6 @@
 ---
 title: 'HTML5 and CSS Pull Quotes'
+author: [Erik Hess]
 categories: [design, technology]
 tags: [typography]
 ---

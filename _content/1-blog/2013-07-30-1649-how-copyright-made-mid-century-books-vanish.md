@@ -1,5 +1,6 @@
 ---
 title: 'How Copyright Made Mid-Century Books Vanish'
+author: [Erik Hess]
 categories: [technology]
 tags: [copyright, reading]
 banner: book-banner.jpg

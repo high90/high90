@@ -1,5 +1,6 @@
 ---
 title: 'Mainstream News'
+author: [Erik Hess]
 categories: [mindfulness]
 tags: [journalism, media]
 ---

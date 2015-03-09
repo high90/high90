@@ -1,5 +1,6 @@
 ---
 title: 'Mock Up Site Designs in Keynote'
+author: [Erik Hess]
 categories: [design]
 tags: [keynote, responsive design, mockups]
 banner: key-mockups.png

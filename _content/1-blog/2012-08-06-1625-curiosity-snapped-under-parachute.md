@@ -1,5 +1,6 @@
 ---
 title: 'Curiosity Snapped under Parachute'
+author: [Erik Hess]
 categories: [technology]
 tags: [science, nasa, mars]
 banner: curiosity-descent.jpg

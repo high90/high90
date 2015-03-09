@@ -1,5 +1,6 @@
 ---
 title: 'Sonos Showdown'
+author: [Erik Hess]
 categories: [technology]
 tags: [technical difficulties, sonos]
 banner: radio.jpg

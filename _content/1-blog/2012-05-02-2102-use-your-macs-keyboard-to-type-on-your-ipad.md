@@ -1,5 +1,6 @@
 ---
 title: "Use your Mac's keyboard to type on your iPad"
+author: [Erik Hess]
 categories: [technology]
 tags: [type2phone, 'keyboard maestro', productivity]
 ---

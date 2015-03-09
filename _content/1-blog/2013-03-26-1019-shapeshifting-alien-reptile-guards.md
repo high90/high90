@@ -1,5 +1,6 @@
 ---
 title: 'White House Can’t Afford Its Shapeshifting Alien Reptile Guards'
+author: [Erik Hess]
 categories: [technology]
 tags: [humor]
 link: http://www.wired.com/dangerroom/2013/03/secret-service-reptile-aliens/

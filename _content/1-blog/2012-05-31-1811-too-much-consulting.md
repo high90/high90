@@ -1,5 +1,6 @@
 ---
 title: 'Too Much Consulting?'
+author: [Erik Hess]
 categories: 
 tags: [management, consulting]
 ---

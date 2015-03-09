@@ -1,5 +1,6 @@
 ---
 title: 'Troubleshooting RSS with NetNewsWire'
+author: [Erik Hess]
 categories: [technology, design]
 tags: [netnewswire, rss]
 banner: netnewswire.jpg

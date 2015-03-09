@@ -1,5 +1,6 @@
 ---
 title: 'A History of Computing with Dr. Drang'
+author: [Erik Hess]
 categories: [technology]
 tags: [podcasting, dr drang, technical difficulties, dawn patrol, heretics]
 banner: favorite-snowman.jpg

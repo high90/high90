@@ -1,0 +1,150 @@
+<div class="content">
+
+  {{ entries:listing folder="blog" limit="1" }}
+  <div class="post {{ type }}">
+
+    <div class="post-header">
+
+      {{ if banner }}
+        {{ if link }}
+
+          <div class="title-banner {{ categories_spaced_list }}">
+            <a alt="{{ title }}" title="{{ title }}" rel="page" href="{{ link }}" >
+              <img src="{{ _site_url }}{{ transform src="assets/img/{{ banner }}" width="1200" action="resize" }}" />
+            </a>
+          </div>
+          {{ if caption }}
+          <div class="caption">{{ caption|markdown }}</div>
+          {{ else }}
+          <div class="caption"></div> <!-- Spacer -->
+          {{ endif }}
+
+        {{ else }}
+
+          <div class="title-banner {{ categories_spaced_list }}">
+            <a alt="{{ title }}" title="{{ title }}" rel="page" href="{{ url }}" >
+              <img src="{{ _site_url }}{{ transform src="assets/img/{{ banner }}" width="1200" action="resize" }}" />
+            </a>
+          </div>
+          {{ if caption }}
+          <div class="caption">{{ caption|markdown }}</div>
+          {{ else }}
+          <div class="caption"></div> <!-- Spacer -->
+          {{ endif }}
+
+        {{ endif }}
+      {{ else }}
+        {{ if link }}
+
+          <div class="title-pattern {{ categories_spaced_list }}">
+            <a alt="{{ title }}" title="{{ title }}" rel="page" href="{{ link }}" >
+              &nbsp;
+            </a>
+          </div>
+          {{ if caption }}
+          <div class="caption">{{ caption|markdown }}</div>
+          {{ else }}
+          <div class="caption"></div> <!-- Spacer -->
+          {{ endif }}
+
+        {{ else }}
+
+          <div class="title-pattern {{ categories_spaced_list }}">
+            <a alt="{{ title }}" title="{{ title }}" rel="page" href="{{ url }}" >
+              &nbsp;
+            </a>
+          </div>
+          {{ if caption }}
+          <div class="caption">{{ caption|markdown }}</div>
+          {{ else }}
+          <div class="caption"></div> <!-- Spacer -->
+          {{ endif }}
+
+        {{ endif }}
+      {{ endif }}
+    </div>
+
+    <div class="pre-bar">
+      <a href="{{ url }}" class="date-ball">
+        <div class="ball {{ categories_spaced_list }}">&nbsp;</div>
+        <div class="text-block {{ categories_spaced_list }}">
+          <div class="nice-date">{{ datestamp format="M d, 'y" }}</div>
+          <div class="time">{{ datestamp format="g:i A" }}</div>
+        </div>
+      </a>
+      {{ tags }}
+        <a class="icon {{ name }}" href="{{ _site_root }}blog/tags/{{ name|slugify }}"></a>
+      {{ /tags }}
+    </div>
+
+    <div class="post-core">
+      <div class="post-title">
+        <h2 class="title">
+          {{ if link }}
+            <a href="{{ link }}">{{ title }}&nbsp;&rArr;</a>
+          {{ else }}
+            <a href="{{ url }}">{{ title }}</a>
+          {{ endif }}
+        </h2> 
+        <div class="title-date">Posted <span class="nice-date">{{ datestamp format="M d, 'y" }}</span> at <span class="time">{{ datestamp format="g:i A" }}</span></div> 
+        <div class="title-author">By
+          {{ author }}
+            <a href="{{ _site_root }}blog/author/{{ name|slugify }}">{{ name }}</a>
+          {{ /author }}  
+        </div>
+      </div>
+
+      <div class="post-body">
+
+          {{ if epigram }}
+
+            <blockquote class="epigram">
+              {{ epigram|markdown }}
+              <cite>&ndash; {{ epi-cite }}</cite>
+            </blockquote>
+
+          {{ endif }}
+
+          {{ content|widont }}
+
+          {{ if image }}
+          <div class="image">
+            {{ theme:partial src="image" file="{ image }" }}
+            <p>{{ caption|markdown }} </p>
+          </div>
+          {{ endif }}
+
+          {{ if link }}
+              <div class="permalink"><a href="{{ url }}">&#8251;</a></div>
+          {{ endif }}
+
+      </div>
+
+      <div class="post-footer">
+        <p class="title">Themes</p>
+        <ul class="category-list">
+          {{ categories }}
+            <li><a href="{{ _site_root }}blog/categories/{{ name }}">{{ name }}</a></li>
+          {{ /categories }}     
+        </ul>
+        {{ if tags }}
+          <p class="title">Topics</p>
+          <ul class="tag-list">
+            {{ tags }}
+              <li><a href="{{ _site_root }}blog/tags/{{ name|slugify }}">{{ name }}</a></li>
+            {{ /tags }}    
+          </ul>
+        {{ endif }}
+      </div>
+    </div>
+  </div> 
+
+  {{ /entries:listing }}
+
+
+
+{{ theme:partial src="search-box" }}
+{{ theme:partial src="recent" }}
+{{ theme:partial src="nav" }}
+
+</div>

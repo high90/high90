@@ -1,5 +1,6 @@
 ---
 title: 'Home Automation with Bob VanderClay'
+author: [Erik Hess]
 categories: [technology]
 tags: [podcasting, technical difficulties, home automation, bob vanderclay]
 banner: unimate.jpg

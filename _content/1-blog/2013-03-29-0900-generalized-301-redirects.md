@@ -1,5 +1,6 @@
 ---
 title: 'Generalized 301 Redirects'
+author: [Erik Hess]
 categories: [technology]
 tags: [htaccess, regex, blogging, ruhoh, squarespace]
 banner: htaccess.jpg

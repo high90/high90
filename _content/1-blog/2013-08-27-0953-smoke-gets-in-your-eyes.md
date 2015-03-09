@@ -1,5 +1,6 @@
 ---
 title: 'Smoke Gets in Your Eyes'
+author: [Erik Hess]
 categories: [mindfulness]
 tags: [wildfire, carson city]
 banner: rim-banner.jpg

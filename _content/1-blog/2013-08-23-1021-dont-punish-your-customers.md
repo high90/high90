@@ -1,5 +1,6 @@
 ---
 title: 'Don't Punish Your Customers'
+author: [Erik Hess]
 categories: [technology]
 tags: [apple, amazon, kindle, ios, android]
 banner: jobs-amazon-banner.jpg

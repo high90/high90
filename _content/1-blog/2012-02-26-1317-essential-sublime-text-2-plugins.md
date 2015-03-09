@@ -1,5 +1,6 @@
 ---
 title: 'Essential Sublime Text 2 Plugins'
+author: [Erik Hess]
 categories: [technology]
 tags: ['sublime text', 'keyboard maestro', productivity]
 ---

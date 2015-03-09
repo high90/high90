@@ -1,5 +1,6 @@
 ---
 title: 'Ruhoh, I Rebuilt the Blog Again'
+author: [Erik Hess]
 categories: [design, technology]
 tags: [blogging, hazel, textastic, ruhoh, dropbox, swiftype, squarespace]
 ---

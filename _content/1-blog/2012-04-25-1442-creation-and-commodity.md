@@ -1,5 +1,6 @@
 ---
 title: 'Creation and Commodity'
+author: [Erik Hess]
 categories: [design]
 tags: [creativity]
 ---

@@ -1,5 +1,6 @@
 ---
 title: 'Angle of Attack and UI'
+author: [Erik Hess]
 categories: [design, technology, flying]
 tags: [ui]
 ---

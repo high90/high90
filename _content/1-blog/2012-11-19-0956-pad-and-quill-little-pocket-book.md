@@ -1,5 +1,6 @@
 ---
 title: 'Pad & Quill Little Pocket Book for iPhone 4S'
+author: [Erik Hess]
 categories: [technology]
 tags: [twelve south, pad and quill, iphone, review]
 ---

@@ -1,5 +1,6 @@
 ---
 title: 'Fixing double-spaces with TextExpander'
+author: [Erik Hess]
 categories: [technology]
 tags: [textexpander, typography, fanaticism]
 ---

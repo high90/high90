@@ -1,5 +1,6 @@
 ---
 title: 'The Southern Reach'
+author: [Erik Hess]
 categories: ''
 tags: [books, fiction]
 banner: lighthouse.jpg
