@@ -2,10 +2,14 @@
 
 <ul class="more-posts">
 
-  {{ entries:listing folder="blog" limit="5" offset="1" }}
+  {{ entries:listing folder="blog" limit="6" offset="1" }}
   
-  <li class="post {{ categories_spaced_list }}">
+  <li class="post">
     <a alt="{{ title }}" title="{{ title }}" rel="page" href="{{ url }}" >
+
+      <div class="post-image {{ categories_spaced_list }}">
+        <img src='{{ transform src="/assets/img/{{ banner }}" width="600" height="400" action="smart" }}' />
+      </div>
 
       <div class="post-title">
         <h2 class="title">

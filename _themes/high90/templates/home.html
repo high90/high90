@@ -101,15 +101,15 @@
 
           {{ endif }}
 
-          {{ if category == podcast }}
+          {{ if category == high90cast }}
 
-            <div class="podcast-meta">
+            <div class="high90cast-meta">
               <div class="player">
                 <iframe frameborder='0' height='36px' scrolling='no' seamless src='{{ player }}?style=dark' width='100%'></iframe>
               </div>
               <div class="links">
-                <a href="{{ download }}">Download</a> &ndash;
-                <a id="huffduffer">Huffduff It</a> &ndash;
+                <a href="{{ download }}">Download</a> ::
+                <a id="huffduffer">Huffduff It</a> ::
                 <a href="{{ twitter }}">Twitter-friendly Link</a>
               </div>
             </div>
@@ -134,14 +134,14 @@
       </div>
 
       <div class="post-footer">
-        <p class="title">Themes</p>
+        <p class="title">Categories</p>
         <ul class="category-list">
           {{ categories }}
             <li><a href="{{ _site_root }}blog/categories/{{ name }}">{{ name }}</a></li>
           {{ /categories }}     
         </ul>
         {{ if tags }}
-          <p class="title">Topics</p>
+          <p class="title">Tags</p>
           <ul class="tag-list">
             {{ tags }}
               <li><a href="{{ _site_root }}blog/tags/{{ name|slugify }}">{{ name }}</a></li>
