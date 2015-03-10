@@ -176,7 +176,9 @@ $dark-grey: #353739;
   &.dawn.patrol,
   &.dr.drang,
   &.heretics,
-  &.emptiness {
+  &.emptiness,
+  &.domains,
+  &.meta {
     display: block;
     padding: 0;
     background-position: 50% 50%;
@@ -668,6 +670,14 @@ $dark-grey: #353739;
 
   &.emptiness {
     background-image: url('../../../assets/icons/emptiness.png');
+  }
+
+  &.domains {
+    background-image: url('../../../assets/icons/domains.png');
+  }
+
+  &.meta {
+    background-image: url('../../../assets/icons/90-ball.png');
   }
 }
 
