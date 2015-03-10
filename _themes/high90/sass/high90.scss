@@ -211,6 +211,7 @@ $dark-grey: #353739;
 
   &.high90 {
     background-image: url('../../../assets/icons/90-ball.png');
+    background-color: transparent !important;
   }
 
   &.typekit {
