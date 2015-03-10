@@ -2,7 +2,7 @@
 title: 'Welcome to the .Pub'
 author: [Erik Hess]
 categories: [technology]
-tags: [domains, meta]
+tags: [domains, high90]
 banner: the-pub.jpg
 caption: 'Why .pub? Why NOT .pub? [National Library of Ireland](https://www.flickr.com/photos/nlireland/6209964369)'
 ---
