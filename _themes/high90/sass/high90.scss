@@ -1496,6 +1496,33 @@ body {
 		}
 	}
 
+  .bio {
+    @include column(12,12);
+    padding: 0;
+
+    a,
+    a:visited,
+    a:active,
+    a:focus {
+      color: $dark-link;
+
+      &:hover {
+        color: $bright-link;
+      }
+    }
+
+    img {
+      display: block;
+      width: 100%;
+      padding: 0.5em 0 0.8em 0;
+      height: auto;
+    }
+
+    p {
+      padding: 0;
+    }
+  }
+
 	.more-header,
 	.pagination-header,
 	.search-header {
@@ -2414,6 +2441,13 @@ body {
 				padding: 0;
 			}
 
+
+      .bio {
+        @include column(10,12);
+        @include push(1,12);
+        padding: 0;
+      }
+
       .pagination-wide {
         display: table;
       }
@@ -2723,6 +2757,7 @@ body {
       }
 
       .more-header,
+      .bio,
       .pagination-header,
       .search-header,
       .search-box,
@@ -3023,6 +3058,7 @@ body {
       }
 
       .more-header,
+      .bio,
       .pagination-header,
       .search-header,
       .search-box,

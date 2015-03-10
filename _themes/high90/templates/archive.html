@@ -78,57 +78,71 @@
     </div>
 
     <div class="post-core">
+
       <div class="post-title">
+
         <h2 class="title">
-          {{ if link }}
-            <a href="{{ link }}">{{ title }}&nbsp;&rArr;</a>
-          {{ else }}
-            <a href="{{ url }}">{{ title }}</a>
-          {{ endif }}
+        {{ if link }}
+          <a href="{{ link }}">{{ title }}&nbsp;&rArr;</a>
+        {{ else }}
+          <a href="{{ url }}">{{ title }}</a>
+        {{ endif }}
         </h2> 
         <div class="title-date">Posted <span class="nice-date">{{ datestamp format="M d, 'y" }}</span> at <span class="time">{{ datestamp format="g:i A" }}</span></div> 
-        <div class="title-author">By
-          {{ author }}
-            <a href="{{ _site_root }}blog/author/{{ name|slugify }}">{{ name }}</a>
-          {{ /author }}  
-        </div>
+        <div class="title-author">By {{ author_sentence_url_list }}</div>
       </div>
-
       <div class="post-body">
 
-          {{ if epigram }}
+        {{ if epigram }}
 
-            <blockquote class="epigram">
-              {{ epigram|markdown }}
-              <cite>&ndash; {{ epi-cite }}</cite>
-            </blockquote>
+          <blockquote class="epigram">
+            {{ epigram|markdown }}
+            <cite>{{ epi-cite|markdown }}</cite>
+          </blockquote>
 
-          {{ endif }}
+        {{ endif }}
 
-          {{ content|widont }}
+          {{ if categories_sentence_list ~ "/(high90cast)/" }}
 
-          {{ if image }}
-          <div class="image">
-            {{ theme:partial src="image" file="{ image }" }}
-            <p>{{ caption|markdown }} </p>
+          <div class="high90cast-meta">
+            <div class="player">
+              <iframe frameborder='0' height='36px' scrolling='no' seamless src='{{ player }}?style=dark' width='100%'></iframe>
+            </div>
+            <div class="links">
+              <a href="{{ download }}">Download</a> ::
+              <a id="huffduffer">Huffduff It</a> ::
+              <a href="{{ twitter }}">Twitter-friendly Link</a>
+            </div>
           </div>
-          {{ endif }}
 
-          {{ if link }}
-              <div class="permalink"><a href="{{ url }}">&#8251;</a></div>
-          {{ endif }}
+          {{ summary|markdown|widont }}
+
+        {{ endif }}
+
+
+        {{ content|widont }}
+
+        {{ if image }}
+        <div class="image">
+          {{ theme:partial src="image" file="{ image }" }}
+          <p>{{ caption|markdown }} </p>
+        </div>
+        {{ endif }}
+
+        {{ if link }}
+            <div class="permalink"><a href="{{ url }}">&#8251;</a></div>
+        {{ endif }}
 
       </div>
-
       <div class="post-footer">
-        <p class="title">Themes</p>
+        <p class="title">Categories</p>
         <ul class="category-list">
           {{ categories }}
             <li><a href="{{ _site_root }}blog/categories/{{ name }}">{{ name }}</a></li>
           {{ /categories }}     
         </ul>
         {{ if tags }}
-          <p class="title">Topics</p>
+          <p class="title">Tags</p>
           <ul class="tag-list">
             {{ tags }}
               <li><a href="{{ _site_root }}blog/tags/{{ name|slugify }}">{{ name }}</a></li>
@@ -136,8 +150,7 @@
           </ul>
         {{ endif }}
       </div>
-    </div>
-  </div> 
+  </div>
 
   {{ /entries:listing }}
 

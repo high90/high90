@@ -2,6 +2,30 @@
 
   {{ entries:listing folder="blog" group_by_date="Y" taxonomy="true" }}
 
+  {{ if taxonomy_name ~ "/(erik)/" }}
+
+  <div class="bio">
+
+    <img src="/assets/img/erik-lso.jpg" />
+
+    <p>Erik is a designer, developer, podcaster, and recovering fighter pilot. He co-founded high90 with <a href="/blog/author/bob-vanderclay">Bob VanderClay</a> in 2005.</p>
+
+    <p>Erik's previous projects include <a href="http://technicaldifficulties.us">Generational</a>, <a href="http://technicaldifficulties.us">Technical Difficulties</a>, <a href="http://criticmarkup.com">CriticMarkup</a>, <a href="http://nerdquery.com">NerdQuery</a>, and <a href="http://themindfulbit.com">The Mindful Bit</a>. You can find him on Twitter: <a href="http://twitter.com/themindfulbit">@themindfulbit</a>.</p>
+  </div>
+
+  {{ elseif taxonomy_name ~ "/(bob)/" }}
+
+  <div class="bio">
+
+    <img src="/assets/img/bob-bio.jpg" />
+
+    <p>Bob VanderClay has been developing web applications professionally for over 15 years. He co-founded high90 with <a href="/blog/author/erik-hess">Erik Hess</a> in 2005.</p>
+
+    <p>You can find Bob on Twitter: <a href="http://twitter.com/takitapart">@takitapart</a>.</p>
+  </div>
+
+  {{ endif }}
+
     {{ if grouped_date }}
         {{ if !first }}
             </ul>
