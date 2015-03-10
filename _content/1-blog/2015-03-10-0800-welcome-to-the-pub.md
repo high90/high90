@@ -23,10 +23,18 @@ Those are the main reasons we've redirected our website from `high90.com` to `hi
 
 That and `.pub` sounded cool... or something.
 
-On a more serious note, I can see some advantages to picking a quirky new TLD and sticking with it across all your products. The classic TLDs of the `.com` era are no longer as critical as they once were in the user-familiarity department. Additionally, it's much more common for people to use search rather than type a URL in their increasingly-capable browser omni-boxes. 
+We briefly experimented with `.haus` for it's Teutonic awesomeness, but then we realized that there's also `.house` which could get really confusing.
 
-Those are also excellent counter-arguments to the house-TLD idea. If people don't care anymore, then why bother at all? Also, domain names *do* still matter in email, where misrouting still seems fairly common.
+On a more serious note, I can see some advantages to picking a quirky new TLD and sticking with it across all of your products. The classic TLDs of the `.com` era are no longer as critical as they once were in the user-familiarity department. Additionally, it's much more common for people to use search rather than type a URL in their increasingly-capable browser omni-boxes. 
 
-In the end the value of the house TLD concept comes down to a matter of personal and corporate taste. For us, `.pub` had a fun feel that brought to mind a place you'd gather, either for beer or just to be seen in public. It also had the benefit of still being three letters, so it avoids a lot of the strangeness around long strings like `.technology`. Also, many of the new gTLDs like `.solutions` sound like the domain equivalent of [cheesy stock-photos](http://www.adweek.com/adfreak/vince-vaughn-and-costars-pose-idiotic-stock-photos-you-can-have-free-163239). 
+Those are also all excellent counter-arguments to the house-TLD idea. If people don't care anymore, then why bother at all? 
 
-So `.pub` it is. At least until we change our minds again.
+One place domain names still *do* matter is email, where misrouting still seems fairly common. Why go with `me@company.strange` when people will probably send everything to `me@company.com` instead?
+
+Wait, was that a pro, or a con? I forgot...
+
+Anyway, the value of the house TLD concept probably comes down to a matter of personal and corporate taste. For us, `.pub` had a fun feel that brought to mind a place you'd gather, either for beer or just to be seen in public. It also had the benefit of still being three letters, so it avoids a lot of the strangeness around long strings like `.technology`. Finally, many of the new gTLDs like `.solutions` sound like the domain equivalent of [cheesy stock-photos](http://www.adweek.com/adfreak/vince-vaughn-and-costars-pose-idiotic-stock-photos-you-can-have-free-163239). 
+
+So `.pub` it is!
+
+...at least until we change our minds again.
