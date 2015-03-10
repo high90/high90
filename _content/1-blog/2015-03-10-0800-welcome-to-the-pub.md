@@ -19,7 +19,7 @@ With `.com`, `.net` and now even `.io` becoming harder and harder to mine for go
 
 Those are the main reasons we've redirected our website from `high90.com` to `high90.pub`. 
 
-{{ theme:partial src="image" class="right" title="No, not .bar &ndash; .pub" file="not-pub.jpg" }}
+{{ theme:partial src="image" class="right" title="No, not .bar &ndash; .pub" source="Library of Congress" link="https://www.flickr.com/photos/library_of_congress/2178266871" file="not-pub.jpg" }}
 
 That and `.pub` sounded cool... or something.
 

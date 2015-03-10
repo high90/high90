@@ -1283,6 +1283,18 @@ body {
             font-size: 0.9em;
             line-height: 1.2em;
           }
+
+          a:before {
+            content: "\00a0";
+            background-image: url("../../../assets/img/photo.svg");
+            background-repeat: no-repeat;
+            width: 1.25em;
+            display: inline-block;
+            background-size: 1.1em auto;
+            position: relative;
+            top: -0.05em;
+          }
+
         }
       }
 

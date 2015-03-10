@@ -5,6 +5,6 @@
 </div>
 {{ if title }}
 <small class="caption {{ class }}">
-	{{ title|markdown }}
+	<p>{{ title }} {{ if link }}<a href="{{ link }}">{{ source }}</a>{{ endif }}</p>
 </small>
 {{ endif }}
