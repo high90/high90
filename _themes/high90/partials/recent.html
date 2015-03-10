@@ -2,27 +2,37 @@
 
 <ul class="more-posts">
 
+
+
   {{ entries:listing folder="blog" limit="6" offset="1" }}
+
+    {{ if total_found == 0 }}
+
+    <p><em>Looks like you're reading the only post on this site. That's CRAZY!!!</em></p>
+
+    {{ else }}
   
-  <li class="post">
-    <a alt="{{ title }}" title="{{ title }}" rel="page" href="{{ url }}" >
+    <li class="post">
+      <a alt="{{ title }}" title="{{ title }}" rel="page" href="{{ url }}" >
 
-      <div class="post-image {{ categories_spaced_list }}">
-        <img src='{{ transform src="/assets/img/{{ banner }}" width="600" height="400" action="smart" }}' />
-      </div>
+        <div class="post-image {{ categories_spaced_list }}">
+          <img src='{{ transform src="/assets/img/{{ banner }}" width="600" height="400" action="smart" }}' />
+        </div>
 
-      <div class="post-title">
-        <h2 class="title">
+        <div class="post-title">
+          <h2 class="title">
 
-            {{ title|widont }}
+              {{ title|widont }}
 
-        </h2> 
+          </h2> 
 
-        <div class="title-date"><span class="nice-date">{{ datestamp format="M d, Y" }}</span> &ndash; <span class="time">{{ datestamp format="g:i A" }}</span></div>
-      </div>
+          <div class="title-date"><span class="nice-date">{{ datestamp format="M d, Y" }}</span> &ndash; <span class="time">{{ datestamp format="g:i A" }}</span></div>
+        </div>
 
-    </a>
-  </li> 
+      </a>
+    </li> 
+
+    {{ endif }}
 
   {{ /entries:listing }}
 
