@@ -11,7 +11,7 @@
       <copyright>Copyright {{ current_date format='Y' }}</copyright>
       <ttl>30</ttl>
 
-      {{ entries:listing folder="blog" limit="1" }}
+      {{ entries:listing folder="blog" limit="10" }}
          <item>
          <title><![CDATA[{{ if link }}{{ title }} &rArr;{{ else }}{{ title }}{{ endif }}]]></title>
          <author>{{ author }}</author>
