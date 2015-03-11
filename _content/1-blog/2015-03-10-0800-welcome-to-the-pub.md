@@ -23,7 +23,7 @@ Those are the main reasons we've redirected our website from `high90.com` to `hi
 
 That and `.pub` sounded cool... or something.
 
-We briefly experimented with `.haus` for it's Teutonic awesomeness, but then we realized that there's also `.house` which could get really confusing.
+We briefly experimented with `.haus` for its Teutonic awesomeness, but then we realized that there's also `.house` which could get really confusing.
 
 On a more serious note, I can see some advantages to picking a quirky new TLD and sticking with it across all of your products. The classic TLDs of the `.com` era are no longer as critical as they once were in the user-familiarity department. Additionally, it's much more common for people to use search rather than type a URL in their increasingly-capable browser omni-boxes. 
 
