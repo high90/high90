@@ -27,7 +27,7 @@ _site_name: high90
 _content_root: _content
 
 # Used for permalinks
-_site_url: http://high90.haus/
+_site_url: http://high90.pub/
 
 # Folder name of your desired theme
 _theme: high90
