@@ -58,6 +58,7 @@ $dark-green: #244821;
 $bright-blue: #26ade3;
 $blue: #4386af;
 $dark-blue: #1a3a46;
+$purple: #743792;
 $white: #FFFFFF;
 $light-grey: #e6e6e5;
 $grey: #c5c5c5;
@@ -178,7 +179,8 @@ $dark-grey: #353739;
   &.heretics,
   &.emptiness,
   &.domains,
-  &.meta {
+  &.meta,
+  &.sea.lions {
     display: block;
     padding: 0;
     background-position: 50% 50%;
@@ -680,6 +682,10 @@ $dark-grey: #353739;
   &.meta {
     background-image: url('../../../assets/icons/90-ball.png');
   }
+
+  &.sea.lions {
+    background-image: url('../../../assets/icons/sea-lion.png');
+  }
 }
 
 // General Styling
@@ -910,20 +916,24 @@ body {
           border-bottom: 0.5em solid $orange !important;
         }
 
-        &.technology {
+        &.development {
           border-bottom: 0.5em solid $yellow !important;
         }
 
-        &.productivity {
+        &.technology {
             border-bottom: 0.5em solid $green !important;
         }
 
-        &.design {
+        &.productivity {
           border-bottom: 0.5em solid $bright-blue !important;
         }
 
-        &.ideas {
+        &.design {
           border-bottom: 0.5em solid $blue !important;
+        }
+
+        &.ideas {
+          border-bottom: 0.5em solid $purple !important;
         }
 
         &.all {
@@ -1562,20 +1572,24 @@ body {
         border-left: 0.5em solid $orange !important;
       }
 
-      &.technology {
+      &.development {
         border-left: 0.5em solid $yellow !important;
       }
 
-      &.productivity {
+      &.technology {
           border-left: 0.5em solid $green !important;
       }
 
-      &.design {
+      &.productivity {
         border-left: 0.5em solid $bright-blue !important;
       }
 
-      &.ideas {
+      &.design {
         border-left: 0.5em solid $blue !important;
+      }
+
+      &.ideas {
+        border-left: 0.5em solid $purple !important;
       }
 
       &.all {
@@ -1647,20 +1661,24 @@ body {
         border-left: 0.5em solid $orange !important;
       }
 
-      &.technology {
+      &.development {
         border-left: 0.5em solid $yellow !important;
       }
 
-      &.productivity {
+      &.technology {
           border-left: 0.5em solid $green !important;
       }
 
-      &.design {
+      &.productivity {
         border-left: 0.5em solid $bright-blue !important;
       }
 
-      &.ideas {
+      &.design {
         border-left: 0.5em solid $blue !important;
+      }
+
+      &.ideas {
+        border-left: 0.5em solid $purple !important;
       }
 
       &.all {
@@ -1749,20 +1767,24 @@ body {
           border-bottom: 0.5em solid $orange !important;
         }
 
-        &.technology {
+        &.development {
           border-bottom: 0.5em solid $yellow !important;
         }
 
-        &.productivity {
+        &.technology {
             border-bottom: 0.5em solid $green !important;
         }
 
-        &.design {
+        &.productivity {
           border-bottom: 0.5em solid $bright-blue !important;
         }
 
-        &.ideas {
+        &.design {
           border-bottom: 0.5em solid $blue !important;
+        }
+
+        &.ideas {
+          border-bottom: 0.5em solid $purple !important;
         }
 
         &.all {
@@ -3093,22 +3115,27 @@ body {
   color: $white !important;
 }
 
-.technology {
+.development {
   background-color: $yellow !important;
 }
 
-.productivity {
+.technology {
   background-color: $green !important;
   color: $white !important;
 }
 
-.design {
+.productivity {
   background-color: $bright-blue !important;
   color: $white !important;
 }
 
-.ideas {
+.design {
   background-color: $blue !important;
+  color: $white !important;
+}
+
+.ideas {
+  background-color: $purple !important;
   color: $white !important;
 }
 
