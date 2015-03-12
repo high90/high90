@@ -1,14 +1,12 @@
-<h2 class="more-header">Recent Posts</h2>
+<h2 class="more-header">Five More Shows</h2>
 
 <ul class="more-posts">
 
-
-
-  {{ entries:listing folder="blog|high90cast" limit="6" offset="1" }}
+  {{ entries:listing folder="high90cast" limit="5" offset="1" }}
 
     {{ if total_found == 0 }}
 
-    <p><em>Looks like you're reading the only post on this site. That's CRAZY!!!</em></p>
+    <p><em>Looks like you're viewing the only show on this site. That's CRAZY!!!</em></p>
 
     {{ else }}
   

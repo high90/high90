@@ -1,4 +1,6 @@
- <div class="content">
+<div class="content">
+
+  {{ entries:listing folder="high90cast" limit="1" }}
   <div class="post {{ type }}">
 
     <div class="post-header">
@@ -77,16 +79,16 @@
 
     <div class="post-core">
 
-    	<div class="post-title">
+      <div class="post-title">
 
-      	<h2 class="title">
+        <h2 class="title">
         {{ if link }}
           <a href="{{ link }}">{{ title }}&nbsp;&rArr;</a>
         {{ else }}
           <a href="{{ url }}">{{ title }}</a>
         {{ endif }}
-      	</h2> 
-      	<div class="title-date">Posted <span class="nice-date">{{ datestamp format="M d, 'y" }}</span> at <span class="time">{{ datestamp format="g:i A" }}</span></div> 
+        </h2> 
+        <div class="title-date">Posted <span class="nice-date">{{ datestamp format="M d, 'y" }}</span> at <span class="time">{{ datestamp format="g:i A" }}</span></div> 
         <div class="title-author">By {{ author_sentence_url_list }}</div>
       </div>
       <div class="post-body">
@@ -150,10 +152,12 @@
         {{ endif }}
       </div>
   </div>
-  </div> 
 
-  {{ theme:partial src="pagination" }}
-  {{ theme:partial src="search-box" }}
-  {{ theme:partial src="related" }}
-  {{ theme:partial src="nav" }}
+  {{ /entries:listing }}
+
+
+{{ theme:partial src="next-shows" }}
+{{ theme:partial src="search-box" }}
+{{ theme:partial src="nav" }}
+
 </div>

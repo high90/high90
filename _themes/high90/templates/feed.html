@@ -11,7 +11,7 @@
       <copyright>Copyright {{ current_date format='Y' }}</copyright>
       <ttl>30</ttl>
 
-      {{ entries:listing folder="blog" limit="10" }}
+      {{ entries:listing folder="blog|high90cast" limit="10" }}
          <item>
          <title><![CDATA[{{ if link }}{{ title }} &rArr;{{ else }}{{ title }}{{ endif }}]]></title>
          <author>{{ author }}</author>
@@ -32,7 +32,7 @@
          <category>article</category>
          <dc:date>{{ datestamp format="c" }}</dc:date>
          <dc:subject>{{ categories_list|cdata }}</dc:subject>
-         <description><![CDATA[<div><img src="{{ _site_url }}/assets/img/{{ banner }}"/></div>]]>{{ content|full_urls|cdata }}{{ if link }}<![CDATA[<div class="permalink"><a href="{{ permalink }}">&#8251;</a></div>]]>{{ endif }}</description>
+         <description><![CDATA[<div><img src="{{ _site_url }}/assets/img/{{ banner }}"/></div>]]>{{ summary|full_urls|cdata }}{{ content|full_urls|cdata }}{{ if link }}<![CDATA[<div class="permalink"><a href="{{ permalink }}">&#8251;</a></div>]]>{{ endif }}</description>
          </item>
       {{ /entries:listing }}
    </channel>
