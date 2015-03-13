@@ -32,7 +32,8 @@
          <category>article</category>
          <dc:date>{{ datestamp format="c" }}</dc:date>
          <dc:subject>{{ categories_list|cdata }}</dc:subject>
-         <description><![CDATA[<div><img src="{{ _site_url }}/assets/img/{{ banner }}"/></div>]]>{{ summary|full_urls|cdata }}{{ content|full_urls|cdata }}{{ if link }}<![CDATA[<div class="permalink"><a href="{{ permalink }}">&#8251;</a></div>]]>{{ endif }}</description>
+         <description><![CDATA[<div><img src="{{ _site_url }}/assets/img/{{ banner }}"/></div>]]>{{ if categories_sentence_list ~ "/(high90cast)/" }}<![CDATA[<div class="high90cast-meta"><div class="player"><iframe frameborder='0' height='36px' scrolling='no' seamless src='{{ player }}?style=dark' width='100%'></iframe></div><div class="links">
+              <a href="http://simplecast.fm/podcasts/1067/rss">Subscribe</a> :: <a href="{{ download }}">Download</a> :: <a id="huffduffer">Huffduff It</a> :: <a href="{{ twitter }}">Twitter-friendly Link</a></div></div>]]>{{ endif }}{{ summary|full_urls|cdata }}{{ content|full_urls|cdata }}{{ if link }}<![CDATA[<div class="permalink"><a href="{{ permalink }}">&#8251;</a></div>]]>{{ endif }}</description>
          </item>
       {{ /entries:listing }}
    </channel>
