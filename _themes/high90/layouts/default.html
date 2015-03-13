@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 		
 		<title>
-			{{ _site_name }}
+			{{ if categories_sentence_list ~ "/(high90cast)/" }}high90cast{{ else }}{{ _site_name }}{{ endif }}
 			{{ if segment_1 }}
 			– {{ title }}
 			{{ endif }}
