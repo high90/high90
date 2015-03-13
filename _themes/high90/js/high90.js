@@ -60,10 +60,10 @@ $(document).ready(function(){
 
 	// Archive List Search
 
-	var options = {
-	    valueNames: [ 'title', 'date', 'categories', 'tags'  ]
-	};
+	// var options = {
+	//     valueNames: [ 'title', 'date', 'categories', 'tags'  ]
+	// };
 
-	var articleList = new List('archive-list', options);
+	// var articleList = new List('archive-list', options);
 
 });
