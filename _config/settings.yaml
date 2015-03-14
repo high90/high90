@@ -15,6 +15,9 @@
 # Enter your license key
 _license_key:
 
+# Show future items
+future: false
+
 _language: en
 
 # Only set this if Statamic could not correctly guess your site's root
