@@ -120,9 +120,9 @@ _environments:
     - '*.dev:8888*'
     - '*.localip'
   staging: 
-    - '*staging.high90.haus*'
+    - '*draft.high90.pub*'
   live:
-    - '*high90.haus*'
+    - '*high90.pub*'
 
 # Set to 'true' if you want to log system messages
 _log_enabled: false
