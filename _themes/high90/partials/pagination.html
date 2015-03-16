@@ -9,6 +9,13 @@
           <div class="title">{{ title|widont }}</div>
         </a>
       </div>
+      {{ else }}
+      <div class="post design prev none">
+        <a href="" class="newer">
+          <div class="key"></div>
+          <div class="title"></div>
+        </a>
+      </div>
       {{ endif }}
     {{ /entries:previous }}
     {{ entries:next folder="blog" }}
@@ -17,6 +24,13 @@
         <a href="{{ url }}" class="older">
           <div class="key">Older</div>
           <div class="title">{{ title|widont }}</div>
+        </a>
+      </div>
+      {{ else }}
+      <div class="post high90 next none">
+        <a href="" class="older">
+          <div class="key"></div>
+          <div class="title"></div>
         </a>
       </div>
       {{ endif }}

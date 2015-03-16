@@ -1597,36 +1597,8 @@ body {
         border-left: 0.5em solid $red !important;
       }
 
-      &.news {
-        border-left: 0.5em solid $red !important;
-      }
-
-      &.high90cast {
-        border-left: 0.5em solid $orange !important;
-      }
-
-      &.development {
-        border-left: 0.5em solid $yellow !important;
-      }
-
-      &.technology {
-          border-left: 0.5em solid $green !important;
-      }
-
-      &.productivity {
-        border-left: 0.5em solid $bright-blue !important;
-      }
-
       &.design {
         border-left: 0.5em solid $blue !important;
-      }
-
-      &.ideas {
-        border-left: 0.5em solid $purple !important;
-      }
-
-      &.all {
-        border-left: 0.5em solid $dark-grey !important;
       }
       
       a,
@@ -1665,6 +1637,20 @@ body {
 
         &:hover {
           background-color: $grey;
+        }
+      }
+
+      &.none.design,
+      &.none.high90 {
+        background: transparent !important;
+        border: none !important;
+
+        a {
+          background: transparent;
+
+          &:hover {
+            background: transparent;
+          }
         }
       }
 		}
