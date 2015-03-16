@@ -180,7 +180,9 @@ $dark-grey: #353739;
   &.emptiness,
   &.domains,
   &.meta,
-  &.sea.lions {
+  &.sea.lions,
+  &.simplecast,
+  &.high90cast {
     display: block;
     padding: 0;
     background-position: 50% 50%;
@@ -685,6 +687,16 @@ $dark-grey: #353739;
 
   &.sea.lions {
     background-image: url('../../../assets/icons/sea-lion.png');
+  }
+
+  &.simplecast {
+    background-image: url('../../../assets/icons/simplecast.png');
+  }
+
+  &.high90cast {
+    background-image: url('../../../assets/icons/90-ball.png');
+    background-color: transparent !important;
+    background-size: 3.6em auto;
   }
 }
 
