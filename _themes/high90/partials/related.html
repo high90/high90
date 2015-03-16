@@ -12,17 +12,21 @@
 
     {{ else }}
     
-    <li class="post {{ categories_spaced_list }}">
+    <li class="post">
       <a alt="{{ title }}" title="{{ title }}" rel="page" href="{{ url }}" >
-        
+
+        <div class="post-image {{ categories_spaced_list }}">
+          <img src='{{ transform src="/assets/img/{{ banner }}" width="600" height="400" action="smart" }}' />
+        </div>
+
         <div class="post-title">
-	        <h2 class="title">
+          <h2 class="title">
 
-	            {{ title|widont }}
+              {{ title|widont }}
 
-	        </h2> 
+          </h2> 
 
-	        <div class="title-date">Posted <span class="nice-date">{{ datestamp format="M d, 'y" }}</span> at <span class="time">{{ datestamp format="g:i A" }}</span></div>
+          <div class="title-date"><span class="nice-date">{{ datestamp format="M d, Y" }}</span> &ndash; <span class="time">{{ datestamp format="g:i A" }}</span></div>
         </div>
 
       </a>
