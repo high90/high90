@@ -1,6 +1,6 @@
 <h2 class="pagination-header">Nearby Posts</h2>
 
-<div class="pagination-narrow">
+<div class="pagination">
     {{ entries:previous folder="blog" }}
       {{ if !no_results }}
       <div class="post design prev">
@@ -13,7 +13,7 @@
     {{ /entries:previous }}
     {{ entries:next folder="blog" }}
       {{ if !no_results }}
-      <div class="post mindfulness next">
+      <div class="post high90 next">
         <a href="{{ url }}" class="older">
           <div class="key">Older</div>
           <div class="title">{{ title|widont }}</div>
@@ -22,28 +22,3 @@
       {{ endif }}
     {{ /entries:next }}
 </div>
-
-<table class="pagination-wide">
-  <tr>
-    {{ entries:previous folder="blog" }}
-      {{ if !no_results }}
-      <td class="post prev">
-        <a href="{{ url }}" class="newer">
-          <div class="key">Newer</div>
-          <div class="title">{{ title|widont }}</div>
-        </a>
-      </td>
-      {{ endif }}
-    {{ /entries:previous }}
-    {{ entries:next folder="blog" }}
-      {{ if !no_results }}
-      <td class="post next">
-        <a href="{{ url }}" class="older">
-          <div class="key">Older</div>
-          <div class="title">{{ title|widont }}</div>
-        </a>
-      </td>
-      {{ endif }}
-    {{ /entries:next }}
-    </tr>
-</table>
