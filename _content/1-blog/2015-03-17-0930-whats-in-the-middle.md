@@ -9,7 +9,7 @@ caption: 'iPad Announcement, Jan 2010'
 
 It's an interesting question.
 
-Since 2000 a laptop has been my primary computer. That changed when I shifted to a desktop-first mindset earlier this year, and I now have the opportunity to do some thinking about what sort of machine fits in the gap between phone and primary computer.
+Since 2000 a laptop has been my primary computer. That changed when I shifted to a desktop-first mindset earlier this year, and I now have the opportunity to do some rethinking about what sort of machine fits in the gap between a phone and a desktop.
 
 <p class="has-pullquote" data-pullquote="They're not better at anything" markdown="1">Let's start with tablets. I bought the iPad when it first came out in 2010, and I haven't gone two years without an upgrade since. That being said, I don't think I'll be buying another one for my own use. My feelings about tablets have been mixed for a while, but they basically come down to what Steve Jobs once said about netbooks - [they're not better at anything](https://www.youtube.com/watch?v=F9E2JCtWzk8&noredirect=1).</p> 
 
