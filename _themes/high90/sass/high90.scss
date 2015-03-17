@@ -1311,6 +1311,120 @@ body {
         }
 			}
 
+      .references {
+        @include column(12,12);
+        padding: 0.5em 0;
+
+        h3 {
+          font-family: "livory", serif;
+          font-style: italic;
+          text-transform: capitalize;
+          font-weight: bold;
+          font-size: 1.1em;
+          margin-top: 0.2em;
+          margin-bottom: 0.2em;
+        }
+
+        p {
+          font-style: italic;
+        }
+
+        ul {
+          @include column(12,12);
+          padding: 0;
+          margin: 0;
+        }
+      }
+
+      .ref-post {
+        @include column(12,12);
+        padding: 0 0 0 0.5em;
+        margin-top: 0em;
+        margin-bottom: 0.2em;
+        background-image: url('../img/stripes.svg');
+        border-left: 0.5em solid $light-grey !important;
+
+        &.high90 {
+          border-left: 0.5em solid $red !important;
+        }
+
+        &.news {
+          border-left: 0.5em solid $red !important;
+        }
+
+        &.high90cast {
+          border-left: 0.5em solid $orange !important;
+        }
+
+        &.development {
+          border-left: 0.5em solid $yellow !important;
+        }
+
+        &.technology {
+            border-left: 0.5em solid $green !important;
+        }
+
+        &.productivity {
+          border-left: 0.5em solid $bright-blue !important;
+        }
+
+        &.design {
+          border-left: 0.5em solid $blue !important;
+        }
+
+        &.ideas {
+          border-left: 0.5em solid $purple !important;
+        }
+
+        &.all {
+          border-left: 0.5em solid $dark-grey !important;
+        }
+        
+        a,
+        a:visited,
+        a:active,
+        a:focus {
+          @include column(12,12);
+          padding: 0em 1em;
+          letter-spacing: 1.5px;
+          background-color: $light-grey;
+          color: $dark-blue;
+
+          .post-title {
+            @include column(12,12);
+            padding: 0.8em 0em 0.5em;
+
+            .title {
+              @include column(12,12);
+              padding: 0;
+              margin-bottom: 0;
+              font-weight: 500;
+              font-size: 0.9em;
+            }
+
+            .title-date {
+              @include column(12,12);
+              padding: 0;
+              font-size: 0.8em;
+              line-height: 1.6em;
+              font-family: "brandon-grotesque",sans-serif;
+              text-transform: uppercase;
+              color: $mid-text;
+              font-weight: 300;
+
+              .nice-date,
+              .time {
+                font-weight: 300;
+              }
+            }
+          }
+
+          &:hover {
+            background-color: $grey;
+          }
+        }
+      }
+
       .image-block .fancybox img {
         padding-bottom: 0.5em;
       }

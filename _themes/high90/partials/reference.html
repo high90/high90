@@ -1,0 +1,19 @@
+{{ get_content from="{ url }" }}
+
+  <div class="ref-post {{ categories_spaced_list }}">
+    <a alt="{{ title }}" title="{{ title }}" rel="page" href="{{ url }}" >
+
+      <div class="post-title">
+        <h2 class="title">
+
+            {{ title|widont }} &rarr;
+
+        </h2> 
+
+        <div class="title-date"><span class="nice-date">{{ datestamp format="M d, Y" }}</span> &ndash; <span class="time">{{ datestamp format="g:i A" }}</span></div>
+      </div>
+
+    </a>
+  </div> 
+
+{{ /get_content }}

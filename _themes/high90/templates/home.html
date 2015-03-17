@@ -92,6 +92,46 @@
 
       <div class="post-body">
 
+          {{ if references }}
+
+          <aside class="references">
+
+            <h3>References</h3>
+
+            {{ ref-prelude|markdown }}
+
+            <ul>
+
+            {{ references }}
+
+              {{ get_content from="{ name }" }}
+
+                <li class="ref-post {{ categories_spaced_list }}">
+                  <a alt="{{ title }}" title="{{ title }}" rel="page" href="{{ url }}" >
+
+                    <div class="post-title">
+                      <h2 class="title">
+
+                          {{ title|widont }} &rarr;
+
+                      </h2> 
+
+                      <div class="title-date"><span class="nice-date">{{ datestamp format="M d, Y" }}</span> &ndash; <span class="time">{{ datestamp format="g:i A" }}</span></div>
+                    </div>
+
+                  </a>
+                </li> 
+
+              {{ /get_content }}
+
+            {{ /references }}
+
+            </ul>
+
+          </aside>
+
+          {{ endif }}
+
           {{ if epigram }}
 
             <blockquote class="epigram">

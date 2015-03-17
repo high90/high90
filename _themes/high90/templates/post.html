@@ -91,6 +91,42 @@
       </div>
       <div class="post-body">
 
+          {{ if references }}
+
+          <aside class="references">
+
+            <h3>References</h3>
+
+            {{ ref-prelude|markdown }}
+
+            {{ references }}
+
+              {{ get_content from="{ name }" }}
+
+                <div class="ref-post {{ categories_spaced_list }}">
+                  <a alt="{{ title }}" title="{{ title }}" rel="page" href="{{ url }}" >
+
+                    <div class="post-title">
+                      <h2 class="title">
+
+                          {{ title|widont }} &rarr;
+
+                      </h2> 
+
+                      <div class="title-date"><span class="nice-date">{{ datestamp format="M d, Y" }}</span> &ndash; <span class="time">{{ datestamp format="g:i A" }}</span></div>
+                    </div>
+
+                  </a>
+                </div> 
+
+              {{ /get_content }}
+
+            {{ /references }}
+
+          </aside>
+
+          {{ endif }}
+
         {{ if epigram }}
 
           <blockquote class="epigram">
@@ -108,7 +144,7 @@
             </div>
             <div class="links">
               <a href="http://simplecast.fm/podcasts/1067/rss">Subscribe</a> ::
-              <a href="{{ download }} title="high90cast {{ title }}">Download</a> ::
+              <a href="{{ download }}" title="high90cast {{ title }}">Download</a> ::
               <a id="huffduffer">Huffduff It</a> ::
               <a href="{{ twitter }}">Twitter-friendly Link</a>
             </div>
