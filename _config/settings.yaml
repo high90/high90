@@ -45,7 +45,7 @@ _date_format: 'F jS, Y'
 _time_format: 'g:ia'
 
 # Timezone
-_timezone: America/New_York
+_timezone: America/Los_Angeles
 
 # List of desired taxonomy triggers
 _taxonomy:
