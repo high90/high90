@@ -1584,12 +1584,13 @@ body {
 	.pagination {
 		@include column(12,12);
 		padding: 0;
+    background-image: url('../img/stripes.svg');
 
     .post {
     	@include column(12,12);
     	padding: 0 0 0 0.5em;
     	margin-top: 0em;
-    	margin-bottom: 0.2em;
+    	margin-bottom: 0;
 		  background-image: url('../img/stripes.svg');
       border-left: 0.5em solid $light-grey !important;
 
@@ -1640,6 +1641,10 @@ body {
         }
       }
 
+      &.next {
+        float: right;
+      }
+
       &.none.design,
       &.none.high90 {
         background: transparent !important;
@@ -1647,6 +1652,7 @@ body {
 
         a {
           background: transparent;
+          padding: 0;
 
           &:hover {
             background: transparent;
