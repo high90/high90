@@ -61,10 +61,10 @@ $blue: #4386af;
 $dark-blue: #1a3a46;
 $purple: #743792;
 $white: #FFFFFF;
-$light-grey: #eeede9;
-$grey: #c5c5c5;
-$medium-grey: #5c5b5c;
-$dark-grey: #353739;
+$light-grey: #e5e4df;
+$grey: #cdccc8;
+$medium-grey: #5c5c5a;
+$dark-grey: #363635;
 
 
 
@@ -1479,61 +1479,74 @@ body {
 				font-size: 0.9em;
         line-height: 1.1em;
         background-color: $light-grey;
-        border-radius: 0.3em;
+        border-radius: 0.5em;
+        border: 0.2em solid $ecru;
+        @include box-shadow($light-grey 0 0 0 0.2em);
 
         &.red {
           background-color: $red;
           color: $white;
+          @include box-shadow($red 0 0 0 0.2em);
         }
 
         &.orange {
           background-color: $orange;
           color: $dark-blue;
+          @include box-shadow($orange 0 0 0 0.2em);
         }
 
         &.yellow {
           background-color: $yellow;
           color: $dark-blue;
+          @include box-shadow($yellow 0 0 0 0.2em);
         }
 
         &.light-green {
           background-color: $light-green;
           color: $dark-blue;
+          @include box-shadow($light-green 0 0 0 0.2em);
         }
 
         &.green {
           background-color: $green;
           color: $white;
+          @include box-shadow($green 0 0 0 0.2em);
         }
 
         &.dark-green {
           background-color: $dark-green;
           color: $white;
+          @include box-shadow($dark-green 0 0 0 0.2em);
         }
 
         &.bright-blue {
           background-color: $bright-blue;
           color: $dark-blue;
+          @include box-shadow($bright-blue 0 0 0 0.2em);
         }
 
         &.blue {
           background-color: $blue;
           color: $white;
+          @include box-shadow($blue 0 0 0 0.2em);
         }
 
         &.dark-blue {
           background-color: $dark-blue;
           color: $white;
+          @include box-shadow($dark-blue 0 0 0 0.2em);
         }
 
         &.purple {
           background-color: $purple;
           color: $white;
+          @include box-shadow($purple 0 0 0 0.2em);
         }
 
         &.dark-grey {
           background-color: $dark-grey;
           color: $white;
+          @include box-shadow($dark-grey 0 0 0 0.2em);
         }
 
         h3 {
@@ -2338,7 +2351,6 @@ body {
               padding: 1.2em 2em 1em;
               margin-right: 2em;
               margin-bottom: 0.5em;
-              border: none;
 
               &.small {
                 @include column(3,10);
@@ -2355,7 +2367,6 @@ body {
               padding: 1.2em 2em 1em;
               margin-left: 2em;
               margin-bottom: 0.5em;
-              border: none;
 
               &.small {
                 @include column(3,10);
