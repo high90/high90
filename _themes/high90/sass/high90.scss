@@ -42,6 +42,7 @@ $dark-text: #1a3a46;
 $shadow: #555;
 $white: #ffffff;
 $ecru: #fbfaf5;
+$dark-ecru: #eeede9;
 
 $hover-background: #ddd;
 $input-background: #eee;
@@ -60,7 +61,7 @@ $blue: #4386af;
 $dark-blue: #1a3a46;
 $purple: #743792;
 $white: #FFFFFF;
-$light-grey: #e6e6e5;
+$light-grey: #eeede9;
 $grey: #c5c5c5;
 $medium-grey: #5c5b5c;
 $dark-grey: #353739;
@@ -1070,7 +1071,7 @@ body {
 			h5,
 			h6 {
 				padding: 0;
-        margin-top: 1.5em;
+        margin-top: 1em;
 				margin-bottom: 0.6em;
 			}
 
@@ -1314,6 +1315,12 @@ body {
       .references {
         @include column(12,12);
         padding: 0.5em 0;
+        background-color: transparent;
+        margin-top: 0.3em;
+        margin-bottom: 1em;
+        border-top: 1px dotted $border-color;
+        border-bottom: 1px dotted $border-color;
+        font-size: 1em;
 
         h3 {
           font-family: "livory", serif;
@@ -1461,20 +1468,97 @@ body {
 
 			aside {
 				@include column(12,12);
-				padding: 0.8em 0 0;
+				padding: 2em;
         margin-top: 0.3em;
 				margin-bottom: 1em;
-				border-top: 1px dotted $border-color;
-				border-bottom: 1px dotted $border-color;
-				font-size: 1em;
+				font-size: 0.9em;
+        line-height: 1.1em;
+        background-color: $light-grey;
+        border-radius: 0.3em;
+
+        &.red {
+          background-color: $red;
+          color: $white;
+        }
+
+        &.orange {
+          background-color: $orange;
+          color: $dark-blue;
+        }
+
+        &.yellow {
+          background-color: $yellow;
+          color: $dark-blue;
+        }
+
+        &.light-green {
+          background-color: $light-green;
+          color: $dark-blue;
+        }
+
+        &.green {
+          background-color: $green;
+          color: $white;
+        }
+
+        &.dark-green {
+          background-color: $dark-green;
+          color: $white;
+        }
+
+        &.bright-blue {
+          background-color: $bright-blue;
+          color: $dark-blue;
+        }
+
+        &.blue {
+          background-color: $blue;
+          color: $white;
+        }
+
+        &.dark-blue {
+          background-color: $dark-blue;
+          color: $white;
+        }
+
+        &.purple {
+          background-color: $purple;
+          color: $white;
+        }
+
+        &.dark-grey {
+          background-color: $dark-grey;
+          color: $white;
+        }
+
+        h3 {
+          font-family: "livory", serif;
+          font-style: italic;
+          text-transform: capitalize;
+          font-weight: bold;
+          font-size: 1.2em;
+          margin-top: 0em;
+          margin-bottom: 0.9em;
+          text-align: center;
+
+          i {
+            display: block;
+            margin-bottom: 0.3em;
+            font-size: 2.5em;
+          }
+        }
 
         &.video {
           border: none;
         }
 
 				p:first-child {
-					font-size: 1em;
+					font-size: 0.9em;
 				}
+
+        p {
+          line-height: 1.4em;
+        }
 
 				blockquote {
 					padding: 0.3em 0 0.3em;
@@ -2237,7 +2321,8 @@ body {
 					aside {
             @include column(10,10);
             @include push(0);
-            padding: 0.5em 0;
+            padding: 1.2em 2em 1em;
+            font-size: 0.8em;
 
             blockquote {
               padding: 0.5em 0 0.5em;
@@ -2245,9 +2330,9 @@ body {
 
             &.left {
               @include column(5,10);
-              padding: 0.5em 0;
+              padding: 1.2em 2em 1em;
               margin-right: 2em;
-              margin-bottom: 0;
+              margin-bottom: 0.5em;
               border: none;
 
               &.small {
@@ -2262,9 +2347,9 @@ body {
             &.right {
               @include column(5,10);
               float: right;
-              padding: 0.5em 0;
+              padding: 1.2em 2em 1em;
               margin-left: 2em;
-              margin-bottom: 0;
+              margin-bottom: 0.5em;
               border: none;
 
               &.small {
@@ -2490,7 +2575,7 @@ body {
           aside {
             @include column(10,10);
             @include push(0);
-            padding: 0.5em 0;
+            padding: 1.5em 2em 1.2em;
 
             blockquote {
               padding: 0.5em 0 0.5em;
@@ -2498,9 +2583,9 @@ body {
 
             &.left {
               @include column(5,10);
-              padding: 0.5em 0;
+              padding: 1.5em 2em 1.2em;
               margin-right: 2em;
-              margin-bottom: 0;
+              margin-bottom: 0.5em;
 
               &.small {
                 @include column(3,10);
@@ -2514,9 +2599,9 @@ body {
             &.right {
               @include column(5,10);
               float: right;
-              padding: 0.5em 0;
+              padding: 1.5em 2em 1.2em;
               margin-left: 2em;
-              margin-bottom: 0;
+              margin-bottom: 0.5em;
 
               &.small {
                 @include column(3,10);
@@ -2580,7 +2665,7 @@ body {
 	}
 }
 
-/* @media screen and (min-width: 880px) */
+/* @media screen and (min-width: 800px) */
 @media screen and (min-width: 50em) { 
   
   body {
@@ -2809,18 +2894,18 @@ body {
           aside {
             @include column(8,8);
             @include push(0);
-            padding: 0.5em 0;
+            padding: 1.5em 2em 1.2em;
 
             blockquote {
               padding: 0.5em 0 0.5em;
             }
 
             &.left {
-              @include column(5,8);
-              @include push(-2,8);
-              padding: 0.5em 0 0 1em;
+              @include column(4,8);
+              @include push(-1.9,8);
+            padding: 1.5em 2em 1.2em;
               margin-right: 2em;
-              margin-bottom: 0;
+              margin-bottom: 0.5em;
 
               &.small {
                 @include column(2,8);
@@ -2834,12 +2919,12 @@ body {
             }
 
             &.right {
-              @include column(5,8);
-              @include pull(-2,8);
+              @include column(4,8);
+              @include pull(-1.9,8);
               float: right;
-              padding: 0.5em 1em 0.5em 0;
+            padding: 1.5em 2em 1.2em;
               margin-left: 2em;
-              margin-bottom: 0;
+              margin-bottom: 0.5em;
 
               &.small {
                 @include column(2,8);
@@ -3106,18 +3191,19 @@ body {
           aside {
             @include column(8,8);
             @include push(0);
-            padding: 0.5em 0;
+            padding: 1.5em 2em 1.2em;
+            font-size: 0.9em;
 
             blockquote {
               padding: 0.5em 0 0.5em;
             }
 
             &.left {
-              @include column(5,8);
+              @include column(4,8);
               @include push(-2,8);
-              padding: 0.5em 0;
+            padding: 1.5em 2em 1.2em;
               margin-right: 2em;
-              margin-bottom: 0;
+              margin-bottom: 1em;
 
               &.small {
                 @include column(2,8);
@@ -3131,12 +3217,12 @@ body {
             }
 
             &.right {
-              @include column(5,8);
+              @include column(4,8);
               @include pull(-2,8);
               float: right;
-              padding: 0.5em 0;
+            padding: 1.5em 2em 1.2em;
               margin-left: 2em;
-              margin-bottom: 0;
+              margin-bottom: 1em;
 
               &.small {
                 @include column(2,8);
