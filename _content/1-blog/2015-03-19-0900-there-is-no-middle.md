@@ -37,13 +37,13 @@ Personally, I find myself locked in a cycle where I perpetually shift between be
 
 I’m never satisfied.
 
-{{ theme:partial src="image" class="" title="" file="drafting-tools.png" }}
+{{ theme:partial src="image" class="section-head" title="" file="drafting-tools.png" }}
 
 ## The Cause
 
 My toolkit isn’t based on my workflow. At best, it’s based on the requirements and purchases of others I trust, respect, and perhaps envy. At worst — and far more likely — it’s based on billions of dollars - and millions of hours - of marketing research and evaluation with the singular goal of convincing me that I *need* something.
 
-About a year ago, I read an interview with a designer where he’s discussing his toolset. The interviewer was trying to poke him a little, asking why he’s picked tech object *A* instead of *B*. He wasn't having any of it, and simply responded with something to the effect of:
+<p class="has-pullquote" data-pullquote="I struggle with my tools every day" markdown="1">About a year ago, I read an interview with a designer where he’s discussing his toolset. The interviewer was trying to poke him a little, asking why he’s picked tech object *A* instead of *B*. He wasn't having any of it, and simply responded with something to the effect of:</p>
 
 > People who know what they are doing don’t struggle with choosing their tools.
 
@@ -76,7 +76,7 @@ My pipe wrench is a fairly substantial chunk of metal, there’s no reason it sh
 
 So why do I feel this drive to make *all* my computing appliances do *everything*? It’s one thing to know that I can ssh into a server for a quick vim update when it’s all I have, just like you can be damned sure that I have used that pipe wrench to pound things. But to expect it to work as well as, or to put myself in a situation where that was my expected primary tool? It’s ridiculous, and frankly, disrespectful to my work.
 
-{{ theme:partial src="image" class="" title="" file="computer-maintenance.jpg" }}
+{{ theme:partial src="image" class="section-head" title="" file="computer-maintenance.jpg" }}
 
 ## The Solution
 

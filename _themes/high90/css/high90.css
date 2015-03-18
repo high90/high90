@@ -2372,11 +2372,17 @@ body #footer .cc-text img {
   background-color: #c5c5c5;
 }
 /* line 1435, ../sass/high90.scss */
+.content .post .post-body .section-head,
+.search .post .post-body .section-head {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+/* line 1440, ../sass/high90.scss */
 .content .post .post-body .image-block .fancybox img,
 .search .post .post-body .image-block .fancybox img {
   padding-bottom: 0.5em;
 }
-/* line 1439, ../sass/high90.scss */
+/* line 1444, ../sass/high90.scss */
 .content .post .post-body .caption,
 .search .post .post-body .caption {
   color: #999;
@@ -2384,20 +2390,20 @@ body #footer .cc-text img {
   font-style: italic;
   font-size: 0.8em;
 }
-/* line 1445, ../sass/high90.scss */
+/* line 1450, ../sass/high90.scss */
 .content .post .post-body .caption p,
 .search .post .post-body .caption p {
   margin-bottom: 0.2em;
   font-size: 0.9em;
   line-height: 1.2em;
 }
-/* line 1450, ../sass/high90.scss */
+/* line 1455, ../sass/high90.scss */
 .content .post .post-body .caption p:first-child,
 .search .post .post-body .caption p:first-child {
   font-size: 0.9em;
   line-height: 1.2em;
 }
-/* line 1455, ../sass/high90.scss */
+/* line 1460, ../sass/high90.scss */
 .content .post .post-body .caption p a:before,
 .search .post .post-body .caption p a:before {
   content: "\00a0";
@@ -2409,7 +2415,7 @@ body #footer .cc-text img {
   position: relative;
   top: -0.05em;
 }
-/* line 1469, ../sass/high90.scss */
+/* line 1474, ../sass/high90.scss */
 .content .post .post-body aside,
 .search .post .post-body aside {
   display: block;
@@ -2428,73 +2434,73 @@ body #footer .cc-text img {
   background-color: #eeede9;
   border-radius: 0.3em;
 }
-/* line 1479, ../sass/high90.scss */
+/* line 1484, ../sass/high90.scss */
 .content .post .post-body aside.red,
 .search .post .post-body aside.red {
   background-color: #de3907;
   color: #FFFFFF;
 }
-/* line 1484, ../sass/high90.scss */
+/* line 1489, ../sass/high90.scss */
 .content .post .post-body aside.orange,
 .search .post .post-body aside.orange {
   background-color: #f98d28;
   color: #1a3a46;
 }
-/* line 1489, ../sass/high90.scss */
+/* line 1494, ../sass/high90.scss */
 .content .post .post-body aside.yellow,
 .search .post .post-body aside.yellow {
   background-color: #fbc71c;
   color: #1a3a46;
 }
-/* line 1494, ../sass/high90.scss */
+/* line 1499, ../sass/high90.scss */
 .content .post .post-body aside.light-green,
 .search .post .post-body aside.light-green {
   background-color: #bef231;
   color: #1a3a46;
 }
-/* line 1499, ../sass/high90.scss */
+/* line 1504, ../sass/high90.scss */
 .content .post .post-body aside.green,
 .search .post .post-body aside.green {
   background-color: #519548;
   color: #FFFFFF;
 }
-/* line 1504, ../sass/high90.scss */
+/* line 1509, ../sass/high90.scss */
 .content .post .post-body aside.dark-green,
 .search .post .post-body aside.dark-green {
   background-color: #244821;
   color: #FFFFFF;
 }
-/* line 1509, ../sass/high90.scss */
+/* line 1514, ../sass/high90.scss */
 .content .post .post-body aside.bright-blue,
 .search .post .post-body aside.bright-blue {
   background-color: #26ade3;
   color: #1a3a46;
 }
-/* line 1514, ../sass/high90.scss */
+/* line 1519, ../sass/high90.scss */
 .content .post .post-body aside.blue,
 .search .post .post-body aside.blue {
   background-color: #4386af;
   color: #FFFFFF;
 }
-/* line 1519, ../sass/high90.scss */
+/* line 1524, ../sass/high90.scss */
 .content .post .post-body aside.dark-blue,
 .search .post .post-body aside.dark-blue {
   background-color: #1a3a46;
   color: #FFFFFF;
 }
-/* line 1524, ../sass/high90.scss */
+/* line 1529, ../sass/high90.scss */
 .content .post .post-body aside.purple,
 .search .post .post-body aside.purple {
   background-color: #743792;
   color: #FFFFFF;
 }
-/* line 1529, ../sass/high90.scss */
+/* line 1534, ../sass/high90.scss */
 .content .post .post-body aside.dark-grey,
 .search .post .post-body aside.dark-grey {
   background-color: #353739;
   color: #FFFFFF;
 }
-/* line 1534, ../sass/high90.scss */
+/* line 1539, ../sass/high90.scss */
 .content .post .post-body aside h3,
 .search .post .post-body aside h3 {
   font-family: "livory", serif;
@@ -2506,29 +2512,29 @@ body #footer .cc-text img {
   margin-bottom: 0.9em;
   text-align: center;
 }
-/* line 1544, ../sass/high90.scss */
+/* line 1549, ../sass/high90.scss */
 .content .post .post-body aside h3 i,
 .search .post .post-body aside h3 i {
   display: block;
   margin-bottom: 0.3em;
-  font-size: 2.5em;
+  font-size: 2.2em;
 }
-/* line 1551, ../sass/high90.scss */
+/* line 1556, ../sass/high90.scss */
 .content .post .post-body aside.video,
 .search .post .post-body aside.video {
   border: none;
 }
-/* line 1555, ../sass/high90.scss */
+/* line 1560, ../sass/high90.scss */
 .content .post .post-body aside p:first-child,
 .search .post .post-body aside p:first-child {
   font-size: 0.9em;
 }
-/* line 1559, ../sass/high90.scss */
+/* line 1564, ../sass/high90.scss */
 .content .post .post-body aside p,
 .search .post .post-body aside p {
   line-height: 1.4em;
 }
-/* line 1563, ../sass/high90.scss */
+/* line 1568, ../sass/high90.scss */
 .content .post .post-body aside blockquote,
 .search .post .post-body aside blockquote {
   padding: 0.3em 0 0.3em;
@@ -2540,12 +2546,12 @@ body #footer .cc-text img {
   line-height: 1.3em;
   border: 0;
 }
-/* line 1575, ../sass/high90.scss */
+/* line 1580, ../sass/high90.scss */
 .content .post .post-body div.image,
 .search .post .post-body div.image {
   display: none;
 }
-/* line 1579, ../sass/high90.scss */
+/* line 1584, ../sass/high90.scss */
 .content .post .post-body .product,
 .content .post .post-body .app,
 .search .post .post-body .product,
@@ -2564,7 +2570,7 @@ body #footer .cc-text img {
   text-align: center;
   border: none;
 }
-/* line 1590, ../sass/high90.scss */
+/* line 1595, ../sass/high90.scss */
 .content .post .post-body .product .fancybox img,
 .content .post .post-body .app .fancybox img,
 .search .post .post-body .product .fancybox img,
@@ -2581,7 +2587,7 @@ body #footer .cc-text img {
   padding: 0;
   background-color: transparent;
 }
-/* line 1597, ../sass/high90.scss */
+/* line 1602, ../sass/high90.scss */
 .content .post .post-body .product .fancybox.icon img,
 .content .post .post-body .app .fancybox.icon img,
 .search .post .post-body .product .fancybox.icon img,
@@ -2589,7 +2595,7 @@ body #footer .cc-text img {
   border: 0;
   padding: 0.5em;
 }
-/* line 1604, ../sass/high90.scss */
+/* line 1609, ../sass/high90.scss */
 .content .post .post-body .product .details,
 .content .post .post-body .app .details,
 .search .post .post-body .product .details,
@@ -2607,14 +2613,14 @@ body #footer .cc-text img {
   margin-bottom: 0;
   list-style-type: none;
 }
-/* line 1611, ../sass/high90.scss */
+/* line 1616, ../sass/high90.scss */
 .content .post .post-body .product .details li::before,
 .content .post .post-body .app .details li::before,
 .search .post .post-body .product .details li::before,
 .search .post .post-body .app .details li::before {
   display: none;
 }
-/* line 1615, ../sass/high90.scss */
+/* line 1620, ../sass/high90.scss */
 .content .post .post-body .product .details li,
 .content .post .post-body .app .details li,
 .search .post .post-body .product .details li,
@@ -2622,7 +2628,7 @@ body #footer .cc-text img {
   text-indent: 0;
   padding: 0;
 }
-/* line 1620, ../sass/high90.scss */
+/* line 1625, ../sass/high90.scss */
 .content .post .post-body .product .details .name,
 .content .post .post-body .app .details .name,
 .search .post .post-body .product .details .name,
@@ -2631,7 +2637,7 @@ body #footer .cc-text img {
   text-transform: uppercase;
   padding-bottom: 0.5em;
 }
-/* line 1625, ../sass/high90.scss */
+/* line 1630, ../sass/high90.scss */
 .content .post .post-body .product .details .name a,
 .content .post .post-body .product .details .name a:active,
 .content .post .post-body .product .details .name a:visited,
@@ -2650,7 +2656,7 @@ body #footer .cc-text img {
 .search .post .post-body .app .details .name a:focus {
   color: #1a3a46;
 }
-/* line 1631, ../sass/high90.scss */
+/* line 1636, ../sass/high90.scss */
 .content .post .post-body .product .details .name a:hover,
 .content .post .post-body .product .details .name a:active:hover,
 .content .post .post-body .product .details .name a:visited:hover,
@@ -2669,7 +2675,7 @@ body #footer .cc-text img {
 .search .post .post-body .app .details .name a:focus:hover {
   color: #de3907;
 }
-/* line 1637, ../sass/high90.scss */
+/* line 1642, ../sass/high90.scss */
 .content .post .post-body .product .details .description,
 .content .post .post-body .app .details .description,
 .search .post .post-body .product .details .description,
@@ -2679,7 +2685,7 @@ body #footer .cc-text img {
   text-align: left;
   padding-bottom: 0.5em;
 }
-/* line 1644, ../sass/high90.scss */
+/* line 1649, ../sass/high90.scss */
 .content .post .post-body .product .details .price,
 .content .post .post-body .app .details .price,
 .search .post .post-body .product .details .price,
@@ -2688,29 +2694,29 @@ body #footer .cc-text img {
   text-transform: uppercase;
   padding-bottom: 0.5em;
 }
-/* line 1650, ../sass/high90.scss */
+/* line 1655, ../sass/high90.scss */
 .content .post .post-body .product .details .link,
 .content .post .post-body .app .details .link,
 .search .post .post-body .product .details .link,
 .search .post .post-body .app .details .link {
   line-height: 1.4em;
 }
-/* line 1656, ../sass/high90.scss */
+/* line 1661, ../sass/high90.scss */
 .content .post .post-body .permalink,
 .search .post .post-body .permalink {
   font-size: 1.5em;
 }
-/* line 1659, ../sass/high90.scss */
+/* line 1664, ../sass/high90.scss */
 .content .post .post-body .permalink a,
 .search .post .post-body .permalink a {
   color: #de3907;
 }
-/* line 1662, ../sass/high90.scss */
+/* line 1667, ../sass/high90.scss */
 .content .post .post-body .permalink a:hover,
 .search .post .post-body .permalink a:hover {
   color: #ad2c05;
 }
-/* line 1668, ../sass/high90.scss */
+/* line 1673, ../sass/high90.scss */
 .content .post .post-body .high90cast-meta,
 .search .post .post-body .high90cast-meta {
   display: block;
@@ -2725,7 +2731,7 @@ body #footer .cc-text img {
   margin-top: 0.8em;
   margin-bottom: 0.5em;
 }
-/* line 1674, ../sass/high90.scss */
+/* line 1679, ../sass/high90.scss */
 .content .post .post-body .high90cast-meta .links,
 .search .post .post-body .high90cast-meta .links {
   display: block;
@@ -2742,18 +2748,18 @@ body #footer .cc-text img {
   text-transform: uppercase;
   font-size: 0.8em;
 }
-/* line 1682, ../sass/high90.scss */
+/* line 1687, ../sass/high90.scss */
 .content .post .post-body .high90cast-meta .links a,
 .search .post .post-body .high90cast-meta .links a {
   display: inline-block;
   color: #1a3a46;
 }
-/* line 1686, ../sass/high90.scss */
+/* line 1691, ../sass/high90.scss */
 .content .post .post-body .high90cast-meta .links a:hover,
 .search .post .post-body .high90cast-meta .links a:hover {
   color: #de3907;
 }
-/* line 1694, ../sass/high90.scss */
+/* line 1699, ../sass/high90.scss */
 .content .post .post-footer,
 .search .post .post-footer {
   display: block;
@@ -2768,7 +2774,7 @@ body #footer .cc-text img {
   margin: 1em 0;
   letter-spacing: 1.5px;
 }
-/* line 1700, ../sass/high90.scss */
+/* line 1705, ../sass/high90.scss */
 .content .post .post-footer .title,
 .search .post .post-footer .title {
   display: block;
@@ -2789,7 +2795,7 @@ body #footer .cc-text img {
   line-height: 1.1em;
   font-weight: 300;
 }
-/* line 1713, ../sass/high90.scss */
+/* line 1718, ../sass/high90.scss */
 .content .post .post-footer ul.category-list,
 .content .post .post-footer ul.tag-list,
 .search .post .post-footer ul.category-list,
@@ -2809,7 +2815,7 @@ body #footer .cc-text img {
   font-size: 0.8em;
   line-height: 1.3em;
 }
-/* line 1723, ../sass/high90.scss */
+/* line 1728, ../sass/high90.scss */
 .content .post .post-footer ul.category-list li,
 .content .post .post-footer ul.tag-list li,
 .search .post .post-footer ul.category-list li,
@@ -2819,7 +2825,7 @@ body #footer .cc-text img {
   text-transform: uppercase;
   padding-left: 0.3em;
 }
-/* line 1729, ../sass/high90.scss */
+/* line 1734, ../sass/high90.scss */
 .content .post .post-footer ul.category-list li a,
 .content .post .post-footer ul.category-list li a:active,
 .content .post .post-footer ul.category-list li a:visited,
@@ -2835,7 +2841,7 @@ body #footer .cc-text img {
   color: #1a3a46;
   text-decoration: none;
 }
-/* line 1735, ../sass/high90.scss */
+/* line 1740, ../sass/high90.scss */
 .content .post .post-footer ul.category-list li a:hover,
 .content .post .post-footer ul.category-list li a:active:hover,
 .content .post .post-footer ul.category-list li a:visited:hover,
@@ -2850,7 +2856,7 @@ body #footer .cc-text img {
 .search .post .post-footer ul.tag-list li a:visited:hover {
   color: #de3907;
 }
-/* line 1744, ../sass/high90.scss */
+/* line 1749, ../sass/high90.scss */
 .content .bio,
 .search .bio {
   display: block;
@@ -2863,7 +2869,7 @@ body #footer .cc-text img {
   box-sizing: border-box;
   padding: 0;
 }
-/* line 1748, ../sass/high90.scss */
+/* line 1753, ../sass/high90.scss */
 .content .bio a,
 .content .bio a:visited,
 .content .bio a:active,
@@ -2874,7 +2880,7 @@ body #footer .cc-text img {
 .search .bio a:focus {
   color: #ad2c05;
 }
-/* line 1754, ../sass/high90.scss */
+/* line 1759, ../sass/high90.scss */
 .content .bio a:hover,
 .content .bio a:visited:hover,
 .content .bio a:active:hover,
@@ -2885,7 +2891,7 @@ body #footer .cc-text img {
 .search .bio a:focus:hover {
   color: #de3907;
 }
-/* line 1759, ../sass/high90.scss */
+/* line 1764, ../sass/high90.scss */
 .content .bio img,
 .search .bio img {
   display: block;
@@ -2893,12 +2899,12 @@ body #footer .cc-text img {
   padding: 0.5em 0 0.8em 0;
   height: auto;
 }
-/* line 1766, ../sass/high90.scss */
+/* line 1771, ../sass/high90.scss */
 .content .bio p,
 .search .bio p {
   padding: 0;
 }
-/* line 1771, ../sass/high90.scss */
+/* line 1776, ../sass/high90.scss */
 .content .more-header,
 .content .pagination-header,
 .content .search-header,
@@ -2919,7 +2925,7 @@ body #footer .cc-text img {
   margin-top: 1em;
   margin-bottom: 0.7em;
 }
-/* line 1782, ../sass/high90.scss */
+/* line 1787, ../sass/high90.scss */
 .content .pagination,
 .search .pagination {
   display: block;
@@ -2933,7 +2939,7 @@ body #footer .cc-text img {
   padding: 0;
   background-image: url("../img/stripes.svg");
 }
-/* line 1787, ../sass/high90.scss */
+/* line 1792, ../sass/high90.scss */
 .content .pagination .post,
 .search .pagination .post {
   display: block;
@@ -2950,17 +2956,17 @@ body #footer .cc-text img {
   background-image: url("../img/stripes.svg");
   border-left: 0.5em solid #eeede9 !important;
 }
-/* line 1795, ../sass/high90.scss */
+/* line 1800, ../sass/high90.scss */
 .content .pagination .post.high90,
 .search .pagination .post.high90 {
   border-left: 0.5em solid #de3907 !important;
 }
-/* line 1799, ../sass/high90.scss */
+/* line 1804, ../sass/high90.scss */
 .content .pagination .post.design,
 .search .pagination .post.design {
   border-left: 0.5em solid #4386af !important;
 }
-/* line 1803, ../sass/high90.scss */
+/* line 1808, ../sass/high90.scss */
 .content .pagination .post a,
 .content .pagination .post a:visited,
 .content .pagination .post a:active,
@@ -2981,7 +2987,7 @@ body #footer .cc-text img {
   letter-spacing: 1.5px;
   background-color: #eeede9;
 }
-/* line 1812, ../sass/high90.scss */
+/* line 1817, ../sass/high90.scss */
 .content .pagination .post a .title,
 .content .pagination .post a:visited .title,
 .content .pagination .post a:active .title,
@@ -3009,7 +3015,7 @@ body #footer .cc-text img {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-/* line 1826, ../sass/high90.scss */
+/* line 1831, ../sass/high90.scss */
 .content .pagination .post a .key,
 .content .pagination .post a:visited .key,
 .content .pagination .post a:active .key,
@@ -3034,7 +3040,7 @@ body #footer .cc-text img {
   color: #777;
   font-weight: 300;
 }
-/* line 1837, ../sass/high90.scss */
+/* line 1842, ../sass/high90.scss */
 .content .pagination .post a:hover,
 .content .pagination .post a:visited:hover,
 .content .pagination .post a:active:hover,
@@ -3045,32 +3051,32 @@ body #footer .cc-text img {
 .search .pagination .post a:focus:hover {
   background-color: #c5c5c5;
 }
-/* line 1842, ../sass/high90.scss */
+/* line 1847, ../sass/high90.scss */
 .content .pagination .post.next,
 .search .pagination .post.next {
   float: right;
 }
-/* line 1846, ../sass/high90.scss */
+/* line 1851, ../sass/high90.scss */
 .content .pagination .post.none.design, .content .pagination .post.none.high90,
 .search .pagination .post.none.design,
 .search .pagination .post.none.high90 {
   background: transparent !important;
   border: none !important;
 }
-/* line 1851, ../sass/high90.scss */
+/* line 1856, ../sass/high90.scss */
 .content .pagination .post.none.design a, .content .pagination .post.none.high90 a,
 .search .pagination .post.none.design a,
 .search .pagination .post.none.high90 a {
   background: transparent;
   padding: 0;
 }
-/* line 1855, ../sass/high90.scss */
+/* line 1860, ../sass/high90.scss */
 .content .pagination .post.none.design a:hover, .content .pagination .post.none.high90 a:hover,
 .search .pagination .post.none.design a:hover,
 .search .pagination .post.none.high90 a:hover {
   background: transparent;
 }
-/* line 1863, ../sass/high90.scss */
+/* line 1868, ../sass/high90.scss */
 .content .category-posts,
 .content .search-list,
 .search .category-posts,
@@ -3087,7 +3093,7 @@ body #footer .cc-text img {
   margin-top: 0;
   margin-bottom: 0em;
 }
-/* line 1870, ../sass/high90.scss */
+/* line 1875, ../sass/high90.scss */
 .content .category-posts .no-more,
 .content .search-list .no-more,
 .search .category-posts .no-more,
@@ -3105,7 +3111,7 @@ body #footer .cc-text img {
   margin-bottom: 1em;
   color: #777;
 }
-/* line 1878, ../sass/high90.scss */
+/* line 1883, ../sass/high90.scss */
 .content .category-posts .post,
 .content .search-list .post,
 .search .category-posts .post,
@@ -3124,70 +3130,70 @@ body #footer .cc-text img {
   background-image: url("../img/stripes.svg");
   border-left: 0.5em solid #eeede9 !important;
 }
-/* line 1886, ../sass/high90.scss */
+/* line 1891, ../sass/high90.scss */
 .content .category-posts .post.high90,
 .content .search-list .post.high90,
 .search .category-posts .post.high90,
 .search .search-list .post.high90 {
   border-left: 0.5em solid #de3907 !important;
 }
-/* line 1890, ../sass/high90.scss */
+/* line 1895, ../sass/high90.scss */
 .content .category-posts .post.news,
 .content .search-list .post.news,
 .search .category-posts .post.news,
 .search .search-list .post.news {
   border-left: 0.5em solid #de3907 !important;
 }
-/* line 1894, ../sass/high90.scss */
+/* line 1899, ../sass/high90.scss */
 .content .category-posts .post.high90cast,
 .content .search-list .post.high90cast,
 .search .category-posts .post.high90cast,
 .search .search-list .post.high90cast {
   border-left: 0.5em solid #f98d28 !important;
 }
-/* line 1898, ../sass/high90.scss */
+/* line 1903, ../sass/high90.scss */
 .content .category-posts .post.development,
 .content .search-list .post.development,
 .search .category-posts .post.development,
 .search .search-list .post.development {
   border-left: 0.5em solid #fbc71c !important;
 }
-/* line 1902, ../sass/high90.scss */
+/* line 1907, ../sass/high90.scss */
 .content .category-posts .post.technology,
 .content .search-list .post.technology,
 .search .category-posts .post.technology,
 .search .search-list .post.technology {
   border-left: 0.5em solid #519548 !important;
 }
-/* line 1906, ../sass/high90.scss */
+/* line 1911, ../sass/high90.scss */
 .content .category-posts .post.productivity,
 .content .search-list .post.productivity,
 .search .category-posts .post.productivity,
 .search .search-list .post.productivity {
   border-left: 0.5em solid #26ade3 !important;
 }
-/* line 1910, ../sass/high90.scss */
+/* line 1915, ../sass/high90.scss */
 .content .category-posts .post.design,
 .content .search-list .post.design,
 .search .category-posts .post.design,
 .search .search-list .post.design {
   border-left: 0.5em solid #4386af !important;
 }
-/* line 1914, ../sass/high90.scss */
+/* line 1919, ../sass/high90.scss */
 .content .category-posts .post.ideas,
 .content .search-list .post.ideas,
 .search .category-posts .post.ideas,
 .search .search-list .post.ideas {
   border-left: 0.5em solid #743792 !important;
 }
-/* line 1918, ../sass/high90.scss */
+/* line 1923, ../sass/high90.scss */
 .content .category-posts .post.all,
 .content .search-list .post.all,
 .search .category-posts .post.all,
 .search .search-list .post.all {
   border-left: 0.5em solid #353739 !important;
 }
-/* line 1922, ../sass/high90.scss */
+/* line 1927, ../sass/high90.scss */
 .content .category-posts .post a,
 .content .category-posts .post a:visited,
 .content .category-posts .post a:active,
@@ -3216,7 +3222,7 @@ body #footer .cc-text img {
   letter-spacing: 1.5px;
   background-color: #eeede9;
 }
-/* line 1931, ../sass/high90.scss */
+/* line 1936, ../sass/high90.scss */
 .content .category-posts .post a .post-title,
 .content .category-posts .post a:visited .post-title,
 .content .category-posts .post a:active .post-title,
@@ -3243,7 +3249,7 @@ body #footer .cc-text img {
   box-sizing: border-box;
   padding: 0.8em 0em 0.5em;
 }
-/* line 1935, ../sass/high90.scss */
+/* line 1940, ../sass/high90.scss */
 .content .category-posts .post a .post-title .title,
 .content .category-posts .post a:visited .post-title .title,
 .content .category-posts .post a:active .post-title .title,
@@ -3273,7 +3279,7 @@ body #footer .cc-text img {
   font-weight: 500;
   font-size: 0.9em;
 }
-/* line 1943, ../sass/high90.scss */
+/* line 1948, ../sass/high90.scss */
 .content .category-posts .post a .post-title .title-date,
 .content .category-posts .post a:visited .post-title .title-date,
 .content .category-posts .post a:active .post-title .title-date,
@@ -3306,7 +3312,7 @@ body #footer .cc-text img {
   color: #777;
   font-weight: 300;
 }
-/* line 1953, ../sass/high90.scss */
+/* line 1958, ../sass/high90.scss */
 .content .category-posts .post a .post-title .title-date .nice-date,
 .content .category-posts .post a .post-title .title-date .time,
 .content .category-posts .post a:visited .post-title .title-date .nice-date,
@@ -3341,7 +3347,7 @@ body #footer .cc-text img {
 .search .search-list .post a:focus .post-title .title-date .time {
   font-weight: 300;
 }
-/* line 1960, ../sass/high90.scss */
+/* line 1965, ../sass/high90.scss */
 .content .category-posts .post a:hover,
 .content .category-posts .post a:visited:hover,
 .content .category-posts .post a:active:hover,
@@ -3360,7 +3366,7 @@ body #footer .cc-text img {
 .search .search-list .post a:focus:hover {
   background-color: #c5c5c5;
 }
-/* line 1967, ../sass/high90.scss */
+/* line 1972, ../sass/high90.scss */
 .content .more-posts,
 .search .more-posts {
   display: block;
@@ -3375,7 +3381,7 @@ body #footer .cc-text img {
   margin-top: 0;
   margin-bottom: 0em;
 }
-/* line 1973, ../sass/high90.scss */
+/* line 1978, ../sass/high90.scss */
 .content .more-posts .no-more,
 .search .more-posts .no-more {
   display: block;
@@ -3391,7 +3397,7 @@ body #footer .cc-text img {
   margin-bottom: 1em;
   color: #777;
 }
-/* line 1981, ../sass/high90.scss */
+/* line 1986, ../sass/high90.scss */
 .content .more-posts .post,
 .search .more-posts .post {
   display: block;
@@ -3406,7 +3412,7 @@ body #footer .cc-text img {
   margin-top: 0em;
   margin-bottom: 1em;
 }
-/* line 1987, ../sass/high90.scss */
+/* line 1992, ../sass/high90.scss */
 .content .more-posts .post .post-image,
 .search .more-posts .post .post-image {
   display: block;
@@ -3420,59 +3426,59 @@ body #footer .cc-text img {
   padding: 0;
   border-bottom: 0.5em solid #eeede9 !important;
 }
-/* line 1992, ../sass/high90.scss */
+/* line 1997, ../sass/high90.scss */
 .content .more-posts .post .post-image.high90,
 .search .more-posts .post .post-image.high90 {
   border-bottom: 0.5em solid #de3907 !important;
 }
-/* line 1996, ../sass/high90.scss */
+/* line 2001, ../sass/high90.scss */
 .content .more-posts .post .post-image.news,
 .search .more-posts .post .post-image.news {
   border-bottom: 0.5em solid #de3907 !important;
 }
-/* line 2000, ../sass/high90.scss */
+/* line 2005, ../sass/high90.scss */
 .content .more-posts .post .post-image.high90cast,
 .search .more-posts .post .post-image.high90cast {
   border-bottom: 0.5em solid #f98d28 !important;
 }
-/* line 2004, ../sass/high90.scss */
+/* line 2009, ../sass/high90.scss */
 .content .more-posts .post .post-image.development,
 .search .more-posts .post .post-image.development {
   border-bottom: 0.5em solid #fbc71c !important;
 }
-/* line 2008, ../sass/high90.scss */
+/* line 2013, ../sass/high90.scss */
 .content .more-posts .post .post-image.technology,
 .search .more-posts .post .post-image.technology {
   border-bottom: 0.5em solid #519548 !important;
 }
-/* line 2012, ../sass/high90.scss */
+/* line 2017, ../sass/high90.scss */
 .content .more-posts .post .post-image.productivity,
 .search .more-posts .post .post-image.productivity {
   border-bottom: 0.5em solid #26ade3 !important;
 }
-/* line 2016, ../sass/high90.scss */
+/* line 2021, ../sass/high90.scss */
 .content .more-posts .post .post-image.design,
 .search .more-posts .post .post-image.design {
   border-bottom: 0.5em solid #4386af !important;
 }
-/* line 2020, ../sass/high90.scss */
+/* line 2025, ../sass/high90.scss */
 .content .more-posts .post .post-image.ideas,
 .search .more-posts .post .post-image.ideas {
   border-bottom: 0.5em solid #743792 !important;
 }
-/* line 2024, ../sass/high90.scss */
+/* line 2029, ../sass/high90.scss */
 .content .more-posts .post .post-image.all,
 .search .more-posts .post .post-image.all {
   border-bottom: 0.5em solid #353739 !important;
 }
-/* line 2028, ../sass/high90.scss */
+/* line 2033, ../sass/high90.scss */
 .content .more-posts .post .post-image img,
 .search .more-posts .post .post-image img {
   display: block;
   width: 100%;
   height: auto;
 }
-/* line 2037, ../sass/high90.scss */
+/* line 2042, ../sass/high90.scss */
 .content .more-posts .post a,
 .content .more-posts .post a:visited,
 .content .more-posts .post a:active,
@@ -3493,7 +3499,7 @@ body #footer .cc-text img {
   letter-spacing: 1.5px;
   background-color: #eeede9;
 }
-/* line 2046, ../sass/high90.scss */
+/* line 2051, ../sass/high90.scss */
 .content .more-posts .post a .post-title,
 .content .more-posts .post a:visited .post-title,
 .content .more-posts .post a:active .post-title,
@@ -3512,7 +3518,7 @@ body #footer .cc-text img {
   box-sizing: border-box;
   padding: 0.8em 0em 0.5em;
 }
-/* line 2050, ../sass/high90.scss */
+/* line 2055, ../sass/high90.scss */
 .content .more-posts .post a .post-title .title,
 .content .more-posts .post a:visited .post-title .title,
 .content .more-posts .post a:active .post-title .title,
@@ -3537,7 +3543,7 @@ body #footer .cc-text img {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-/* line 2061, ../sass/high90.scss */
+/* line 2066, ../sass/high90.scss */
 .content .more-posts .post a .post-title .title-date,
 .content .more-posts .post a:visited .post-title .title-date,
 .content .more-posts .post a:active .post-title .title-date,
@@ -3562,7 +3568,7 @@ body #footer .cc-text img {
   color: #777;
   font-weight: 300;
 }
-/* line 2071, ../sass/high90.scss */
+/* line 2076, ../sass/high90.scss */
 .content .more-posts .post a .post-title .title-date .nice-date,
 .content .more-posts .post a .post-title .title-date .time,
 .content .more-posts .post a:visited .post-title .title-date .nice-date,
@@ -3581,7 +3587,7 @@ body #footer .cc-text img {
 .search .more-posts .post a:focus .post-title .title-date .time {
   font-weight: 300;
 }
-/* line 2078, ../sass/high90.scss */
+/* line 2083, ../sass/high90.scss */
 .content .more-posts .post a:hover,
 .content .more-posts .post a:visited:hover,
 .content .more-posts .post a:active:hover,
@@ -3595,11 +3601,11 @@ body #footer .cc-text img {
 
 /* @media screen and (min-width: 480px) */
 @media screen and (min-width: 30em) {
-  /* line 2091, ../sass/high90.scss */
+  /* line 2096, ../sass/high90.scss */
   body #container {
     padding: 0 2em;
   }
-  /* line 2095, ../sass/high90.scss */
+  /* line 2100, ../sass/high90.scss */
   body .content .post .post-body .image-block.small,
   body .content .post .post-body .caption.small {
     display: block;
@@ -3614,7 +3620,7 @@ body #footer .cc-text img {
     margin-bottom: 0;
     padding: 0 2em 0 0;
   }
-  /* line 2103, ../sass/high90.scss */
+  /* line 2108, ../sass/high90.scss */
   body .content .post .post-body .image-block.set,
   body .content .post .post-body .caption.set {
     display: block;
@@ -3629,17 +3635,17 @@ body #footer .cc-text img {
     margin-bottom: 0;
     padding: 0 1em 0 0;
   }
-  /* line 2110, ../sass/high90.scss */
+  /* line 2115, ../sass/high90.scss */
   body .content .post .post-body .image-block.set:nth-child(3n+1),
   body .content .post .post-body .caption.set:nth-child(3n+1) {
     clear: left;
   }
-  /* line 2115, ../sass/high90.scss */
+  /* line 2120, ../sass/high90.scss */
   body .content .post .post-body .product,
   body .content .post .post-body .app {
     margin-bottom: 1.8em;
   }
-  /* line 2120, ../sass/high90.scss */
+  /* line 2125, ../sass/high90.scss */
   body .content .post .post-body .product .fancybox,
   body .content .post .post-body .app .fancybox {
     display: block;
@@ -3653,7 +3659,7 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 0;
   }
-  /* line 2125, ../sass/high90.scss */
+  /* line 2130, ../sass/high90.scss */
   body .content .post .post-body .product .fancybox img,
   body .content .post .post-body .app .fancybox img {
     display: block;
@@ -3667,13 +3673,13 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 0;
   }
-  /* line 2131, ../sass/high90.scss */
+  /* line 2136, ../sass/high90.scss */
   body .content .post .post-body .product .fancybox.icon img,
   body .content .post .post-body .app .fancybox.icon img {
     border: 0;
     padding: 0.5em;
   }
-  /* line 2138, ../sass/high90.scss */
+  /* line 2143, ../sass/high90.scss */
   body .content .post .post-body .product .details,
   body .content .post .post-body .app .details {
     display: block;
@@ -3688,7 +3694,7 @@ body #footer .cc-text img {
     padding: 0;
     text-align: left;
   }
-  /* line 2146, ../sass/high90.scss */
+  /* line 2151, ../sass/high90.scss */
   body .content .more-posts .post {
     display: block;
     float: left;
@@ -3700,7 +3706,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0 0.5em 0 0;
   }
-  /* line 2150, ../sass/high90.scss */
+  /* line 2155, ../sass/high90.scss */
   body .content .more-posts .post:nth-child(even) {
     padding: 0 0 0 0.5em;
   }
@@ -3712,11 +3718,11 @@ body #footer .cc-text img {
     font-size: 1.125em;
   }
 
-  /* line 2164, ../sass/high90.scss */
+  /* line 2169, ../sass/high90.scss */
   body #container {
     padding: 0;
   }
-  /* line 2168, ../sass/high90.scss */
+  /* line 2173, ../sass/high90.scss */
   body #header,
   body #core,
   body #footer {
@@ -3731,11 +3737,11 @@ body #footer .cc-text img {
     margin-left: 8.33333%;
     padding: 0;
   }
-  /* line 2176, ../sass/high90.scss */
+  /* line 2181, ../sass/high90.scss */
   body #header {
     margin-bottom: 0.2em;
   }
-  /* line 2179, ../sass/high90.scss */
+  /* line 2184, ../sass/high90.scss */
   body #header .text-logo {
     display: block;
     float: left;
@@ -3748,12 +3754,12 @@ body #footer .cc-text img {
     padding: 0;
     text-align: left;
   }
-  /* line 2184, ../sass/high90.scss */
+  /* line 2189, ../sass/high90.scss */
   body #header .text-logo img {
     height: 2em;
     padding-bottom: 0;
   }
-  /* line 2190, ../sass/high90.scss */
+  /* line 2195, ../sass/high90.scss */
   body #header .top-nav {
     display: block;
     float: left;
@@ -3766,11 +3772,11 @@ body #footer .cc-text img {
     padding: 1.8em 0 0;
     text-align: right;
   }
-  /* line 2195, ../sass/high90.scss */
+  /* line 2200, ../sass/high90.scss */
   body #header .top-nav li {
     font-size: 1em;
   }
-  /* line 2200, ../sass/high90.scss */
+  /* line 2205, ../sass/high90.scss */
   body #header .search-box {
     display: block;
     float: left;
@@ -3782,7 +3788,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 1.4em 0 0;
   }
-  /* line 2207, ../sass/high90.scss */
+  /* line 2212, ../sass/high90.scss */
   body .content,
   body .search {
     display: block;
@@ -3795,7 +3801,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2212, ../sass/high90.scss */
+  /* line 2217, ../sass/high90.scss */
   body .content .post,
   body .search .post {
     display: block;
@@ -3808,7 +3814,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2216, ../sass/high90.scss */
+  /* line 2221, ../sass/high90.scss */
   body .content .post .post-header,
   body .search .post .post-header {
     display: block;
@@ -3821,7 +3827,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2220, ../sass/high90.scss */
+  /* line 2225, ../sass/high90.scss */
   body .content .post .post-header .title-banner,
   body .search .post .post-header .title-banner {
     display: block;
@@ -3834,7 +3840,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0 0 0.5em 0;
   }
-  /* line 2224, ../sass/high90.scss */
+  /* line 2229, ../sass/high90.scss */
   body .content .post .post-header .title-banner img,
   body .search .post .post-header .title-banner img {
     display: block;
@@ -3847,7 +3853,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2230, ../sass/high90.scss */
+  /* line 2235, ../sass/high90.scss */
   body .content .post .post-header .title-pattern,
   body .search .post .post-header .title-pattern {
     display: block;
@@ -3860,7 +3866,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2235, ../sass/high90.scss */
+  /* line 2240, ../sass/high90.scss */
   body .content .post .post-header .caption,
   body .search .post .post-header .caption {
     display: block;
@@ -3873,7 +3879,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0.5em 0 0.5em;
   }
-  /* line 2241, ../sass/high90.scss */
+  /* line 2246, ../sass/high90.scss */
   body .content .post .post-title,
   body .search .post .post-title {
     display: block;
@@ -3886,7 +3892,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0.5em 0 1em;
   }
-  /* line 2246, ../sass/high90.scss */
+  /* line 2251, ../sass/high90.scss */
   body .content .post .post-body,
   body .search .post .post-body {
     display: block;
@@ -3899,7 +3905,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2250, ../sass/high90.scss */
+  /* line 2255, ../sass/high90.scss */
   body .content .post .post-body .image-block,
   body .search .post .post-body .image-block {
     display: block;
@@ -3913,7 +3919,7 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 0 0 0.5em;
   }
-  /* line 2255, ../sass/high90.scss */
+  /* line 2260, ../sass/high90.scss */
   body .content .post .post-body .image-block.left,
   body .search .post .post-body .image-block.left {
     display: block;
@@ -3926,7 +3932,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0 2em 0 0;
   }
-  /* line 2259, ../sass/high90.scss */
+  /* line 2264, ../sass/high90.scss */
   body .content .post .post-body .image-block.left.small,
   body .search .post .post-body .image-block.left.small {
     display: block;
@@ -3941,7 +3947,7 @@ body #footer .cc-text img {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 2267, ../sass/high90.scss */
+  /* line 2272, ../sass/high90.scss */
   body .content .post .post-body .image-block.right,
   body .search .post .post-body .image-block.right {
     display: block;
@@ -3955,7 +3961,7 @@ body #footer .cc-text img {
     float: right;
     padding: 0 0 0 2em;
   }
-  /* line 2272, ../sass/high90.scss */
+  /* line 2277, ../sass/high90.scss */
   body .content .post .post-body .image-block.right.small,
   body .search .post .post-body .image-block.right.small {
     display: block;
@@ -3971,7 +3977,7 @@ body #footer .cc-text img {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 2283, ../sass/high90.scss */
+  /* line 2288, ../sass/high90.scss */
   body .content .post .post-body .caption,
   body .search .post .post-body .caption {
     display: block;
@@ -3985,7 +3991,7 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 0 0 0.5em;
   }
-  /* line 2288, ../sass/high90.scss */
+  /* line 2293, ../sass/high90.scss */
   body .content .post .post-body .caption.left,
   body .search .post .post-body .caption.left {
     display: block;
@@ -4000,7 +4006,7 @@ body #footer .cc-text img {
     clear: left;
     text-align: left;
   }
-  /* line 2294, ../sass/high90.scss */
+  /* line 2299, ../sass/high90.scss */
   body .content .post .post-body .caption.left.small,
   body .search .post .post-body .caption.left.small {
     display: block;
@@ -4015,7 +4021,7 @@ body #footer .cc-text img {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 2302, ../sass/high90.scss */
+  /* line 2307, ../sass/high90.scss */
   body .content .post .post-body .caption.right,
   body .search .post .post-body .caption.right {
     display: block;
@@ -4031,7 +4037,7 @@ body #footer .cc-text img {
     clear: right;
     text-align: right;
   }
-  /* line 2309, ../sass/high90.scss */
+  /* line 2314, ../sass/high90.scss */
   body .content .post .post-body .caption.right.small,
   body .search .post .post-body .caption.right.small {
     display: block;
@@ -4047,7 +4053,7 @@ body #footer .cc-text img {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 2321, ../sass/high90.scss */
+  /* line 2326, ../sass/high90.scss */
   body .content .post .post-body aside,
   body .search .post .post-body aside {
     display: block;
@@ -4062,12 +4068,12 @@ body #footer .cc-text img {
     padding: 1.2em 2em 1em;
     font-size: 0.8em;
   }
-  /* line 2327, ../sass/high90.scss */
+  /* line 2332, ../sass/high90.scss */
   body .content .post .post-body aside blockquote,
   body .search .post .post-body aside blockquote {
     padding: 0.5em 0 0.5em;
   }
-  /* line 2331, ../sass/high90.scss */
+  /* line 2336, ../sass/high90.scss */
   body .content .post .post-body aside.left,
   body .search .post .post-body aside.left {
     display: block;
@@ -4083,7 +4089,7 @@ body #footer .cc-text img {
     margin-bottom: 0.5em;
     border: none;
   }
-  /* line 2338, ../sass/high90.scss */
+  /* line 2343, ../sass/high90.scss */
   body .content .post .post-body aside.left.small,
   body .search .post .post-body aside.left.small {
     display: block;
@@ -4099,7 +4105,7 @@ body #footer .cc-text img {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 2347, ../sass/high90.scss */
+  /* line 2352, ../sass/high90.scss */
   body .content .post .post-body aside.right,
   body .search .post .post-body aside.right {
     display: block;
@@ -4116,7 +4122,7 @@ body #footer .cc-text img {
     margin-bottom: 0.5em;
     border: none;
   }
-  /* line 2355, ../sass/high90.scss */
+  /* line 2360, ../sass/high90.scss */
   body .content .post .post-body aside.right.small,
   body .search .post .post-body aside.right.small {
     display: block;
@@ -4133,7 +4139,7 @@ body #footer .cc-text img {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 2366, ../sass/high90.scss */
+  /* line 2371, ../sass/high90.scss */
   body .content .post .post-body .product,
   body .content .post .post-body .app,
   body .search .post .post-body .product,
@@ -4150,7 +4156,7 @@ body #footer .cc-text img {
     padding: 0;
     margin-bottom: 1.8em;
   }
-  /* line 2374, ../sass/high90.scss */
+  /* line 2379, ../sass/high90.scss */
   body .content .post .post-body .product .fancybox,
   body .content .post .post-body .app .fancybox,
   body .search .post .post-body .product .fancybox,
@@ -4166,7 +4172,7 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 0;
   }
-  /* line 2379, ../sass/high90.scss */
+  /* line 2384, ../sass/high90.scss */
   body .content .post .post-body .product .fancybox img,
   body .content .post .post-body .app .fancybox img,
   body .search .post .post-body .product .fancybox img,
@@ -4182,7 +4188,7 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 0;
   }
-  /* line 2385, ../sass/high90.scss */
+  /* line 2390, ../sass/high90.scss */
   body .content .post .post-body .product .fancybox.icon img,
   body .content .post .post-body .app .fancybox.icon img,
   body .search .post .post-body .product .fancybox.icon img,
@@ -4190,7 +4196,7 @@ body #footer .cc-text img {
     border: 0;
     padding: 0.5em;
   }
-  /* line 2392, ../sass/high90.scss */
+  /* line 2397, ../sass/high90.scss */
   body .content .post .post-body .product .details,
   body .content .post .post-body .app .details,
   body .search .post .post-body .product .details,
@@ -4207,7 +4213,7 @@ body #footer .cc-text img {
     padding: 0;
     text-align: left;
   }
-  /* line 2400, ../sass/high90.scss */
+  /* line 2405, ../sass/high90.scss */
   body .content .post .post-body .has-pullquote:before,
   body .search .post .post-body .has-pullquote:before {
     content: attr(data-pullquote);
@@ -4230,7 +4236,7 @@ body #footer .cc-text img {
     line-height: 1.3em;
     font-weight: 500;
   }
-  /* line 2417, ../sass/high90.scss */
+  /* line 2422, ../sass/high90.scss */
   body .content .post .post-footer,
   body .search .post .post-footer {
     display: block;
@@ -4243,7 +4249,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0.5em 0 0;
   }
-  /* line 2423, ../sass/high90.scss */
+  /* line 2428, ../sass/high90.scss */
   body .content .more-header,
   body .content .pagination-header,
   body .content .search-header,
@@ -4266,7 +4272,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2433, ../sass/high90.scss */
+  /* line 2438, ../sass/high90.scss */
   body .content .pagination,
   body .search .pagination {
     display: block;
@@ -4279,7 +4285,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2437, ../sass/high90.scss */
+  /* line 2442, ../sass/high90.scss */
   body .content .pagination .post,
   body .search .pagination .post {
     display: block;
@@ -4292,19 +4298,19 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2441, ../sass/high90.scss */
+  /* line 2446, ../sass/high90.scss */
   body .content .pagination .post.prev,
   body .search .pagination .post.prev {
     padding-left: 0.5em;
   }
-  /* line 2445, ../sass/high90.scss */
+  /* line 2450, ../sass/high90.scss */
   body .content .pagination .post.next,
   body .search .pagination .post.next {
     padding-right: 0.5em;
     border-left: 0 !important;
     border-right: 0.5em solid #de3907 !important;
   }
-  /* line 2450, ../sass/high90.scss */
+  /* line 2455, ../sass/high90.scss */
   body .content .pagination .post.next a .key,
   body .content .pagination .post.next a .title,
   body .search .pagination .post.next a .key,
@@ -4319,7 +4325,7 @@ body #footer .cc-text img {
     font-size: 1.25em;
   }
 
-  /* line 2468, ../sass/high90.scss */
+  /* line 2473, ../sass/high90.scss */
   body #core {
     display: block;
     float: left;
@@ -4332,7 +4338,7 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 0;
   }
-  /* line 2474, ../sass/high90.scss */
+  /* line 2479, ../sass/high90.scss */
   body .content,
   body .search {
     display: block;
@@ -4345,7 +4351,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2479, ../sass/high90.scss */
+  /* line 2484, ../sass/high90.scss */
   body .content .message,
   body .search .message {
     display: block;
@@ -4359,7 +4365,7 @@ body #footer .cc-text img {
     margin-left: 8.33333%;
     padding: 0;
   }
-  /* line 2485, ../sass/high90.scss */
+  /* line 2490, ../sass/high90.scss */
   body .content .empty-message,
   body .search .empty-message {
     display: block;
@@ -4373,7 +4379,7 @@ body #footer .cc-text img {
     margin-left: 8.33333%;
     padding: 1.5em 0 0;
   }
-  /* line 2491, ../sass/high90.scss */
+  /* line 2496, ../sass/high90.scss */
   body .content .post,
   body .search .post {
     display: block;
@@ -4386,7 +4392,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2495, ../sass/high90.scss */
+  /* line 2500, ../sass/high90.scss */
   body .content .post .post-header,
   body .search .post .post-header {
     display: block;
@@ -4399,7 +4405,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2499, ../sass/high90.scss */
+  /* line 2504, ../sass/high90.scss */
   body .content .post .post-header .title-banner,
   body .search .post .post-header .title-banner {
     display: block;
@@ -4412,7 +4418,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0 0 0.5em 0;
   }
-  /* line 2503, ../sass/high90.scss */
+  /* line 2508, ../sass/high90.scss */
   body .content .post .post-header .title-banner img,
   body .search .post .post-header .title-banner img {
     display: block;
@@ -4425,7 +4431,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2509, ../sass/high90.scss */
+  /* line 2514, ../sass/high90.scss */
   body .content .post .post-header .title-pattern,
   body .search .post .post-header .title-pattern {
     display: block;
@@ -4439,7 +4445,7 @@ body #footer .cc-text img {
     margin-left: 8.33333%;
     padding: 0;
   }
-  /* line 2515, ../sass/high90.scss */
+  /* line 2520, ../sass/high90.scss */
   body .content .post .post-header .caption,
   body .search .post .post-header .caption {
     display: block;
@@ -4453,7 +4459,7 @@ body #footer .cc-text img {
     margin-left: 8.33333%;
     padding: 0.5em 0 0.5em;
   }
-  /* line 2522, ../sass/high90.scss */
+  /* line 2527, ../sass/high90.scss */
   body .content .post .post-core,
   body .search .post .post-core {
     display: block;
@@ -4467,7 +4473,7 @@ body #footer .cc-text img {
     margin-left: 8.33333%;
     padding: 0;
   }
-  /* line 2528, ../sass/high90.scss */
+  /* line 2533, ../sass/high90.scss */
   body .content .post .post-title,
   body .search .post .post-title {
     display: block;
@@ -4480,7 +4486,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0.5em 0 1em;
   }
-  /* line 2533, ../sass/high90.scss */
+  /* line 2538, ../sass/high90.scss */
   body .content .post .post-body,
   body .search .post .post-body {
     display: block;
@@ -4493,7 +4499,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2537, ../sass/high90.scss */
+  /* line 2542, ../sass/high90.scss */
   body .content .post .post-body .image-block, body .content .post .post-body caption,
   body .search .post .post-body .image-block,
   body .search .post .post-body caption {
@@ -4508,7 +4514,7 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 0 0 0.5em;
   }
-  /* line 2542, ../sass/high90.scss */
+  /* line 2547, ../sass/high90.scss */
   body .content .post .post-body .image-block.left, body .content .post .post-body caption.left,
   body .search .post .post-body .image-block.left,
   body .search .post .post-body caption.left {
@@ -4522,7 +4528,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0 2em 0 0;
   }
-  /* line 2546, ../sass/high90.scss */
+  /* line 2551, ../sass/high90.scss */
   body .content .post .post-body .image-block.left.small, body .content .post .post-body caption.left.small,
   body .search .post .post-body .image-block.left.small,
   body .search .post .post-body caption.left.small {
@@ -4538,7 +4544,7 @@ body #footer .cc-text img {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 2554, ../sass/high90.scss */
+  /* line 2559, ../sass/high90.scss */
   body .content .post .post-body .image-block.right, body .content .post .post-body caption.right,
   body .search .post .post-body .image-block.right,
   body .search .post .post-body caption.right {
@@ -4553,7 +4559,7 @@ body #footer .cc-text img {
     float: right;
     padding: 0 0 0 2em;
   }
-  /* line 2559, ../sass/high90.scss */
+  /* line 2564, ../sass/high90.scss */
   body .content .post .post-body .image-block.right.small, body .content .post .post-body caption.right.small,
   body .search .post .post-body .image-block.right.small,
   body .search .post .post-body caption.right.small {
@@ -4570,7 +4576,7 @@ body #footer .cc-text img {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 2568, ../sass/high90.scss */
+  /* line 2573, ../sass/high90.scss */
   body .content .post .post-body .image-block.wide, body .content .post .post-body caption.wide,
   body .search .post .post-body .image-block.wide,
   body .search .post .post-body caption.wide {
@@ -4585,7 +4591,7 @@ body #footer .cc-text img {
     margin-left: -10%;
     padding: 0 0 0.5em;
   }
-  /* line 2575, ../sass/high90.scss */
+  /* line 2580, ../sass/high90.scss */
   body .content .post .post-body aside,
   body .search .post .post-body aside {
     display: block;
@@ -4599,12 +4605,12 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 1.5em 2em 1.2em;
   }
-  /* line 2580, ../sass/high90.scss */
+  /* line 2585, ../sass/high90.scss */
   body .content .post .post-body aside blockquote,
   body .search .post .post-body aside blockquote {
     padding: 0.5em 0 0.5em;
   }
-  /* line 2584, ../sass/high90.scss */
+  /* line 2589, ../sass/high90.scss */
   body .content .post .post-body aside.left,
   body .search .post .post-body aside.left {
     display: block;
@@ -4619,7 +4625,7 @@ body #footer .cc-text img {
     margin-right: 2em;
     margin-bottom: 0.5em;
   }
-  /* line 2590, ../sass/high90.scss */
+  /* line 2595, ../sass/high90.scss */
   body .content .post .post-body aside.left.small,
   body .search .post .post-body aside.left.small {
     display: block;
@@ -4635,7 +4641,7 @@ body #footer .cc-text img {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 2599, ../sass/high90.scss */
+  /* line 2604, ../sass/high90.scss */
   body .content .post .post-body aside.right,
   body .search .post .post-body aside.right {
     display: block;
@@ -4651,7 +4657,7 @@ body #footer .cc-text img {
     margin-left: 2em;
     margin-bottom: 0.5em;
   }
-  /* line 2606, ../sass/high90.scss */
+  /* line 2611, ../sass/high90.scss */
   body .content .post .post-body aside.right.small,
   body .search .post .post-body aside.right.small {
     display: block;
@@ -4668,7 +4674,7 @@ body #footer .cc-text img {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 2616, ../sass/high90.scss */
+  /* line 2621, ../sass/high90.scss */
   body .content .post .post-body aside.wide,
   body .search .post .post-body aside.wide {
     display: block;
@@ -4682,7 +4688,7 @@ body #footer .cc-text img {
     margin-left: -10%;
     padding: 0.5em 0;
   }
-  /* line 2623, ../sass/high90.scss */
+  /* line 2628, ../sass/high90.scss */
   body .content .post .post-body aside.has-pullquote:before,
   body .search .post .post-body aside.has-pullquote:before {
     content: attr(data-pullquote);
@@ -4705,7 +4711,7 @@ body #footer .cc-text img {
     font-size: 1.5em;
     line-height: 1.3em;
   }
-  /* line 2639, ../sass/high90.scss */
+  /* line 2644, ../sass/high90.scss */
   body .content .post .post-footer,
   body .search .post .post-footer {
     display: block;
@@ -4718,7 +4724,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0.5em 0 0;
   }
-  /* line 2645, ../sass/high90.scss */
+  /* line 2650, ../sass/high90.scss */
   body .content .more-header,
   body .content .pagination-header,
   body .content .search-header,
@@ -4746,7 +4752,7 @@ body #footer .cc-text img {
     margin-left: 8.33333%;
     padding: 0;
   }
-  /* line 2659, ../sass/high90.scss */
+  /* line 2664, ../sass/high90.scss */
   body .content .bio,
   body .search .bio {
     display: block;
@@ -4763,7 +4769,7 @@ body #footer .cc-text img {
 }
 /* @media screen and (min-width: 800px) */
 @media screen and (min-width: 50em) {
-  /* line 2673, ../sass/high90.scss */
+  /* line 2678, ../sass/high90.scss */
   body #header,
   body #footer {
     display: block;
@@ -4777,7 +4783,7 @@ body #footer .cc-text img {
     margin-left: 16.66667%;
     padding: 0;
   }
-  /* line 2680, ../sass/high90.scss */
+  /* line 2685, ../sass/high90.scss */
   body #core {
     display: block;
     float: left;
@@ -4790,7 +4796,7 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 0;
   }
-  /* line 2686, ../sass/high90.scss */
+  /* line 2691, ../sass/high90.scss */
   body .content,
   body .search {
     display: block;
@@ -4803,7 +4809,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2691, ../sass/high90.scss */
+  /* line 2696, ../sass/high90.scss */
   body .content .message,
   body .search .message {
     display: block;
@@ -4817,7 +4823,7 @@ body #footer .cc-text img {
     margin-left: 16.66667%;
     padding: 0;
   }
-  /* line 2697, ../sass/high90.scss */
+  /* line 2702, ../sass/high90.scss */
   body .content .empty-message,
   body .search .empty-message {
     display: block;
@@ -4831,7 +4837,7 @@ body #footer .cc-text img {
     margin-left: 16.66667%;
     padding: 1.5em 0 0;
   }
-  /* line 2703, ../sass/high90.scss */
+  /* line 2708, ../sass/high90.scss */
   body .content .post,
   body .search .post {
     display: block;
@@ -4844,7 +4850,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2707, ../sass/high90.scss */
+  /* line 2712, ../sass/high90.scss */
   body .content .post .post-header,
   body .search .post .post-header {
     display: block;
@@ -4857,7 +4863,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2711, ../sass/high90.scss */
+  /* line 2716, ../sass/high90.scss */
   body .content .post .post-header .title-banner,
   body .search .post .post-header .title-banner {
     display: block;
@@ -4870,7 +4876,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0 0 0.5em 0;
   }
-  /* line 2715, ../sass/high90.scss */
+  /* line 2720, ../sass/high90.scss */
   body .content .post .post-header .title-banner img,
   body .search .post .post-header .title-banner img {
     display: block;
@@ -4883,7 +4889,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2721, ../sass/high90.scss */
+  /* line 2726, ../sass/high90.scss */
   body .content .post .post-header .title-pattern,
   body .search .post .post-header .title-pattern {
     display: block;
@@ -4897,7 +4903,7 @@ body #footer .cc-text img {
     margin-left: 16.66667%;
     padding: 0;
   }
-  /* line 2727, ../sass/high90.scss */
+  /* line 2732, ../sass/high90.scss */
   body .content .post .post-header .caption,
   body .search .post .post-header .caption {
     display: block;
@@ -4911,7 +4917,7 @@ body #footer .cc-text img {
     margin-left: 16.66667%;
     padding: 0.5em 0 0.5em;
   }
-  /* line 2734, ../sass/high90.scss */
+  /* line 2739, ../sass/high90.scss */
   body .content .post .pre-bar,
   body .search .post .pre-bar {
     display: block;
@@ -4926,7 +4932,7 @@ body #footer .cc-text img {
     padding: 0.5em 0 0 0;
     text-align: center;
   }
-  /* line 2740, ../sass/high90.scss */
+  /* line 2745, ../sass/high90.scss */
   body .content .post .pre-bar .date-ball,
   body .search .post .pre-bar .date-ball {
     display: block;
@@ -4935,7 +4941,7 @@ body #footer .cc-text img {
     width: 4em;
     margin: 0 auto;
   }
-  /* line 2747, ../sass/high90.scss */
+  /* line 2752, ../sass/high90.scss */
   body .content .post .pre-bar .date-ball .ball,
   body .search .post .pre-bar .date-ball .ball {
     position: absolute;
@@ -4946,7 +4952,7 @@ body #footer .cc-text img {
     border-radius: 50%;
     background-color: #eeede9;
   }
-  /* line 2757, ../sass/high90.scss */
+  /* line 2762, ../sass/high90.scss */
   body .content .post .pre-bar .date-ball .text-block,
   body .search .post .pre-bar .date-ball .text-block {
     position: relative;
@@ -4965,17 +4971,17 @@ body #footer .cc-text img {
     margin: 0 auto;
     font-weight: 300;
   }
-  /* line 2774, ../sass/high90.scss */
+  /* line 2779, ../sass/high90.scss */
   body .content .post .pre-bar .date-ball .text-block.news.design.technology,
   body .search .post .pre-bar .date-ball .text-block.news.design.technology {
     color: #FFFFFF;
   }
-  /* line 2779, ../sass/high90.scss */
+  /* line 2784, ../sass/high90.scss */
   body .content .post .pre-bar .date-ball:hover,
   body .search .post .pre-bar .date-ball:hover {
     text-decoration: none;
   }
-  /* line 2784, ../sass/high90.scss */
+  /* line 2789, ../sass/high90.scss */
   body .content .post .pre-bar .icon,
   body .search .post .pre-bar .icon {
     width: 4em;
@@ -4983,7 +4989,7 @@ body #footer .cc-text img {
     clear: both;
     margin: 0.5em auto 0;
   }
-  /* line 2793, ../sass/high90.scss */
+  /* line 2798, ../sass/high90.scss */
   body .content .post .post-core,
   body .search .post .post-core {
     display: block;
@@ -4997,7 +5003,7 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 0;
   }
-  /* line 2799, ../sass/high90.scss */
+  /* line 2804, ../sass/high90.scss */
   body .content .post .post-title,
   body .search .post .post-title {
     display: block;
@@ -5010,12 +5016,12 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0.8em 0 0.7em;
   }
-  /* line 2803, ../sass/high90.scss */
+  /* line 2808, ../sass/high90.scss */
   body .content .post .post-title .title-date,
   body .search .post .post-title .title-date {
     display: none;
   }
-  /* line 2808, ../sass/high90.scss */
+  /* line 2813, ../sass/high90.scss */
   body .content .post .post-body,
   body .search .post .post-body {
     display: block;
@@ -5028,7 +5034,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2812, ../sass/high90.scss */
+  /* line 2817, ../sass/high90.scss */
   body .content .post .post-body .image-block,
   body .search .post .post-body .image-block {
     display: block;
@@ -5042,7 +5048,7 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 0 0 0.5em;
   }
-  /* line 2817, ../sass/high90.scss */
+  /* line 2822, ../sass/high90.scss */
   body .content .post .post-body .image-block.left,
   body .search .post .post-body .image-block.left {
     display: block;
@@ -5056,7 +5062,7 @@ body #footer .cc-text img {
     margin-left: -25%;
     padding: 0 2em 0 0.5em;
   }
-  /* line 2822, ../sass/high90.scss */
+  /* line 2827, ../sass/high90.scss */
   body .content .post .post-body .image-block.left.small,
   body .search .post .post-body .image-block.left.small {
     display: block;
@@ -5072,7 +5078,7 @@ body #footer .cc-text img {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 2831, ../sass/high90.scss */
+  /* line 2836, ../sass/high90.scss */
   body .content .post .post-body .image-block.right,
   body .search .post .post-body .image-block.right {
     display: block;
@@ -5087,7 +5093,7 @@ body #footer .cc-text img {
     float: right;
     padding: 0 0.5em 0 2em;
   }
-  /* line 2837, ../sass/high90.scss */
+  /* line 2842, ../sass/high90.scss */
   body .content .post .post-body .image-block.right.small,
   body .search .post .post-body .image-block.right.small {
     display: block;
@@ -5104,7 +5110,7 @@ body #footer .cc-text img {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 2847, ../sass/high90.scss */
+  /* line 2852, ../sass/high90.scss */
   body .content .post .post-body .image-block.wide,
   body .search .post .post-body .image-block.wide {
     display: block;
@@ -5118,7 +5124,7 @@ body #footer .cc-text img {
     margin-left: -25%;
     padding: 0 0 0.5em;
   }
-  /* line 2854, ../sass/high90.scss */
+  /* line 2859, ../sass/high90.scss */
   body .content .post .post-body .caption,
   body .search .post .post-body .caption {
     display: block;
@@ -5132,7 +5138,7 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 0 0 0.5em;
   }
-  /* line 2859, ../sass/high90.scss */
+  /* line 2864, ../sass/high90.scss */
   body .content .post .post-body .caption.left,
   body .search .post .post-body .caption.left {
     display: block;
@@ -5148,13 +5154,13 @@ body #footer .cc-text img {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 2866, ../sass/high90.scss */
+  /* line 2871, ../sass/high90.scss */
   body .content .post .post-body .caption.left p,
   body .search .post .post-body .caption.left p {
     border-top: 1px solid #ddd;
     padding-top: 0.5em;
   }
-  /* line 2872, ../sass/high90.scss */
+  /* line 2877, ../sass/high90.scss */
   body .content .post .post-body .caption.right,
   body .search .post .post-body .caption.right {
     display: block;
@@ -5172,13 +5178,13 @@ body #footer .cc-text img {
     margin-bottom: 0;
     text-align: left;
   }
-  /* line 2881, ../sass/high90.scss */
+  /* line 2886, ../sass/high90.scss */
   body .content .post .post-body .caption.right p,
   body .search .post .post-body .caption.right p {
     border-top: 1px solid #ddd;
     padding-top: 0.5em;
   }
-  /* line 2887, ../sass/high90.scss */
+  /* line 2892, ../sass/high90.scss */
   body .content .post .post-body .caption.wide,
   body .search .post .post-body .caption.wide {
     display: block;
@@ -5192,7 +5198,7 @@ body #footer .cc-text img {
     margin-left: -25%;
     padding: 0 0 0.5em;
   }
-  /* line 2894, ../sass/high90.scss */
+  /* line 2899, ../sass/high90.scss */
   body .content .post .post-body aside,
   body .search .post .post-body aside {
     display: block;
@@ -5206,12 +5212,12 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 1.5em 2em 1.2em;
   }
-  /* line 2899, ../sass/high90.scss */
+  /* line 2904, ../sass/high90.scss */
   body .content .post .post-body aside blockquote,
   body .search .post .post-body aside blockquote {
     padding: 0.5em 0 0.5em;
   }
-  /* line 2903, ../sass/high90.scss */
+  /* line 2908, ../sass/high90.scss */
   body .content .post .post-body aside.left,
   body .search .post .post-body aside.left {
     display: block;
@@ -5227,7 +5233,7 @@ body #footer .cc-text img {
     margin-right: 2em;
     margin-bottom: 0.5em;
   }
-  /* line 2910, ../sass/high90.scss */
+  /* line 2915, ../sass/high90.scss */
   body .content .post .post-body aside.left.small,
   body .search .post .post-body aside.left.small {
     display: block;
@@ -5245,7 +5251,7 @@ body #footer .cc-text img {
     margin-bottom: 0;
     font-size: 0.5em;
   }
-  /* line 2921, ../sass/high90.scss */
+  /* line 2926, ../sass/high90.scss */
   body .content .post .post-body aside.right,
   body .search .post .post-body aside.right {
     display: block;
@@ -5262,7 +5268,7 @@ body #footer .cc-text img {
     margin-left: 2em;
     margin-bottom: 0.5em;
   }
-  /* line 2929, ../sass/high90.scss */
+  /* line 2934, ../sass/high90.scss */
   body .content .post .post-body aside.right.small,
   body .search .post .post-body aside.right.small {
     display: block;
@@ -5281,7 +5287,7 @@ body #footer .cc-text img {
     margin-bottom: 0;
     font-size: 0.5em;
   }
-  /* line 2941, ../sass/high90.scss */
+  /* line 2946, ../sass/high90.scss */
   body .content .post .post-body aside.wide,
   body .search .post .post-body aside.wide {
     display: block;
@@ -5295,7 +5301,7 @@ body #footer .cc-text img {
     margin-left: -25%;
     padding: 0.5em 0;
   }
-  /* line 2948, ../sass/high90.scss */
+  /* line 2953, ../sass/high90.scss */
   body .content .post .post-body .has-pullquote:before,
   body .search .post .post-body .has-pullquote:before {
     content: attr(data-pullquote);
@@ -5317,7 +5323,7 @@ body #footer .cc-text img {
     font-size: 1.5em;
     line-height: 1.3em;
   }
-  /* line 2963, ../sass/high90.scss */
+  /* line 2968, ../sass/high90.scss */
   body .content .post .post-footer,
   body .search .post .post-footer {
     display: block;
@@ -5330,7 +5336,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0.5em 0 0;
   }
-  /* line 2969, ../sass/high90.scss */
+  /* line 2974, ../sass/high90.scss */
   body .content .more-header,
   body .content .bio,
   body .content .pagination-header,
@@ -5363,14 +5369,14 @@ body #footer .cc-text img {
 }
 /* @media screen and (min-width: 960px) */
 @media screen and (min-width: 60em) {
-  /* line 2991, ../sass/high90.scss */
+  /* line 2996, ../sass/high90.scss */
   body #container {
     width: 960px;
     padding: 0;
     margin: 0 auto;
     float: none;
   }
-  /* line 2998, ../sass/high90.scss */
+  /* line 3003, ../sass/high90.scss */
   body #header,
   body #footer {
     display: block;
@@ -5384,7 +5390,7 @@ body #footer .cc-text img {
     margin-left: 16.66667%;
     padding: 0;
   }
-  /* line 3005, ../sass/high90.scss */
+  /* line 3010, ../sass/high90.scss */
   body #core {
     display: block;
     float: left;
@@ -5397,7 +5403,7 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 0;
   }
-  /* line 3011, ../sass/high90.scss */
+  /* line 3016, ../sass/high90.scss */
   body .content,
   body .search {
     display: block;
@@ -5410,7 +5416,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 3016, ../sass/high90.scss */
+  /* line 3021, ../sass/high90.scss */
   body .content .post,
   body .search .post {
     display: block;
@@ -5423,7 +5429,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 3020, ../sass/high90.scss */
+  /* line 3025, ../sass/high90.scss */
   body .content .post .post-header,
   body .search .post .post-header {
     display: block;
@@ -5436,7 +5442,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 3024, ../sass/high90.scss */
+  /* line 3029, ../sass/high90.scss */
   body .content .post .post-header .title-banner,
   body .search .post .post-header .title-banner {
     display: block;
@@ -5449,7 +5455,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0 0 0.5em 0;
   }
-  /* line 3028, ../sass/high90.scss */
+  /* line 3033, ../sass/high90.scss */
   body .content .post .post-header .title-banner img,
   body .search .post .post-header .title-banner img {
     display: block;
@@ -5462,7 +5468,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 3034, ../sass/high90.scss */
+  /* line 3039, ../sass/high90.scss */
   body .content .post .post-header .title-pattern,
   body .search .post .post-header .title-pattern {
     display: block;
@@ -5476,7 +5482,7 @@ body #footer .cc-text img {
     margin-left: 16.66667%;
     padding: 0;
   }
-  /* line 3040, ../sass/high90.scss */
+  /* line 3045, ../sass/high90.scss */
   body .content .post .post-header .caption,
   body .search .post .post-header .caption {
     display: block;
@@ -5490,7 +5496,7 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 0.5em 0 0.5em;
   }
-  /* line 3047, ../sass/high90.scss */
+  /* line 3052, ../sass/high90.scss */
   body .content .post .pre-bar,
   body .search .post .pre-bar {
     display: block;
@@ -5505,7 +5511,7 @@ body #footer .cc-text img {
     padding: 0.5em 0 0 0;
     text-align: center;
   }
-  /* line 3053, ../sass/high90.scss */
+  /* line 3058, ../sass/high90.scss */
   body .content .post .pre-bar .date-ball,
   body .search .post .pre-bar .date-ball {
     display: block;
@@ -5514,7 +5520,7 @@ body #footer .cc-text img {
     width: 4em;
     margin: 0 auto;
   }
-  /* line 3060, ../sass/high90.scss */
+  /* line 3065, ../sass/high90.scss */
   body .content .post .pre-bar .date-ball .ball,
   body .search .post .pre-bar .date-ball .ball {
     position: absolute;
@@ -5525,7 +5531,7 @@ body #footer .cc-text img {
     border-radius: 50%;
     background-color: #eeede9;
   }
-  /* line 3070, ../sass/high90.scss */
+  /* line 3075, ../sass/high90.scss */
   body .content .post .pre-bar .date-ball .text-block,
   body .search .post .pre-bar .date-ball .text-block {
     position: relative;
@@ -5543,12 +5549,12 @@ body #footer .cc-text img {
     text-align: center;
     margin: 0 auto;
   }
-  /* line 3087, ../sass/high90.scss */
+  /* line 3092, ../sass/high90.scss */
   body .content .post .pre-bar .date-ball:hover,
   body .search .post .pre-bar .date-ball:hover {
     text-decoration: none;
   }
-  /* line 3092, ../sass/high90.scss */
+  /* line 3097, ../sass/high90.scss */
   body .content .post .pre-bar .icon,
   body .search .post .pre-bar .icon {
     width: 4em;
@@ -5556,7 +5562,7 @@ body #footer .cc-text img {
     clear: both;
     margin: 0.5em auto 0;
   }
-  /* line 3101, ../sass/high90.scss */
+  /* line 3106, ../sass/high90.scss */
   body .content .post .post-core,
   body .search .post .post-core {
     display: block;
@@ -5570,7 +5576,7 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 0;
   }
-  /* line 3107, ../sass/high90.scss */
+  /* line 3112, ../sass/high90.scss */
   body .content .post .post-title,
   body .search .post .post-title {
     display: block;
@@ -5583,12 +5589,12 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0.8em 0 0.7em;
   }
-  /* line 3111, ../sass/high90.scss */
+  /* line 3116, ../sass/high90.scss */
   body .content .post .post-title .title-date,
   body .search .post .post-title .title-date {
     display: none;
   }
-  /* line 3116, ../sass/high90.scss */
+  /* line 3121, ../sass/high90.scss */
   body .content .post .post-body,
   body .search .post .post-body {
     display: block;
@@ -5601,7 +5607,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 3120, ../sass/high90.scss */
+  /* line 3125, ../sass/high90.scss */
   body .content .post .post-body .image-block,
   body .search .post .post-body .image-block {
     display: block;
@@ -5615,7 +5621,7 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 0 0 0.5em;
   }
-  /* line 3125, ../sass/high90.scss */
+  /* line 3130, ../sass/high90.scss */
   body .content .post .post-body .image-block.left,
   body .search .post .post-body .image-block.left {
     display: block;
@@ -5629,7 +5635,7 @@ body #footer .cc-text img {
     margin-left: -25%;
     padding: 0 2em 0 0;
   }
-  /* line 3130, ../sass/high90.scss */
+  /* line 3135, ../sass/high90.scss */
   body .content .post .post-body .image-block.left.small,
   body .search .post .post-body .image-block.left.small {
     display: block;
@@ -5645,7 +5651,7 @@ body #footer .cc-text img {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 3139, ../sass/high90.scss */
+  /* line 3144, ../sass/high90.scss */
   body .content .post .post-body .image-block.right,
   body .search .post .post-body .image-block.right {
     display: block;
@@ -5660,7 +5666,7 @@ body #footer .cc-text img {
     float: right;
     padding: 0 0 0 2em;
   }
-  /* line 3145, ../sass/high90.scss */
+  /* line 3150, ../sass/high90.scss */
   body .content .post .post-body .image-block.right.small,
   body .search .post .post-body .image-block.right.small {
     display: block;
@@ -5677,7 +5683,7 @@ body #footer .cc-text img {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 3155, ../sass/high90.scss */
+  /* line 3160, ../sass/high90.scss */
   body .content .post .post-body .image-block.wide,
   body .search .post .post-body .image-block.wide {
     display: block;
@@ -5691,7 +5697,7 @@ body #footer .cc-text img {
     margin-left: -25%;
     padding: 0 0 0.5em;
   }
-  /* line 3162, ../sass/high90.scss */
+  /* line 3167, ../sass/high90.scss */
   body .content .post .post-body .caption,
   body .search .post .post-body .caption {
     display: block;
@@ -5705,7 +5711,7 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 0 0 0.5em;
   }
-  /* line 3167, ../sass/high90.scss */
+  /* line 3172, ../sass/high90.scss */
   body .content .post .post-body .caption.left,
   body .search .post .post-body .caption.left {
     display: block;
@@ -5721,7 +5727,7 @@ body #footer .cc-text img {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 3175, ../sass/high90.scss */
+  /* line 3180, ../sass/high90.scss */
   body .content .post .post-body .caption.right,
   body .search .post .post-body .caption.right {
     display: block;
@@ -5738,7 +5744,7 @@ body #footer .cc-text img {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 3184, ../sass/high90.scss */
+  /* line 3189, ../sass/high90.scss */
   body .content .post .post-body .caption.wide,
   body .search .post .post-body .caption.wide {
     display: block;
@@ -5752,7 +5758,7 @@ body #footer .cc-text img {
     margin-left: -25%;
     padding: 0 0 0.5em;
   }
-  /* line 3191, ../sass/high90.scss */
+  /* line 3196, ../sass/high90.scss */
   body .content .post .post-body aside,
   body .search .post .post-body aside {
     display: block;
@@ -5767,12 +5773,12 @@ body #footer .cc-text img {
     padding: 1.5em 2em 1.2em;
     font-size: 0.9em;
   }
-  /* line 3197, ../sass/high90.scss */
+  /* line 3202, ../sass/high90.scss */
   body .content .post .post-body aside blockquote,
   body .search .post .post-body aside blockquote {
     padding: 0.5em 0 0.5em;
   }
-  /* line 3201, ../sass/high90.scss */
+  /* line 3206, ../sass/high90.scss */
   body .content .post .post-body aside.left,
   body .search .post .post-body aside.left {
     display: block;
@@ -5788,7 +5794,7 @@ body #footer .cc-text img {
     margin-right: 2em;
     margin-bottom: 1em;
   }
-  /* line 3208, ../sass/high90.scss */
+  /* line 3213, ../sass/high90.scss */
   body .content .post .post-body aside.left.small,
   body .search .post .post-body aside.left.small {
     display: block;
@@ -5806,7 +5812,7 @@ body #footer .cc-text img {
     margin-bottom: 0;
     font-size: 0.5em;
   }
-  /* line 3219, ../sass/high90.scss */
+  /* line 3224, ../sass/high90.scss */
   body .content .post .post-body aside.right,
   body .search .post .post-body aside.right {
     display: block;
@@ -5823,7 +5829,7 @@ body #footer .cc-text img {
     margin-left: 2em;
     margin-bottom: 1em;
   }
-  /* line 3227, ../sass/high90.scss */
+  /* line 3232, ../sass/high90.scss */
   body .content .post .post-body aside.right.small,
   body .search .post .post-body aside.right.small {
     display: block;
@@ -5842,7 +5848,7 @@ body #footer .cc-text img {
     margin-bottom: 0;
     font-size: 0.5em;
   }
-  /* line 3239, ../sass/high90.scss */
+  /* line 3244, ../sass/high90.scss */
   body .content .post .post-body aside.wide,
   body .search .post .post-body aside.wide {
     display: block;
@@ -5856,7 +5862,7 @@ body #footer .cc-text img {
     margin-left: -25%;
     padding: 0.5em 0;
   }
-  /* line 3246, ../sass/high90.scss */
+  /* line 3251, ../sass/high90.scss */
   body .content .post .post-body .has-pullquote:before,
   body .search .post .post-body .has-pullquote:before {
     content: attr(data-pullquote);
@@ -5878,7 +5884,7 @@ body #footer .cc-text img {
     font-size: 1.5em;
     line-height: 1.3em;
   }
-  /* line 3261, ../sass/high90.scss */
+  /* line 3266, ../sass/high90.scss */
   body .content .post .post-footer,
   body .search .post .post-footer {
     display: block;
@@ -5891,7 +5897,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0.5em 0 0;
   }
-  /* line 3267, ../sass/high90.scss */
+  /* line 3272, ../sass/high90.scss */
   body .content .more-header,
   body .content .bio,
   body .content .pagination-header,
@@ -5922,54 +5928,54 @@ body #footer .cc-text img {
     padding: 0;
   }
 }
-/* line 3284, ../sass/high90.scss */
+/* line 3289, ../sass/high90.scss */
 .high90 {
   background-color: #de3907 !important;
   color: #FFFFFF !important;
 }
 
-/* line 3289, ../sass/high90.scss */
+/* line 3294, ../sass/high90.scss */
 .news {
   background-color: #de3907 !important;
   color: #FFFFFF !important;
 }
 
-/* line 3294, ../sass/high90.scss */
+/* line 3299, ../sass/high90.scss */
 .high90cast {
   background-color: #f98d28 !important;
   color: #FFFFFF !important;
 }
 
-/* line 3299, ../sass/high90.scss */
+/* line 3304, ../sass/high90.scss */
 .development {
   background-color: #fbc71c !important;
 }
 
-/* line 3303, ../sass/high90.scss */
+/* line 3308, ../sass/high90.scss */
 .technology {
   background-color: #519548 !important;
   color: #FFFFFF !important;
 }
 
-/* line 3308, ../sass/high90.scss */
+/* line 3313, ../sass/high90.scss */
 .productivity {
   background-color: #26ade3 !important;
   color: #FFFFFF !important;
 }
 
-/* line 3313, ../sass/high90.scss */
+/* line 3318, ../sass/high90.scss */
 .design {
   background-color: #4386af !important;
   color: #FFFFFF !important;
 }
 
-/* line 3318, ../sass/high90.scss */
+/* line 3323, ../sass/high90.scss */
 .ideas {
   background-color: #743792 !important;
   color: #FFFFFF !important;
 }
 
-/* line 3323, ../sass/high90.scss */
+/* line 3328, ../sass/high90.scss */
 .all {
   background-color: #353739 !important;
   color: #FFFFFF !important;
