@@ -68,7 +68,7 @@ Computers are tricky tools. They’re flexible, so mutable, that just because th
 
 Makers see untapped potential everywhere. Every pile of junk is a new thing, every spare CPU cycle is another process, and wheel there is plenty of joy to be found in that, like all obsessions, there is danger of taking it too far.
 
-My television has WiFi, USB ports, a pretty great display, and a fairly impressive CPU. It even has an app store. Do I feel a need to check my email on that? Of course not, it’s an appliance, and I’m satisfied to let it do it’s job.
+My television has WiFi, USB ports, a pretty great display, and a fairly impressive CPU. It even has an app store. Do I feel a need to check my email on that? Of course not, it’s an appliance, and I’m satisfied to let it do its job.
 
 *No, that's a bad example, if I'm going to do this, let's go full reductio ad absurdum.*
 
