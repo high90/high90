@@ -3,8 +3,8 @@ title: 'Passive-Aggressive Architecture'
 author: [Bob VanderClay]
 categories: [development]
 tags: [angular, development, frameworks]
-banner:
-caption:
+banner: boston-city-hall.jpg
+caption: 'F-Yeah Brutalism [Cliff / Wikipedia](https://en.wikipedia.org/wiki/File:Boston_City_Hall.jpg)'
 link: http://www.letscodejavascript.com/v3/blog/2015/01/angular_review
 ---
 
