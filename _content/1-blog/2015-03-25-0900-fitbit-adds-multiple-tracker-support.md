@@ -3,8 +3,8 @@ title: 'Fitbit Adds Multiple Tracker Support'
 categories: [technology]
 tags: [fitbit, wearables]
 author: [Erik Hess]
-banner: vintagezen.jpg
-caption: Caption text
+banner: fitness-card.jpg
+caption: [Internet Archive](https://www.flickr.com/photos/internetarchivebookimages/14766410942)
 link: http://www.businesswire.com/news/home/20150323005264/en/Fitbit-Releases-Outdoor-Bike-Tracking-Fitbit-Surge-Comprehensive#.VRKrZoWCOnO
 ---
 

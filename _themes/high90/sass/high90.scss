@@ -901,6 +901,7 @@ body {
 .search {
 	@include column(12,12);
 	padding: 0;
+  overflow-x: hidden;
 
   .message {
     @include column(12,12);
