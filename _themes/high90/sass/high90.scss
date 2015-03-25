@@ -751,6 +751,7 @@ body {
   background-color: $ecru;
   color: $dark-text;
   overflow-x: hidden;
+  position: relative;
 
   #container {
   	@include column(12);
@@ -901,7 +902,6 @@ body {
 .search {
 	@include column(12,12);
 	padding: 0;
-  overflow-x: hidden;
 
   .message {
     @include column(12,12);

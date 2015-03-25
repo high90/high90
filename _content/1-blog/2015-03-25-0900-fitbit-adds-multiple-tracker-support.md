@@ -18,7 +18,7 @@ In a [recent press release](http://www.businesswire.com/news/home/20150323005264
 > * For users who want to wear a more discreet Fitbit One to work, Fitbit Surge for a run, or Tory Burch for Fitbit for a night on the town, all of their steps will be seamlessly captured on their Fitbit dashboard
 > * Users with a compatible mobile device can also utilize MobileTrack as a tracker to fill in the gaps if they leave their tracker at home or forget to charge it
 
-It looks like support for cycling on the Surge is also being added next month, which will also be welcome.
+In addition, it looks like support for cycling on the Surge is being added next month, which will also be welcome.
 
 Multi-device and native phone-based motion sensor support have been on my wish list for a while, and the reduced battery life of their latest trackers didn't make that any less necessary. You've got to charge sometime.
 

@@ -1351,6 +1351,7 @@ body {
   background-color: #fbfaf5;
   color: #1a3a46;
   overflow-x: hidden;
+  position: relative;
 }
 /* line 22, ../../../../../../../usr/local/lib/ruby/gems/2.2.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_grid.scss */
 body:before, body:after {
@@ -1361,7 +1362,7 @@ body:before, body:after {
 body:after {
   clear: both;
 }
-/* line 755, ../sass/high90.scss */
+/* line 756, ../sass/high90.scss */
 body #container {
   display: block;
   float: left;
@@ -1373,7 +1374,7 @@ body #container {
   box-sizing: border-box;
   padding: 0 0.8em;
 }
-/* line 760, ../sass/high90.scss */
+/* line 761, ../sass/high90.scss */
 body #header,
 body #core,
 body #footer {
@@ -1387,11 +1388,11 @@ body #footer {
   box-sizing: border-box;
   padding: 0;
 }
-/* line 767, ../sass/high90.scss */
+/* line 768, ../sass/high90.scss */
 body #header {
   margin-bottom: 1em;
 }
-/* line 771, ../sass/high90.scss */
+/* line 772, ../sass/high90.scss */
 body #footer {
   font-family: "brandon-grotesque", sans-serif;
   text-transform: uppercase;
@@ -1401,33 +1402,33 @@ body #footer {
   margin-bottom: 1em;
   font-weight: 200;
 }
-/* line 780, ../sass/high90.scss */
+/* line 781, ../sass/high90.scss */
 body #footer p {
   font-size: 0.7em;
 }
-/* line 784, ../sass/high90.scss */
+/* line 785, ../sass/high90.scss */
 body #footer a,
 body #footer a:visited,
 body #footer a:active {
   color: #1a3a46;
   font-weight: 400;
 }
-/* line 791, ../sass/high90.scss */
+/* line 792, ../sass/high90.scss */
 body #footer a:hover {
   color: #de3907;
   text-decoration: none;
 }
-/* line 796, ../sass/high90.scss */
+/* line 797, ../sass/high90.scss */
 body #footer .cc-text {
   padding-top: 0.5em;
 }
-/* line 799, ../sass/high90.scss */
+/* line 800, ../sass/high90.scss */
 body #footer .cc-text img {
   padding: 0.3em 0.5em 0.5em 0;
   float: left;
 }
 
-/* line 809, ../sass/high90.scss */
+/* line 810, ../sass/high90.scss */
 .text-logo {
   display: block;
   float: left;
@@ -1445,19 +1446,19 @@ body #footer .cc-text img {
   letter-spacing: 0;
   text-align: center;
 }
-/* line 819, ../sass/high90.scss */
+/* line 820, ../sass/high90.scss */
 .text-logo img {
   display: inline-block;
   height: 3em;
   padding: 0 0 0.2em 0;
 }
-/* line 825, ../sass/high90.scss */
+/* line 826, ../sass/high90.scss */
 .text-logo .site-title {
   position: relative;
   top: -0.3em;
 }
 
-/* line 831, ../sass/high90.scss */
+/* line 832, ../sass/high90.scss */
 .top-nav {
   display: block;
   float: left;
@@ -1475,21 +1476,21 @@ body #footer .cc-text img {
   text-align: center;
   font-weight: 400;
 }
-/* line 841, ../sass/high90.scss */
+/* line 842, ../sass/high90.scss */
 .top-nav li {
   display: inline-block;
   padding: 0 0.3em;
   font-size: 1.3em;
 }
-/* line 846, ../sass/high90.scss */
+/* line 847, ../sass/high90.scss */
 .top-nav li a:hover {
   color: #de3907;
 }
-/* line 850, ../sass/high90.scss */
+/* line 851, ../sass/high90.scss */
 .top-nav li.glyph {
   position: relative;
 }
-/* line 853, ../sass/high90.scss */
+/* line 854, ../sass/high90.scss */
 .top-nav li.glyph a {
   position: relative;
   top: 0.2em;
@@ -1501,16 +1502,16 @@ body #footer .cc-text img {
   background-repeat: no-repeat;
   background-position: center top;
 }
-/* line 864, ../sass/high90.scss */
+/* line 865, ../sass/high90.scss */
 .top-nav li.glyph a:hover {
   background-image: url("../img/twitter-light.svg");
 }
-/* line 868, ../sass/high90.scss */
+/* line 869, ../sass/high90.scss */
 .top-nav li.glyph a .hide {
   display: none;
 }
 
-/* line 877, ../sass/high90.scss */
+/* line 878, ../sass/high90.scss */
 .search-box {
   display: block;
   float: left;
@@ -1523,7 +1524,7 @@ body #footer .cc-text img {
   padding: 0;
   border: 0;
 }
-/* line 882, ../sass/high90.scss */
+/* line 883, ../sass/high90.scss */
 .search-box input {
   display: block;
   float: left;
@@ -1548,7 +1549,7 @@ body #footer .cc-text img {
   font-style: italic;
 }
 
-/* line 900, ../sass/high90.scss */
+/* line 901, ../sass/high90.scss */
 .content,
 .search {
   display: block;
@@ -1560,7 +1561,6 @@ body #footer .cc-text img {
   -ms-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0;
-  overflow-x: hidden;
 }
 /* line 906, ../sass/high90.scss */
 .content .message,
