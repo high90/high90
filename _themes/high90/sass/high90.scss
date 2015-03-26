@@ -628,6 +628,7 @@ $dark-grey: #363635;
     background-image: url('../../../assets/icons/spacex.png');
     background-size: 5.2em auto;
     height: 3em !important;
+    width: 5em !important;
   }
 
   &.orbital {
@@ -751,7 +752,7 @@ body {
   background-color: $ecru;
   color: $dark-text;
   overflow-x: hidden;
-  position: relative;
+    position: relative;
 
   #container {
   	@include column(12);
