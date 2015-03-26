@@ -627,8 +627,10 @@ $dark-grey: #363635;
   &.spacex {
     background-image: url('../../../assets/icons/spacex.png');
     background-size: 5.2em auto;
-    height: 3em !important;
+    height: 2em !important;
     width: 5em !important;
+    position: relative;
+    left: 0.4em !important;
   }
 
   &.orbital {
