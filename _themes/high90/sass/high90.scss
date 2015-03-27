@@ -183,7 +183,8 @@ $dark-grey: #363635;
   &.meta,
   &.sea.lions,
   &.simplecast,
-  &.high90cast {
+  &.high90cast,
+  &.linux {
     display: block;
     padding: 0;
     background-position: 50% 50%;
@@ -702,6 +703,10 @@ $dark-grey: #363635;
     background-color: transparent !important;
     background-size: 3.6em auto;
   }
+
+  &.linux {
+    background-image: url('../../../assets/icons/tux.png');
+  }
 }
 
 // General Styling
@@ -856,7 +861,7 @@ body {
 
       a {
         position: relative;
-        top: 0.15em;
+      top: 0.15em;
         display: inline-block;
         width: 1.2em;
         height: 1.2em;
