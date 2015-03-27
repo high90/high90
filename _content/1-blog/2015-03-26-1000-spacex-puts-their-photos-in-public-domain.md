@@ -28,6 +28,6 @@ In some ways it reminds me of [the classic "Commoditize your Complements" post](
 >
 > All else being equal, demand for a product increases when the prices of its complements decrease.
 
-Free space photos aren't likely to make anyone decide to buy a Falcon 9 Heavy *today*. Inspiring the next generation of spacefarers and helping associate SpaceX with that inspiration might have a value tomorrow. Certainly it has value beyond the minimal cost associated with opening these photos to the world.
+Free space photos aren't likely to make anyone decide to buy a Falcon Heavy *today*. Inspiring the next generation of spacefarers and helping associate SpaceX with that inspiration might have a value tomorrow. Certainly it has value beyond the minimal cost associated with opening these photos to the world.
 
 I think it's a smart move.
