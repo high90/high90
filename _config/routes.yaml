@@ -12,7 +12,6 @@ routes:
 
 
 
-
   # ADVANCED ROUTE EXAMPLE
   # Visiting example.com/members/login will...
   # load the /templates/success.html template
