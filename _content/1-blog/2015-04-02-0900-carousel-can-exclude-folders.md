@@ -48,8 +48,10 @@ The master exclusion list lives in the Settings section. If you make a mistake o
 
 At its highest levels my Dropbox is pretty well organized, even if it gets messy in the depths. Our family's entire photo archive lives in `~/Dropbox/Photos`. For me, that means every other folder should be excluded from Carousel. 
 
-It's puzzling that Carousel offers a photo-first exclusion workflow without including a way to block multiple folders manually from the main settings page. As a result, the exclusion process takes several clicks more than it has to. 
+It's puzzling that Carousel offers a photo-first exclusion workflow without including a way to block multiple folders manually from the main settings page. As a result, the exclusion process takes several clicks more than it has to.
 
-As a result of this workflow, I've still got a bunch of folders that aren't yet excluded but that I'd never want in Carousel. If I store an image in a folder that hasn't yet been excluded, it'll show right back up in our timeline. As a user, that means I'm going to have to regularly check to see if there's additional "junk" that's appeared our stream so I can clean it out. 
+Even after using their workflow, I've still got a bunch of folders that aren't yet excluded (perhaps they don't have any images in them yet) but that I'd never want in Carousel. If I store an image in one of those folders later, it'll show up in our timeline. 
+
+As a user, that means I'm going to have to regularly check to see if there's additional "junk" that's appeared our stream so I can clean it out. 
 
 Hopefully that extra functionality will arrive in an update soon. Carousel has seen steady development since its release, and the latest update continues to move the app in the right direction. I'm looking forward to their next moves.
