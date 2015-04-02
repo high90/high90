@@ -184,7 +184,8 @@ $dark-grey: #363635;
   &.sea.lions,
   &.simplecast,
   &.high90cast,
-  &.linux {
+  &.linux,
+  &.carousel {
     display: block;
     padding: 0;
     background-position: 50% 50%;
@@ -707,6 +708,10 @@ $dark-grey: #363635;
   &.linux {
     background-image: url('../../../assets/icons/tux.png');
     height: 4.5em !important;
+  }
+
+  &.carousel {
+    background-image: url('../../../assets/icons/carousel.png');
   }
 }
 
@@ -1449,6 +1454,13 @@ body {
 
       .image-block .fancybox img {
         padding-bottom: 0.5em;
+      }
+
+      .image-block.outline .fancybox img {
+        border: 1px solid $light-grey;
+        padding: 0;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
       }
 
       .caption {
