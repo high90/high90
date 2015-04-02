@@ -1,7 +1,7 @@
 ---
 title: 'Carousel Can Now Exclude Folders'
 author: [Erik Hess]
-categories: [technology]
+categories: [design]
 tags: [dropbox, carousel, photos]
 banner: exclude-tree.png
 caption: 'Get that junk out of there'
