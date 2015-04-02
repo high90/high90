@@ -54,4 +54,6 @@ Even after using their workflow, I've still got a bunch of folders that aren't y
 
 As a user, that means I'm going to have to regularly check to see if there's additional "junk" that's appeared our stream so I can clean it out. 
 
-Hopefully that extra functionality will arrive in an update soon. Carousel has seen steady development since its release, and the latest update continues to move the app in the right direction. I'm looking forward to their next moves.
+We're still using Dropbox and Carousel as our family's basic photo collection service, and it's worked out well so far. Hopefully manual folder exclusion will arrive in an update soon. 
+
+Carousel has seen steady development since its release, and the latest update continues to move the app in the right direction. I'm looking forward to what's next.
