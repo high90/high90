@@ -1324,7 +1324,7 @@ form fieldset label {
 /* line 741, ../sass/high90.scss */
 .icon.galileo {
   background-image: url("../../../assets/icons/galileo.png");
-  background-size: 3em auto;
+  height: 3.2em !important;
 }
 
 /* line 749, ../sass/high90.scss */
