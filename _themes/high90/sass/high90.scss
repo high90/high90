@@ -1624,12 +1624,15 @@ body {
         margin-bottom: 1em;
         text-align: center;
         border: none;
+        background-color: transparent;
+        box-shadow: none;
         
         .fancybox {
 
           img {
-            @include column(6,12);
-            @include push(3,12);
+            width: 128px;
+            height: auto;
+            margin: 0 auto;
             padding: 0;
             background-color: transparent;
           }
@@ -1677,7 +1680,7 @@ body {
           .description {
             font-style: italic;
             font-size: 0.9em;
-            text-align: left;
+            text-align: center;
             padding-bottom: 0.5em;
           }
 
@@ -2155,7 +2158,7 @@ body {
     .content .post .post-body .product,
     .content .post .post-body .app {
 
-      margin-bottom: 1.8em;
+            margin-bottom: 1.8em;
       
       .fancybox {
         @include column(3,12);
@@ -2178,8 +2181,13 @@ body {
       .details {
         @include column(6,12);
         @include push(1,12);
-        padding: 0;
+        padding: 1.2em 0 0;
         text-align: left;
+        font-size: 1.1em;
+
+        .description {
+          text-align: left;
+        }
       }
     }
 
@@ -2430,7 +2438,7 @@ body {
             .details {
               @include column(6,10);
               @include push(1,10);
-              padding: 0;
+              padding: 1.5em 0 0;
               text-align: left;
             }
           }
