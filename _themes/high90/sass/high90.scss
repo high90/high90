@@ -185,7 +185,11 @@ $dark-grey: #363635;
   &.simplecast,
   &.high90cast,
   &.linux,
-  &.carousel {
+  &.carousel,
+  &.paw.patrol,
+  &.gtd,
+  &.jupiter,
+  &.breakin {
     display: block;
     padding: 0;
     background-position: 50% 50%;
@@ -712,6 +716,25 @@ $dark-grey: #363635;
 
   &.carousel {
     background-image: url('../../../assets/icons/carousel.png');
+  }
+
+  &.paw.patrol {
+    background-image: url('../../../assets/icons/paw-patrol.png');
+    background-size: 4em auto;
+  }
+
+  &.gtd {
+    background-image: url('../../../assets/icons/gtd2.jpg');
+    background-size: 3em auto;
+  }
+
+  &.jupiter {
+    background-image: url('../../../assets/icons/jupiter.png');
+  }
+
+  &.breakin {
+    background-image: url('../../../assets/icons/breakin2.jpg');
+    background-size: 3em auto;
   }
 }
 
