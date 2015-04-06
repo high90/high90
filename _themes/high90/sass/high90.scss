@@ -189,8 +189,9 @@ $dark-grey: #363635;
   &.paw.patrol,
   &.gtd,
   &.jupiter,
-  &.breakin {
-    display: block;
+  &.breakin,
+  &.galileo {
+  display: block;
     padding: 0;
     background-position: 50% 50%;
     background-size: 3.2em auto;
@@ -735,6 +736,10 @@ $dark-grey: #363635;
   &.breakin {
     background-image: url('../../../assets/icons/breakin2.jpg');
     background-size: 3em auto;
+  }
+
+  &.galileo {
+    background-image: url('../../../assets/icons/galileo.png');
   }
 }
 
