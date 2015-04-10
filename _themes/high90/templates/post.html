@@ -157,6 +157,12 @@
 
         {{ content|widont }}
 
+        {{ if youtube }}
+        <aside class="video">
+        {{ youtube }}
+        </aside>
+        {{ endif}}
+
         {{ if image }}
         <div class="image">
           {{ theme:partial src="image" file="{ image }" }}
