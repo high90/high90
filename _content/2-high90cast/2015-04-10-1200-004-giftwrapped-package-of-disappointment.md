@@ -21,7 +21,7 @@ Also discussed:
 - The Garmin Fenix 3
 - The Withings fitness and sleep tracking ecosystem
 
-We're testing out a few things with our broadcasting setup, and we're really excited about how things are going so far.
+We're testing out a few things with our broadcasting setup, and we're really excited about how it's going so far.
 
 We tried out Periscope for live video streaming last episode and while experienced had some bumps, it went great. The best thing we added this week was producer [Mark Vanderclay](http://twitter.com/djtaco) to handle the chatroom and live listener questions.
 
