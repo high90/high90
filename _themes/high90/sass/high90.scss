@@ -1619,6 +1619,10 @@ body {
 
         &.video {
           border: none;
+          padding: 0;
+          border-radius: 0;
+          box-shadow: none;
+          background-color: transparent;
         }
 
 				p:first-child {
@@ -1662,12 +1666,12 @@ body {
             width: 128px;
             height: auto;
             margin: 0 auto;
-            padding: 0;
-            background-color: transparent;
+            padding: 1em;
+            background-color: white;
+            border: 1px solid $light-grey;
           }
 
           &.icon img {
-            border: 0;
             padding: 0.5em;
           }
 
@@ -2193,11 +2197,16 @@ body {
         @include column(3,12);
         @include push(0);
         padding: 0;
+        position: relative;
+        top: 1.5em;
 
         img {
           @include column(3,3);
           @include push(0);
           padding: 0;
+            padding: 1em;
+            background-color: white;
+            border: 1px solid $light-grey;
         }
 
         &.icon img {
@@ -2454,7 +2463,9 @@ body {
               img {
                 @include column(2,2);
                 @include push(0);
-                padding: 0;
+                padding: 1em;
+                background-color: white;
+                border: 1px solid $light-grey;
               }
 
               &.icon img {
