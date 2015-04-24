@@ -8,7 +8,7 @@ caption: '[Internet Archive](https://www.flickr.com/photos/internetarchivebookim
 download: http://audio.simplecast.fm/10723.mp3
 player: https://simplecast.fm/e/10723
 twitter: https://simplecast.fm/s/bab620c2
-youtube: '<iframe width="420" height="315" src="https://www.youtube.com/embed/nyAd0jWZiIQ" frameborder="0" allowfullscreen></iframe>'
+youtube: '<iframe width="420" height="315" src="https://www.youtube.com/embed/0vjyAIQE5-Q" frameborder="0" allowfullscreen></iframe>'
 summary: 'Bob and Erik talk about the Logitech MX Master, the departure of Bob's Happy Hacking Keyboard, and why Erik is reconsidering the iPad.'
 ---
 
