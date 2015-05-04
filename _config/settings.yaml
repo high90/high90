@@ -122,6 +122,8 @@ _environments:
     - 'http://localhost*'
     - '*.dev:8888*'
     - '*.localip'
+  ak:
+    - 'http://akimbokimono.com:8888*'
   staging: 
     - '*draft.high90.com*'
   live:

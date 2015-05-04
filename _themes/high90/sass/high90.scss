@@ -197,7 +197,7 @@ $dark-grey: #363635;
     background-size: 3.2em auto;
     background-repeat: no-repeat;
     @include opacity(0.9);
-    @include break-inside(avoid);
+//    @include break-inside(avoid);
   }
 
   &.tomcat {
