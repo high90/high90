@@ -1,10 +1,10 @@
 ---
-title: "007 - Snake People Music
+title: "007 - Snake People Music"
 author: [Erik Hess, Bob VanderClay, Mark VanderClay]
 categories: [high90cast]
 tags: [music, snake people]
 banner: snake-music.jpg
-caption: 'In which I attempt to be [David Malki](http://wondermark.com/)'
+caption: 'In which I attempt to be David Malki'
 download: http://audio.simplecast.fm/9517.mp3
 player: https://simplecast.fm/e/9517
 twitter: https://simplecast.fm/s/e470914b
