@@ -1677,6 +1677,10 @@ body {
 
         }
 
+        &.album .fancybox img {
+          padding: 0 !important;
+        }
+
         .details {
           @include column(10,12);
           @include push(1,12);

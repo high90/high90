@@ -1,0 +1,16 @@
+<aside class="product album {{ class }}">
+  <a class="fancybox" alt="{{ name }}" title="{{ name }}" rel="page" href="{{ _site_url }}assets/img/{{ image }}" >
+      <img src="{{ _site_url }}{{ transform src="assets/img/{{ image }}" height="256" action="resize" }}" />
+  </a>
+  <ul class="details">
+    <li class="name"><a href="{{ amazon }}">{{ name }}</a></li>
+    <li class="description">{{ description }}</li>
+    <li class="price">MSRP: {{ msrp }}</li>
+    {{ if manufacturer }}
+      <li class="link"><a href="{{ manufacturer }}">Manufacturer's Page</a></li>
+    {{ endif }}
+    {{ if amazon }}
+      <li class="link"><a href="{{ amazon }}">Amazon (Affiliate)</a></li>
+    {{ endif }}
+  </ul>
+</aside>
