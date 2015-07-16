@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 17, ../../../../../../../var/lib/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,46 +24,46 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../../../var/lib/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../../../var/lib/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../../../var/lib/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../../../var/lib/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../../../var/lib/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../../../var/lib/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../../../var/lib/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../../../var/lib/gems/1.9.1/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+/* line 116, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
@@ -82,7 +82,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /*
  * Corrects block display not defined in IE6/7/8/9 & FF3
  */
-/* line 30, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 20, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 article,
 aside,
 details,
@@ -100,7 +100,7 @@ summary {
 /*
  * Corrects inline-block display not defined in IE6/7/8/9 & FF3
  */
-/* line 40, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 38, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 audio,
 canvas,
 video {
@@ -112,7 +112,7 @@ video {
 /*
  * Prevents modern browsers from displaying 'audio' without controls
  */
-/* line 50, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 50, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 audio:not([controls]) {
   display: none;
 }
@@ -121,7 +121,7 @@ audio:not([controls]) {
  * Addresses styling for 'hidden' attribute not present in IE7/8/9, FF3, S4
  * Known issue: no IE6 support
  */
-/* line 59, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 59, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 [hidden] {
   display: none;
 }
@@ -129,7 +129,7 @@ audio:not([controls]) {
 /* =============================================================================
    Base
    ========================================================================== */
-/* line 69, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 69, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, p, blockquote, th, td {
   margin: 0;
   padding: 0;
@@ -141,7 +141,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, 
  * 2. Prevents iOS text size adjust after orientation change, without disabling user zoom
  *    www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/
  */
-/* line 82, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 82, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 html {
   font-size: 100%;
   /* 1 */
@@ -154,7 +154,7 @@ html {
 /*
  * Addresses font-family inconsistency between 'textarea' and other form elements.
  */
-/* line 96, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 92, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 html,
 button,
 input,
@@ -166,7 +166,7 @@ textarea {
 /*
  * Addresses margins handled incorrectly in IE6/7
  */
-/* line 104, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 104, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 body {
   margin: 0;
 }
@@ -177,7 +177,7 @@ body {
 /*
  * Addresses outline displayed oddly in Chrome
  */
-/* line 119, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 119, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 a:focus {
   outline: thin dotted;
 }
@@ -186,7 +186,7 @@ a:focus {
  * Improves readability when focused and also mouse hovered in all browsers
  * people.opera.com/patrickl/experiments/keyboard/test
  */
-/* line 129, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 128, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 a:hover,
 a:active {
   outline: 0;
@@ -198,7 +198,7 @@ a:active {
 /*
  * Addresses styling not present in IE7/8/9, S5, Chrome
  */
-/* line 141, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 141, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 abbr[title] {
   border-bottom: 1px dotted;
 }
@@ -206,13 +206,13 @@ abbr[title] {
 /*
  * Addresses style set to 'bolder' in FF3+, S4/5, Chrome
 */
-/* line 150, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 149, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 b,
 strong {
   font-weight: bold;
 }
 
-/* line 154, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 154, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 blockquote {
   margin: 1em 40px;
 }
@@ -220,7 +220,7 @@ blockquote {
 /*
  * Addresses styling not present in S5, Chrome
  */
-/* line 162, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 162, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 dfn {
   font-style: italic;
 }
@@ -228,7 +228,7 @@ dfn {
 /*
  * Addresses styling not present in IE6/7/8/9
  */
-/* line 170, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 170, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 mark {
   background: #ff0;
   color: #000;
@@ -237,7 +237,7 @@ mark {
 /*
  * Addresses margins set differently in IE6/7
  */
-/* line 180, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 179, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 p,
 pre {
   margin: 1em 0;
@@ -247,7 +247,7 @@ pre {
  * Corrects font family set oddly in IE6, S4/5, Chrome
  * en.wikipedia.org/wiki/User:Davidgothberg/Test59
  */
-/* line 192, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 189, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 pre,
 code,
 kbd,
@@ -260,7 +260,7 @@ samp {
 /*
  * Improves readability of pre-formatted text in all browsers
  */
-/* line 202, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 202, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 pre {
   white-space: pre;
   white-space: pre-wrap;
@@ -272,20 +272,20 @@ pre {
  * 2. Addresses quote property not supported in S4
  */
 /* 1 */
-/* line 215, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 215, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 q {
   quotes: none;
 }
 
 /* 2 */
-/* line 222, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 221, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 q:before,
 q:after {
   content: '';
   content: none;
 }
 
-/* line 227, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 227, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 small {
   font-size: 75%;
 }
@@ -294,7 +294,7 @@ small {
  * Prevents sub and sup affecting line-height in all browsers
  * gist.github.com/413930
  */
-/* line 237, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 236, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -303,12 +303,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 244, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 244, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 sup {
   top: -0.5em;
 }
 
-/* line 248, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 248, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
@@ -319,7 +319,7 @@ sub {
 /*
  * Addresses margins set differently in IE6/7
  */
-/* line 264, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 261, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 dl,
 menu,
 ol,
@@ -327,7 +327,7 @@ ul {
   margin: 1em 0;
 }
 
-/* line 268, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 268, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 dd {
   margin: 0 0 0 40px;
 }
@@ -335,7 +335,7 @@ dd {
 /*
  * Addresses paddings set differently in IE6/7
  */
-/* line 278, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 276, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 menu,
 ol,
 ul {
@@ -345,7 +345,7 @@ ul {
 /*
  * Corrects list images handled incorrectly in IE7
  */
-/* line 287, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 286, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 nav ul,
 nav ol {
   list-style: none;
@@ -360,7 +360,7 @@ nav ol {
  * 2. Improves image quality when scaled in IE7
  *    code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/
  */
-/* line 303, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 303, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 img {
   border: 0;
   /* 1 */
@@ -371,7 +371,7 @@ img {
 /*
  * Corrects overflow displayed oddly in IE9
  */
-/* line 312, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 312, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 svg:not(:root) {
   overflow: hidden;
 }
@@ -382,7 +382,7 @@ svg:not(:root) {
 /*
  * Addresses margin not present in IE6/7/8/9, S5, O11
  */
-/* line 325, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 325, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 figure {
   margin: 0;
 }
@@ -393,7 +393,7 @@ figure {
 /*
  * Corrects margin displayed oddly in IE6/7
  */
-/* line 338, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 338, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 form {
   margin: 0;
 }
@@ -401,7 +401,7 @@ form {
 /*
  * Define consistent border, margin, and padding
  */
-/* line 346, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 346, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -413,7 +413,7 @@ fieldset {
  * 2. Corrects text not wrapping in FF3 
  * 3. Corrects alignment displayed oddly in IE6/7
  */
-/* line 358, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 358, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 legend {
   border: 0;
   /* 1 */
@@ -429,7 +429,7 @@ legend {
  * 2. Addresses margins set differently in IE6/7, FF3+, S5, Chrome
  * 3. Improves appearance and consistency in all browsers
  */
-/* line 374, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 371, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 button,
 input,
 select,
@@ -447,7 +447,7 @@ textarea {
 /*
  * Addresses FF3/4 setting line-height on 'input' using !important in the UA stylesheet
  */
-/* line 386, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 385, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 button,
 input {
   line-height: normal;
@@ -460,7 +460,7 @@ input {
  * 3. Removes inner spacing in IE7 without affecting normal text inputs
  *    Known issue: inner spacing remains in IE6
  */
-/* line 400, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 397, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 button,
 input[type="button"],
 input[type="reset"],
@@ -476,7 +476,7 @@ input[type="submit"] {
 /*
  * Re-set default cursor for disabled elements
  */
-/* line 411, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 410, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 button[disabled],
 input[disabled] {
   cursor: default;
@@ -488,7 +488,7 @@ input[disabled] {
  * 3. Removes excess padding in IE7
       Known issue: excess padding remains in IE6
  */
-/* line 423, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 422, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 input[type="checkbox"],
 input[type="radio"] {
   box-sizing: border-box;
@@ -505,7 +505,7 @@ input[type="radio"] {
  * 1. Addresses appearance set to searchfield in S5, Chrome
  * 2. Addresses box-sizing set to border-box in S5, Chrome (include -moz to future-proof)
  */
-/* line 435, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 435, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 input[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -518,7 +518,7 @@ input[type="search"] {
 /*
  * Removes inner padding and search cancel button in S5, Chrome on OS X
  */
-/* line 447, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 446, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button {
   -webkit-appearance: none;
@@ -528,7 +528,7 @@ input[type="search"]::-webkit-search-cancel-button {
  * Removes inner padding and border in FF3+
  * www.sitepen.com/blog/2008/05/14/the-devils-in-the-details-fixing-dojos-toolbar-buttons/
  */
-/* line 457, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 456, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 button::-moz-focus-inner,
 input::-moz-focus-inner {
   border: 0;
@@ -539,7 +539,7 @@ input::-moz-focus-inner {
  * 1. Removes default vertical scrollbar in IE6/7/8/9
  * 2. Improves readability and alignment in all browsers
  */
-/* line 467, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 467, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 textarea {
   overflow: auto;
   /* 1 */
@@ -553,7 +553,7 @@ textarea {
 /*
  * Remove most spacing between table cells
  */
-/* line 481, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
+/* line 481, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_normalize.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -579,14 +579,14 @@ table {
 *  See readme.md for details, licensing, and acknowledgments. 
 *
 */
-/* line 42, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_typography.scss */
+/* line 42, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_typography.scss */
 body {
   /* 16px / 24px */
   font-size: 1em;
   line-height: 1.5em;
 }
 
-/* line 52, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_typography.scss */
+/* line 52, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_typography.scss */
 .small {
   /* 13px / 18px */
   font-size: 0.8125em;
@@ -594,7 +594,7 @@ body {
   margin: 1.5em 0;
 }
 
-/* line 60, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_typography.scss */
+/* line 60, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_typography.scss */
 .medium, .normal, h3, p {
   /* 16px / 24px */
   font-size: 1em;
@@ -603,7 +603,7 @@ body {
   margin: 1.5em 0;
 }
 
-/* line 68, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_typography.scss */
+/* line 68, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_typography.scss */
 .large, h2, h1 {
   /* 26 / 36px */
   font-size: 1.625em;
@@ -611,7 +611,7 @@ body {
   margin: 0.92308em 0;
 }
 
-/* line 76, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_typography.scss */
+/* line 76, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_typography.scss */
 .huge {
   /* 42px / 48px */
   font-size: 2.625em;
@@ -619,7 +619,7 @@ body {
   margin: 0.57143em 0;
 }
 
-/* line 84, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_typography.scss */
+/* line 84, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_typography.scss */
 .massive {
   /* 68px / 72px */
   font-size: 4.25em;
@@ -627,7 +627,7 @@ body {
   margin: 1.5em 0;
 }
 
-/* line 92, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_typography.scss */
+/* line 92, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_typography.scss */
 .gigantic {
   /* 110px / 120px */
   font-size: 6.875em;
@@ -657,20 +657,20 @@ body {
 *  + Wrap field elements with label elements. 
 *
 */
-/* line 25, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_form.scss */
+/* line 25, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_form.scss */
 form {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   -ms-box-sizing: border-box;
   box-sizing: border-box;
 }
-/* line 32, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_form.scss */
+/* line 32, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_form.scss */
 form fieldset {
   border: 0;
   margin: 0;
   padding: 0;
 }
-/* line 42, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_form.scss */
+/* line 42, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_form.scss */
 form fieldset input, form fieldset textarea, form fieldset select {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -681,7 +681,7 @@ form fieldset input, form fieldset textarea, form fieldset select {
   margin: 0;
   padding: 0 0.25em;
 }
-/* line 53, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_form.scss */
+/* line 53, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_form.scss */
 form fieldset label {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -704,7 +704,7 @@ form fieldset label {
    Inlined to avoid required HTTP connection: h5bp.com/r
    ========================================================================== */
 @media print {
-  /* line 16, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_print.scss */
+  /* line 16, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_print.scss */
   * {
     background: transparent !important;
     color: black !important;
@@ -715,60 +715,59 @@ form fieldset label {
   }
 
   /* Black prints faster: h5bp.com/s */
-  /* line 17, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_print.scss */
+  /* line 17, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_print.scss */
   a, a:visited {
     text-decoration: underline;
   }
 
-  /* line 18, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_print.scss */
+  /* line 18, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_print.scss */
   a[href]:after {
     content: " (" attr(href) ")";
   }
 
-  /* line 19, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_print.scss */
+  /* line 19, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_print.scss */
   abbr[title]:after {
     content: " (" attr(title) ")";
   }
 
-  /* line 20, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_print.scss */
+  /* line 20, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_print.scss */
   .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
     content: "";
   }
 
   /* Don't show links for images, or javascript/internal links */
-  /* line 21, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_print.scss */
+  /* line 21, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_print.scss */
   pre, blockquote {
     border: 1px solid #999;
     page-break-inside: avoid;
   }
 
-  /* line 22, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_print.scss */
+  /* line 22, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_print.scss */
   thead {
     display: table-header-group;
   }
 
   /* h5bp.com/t */
-  /* line 23, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_print.scss */
+  /* line 23, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_print.scss */
   tr, img {
     page-break-inside: avoid;
   }
 
-  /* line 24, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_print.scss */
+  /* line 24, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_print.scss */
   img {
     max-width: 100% !important;
   }
 
   @page {
     margin: 0.5cm;
-}
-
-  /* line 26, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_print.scss */
+  }
+  /* line 26, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_print.scss */
   p, h2, h3 {
     orphans: 3;
     widows: 3;
   }
 
-  /* line 27, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_print.scss */
+  /* line 27, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_print.scss */
   h2, h3 {
     page-break-after: avoid;
   }
@@ -777,7 +776,7 @@ form fieldset label {
 .icon {
   display: none;
 }
-/* line 193, ../sass/high90.scss */
+/* line 76, ../sass/high90.scss */
 .icon.skype, .icon.tomcat, .icon.textexpander, .icon.nasa, .icon.type2phone, .icon.high90, .icon.typekit, .icon.keyboard.maestro, .icon.dayone, .icon.sublime.text, .icon.apple, .icon.dropbox, .icon.siri, .icon.verizon, .icon.swiftype, .icon.hazel, .icon.textastic, .icon.squarespace, .icon.nerdquery, .icon.colorschemer, .icon.pad.and.quill, .icon.twelve.south, .icon.beast, .icon.manos, .icon.server, .icon.the.oatmeal, .icon.mst3k, .icon.compass, .icon.typography, .icon.bitly, .icon.ifttt, .icon.zagg, .icon.love, .icon.yosemite, .icon.tiger, .icon.generational, .icon.appletv, .icon.statamic, .icon.keynote, .icon.osx, .icon.humor, .icon.resistance, .icon.takitapart, .icon.frailty, .icon.daleks, .icon.korea, .icon.the.bomb, .icon.appfog, .icon.pebble, .icon.mail, .icon.panic, .icon.nest, .icon.cosmology, .icon.security, .icon.media, .icon.tmb, .icon.rhino, .icon.vf-11, .icon.vf-101, .icon.lso.school, .icon.jsf, .icon.cvw-1, .icon.cnal, .icon.vfc-13, .icon.cv-67, .icon.cvn-65, .icon.cvn-69, .icon.cvn-70, .icon.cvn-71, .icon.cvn-72, .icon.cvn-73, .icon.cvn-75, .icon.cvn-76, .icon.cvn-77, .icon.nyan.cat, .icon.reading, .icon.criticmarkup, .icon.rss, .icon.netnewswire, .icon.adobe, .icon.sketch, .icon.pixelmator, .icon.evernote, .icon.byword, .icon.superman, .icon.prism, .icon.newsblur, .icon.readkit, .icon.slowfeeds, .icon.copyright, .icon.amazon, .icon.kindle, .icon.android, .icon.iss, .icon.spacex, .icon.orbital, .icon.technical.difficulties, .icon.flickr, .icon.sonos, .icon.huffduffer, .icon.clc, .icon.powerpoint, .icon.dawn.patrol, .icon.dr.drang, .icon.heretics, .icon.emptiness, .icon.domains, .icon.meta, .icon.sea.lions, .icon.simplecast, .icon.high90cast, .icon.linux, .icon.carousel, .icon.paw.patrol, .icon.gtd, .icon.jupiter, .icon.breakin, .icon.galileo {
   display: block;
   padding: 0;
@@ -882,12 +881,12 @@ form fieldset label {
 .icon.twelve.south {
   background-image: url("../../../assets/icons/twelvesouth.png");
 }
-/* line 300, ../sass/high90.scss */
+/* line 298, ../sass/high90.scss */
 .icon.beast, .icon.the.oatmeal, .icon.humor {
   background-image: url("../../../assets/icons/beast.png");
   height: 7em !important;
 }
-/* line 309, ../sass/high90.scss */
+/* line 308, ../sass/high90.scss */
 .icon.manos, .icon.mst3k {
   background-image: url("../../../assets/icons/manos.png");
   height: 7em !important;
@@ -1325,7 +1324,7 @@ form fieldset label {
   height: 3.2em !important;
 }
 
-/* line 754, ../sass/high90.scss */
+/* line 749, ../sass/high90.scss */
 h1,
 h2,
 h3,
@@ -1341,7 +1340,7 @@ h6 {
   line-height: 1.2em;
 }
 
-/* line 767, ../sass/high90.scss */
+/* line 764, ../sass/high90.scss */
 a,
 a:active,
 a:visited,
@@ -1387,12 +1386,12 @@ body {
   overflow-x: hidden;
   position: relative;
 }
-/* line 23, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_grid.scss */
+/* line 22, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_grid.scss */
 body:before, body:after {
   content: "";
   display: table;
 }
-/* line 27, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_grid.scss */
+/* line 27, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_grid.scss */
 body:after {
   clear: both;
 }
@@ -1408,7 +1407,7 @@ body #container {
   box-sizing: border-box;
   padding: 0 0.8em;
 }
-/* line 806, ../sass/high90.scss */
+/* line 804, ../sass/high90.scss */
 body #header,
 body #core,
 body #footer {
@@ -1430,7 +1429,7 @@ body #header {
 body #footer {
   font-family: "brandon-grotesque", sans-serif;
   text-transform: uppercase;
-  color: #777777;
+  color: #777;
   line-height: 1.3em;
   margin-top: 1em;
   margin-bottom: 1em;
@@ -1440,7 +1439,7 @@ body #footer {
 body #footer p {
   font-size: 0.7em;
 }
-/* line 830, ../sass/high90.scss */
+/* line 828, ../sass/high90.scss */
 body #footer a,
 body #footer a:visited,
 body #footer a:active {
@@ -1583,7 +1582,7 @@ body #footer .cc-text img {
   font-style: italic;
 }
 
-/* line 945, ../sass/high90.scss */
+/* line 944, ../sass/high90.scss */
 .content,
 .search {
   display: block;
@@ -1755,7 +1754,7 @@ body #footer .cc-text img {
   font-style: italic;
   font-size: 0.8em;
   text-align: right;
-  color: #999999;
+  color: #999;
 }
 /* line 1035, ../sass/high90.scss */
 .content .post .post-header .caption p,
@@ -1815,12 +1814,12 @@ body #footer .cc-text img {
   padding: 0;
   font-family: "brandon-grotesque",sans-serif;
   text-transform: uppercase;
-  color: #777777;
+  color: #777;
   font-weight: 300;
   font-size: 0.9em;
   line-height: 1.4em;
 }
-/* line 1084, ../sass/high90.scss */
+/* line 1083, ../sass/high90.scss */
 .content .post .post-title .title-date .nice-date,
 .content .post .post-title .title-date .time,
 .search .post .post-title .title-date .nice-date,
@@ -1832,7 +1831,7 @@ body #footer .cc-text img {
 .search .post .post-title .title-author {
   font-family: "brandon-grotesque",sans-serif;
   text-transform: uppercase;
-  color: #777777;
+  color: #777;
   font-weight: 300;
   font-size: 0.9em;
   line-height: 1.4em;
@@ -1860,7 +1859,7 @@ body #footer .cc-text img {
   box-sizing: border-box;
   padding: 0;
 }
-/* line 1116, ../sass/high90.scss */
+/* line 1111, ../sass/high90.scss */
 .content .post .post-body h1,
 .content .post .post-body h2,
 .content .post .post-body h3,
@@ -1923,7 +1922,7 @@ body #footer .cc-text img {
   font-weight: bold;
   font-size: 1em;
 }
-/* line 1165, ../sass/high90.scss */
+/* line 1162, ../sass/high90.scss */
 .content .post .post-body a,
 .content .post .post-body a:visited,
 .content .post .post-body a:active,
@@ -1969,7 +1968,7 @@ body #footer .cc-text img {
 .content .post .post-body table,
 .search .post .post-body table {
   font-family: "brandon-grotesque",sans-serif;
-  background-color: #eeeeee;
+  background-color: #eee;
   width: 100%;
 }
 /* line 1199, ../sass/high90.scss */
@@ -1989,7 +1988,7 @@ body #footer .cc-text img {
 /* line 1211, ../sass/high90.scss */
 .content .post .post-body table tbody tr:nth-child(even),
 .search .post .post-body table tbody tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #ddd;
 }
 /* line 1218, ../sass/high90.scss */
 .content .post .post-body dl,
@@ -2101,14 +2100,14 @@ body #footer .cc-text img {
 .content .post .post-body code.prettyprint,
 .search .post .post-body code.prettyprint {
   font-size: 0.8em;
-  color: #777777;
+  color: #777;
 }
 /* line 1310, ../sass/high90.scss */
 .content .post .post-body acronym,
 .search .post .post-body acronym {
   font-variant: small-caps;
 }
-/* line 1316, ../sass/high90.scss */
+/* line 1314, ../sass/high90.scss */
 .content .post .post-body kbd,
 .content .post .post-body tt,
 .content .post .post-body var,
@@ -2118,15 +2117,15 @@ body #footer .cc-text img {
   font-family: monospace;
   font-size: 0.9em;
 }
-/* line 1322, ../sass/high90.scss */
+/* line 1321, ../sass/high90.scss */
 .content .post .post-body blockquote,
 .content .post .post-body address,
 .search .post .post-body blockquote,
 .search .post .post-body address {
   padding: 0 0 0 1em;
   margin: 0.7em 0 0.9em 0;
-  border-left: 0.5em solid #dddddd;
-  color: #777777;
+  border-left: 0.5em solid #ddd;
+  color: #777;
 }
 /* line 1327, ../sass/high90.scss */
 .content .post .post-body blockquote p:first-child,
@@ -2192,8 +2191,8 @@ body #footer .cc-text img {
   background-color: transparent;
   margin-top: 0.3em;
   margin-bottom: 1em;
-  border-top: 1px dotted #cccccc;
-  border-bottom: 1px dotted #cccccc;
+  border-top: 1px dotted #ccc;
+  border-bottom: 1px dotted #ccc;
   font-size: 1em;
 }
 /* line 1369, ../sass/high90.scss */
@@ -2288,7 +2287,7 @@ body #footer .cc-text img {
 .search .post .post-body .ref-post.all {
   border-left: 0.5em solid #363635 !important;
 }
-/* line 1437, ../sass/high90.scss */
+/* line 1434, ../sass/high90.scss */
 .content .post .post-body .ref-post a,
 .content .post .post-body .ref-post a:visited,
 .content .post .post-body .ref-post a:active,
@@ -2373,10 +2372,10 @@ body #footer .cc-text img {
   line-height: 1.6em;
   font-family: "brandon-grotesque",sans-serif;
   text-transform: uppercase;
-  color: #777777;
+  color: #777;
   font-weight: 300;
 }
-/* line 1467, ../sass/high90.scss */
+/* line 1466, ../sass/high90.scss */
 .content .post .post-body .ref-post a .post-title .title-date .nice-date,
 .content .post .post-body .ref-post a .post-title .title-date .time,
 .content .post .post-body .ref-post a:visited .post-title .title-date .nice-date,
@@ -2428,7 +2427,7 @@ body #footer .cc-text img {
 /* line 1495, ../sass/high90.scss */
 .content .post .post-body .caption,
 .search .post .post-body .caption {
-  color: #999999;
+  color: #999;
   text-align: center;
   font-style: italic;
   font-size: 0.8em;
@@ -2477,17 +2476,17 @@ body #footer .cc-text img {
   background-color: #e5e4df;
   border-radius: 0.5em;
   border: 0.2em solid #fbfaf5;
-  -webkit-box-shadow: #e5e4df 0 0 0 0.2em;
   -moz-box-shadow: #e5e4df 0 0 0 0.2em;
+  -webkit-box-shadow: #e5e4df 0 0 0 0.2em;
   box-shadow: #e5e4df 0 0 0 0.2em;
 }
 /* line 1537, ../sass/high90.scss */
 .content .post .post-body aside.red,
 .search .post .post-body aside.red {
   background-color: #de3907;
-  color: white;
-  -webkit-box-shadow: #de3907 0 0 0 0.2em;
+  color: #FFFFFF;
   -moz-box-shadow: #de3907 0 0 0 0.2em;
+  -webkit-box-shadow: #de3907 0 0 0 0.2em;
   box-shadow: #de3907 0 0 0 0.2em;
 }
 /* line 1543, ../sass/high90.scss */
@@ -2495,8 +2494,8 @@ body #footer .cc-text img {
 .search .post .post-body aside.orange {
   background-color: #f98d28;
   color: #1a3a46;
-  -webkit-box-shadow: #f98d28 0 0 0 0.2em;
   -moz-box-shadow: #f98d28 0 0 0 0.2em;
+  -webkit-box-shadow: #f98d28 0 0 0 0.2em;
   box-shadow: #f98d28 0 0 0 0.2em;
 }
 /* line 1549, ../sass/high90.scss */
@@ -2504,8 +2503,8 @@ body #footer .cc-text img {
 .search .post .post-body aside.yellow {
   background-color: #fbc71c;
   color: #1a3a46;
-  -webkit-box-shadow: #fbc71c 0 0 0 0.2em;
   -moz-box-shadow: #fbc71c 0 0 0 0.2em;
+  -webkit-box-shadow: #fbc71c 0 0 0 0.2em;
   box-shadow: #fbc71c 0 0 0 0.2em;
 }
 /* line 1555, ../sass/high90.scss */
@@ -2513,26 +2512,26 @@ body #footer .cc-text img {
 .search .post .post-body aside.light-green {
   background-color: #bef231;
   color: #1a3a46;
-  -webkit-box-shadow: #bef231 0 0 0 0.2em;
   -moz-box-shadow: #bef231 0 0 0 0.2em;
+  -webkit-box-shadow: #bef231 0 0 0 0.2em;
   box-shadow: #bef231 0 0 0 0.2em;
 }
 /* line 1561, ../sass/high90.scss */
 .content .post .post-body aside.green,
 .search .post .post-body aside.green {
   background-color: #519548;
-  color: white;
-  -webkit-box-shadow: #519548 0 0 0 0.2em;
+  color: #FFFFFF;
   -moz-box-shadow: #519548 0 0 0 0.2em;
+  -webkit-box-shadow: #519548 0 0 0 0.2em;
   box-shadow: #519548 0 0 0 0.2em;
 }
 /* line 1567, ../sass/high90.scss */
 .content .post .post-body aside.dark-green,
 .search .post .post-body aside.dark-green {
   background-color: #244821;
-  color: white;
-  -webkit-box-shadow: #244821 0 0 0 0.2em;
+  color: #FFFFFF;
   -moz-box-shadow: #244821 0 0 0 0.2em;
+  -webkit-box-shadow: #244821 0 0 0 0.2em;
   box-shadow: #244821 0 0 0 0.2em;
 }
 /* line 1573, ../sass/high90.scss */
@@ -2540,44 +2539,44 @@ body #footer .cc-text img {
 .search .post .post-body aside.bright-blue {
   background-color: #26ade3;
   color: #1a3a46;
-  -webkit-box-shadow: #26ade3 0 0 0 0.2em;
   -moz-box-shadow: #26ade3 0 0 0 0.2em;
+  -webkit-box-shadow: #26ade3 0 0 0 0.2em;
   box-shadow: #26ade3 0 0 0 0.2em;
 }
 /* line 1579, ../sass/high90.scss */
 .content .post .post-body aside.blue,
 .search .post .post-body aside.blue {
   background-color: #4386af;
-  color: white;
-  -webkit-box-shadow: #4386af 0 0 0 0.2em;
+  color: #FFFFFF;
   -moz-box-shadow: #4386af 0 0 0 0.2em;
+  -webkit-box-shadow: #4386af 0 0 0 0.2em;
   box-shadow: #4386af 0 0 0 0.2em;
 }
 /* line 1585, ../sass/high90.scss */
 .content .post .post-body aside.dark-blue,
 .search .post .post-body aside.dark-blue {
   background-color: #1a3a46;
-  color: white;
-  -webkit-box-shadow: #1a3a46 0 0 0 0.2em;
+  color: #FFFFFF;
   -moz-box-shadow: #1a3a46 0 0 0 0.2em;
+  -webkit-box-shadow: #1a3a46 0 0 0 0.2em;
   box-shadow: #1a3a46 0 0 0 0.2em;
 }
 /* line 1591, ../sass/high90.scss */
 .content .post .post-body aside.purple,
 .search .post .post-body aside.purple {
   background-color: #743792;
-  color: white;
-  -webkit-box-shadow: #743792 0 0 0 0.2em;
+  color: #FFFFFF;
   -moz-box-shadow: #743792 0 0 0 0.2em;
+  -webkit-box-shadow: #743792 0 0 0 0.2em;
   box-shadow: #743792 0 0 0 0.2em;
 }
 /* line 1597, ../sass/high90.scss */
 .content .post .post-body aside.dark-grey,
 .search .post .post-body aside.dark-grey {
   background-color: #363635;
-  color: white;
-  -webkit-box-shadow: #363635 0 0 0 0.2em;
+  color: #FFFFFF;
   -moz-box-shadow: #363635 0 0 0 0.2em;
+  -webkit-box-shadow: #363635 0 0 0 0.2em;
   box-shadow: #363635 0 0 0 0.2em;
 }
 /* line 1603, ../sass/high90.scss */
@@ -2622,7 +2621,7 @@ body #footer .cc-text img {
 .content .post .post-body aside blockquote,
 .search .post .post-body aside blockquote {
   padding: 0.3em 0 0.3em;
-  color: #777777;
+  color: #777;
   margin-top: 0;
   margin-bottom: 0;
   margin-left: 0;
@@ -2635,7 +2634,7 @@ body #footer .cc-text img {
 .search .post .post-body div.image {
   display: none;
 }
-/* line 1653, ../sass/high90.scss */
+/* line 1652, ../sass/high90.scss */
 .content .post .post-body .product,
 .content .post .post-body .app,
 .search .post .post-body .product,
@@ -2676,6 +2675,13 @@ body #footer .cc-text img {
   padding: 0.5em;
 }
 /* line 1680, ../sass/high90.scss */
+.content .post .post-body .product.album .fancybox img,
+.content .post .post-body .app.album .fancybox img,
+.search .post .post-body .product.album .fancybox img,
+.search .post .post-body .app.album .fancybox img {
+  padding: 0 !important;
+}
+/* line 1684, ../sass/high90.scss */
 .content .post .post-body .product .details,
 .content .post .post-body .app .details,
 .search .post .post-body .product .details,
@@ -2693,14 +2699,14 @@ body #footer .cc-text img {
   margin-bottom: 0;
   list-style-type: none;
 }
-/* line 1687, ../sass/high90.scss */
+/* line 1691, ../sass/high90.scss */
 .content .post .post-body .product .details li::before,
 .content .post .post-body .app .details li::before,
 .search .post .post-body .product .details li::before,
 .search .post .post-body .app .details li::before {
   display: none;
 }
-/* line 1691, ../sass/high90.scss */
+/* line 1695, ../sass/high90.scss */
 .content .post .post-body .product .details li,
 .content .post .post-body .app .details li,
 .search .post .post-body .product .details li,
@@ -2708,7 +2714,7 @@ body #footer .cc-text img {
   text-indent: 0;
   padding: 0;
 }
-/* line 1696, ../sass/high90.scss */
+/* line 1700, ../sass/high90.scss */
 .content .post .post-body .product .details .name,
 .content .post .post-body .app .details .name,
 .search .post .post-body .product .details .name,
@@ -2717,7 +2723,7 @@ body #footer .cc-text img {
   text-transform: uppercase;
   padding-bottom: 0.5em;
 }
-/* line 1704, ../sass/high90.scss */
+/* line 1705, ../sass/high90.scss */
 .content .post .post-body .product .details .name a,
 .content .post .post-body .product .details .name a:active,
 .content .post .post-body .product .details .name a:visited,
@@ -2736,7 +2742,7 @@ body #footer .cc-text img {
 .search .post .post-body .app .details .name a:focus {
   color: #1a3a46;
 }
-/* line 1707, ../sass/high90.scss */
+/* line 1711, ../sass/high90.scss */
 .content .post .post-body .product .details .name a:hover,
 .content .post .post-body .product .details .name a:active:hover,
 .content .post .post-body .product .details .name a:visited:hover,
@@ -2755,7 +2761,7 @@ body #footer .cc-text img {
 .search .post .post-body .app .details .name a:focus:hover {
   color: #de3907;
 }
-/* line 1713, ../sass/high90.scss */
+/* line 1717, ../sass/high90.scss */
 .content .post .post-body .product .details .description,
 .content .post .post-body .app .details .description,
 .search .post .post-body .product .details .description,
@@ -2765,7 +2771,7 @@ body #footer .cc-text img {
   text-align: center;
   padding-bottom: 0.5em;
 }
-/* line 1720, ../sass/high90.scss */
+/* line 1724, ../sass/high90.scss */
 .content .post .post-body .product .details .price,
 .content .post .post-body .app .details .price,
 .search .post .post-body .product .details .price,
@@ -2774,29 +2780,29 @@ body #footer .cc-text img {
   text-transform: uppercase;
   padding-bottom: 0.5em;
 }
-/* line 1726, ../sass/high90.scss */
+/* line 1730, ../sass/high90.scss */
 .content .post .post-body .product .details .link,
 .content .post .post-body .app .details .link,
 .search .post .post-body .product .details .link,
 .search .post .post-body .app .details .link {
   line-height: 1.4em;
 }
-/* line 1732, ../sass/high90.scss */
+/* line 1736, ../sass/high90.scss */
 .content .post .post-body .permalink,
 .search .post .post-body .permalink {
   font-size: 1.5em;
 }
-/* line 1735, ../sass/high90.scss */
+/* line 1739, ../sass/high90.scss */
 .content .post .post-body .permalink a,
 .search .post .post-body .permalink a {
   color: #de3907;
 }
-/* line 1738, ../sass/high90.scss */
+/* line 1742, ../sass/high90.scss */
 .content .post .post-body .permalink a:hover,
 .search .post .post-body .permalink a:hover {
   color: #ad2c05;
 }
-/* line 1744, ../sass/high90.scss */
+/* line 1748, ../sass/high90.scss */
 .content .post .post-body .high90cast-meta,
 .search .post .post-body .high90cast-meta {
   display: block;
@@ -2811,7 +2817,7 @@ body #footer .cc-text img {
   margin-top: 0.8em;
   margin-bottom: 0.5em;
 }
-/* line 1750, ../sass/high90.scss */
+/* line 1754, ../sass/high90.scss */
 .content .post .post-body .high90cast-meta .links,
 .search .post .post-body .high90cast-meta .links {
   display: block;
@@ -2828,18 +2834,18 @@ body #footer .cc-text img {
   text-transform: uppercase;
   font-size: 0.8em;
 }
-/* line 1758, ../sass/high90.scss */
+/* line 1762, ../sass/high90.scss */
 .content .post .post-body .high90cast-meta .links a,
 .search .post .post-body .high90cast-meta .links a {
   display: inline-block;
   color: #1a3a46;
 }
-/* line 1762, ../sass/high90.scss */
+/* line 1766, ../sass/high90.scss */
 .content .post .post-body .high90cast-meta .links a:hover,
 .search .post .post-body .high90cast-meta .links a:hover {
   color: #de3907;
 }
-/* line 1770, ../sass/high90.scss */
+/* line 1774, ../sass/high90.scss */
 .content .post .post-footer,
 .search .post .post-footer {
   display: block;
@@ -2854,7 +2860,7 @@ body #footer .cc-text img {
   margin: 1em 0;
   letter-spacing: 1.5px;
 }
-/* line 1776, ../sass/high90.scss */
+/* line 1780, ../sass/high90.scss */
 .content .post .post-footer .title,
 .search .post .post-footer .title {
   display: block;
@@ -2870,12 +2876,12 @@ body #footer .cc-text img {
   margin-bottom: 0.4em;
   font-family: "brandon-grotesque", sans-serif;
   text-transform: uppercase;
-  color: #999999;
+  color: #999;
   font-size: 0.8em;
   line-height: 1.1em;
   font-weight: 300;
 }
-/* line 1790, ../sass/high90.scss */
+/* line 1793, ../sass/high90.scss */
 .content .post .post-footer ul.category-list,
 .content .post .post-footer ul.tag-list,
 .search .post .post-footer ul.category-list,
@@ -2895,7 +2901,7 @@ body #footer .cc-text img {
   font-size: 0.8em;
   line-height: 1.3em;
 }
-/* line 1799, ../sass/high90.scss */
+/* line 1803, ../sass/high90.scss */
 .content .post .post-footer ul.category-list li,
 .content .post .post-footer ul.tag-list li,
 .search .post .post-footer ul.category-list li,
@@ -2905,7 +2911,7 @@ body #footer .cc-text img {
   text-transform: uppercase;
   padding-left: 0.3em;
 }
-/* line 1807, ../sass/high90.scss */
+/* line 1809, ../sass/high90.scss */
 .content .post .post-footer ul.category-list li a,
 .content .post .post-footer ul.category-list li a:active,
 .content .post .post-footer ul.category-list li a:visited,
@@ -2921,7 +2927,7 @@ body #footer .cc-text img {
   color: #1a3a46;
   text-decoration: none;
 }
-/* line 1811, ../sass/high90.scss */
+/* line 1815, ../sass/high90.scss */
 .content .post .post-footer ul.category-list li a:hover,
 .content .post .post-footer ul.category-list li a:active:hover,
 .content .post .post-footer ul.category-list li a:visited:hover,
@@ -2936,7 +2942,7 @@ body #footer .cc-text img {
 .search .post .post-footer ul.tag-list li a:visited:hover {
   color: #de3907;
 }
-/* line 1820, ../sass/high90.scss */
+/* line 1824, ../sass/high90.scss */
 .content .bio,
 .search .bio {
   display: block;
@@ -2949,7 +2955,7 @@ body #footer .cc-text img {
   box-sizing: border-box;
   padding: 0;
 }
-/* line 1827, ../sass/high90.scss */
+/* line 1828, ../sass/high90.scss */
 .content .bio a,
 .content .bio a:visited,
 .content .bio a:active,
@@ -2960,7 +2966,7 @@ body #footer .cc-text img {
 .search .bio a:focus {
   color: #ad2c05;
 }
-/* line 1830, ../sass/high90.scss */
+/* line 1834, ../sass/high90.scss */
 .content .bio a:hover,
 .content .bio a:visited:hover,
 .content .bio a:active:hover,
@@ -2971,7 +2977,7 @@ body #footer .cc-text img {
 .search .bio a:focus:hover {
   color: #de3907;
 }
-/* line 1835, ../sass/high90.scss */
+/* line 1839, ../sass/high90.scss */
 .content .bio img,
 .search .bio img {
   display: block;
@@ -2979,12 +2985,12 @@ body #footer .cc-text img {
   padding: 0.5em 0 0.8em 0;
   height: auto;
 }
-/* line 1842, ../sass/high90.scss */
+/* line 1846, ../sass/high90.scss */
 .content .bio p,
 .search .bio p {
   padding: 0;
 }
-/* line 1849, ../sass/high90.scss */
+/* line 1851, ../sass/high90.scss */
 .content .more-header,
 .content .pagination-header,
 .content .search-header,
@@ -3005,7 +3011,7 @@ body #footer .cc-text img {
   margin-top: 1em;
   margin-bottom: 0.7em;
 }
-/* line 1858, ../sass/high90.scss */
+/* line 1862, ../sass/high90.scss */
 .content .pagination,
 .search .pagination {
   display: block;
@@ -3019,7 +3025,7 @@ body #footer .cc-text img {
   padding: 0;
   background-image: url("../img/stripes.svg");
 }
-/* line 1863, ../sass/high90.scss */
+/* line 1867, ../sass/high90.scss */
 .content .pagination .post,
 .search .pagination .post {
   display: block;
@@ -3036,17 +3042,17 @@ body #footer .cc-text img {
   background-image: url("../img/stripes.svg");
   border-left: 0.5em solid #e5e4df !important;
 }
-/* line 1871, ../sass/high90.scss */
+/* line 1875, ../sass/high90.scss */
 .content .pagination .post.high90,
 .search .pagination .post.high90 {
   border-left: 0.5em solid #de3907 !important;
 }
-/* line 1875, ../sass/high90.scss */
+/* line 1879, ../sass/high90.scss */
 .content .pagination .post.design,
 .search .pagination .post.design {
   border-left: 0.5em solid #4386af !important;
 }
-/* line 1882, ../sass/high90.scss */
+/* line 1883, ../sass/high90.scss */
 .content .pagination .post a,
 .content .pagination .post a:visited,
 .content .pagination .post a:active,
@@ -3067,7 +3073,7 @@ body #footer .cc-text img {
   letter-spacing: 1.5px;
   background-color: #e5e4df;
 }
-/* line 1888, ../sass/high90.scss */
+/* line 1892, ../sass/high90.scss */
 .content .pagination .post a .title,
 .content .pagination .post a:visited .title,
 .content .pagination .post a:active .title,
@@ -3095,7 +3101,7 @@ body #footer .cc-text img {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-/* line 1902, ../sass/high90.scss */
+/* line 1906, ../sass/high90.scss */
 .content .pagination .post a .key,
 .content .pagination .post a:visited .key,
 .content .pagination .post a:active .key,
@@ -3117,10 +3123,10 @@ body #footer .cc-text img {
   line-height: 1.3em;
   font-family: "brandon-grotesque",sans-serif;
   text-transform: uppercase;
-  color: #777777;
+  color: #777;
   font-weight: 300;
 }
-/* line 1913, ../sass/high90.scss */
+/* line 1917, ../sass/high90.scss */
 .content .pagination .post a:hover,
 .content .pagination .post a:visited:hover,
 .content .pagination .post a:active:hover,
@@ -3131,32 +3137,32 @@ body #footer .cc-text img {
 .search .pagination .post a:focus:hover {
   background-color: #cdccc8;
 }
-/* line 1918, ../sass/high90.scss */
+/* line 1922, ../sass/high90.scss */
 .content .pagination .post.next,
 .search .pagination .post.next {
   float: right;
 }
-/* line 1923, ../sass/high90.scss */
+/* line 1926, ../sass/high90.scss */
 .content .pagination .post.none.design, .content .pagination .post.none.high90,
 .search .pagination .post.none.design,
 .search .pagination .post.none.high90 {
   background: transparent !important;
   border: none !important;
 }
-/* line 1927, ../sass/high90.scss */
+/* line 1931, ../sass/high90.scss */
 .content .pagination .post.none.design a, .content .pagination .post.none.high90 a,
 .search .pagination .post.none.design a,
 .search .pagination .post.none.high90 a {
   background: transparent;
   padding: 0;
 }
-/* line 1931, ../sass/high90.scss */
+/* line 1935, ../sass/high90.scss */
 .content .pagination .post.none.design a:hover, .content .pagination .post.none.high90 a:hover,
 .search .pagination .post.none.design a:hover,
 .search .pagination .post.none.high90 a:hover {
   background: transparent;
 }
-/* line 1940, ../sass/high90.scss */
+/* line 1943, ../sass/high90.scss */
 .content .category-posts,
 .content .search-list,
 .search .category-posts,
@@ -3173,7 +3179,7 @@ body #footer .cc-text img {
   margin-top: 0;
   margin-bottom: 0em;
 }
-/* line 1946, ../sass/high90.scss */
+/* line 1950, ../sass/high90.scss */
 .content .category-posts .no-more,
 .content .search-list .no-more,
 .search .category-posts .no-more,
@@ -3189,9 +3195,9 @@ body #footer .cc-text img {
   padding: 0;
   font-style: italic;
   margin-bottom: 1em;
-  color: #777777;
+  color: #777;
 }
-/* line 1954, ../sass/high90.scss */
+/* line 1958, ../sass/high90.scss */
 .content .category-posts .post,
 .content .search-list .post,
 .search .category-posts .post,
@@ -3210,70 +3216,70 @@ body #footer .cc-text img {
   background-image: url("../img/stripes.svg");
   border-left: 0.5em solid #e5e4df !important;
 }
-/* line 1962, ../sass/high90.scss */
+/* line 1966, ../sass/high90.scss */
 .content .category-posts .post.high90,
 .content .search-list .post.high90,
 .search .category-posts .post.high90,
 .search .search-list .post.high90 {
   border-left: 0.5em solid #de3907 !important;
 }
-/* line 1966, ../sass/high90.scss */
+/* line 1970, ../sass/high90.scss */
 .content .category-posts .post.news,
 .content .search-list .post.news,
 .search .category-posts .post.news,
 .search .search-list .post.news {
   border-left: 0.5em solid #de3907 !important;
 }
-/* line 1970, ../sass/high90.scss */
+/* line 1974, ../sass/high90.scss */
 .content .category-posts .post.high90cast,
 .content .search-list .post.high90cast,
 .search .category-posts .post.high90cast,
 .search .search-list .post.high90cast {
   border-left: 0.5em solid #f98d28 !important;
 }
-/* line 1974, ../sass/high90.scss */
+/* line 1978, ../sass/high90.scss */
 .content .category-posts .post.development,
 .content .search-list .post.development,
 .search .category-posts .post.development,
 .search .search-list .post.development {
   border-left: 0.5em solid #fbc71c !important;
 }
-/* line 1978, ../sass/high90.scss */
+/* line 1982, ../sass/high90.scss */
 .content .category-posts .post.technology,
 .content .search-list .post.technology,
 .search .category-posts .post.technology,
 .search .search-list .post.technology {
   border-left: 0.5em solid #519548 !important;
 }
-/* line 1982, ../sass/high90.scss */
+/* line 1986, ../sass/high90.scss */
 .content .category-posts .post.productivity,
 .content .search-list .post.productivity,
 .search .category-posts .post.productivity,
 .search .search-list .post.productivity {
   border-left: 0.5em solid #26ade3 !important;
 }
-/* line 1986, ../sass/high90.scss */
+/* line 1990, ../sass/high90.scss */
 .content .category-posts .post.design,
 .content .search-list .post.design,
 .search .category-posts .post.design,
 .search .search-list .post.design {
   border-left: 0.5em solid #4386af !important;
 }
-/* line 1990, ../sass/high90.scss */
+/* line 1994, ../sass/high90.scss */
 .content .category-posts .post.ideas,
 .content .search-list .post.ideas,
 .search .category-posts .post.ideas,
 .search .search-list .post.ideas {
   border-left: 0.5em solid #743792 !important;
 }
-/* line 1994, ../sass/high90.scss */
+/* line 1998, ../sass/high90.scss */
 .content .category-posts .post.all,
 .content .search-list .post.all,
 .search .category-posts .post.all,
 .search .search-list .post.all {
   border-left: 0.5em solid #363635 !important;
 }
-/* line 2001, ../sass/high90.scss */
+/* line 2002, ../sass/high90.scss */
 .content .category-posts .post a,
 .content .category-posts .post a:visited,
 .content .category-posts .post a:active,
@@ -3302,7 +3308,7 @@ body #footer .cc-text img {
   letter-spacing: 1.5px;
   background-color: #e5e4df;
 }
-/* line 2007, ../sass/high90.scss */
+/* line 2011, ../sass/high90.scss */
 .content .category-posts .post a .post-title,
 .content .category-posts .post a:visited .post-title,
 .content .category-posts .post a:active .post-title,
@@ -3329,7 +3335,7 @@ body #footer .cc-text img {
   box-sizing: border-box;
   padding: 0.8em 0em 0.5em;
 }
-/* line 2011, ../sass/high90.scss */
+/* line 2015, ../sass/high90.scss */
 .content .category-posts .post a .post-title .title,
 .content .category-posts .post a:visited .post-title .title,
 .content .category-posts .post a:active .post-title .title,
@@ -3359,7 +3365,7 @@ body #footer .cc-text img {
   font-weight: 500;
   font-size: 0.9em;
 }
-/* line 2019, ../sass/high90.scss */
+/* line 2023, ../sass/high90.scss */
 .content .category-posts .post a .post-title .title-date,
 .content .category-posts .post a:visited .post-title .title-date,
 .content .category-posts .post a:active .post-title .title-date,
@@ -3389,10 +3395,10 @@ body #footer .cc-text img {
   line-height: 1.6em;
   font-family: "brandon-grotesque",sans-serif;
   text-transform: uppercase;
-  color: #777777;
+  color: #777;
   font-weight: 300;
 }
-/* line 2030, ../sass/high90.scss */
+/* line 2033, ../sass/high90.scss */
 .content .category-posts .post a .post-title .title-date .nice-date,
 .content .category-posts .post a .post-title .title-date .time,
 .content .category-posts .post a:visited .post-title .title-date .nice-date,
@@ -3427,7 +3433,7 @@ body #footer .cc-text img {
 .search .search-list .post a:focus .post-title .title-date .time {
   font-weight: 300;
 }
-/* line 2036, ../sass/high90.scss */
+/* line 2040, ../sass/high90.scss */
 .content .category-posts .post a:hover,
 .content .category-posts .post a:visited:hover,
 .content .category-posts .post a:active:hover,
@@ -3446,7 +3452,7 @@ body #footer .cc-text img {
 .search .search-list .post a:focus:hover {
   background-color: #cdccc8;
 }
-/* line 2043, ../sass/high90.scss */
+/* line 2047, ../sass/high90.scss */
 .content .more-posts,
 .search .more-posts {
   display: block;
@@ -3461,7 +3467,7 @@ body #footer .cc-text img {
   margin-top: 0;
   margin-bottom: 0em;
 }
-/* line 2049, ../sass/high90.scss */
+/* line 2053, ../sass/high90.scss */
 .content .more-posts .no-more,
 .search .more-posts .no-more {
   display: block;
@@ -3475,9 +3481,9 @@ body #footer .cc-text img {
   padding: 0;
   font-style: italic;
   margin-bottom: 1em;
-  color: #777777;
+  color: #777;
 }
-/* line 2057, ../sass/high90.scss */
+/* line 2061, ../sass/high90.scss */
 .content .more-posts .post,
 .search .more-posts .post {
   display: block;
@@ -3492,7 +3498,7 @@ body #footer .cc-text img {
   margin-top: 0em;
   margin-bottom: 1em;
 }
-/* line 2063, ../sass/high90.scss */
+/* line 2067, ../sass/high90.scss */
 .content .more-posts .post .post-image,
 .search .more-posts .post .post-image {
   display: block;
@@ -3506,59 +3512,59 @@ body #footer .cc-text img {
   padding: 0;
   border-bottom: 0.5em solid #e5e4df !important;
 }
-/* line 2068, ../sass/high90.scss */
+/* line 2072, ../sass/high90.scss */
 .content .more-posts .post .post-image.high90,
 .search .more-posts .post .post-image.high90 {
   border-bottom: 0.5em solid #de3907 !important;
 }
-/* line 2072, ../sass/high90.scss */
+/* line 2076, ../sass/high90.scss */
 .content .more-posts .post .post-image.news,
 .search .more-posts .post .post-image.news {
   border-bottom: 0.5em solid #de3907 !important;
 }
-/* line 2076, ../sass/high90.scss */
+/* line 2080, ../sass/high90.scss */
 .content .more-posts .post .post-image.high90cast,
 .search .more-posts .post .post-image.high90cast {
   border-bottom: 0.5em solid #f98d28 !important;
 }
-/* line 2080, ../sass/high90.scss */
+/* line 2084, ../sass/high90.scss */
 .content .more-posts .post .post-image.development,
 .search .more-posts .post .post-image.development {
   border-bottom: 0.5em solid #fbc71c !important;
 }
-/* line 2084, ../sass/high90.scss */
+/* line 2088, ../sass/high90.scss */
 .content .more-posts .post .post-image.technology,
 .search .more-posts .post .post-image.technology {
   border-bottom: 0.5em solid #519548 !important;
 }
-/* line 2088, ../sass/high90.scss */
+/* line 2092, ../sass/high90.scss */
 .content .more-posts .post .post-image.productivity,
 .search .more-posts .post .post-image.productivity {
   border-bottom: 0.5em solid #26ade3 !important;
 }
-/* line 2092, ../sass/high90.scss */
+/* line 2096, ../sass/high90.scss */
 .content .more-posts .post .post-image.design,
 .search .more-posts .post .post-image.design {
   border-bottom: 0.5em solid #4386af !important;
 }
-/* line 2096, ../sass/high90.scss */
+/* line 2100, ../sass/high90.scss */
 .content .more-posts .post .post-image.ideas,
 .search .more-posts .post .post-image.ideas {
   border-bottom: 0.5em solid #743792 !important;
 }
-/* line 2100, ../sass/high90.scss */
+/* line 2104, ../sass/high90.scss */
 .content .more-posts .post .post-image.all,
 .search .more-posts .post .post-image.all {
   border-bottom: 0.5em solid #363635 !important;
 }
-/* line 2104, ../sass/high90.scss */
+/* line 2108, ../sass/high90.scss */
 .content .more-posts .post .post-image img,
 .search .more-posts .post .post-image img {
   display: block;
   width: 100%;
   height: auto;
 }
-/* line 2116, ../sass/high90.scss */
+/* line 2117, ../sass/high90.scss */
 .content .more-posts .post a,
 .content .more-posts .post a:visited,
 .content .more-posts .post a:active,
@@ -3579,7 +3585,7 @@ body #footer .cc-text img {
   letter-spacing: 1.5px;
   background-color: #e5e4df;
 }
-/* line 2122, ../sass/high90.scss */
+/* line 2126, ../sass/high90.scss */
 .content .more-posts .post a .post-title,
 .content .more-posts .post a:visited .post-title,
 .content .more-posts .post a:active .post-title,
@@ -3598,7 +3604,7 @@ body #footer .cc-text img {
   box-sizing: border-box;
   padding: 0.8em 0em 0.5em;
 }
-/* line 2126, ../sass/high90.scss */
+/* line 2130, ../sass/high90.scss */
 .content .more-posts .post a .post-title .title,
 .content .more-posts .post a:visited .post-title .title,
 .content .more-posts .post a:active .post-title .title,
@@ -3623,7 +3629,7 @@ body #footer .cc-text img {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-/* line 2137, ../sass/high90.scss */
+/* line 2141, ../sass/high90.scss */
 .content .more-posts .post a .post-title .title-date,
 .content .more-posts .post a:visited .post-title .title-date,
 .content .more-posts .post a:active .post-title .title-date,
@@ -3645,10 +3651,10 @@ body #footer .cc-text img {
   line-height: 1.6em;
   font-family: "brandon-grotesque",sans-serif;
   text-transform: uppercase;
-  color: #777777;
+  color: #777;
   font-weight: 300;
 }
-/* line 2148, ../sass/high90.scss */
+/* line 2151, ../sass/high90.scss */
 .content .more-posts .post a .post-title .title-date .nice-date,
 .content .more-posts .post a .post-title .title-date .time,
 .content .more-posts .post a:visited .post-title .title-date .nice-date,
@@ -3667,7 +3673,7 @@ body #footer .cc-text img {
 .search .more-posts .post a:focus .post-title .title-date .time {
   font-weight: 300;
 }
-/* line 2154, ../sass/high90.scss */
+/* line 2158, ../sass/high90.scss */
 .content .more-posts .post a:hover,
 .content .more-posts .post a:visited:hover,
 .content .more-posts .post a:active:hover,
@@ -3681,11 +3687,11 @@ body #footer .cc-text img {
 
 /* @media screen and (min-width: 480px) */
 @media screen and (min-width: 30em) {
-  /* line 2167, ../sass/high90.scss */
+  /* line 2171, ../sass/high90.scss */
   body #container {
     padding: 0 2em;
   }
-  /* line 2172, ../sass/high90.scss */
+  /* line 2175, ../sass/high90.scss */
   body .content .post .post-body .image-block.small,
   body .content .post .post-body .caption.small {
     display: block;
@@ -3700,7 +3706,7 @@ body #footer .cc-text img {
     margin-bottom: 0;
     padding: 0 2em 0 0;
   }
-  /* line 2180, ../sass/high90.scss */
+  /* line 2183, ../sass/high90.scss */
   body .content .post .post-body .image-block.set,
   body .content .post .post-body .caption.set {
     display: block;
@@ -3715,17 +3721,17 @@ body #footer .cc-text img {
     margin-bottom: 0;
     padding: 0 1em 0 0;
   }
-  /* line 2186, ../sass/high90.scss */
+  /* line 2190, ../sass/high90.scss */
   body .content .post .post-body .image-block.set:nth-child(3n+1),
   body .content .post .post-body .caption.set:nth-child(3n+1) {
     clear: left;
   }
-  /* line 2192, ../sass/high90.scss */
+  /* line 2195, ../sass/high90.scss */
   body .content .post .post-body .product,
   body .content .post .post-body .app {
     margin-bottom: 1.8em;
   }
-  /* line 2196, ../sass/high90.scss */
+  /* line 2200, ../sass/high90.scss */
   body .content .post .post-body .product .fancybox,
   body .content .post .post-body .app .fancybox {
     display: block;
@@ -3741,7 +3747,7 @@ body #footer .cc-text img {
     position: relative;
     top: 1.5em;
   }
-  /* line 2203, ../sass/high90.scss */
+  /* line 2207, ../sass/high90.scss */
   body .content .post .post-body .product .fancybox img,
   body .content .post .post-body .app .fancybox img {
     display: block;
@@ -3758,13 +3764,13 @@ body #footer .cc-text img {
     background-color: white;
     border: 1px solid #e5e4df;
   }
-  /* line 2212, ../sass/high90.scss */
+  /* line 2216, ../sass/high90.scss */
   body .content .post .post-body .product .fancybox.icon img,
   body .content .post .post-body .app .fancybox.icon img {
     border: 0;
     padding: 0.5em;
   }
-  /* line 2219, ../sass/high90.scss */
+  /* line 2223, ../sass/high90.scss */
   body .content .post .post-body .product .details,
   body .content .post .post-body .app .details {
     display: block;
@@ -3780,12 +3786,12 @@ body #footer .cc-text img {
     text-align: left;
     font-size: 1.1em;
   }
-  /* line 2226, ../sass/high90.scss */
+  /* line 2230, ../sass/high90.scss */
   body .content .post .post-body .product .details .description,
   body .content .post .post-body .app .details .description {
     text-align: left;
   }
-  /* line 2232, ../sass/high90.scss */
+  /* line 2236, ../sass/high90.scss */
   body .content .more-posts .post {
     display: block;
     float: left;
@@ -3797,23 +3803,23 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0 0.5em 0 0;
   }
-  /* line 2236, ../sass/high90.scss */
+  /* line 2240, ../sass/high90.scss */
   body .content .more-posts .post:nth-child(even) {
     padding: 0 0 0 0.5em;
   }
 }
 /* @media screen and (min-width: 640px) */
 @media screen and (min-width: 40em) {
-  /* line 14, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_typography.scss */
+  /* line 14, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_typography.scss */
   body {
     font-size: 1.125em;
   }
 
-  /* line 2250, ../sass/high90.scss */
+  /* line 2254, ../sass/high90.scss */
   body #container {
     padding: 0;
   }
-  /* line 2256, ../sass/high90.scss */
+  /* line 2258, ../sass/high90.scss */
   body #header,
   body #core,
   body #footer {
@@ -3828,11 +3834,11 @@ body #footer .cc-text img {
     margin-left: 8.33333%;
     padding: 0;
   }
-  /* line 2262, ../sass/high90.scss */
+  /* line 2266, ../sass/high90.scss */
   body #header {
     margin-bottom: 0.2em;
   }
-  /* line 2265, ../sass/high90.scss */
+  /* line 2269, ../sass/high90.scss */
   body #header .text-logo {
     display: block;
     float: left;
@@ -3845,12 +3851,12 @@ body #footer .cc-text img {
     padding: 0;
     text-align: left;
   }
-  /* line 2270, ../sass/high90.scss */
+  /* line 2274, ../sass/high90.scss */
   body #header .text-logo img {
     height: 2em;
     padding-bottom: 0;
   }
-  /* line 2276, ../sass/high90.scss */
+  /* line 2280, ../sass/high90.scss */
   body #header .top-nav {
     display: block;
     float: left;
@@ -3863,11 +3869,11 @@ body #footer .cc-text img {
     padding: 1.8em 0 0;
     text-align: right;
   }
-  /* line 2281, ../sass/high90.scss */
+  /* line 2285, ../sass/high90.scss */
   body #header .top-nav li {
     font-size: 1em;
   }
-  /* line 2286, ../sass/high90.scss */
+  /* line 2290, ../sass/high90.scss */
   body #header .search-box {
     display: block;
     float: left;
@@ -3879,7 +3885,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 1.4em 0 0;
   }
-  /* line 2294, ../sass/high90.scss */
+  /* line 2297, ../sass/high90.scss */
   body .content,
   body .search {
     display: block;
@@ -3892,7 +3898,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2298, ../sass/high90.scss */
+  /* line 2302, ../sass/high90.scss */
   body .content .post,
   body .search .post {
     display: block;
@@ -3905,7 +3911,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2302, ../sass/high90.scss */
+  /* line 2306, ../sass/high90.scss */
   body .content .post .post-header,
   body .search .post .post-header {
     display: block;
@@ -3918,7 +3924,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2306, ../sass/high90.scss */
+  /* line 2310, ../sass/high90.scss */
   body .content .post .post-header .title-banner,
   body .search .post .post-header .title-banner {
     display: block;
@@ -3931,7 +3937,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0 0 0.5em 0;
   }
-  /* line 2310, ../sass/high90.scss */
+  /* line 2314, ../sass/high90.scss */
   body .content .post .post-header .title-banner img,
   body .search .post .post-header .title-banner img {
     display: block;
@@ -3944,7 +3950,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2316, ../sass/high90.scss */
+  /* line 2320, ../sass/high90.scss */
   body .content .post .post-header .title-pattern,
   body .search .post .post-header .title-pattern {
     display: block;
@@ -3957,7 +3963,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2321, ../sass/high90.scss */
+  /* line 2325, ../sass/high90.scss */
   body .content .post .post-header .caption,
   body .search .post .post-header .caption {
     display: block;
@@ -3970,7 +3976,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0.5em 0 0.5em;
   }
-  /* line 2327, ../sass/high90.scss */
+  /* line 2331, ../sass/high90.scss */
   body .content .post .post-title,
   body .search .post .post-title {
     display: block;
@@ -3983,7 +3989,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0.5em 0 1em;
   }
-  /* line 2332, ../sass/high90.scss */
+  /* line 2336, ../sass/high90.scss */
   body .content .post .post-body,
   body .search .post .post-body {
     display: block;
@@ -3996,7 +4002,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2336, ../sass/high90.scss */
+  /* line 2340, ../sass/high90.scss */
   body .content .post .post-body .image-block,
   body .search .post .post-body .image-block {
     display: block;
@@ -4010,7 +4016,7 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 0 0 0.5em;
   }
-  /* line 2341, ../sass/high90.scss */
+  /* line 2345, ../sass/high90.scss */
   body .content .post .post-body .image-block.left,
   body .search .post .post-body .image-block.left {
     display: block;
@@ -4023,7 +4029,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0 2em 0 0;
   }
-  /* line 2345, ../sass/high90.scss */
+  /* line 2349, ../sass/high90.scss */
   body .content .post .post-body .image-block.left.small,
   body .search .post .post-body .image-block.left.small {
     display: block;
@@ -4038,7 +4044,7 @@ body #footer .cc-text img {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 2353, ../sass/high90.scss */
+  /* line 2357, ../sass/high90.scss */
   body .content .post .post-body .image-block.right,
   body .search .post .post-body .image-block.right {
     display: block;
@@ -4052,7 +4058,7 @@ body #footer .cc-text img {
     float: right;
     padding: 0 0 0 2em;
   }
-  /* line 2358, ../sass/high90.scss */
+  /* line 2362, ../sass/high90.scss */
   body .content .post .post-body .image-block.right.small,
   body .search .post .post-body .image-block.right.small {
     display: block;
@@ -4068,7 +4074,7 @@ body #footer .cc-text img {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 2369, ../sass/high90.scss */
+  /* line 2373, ../sass/high90.scss */
   body .content .post .post-body .caption,
   body .search .post .post-body .caption {
     display: block;
@@ -4082,7 +4088,7 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 0 0 0.5em;
   }
-  /* line 2374, ../sass/high90.scss */
+  /* line 2378, ../sass/high90.scss */
   body .content .post .post-body .caption.left,
   body .search .post .post-body .caption.left {
     display: block;
@@ -4097,7 +4103,7 @@ body #footer .cc-text img {
     clear: left;
     text-align: left;
   }
-  /* line 2380, ../sass/high90.scss */
+  /* line 2384, ../sass/high90.scss */
   body .content .post .post-body .caption.left.small,
   body .search .post .post-body .caption.left.small {
     display: block;
@@ -4112,7 +4118,7 @@ body #footer .cc-text img {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 2388, ../sass/high90.scss */
+  /* line 2392, ../sass/high90.scss */
   body .content .post .post-body .caption.right,
   body .search .post .post-body .caption.right {
     display: block;
@@ -4128,7 +4134,7 @@ body #footer .cc-text img {
     clear: right;
     text-align: right;
   }
-  /* line 2395, ../sass/high90.scss */
+  /* line 2399, ../sass/high90.scss */
   body .content .post .post-body .caption.right.small,
   body .search .post .post-body .caption.right.small {
     display: block;
@@ -4144,7 +4150,7 @@ body #footer .cc-text img {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 2407, ../sass/high90.scss */
+  /* line 2411, ../sass/high90.scss */
   body .content .post .post-body aside,
   body .search .post .post-body aside {
     display: block;
@@ -4159,12 +4165,12 @@ body #footer .cc-text img {
     padding: 1.2em 2em 1em;
     font-size: 0.8em;
   }
-  /* line 2413, ../sass/high90.scss */
+  /* line 2417, ../sass/high90.scss */
   body .content .post .post-body aside blockquote,
   body .search .post .post-body aside blockquote {
     padding: 0.5em 0 0.5em;
   }
-  /* line 2417, ../sass/high90.scss */
+  /* line 2421, ../sass/high90.scss */
   body .content .post .post-body aside.left,
   body .search .post .post-body aside.left {
     display: block;
@@ -4179,7 +4185,7 @@ body #footer .cc-text img {
     margin-right: 2em;
     margin-bottom: 0.5em;
   }
-  /* line 2423, ../sass/high90.scss */
+  /* line 2427, ../sass/high90.scss */
   body .content .post .post-body aside.left.small,
   body .search .post .post-body aside.left.small {
     display: block;
@@ -4195,7 +4201,7 @@ body #footer .cc-text img {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 2432, ../sass/high90.scss */
+  /* line 2436, ../sass/high90.scss */
   body .content .post .post-body aside.right,
   body .search .post .post-body aside.right {
     display: block;
@@ -4211,7 +4217,7 @@ body #footer .cc-text img {
     margin-left: 2em;
     margin-bottom: 0.5em;
   }
-  /* line 2439, ../sass/high90.scss */
+  /* line 2443, ../sass/high90.scss */
   body .content .post .post-body aside.right.small,
   body .search .post .post-body aside.right.small {
     display: block;
@@ -4228,7 +4234,7 @@ body #footer .cc-text img {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 2451, ../sass/high90.scss */
+  /* line 2454, ../sass/high90.scss */
   body .content .post .post-body .product,
   body .content .post .post-body .app,
   body .search .post .post-body .product,
@@ -4245,7 +4251,7 @@ body #footer .cc-text img {
     padding: 0;
     margin-bottom: 1.8em;
   }
-  /* line 2458, ../sass/high90.scss */
+  /* line 2462, ../sass/high90.scss */
   body .content .post .post-body .product .fancybox,
   body .content .post .post-body .app .fancybox,
   body .search .post .post-body .product .fancybox,
@@ -4261,7 +4267,7 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 0;
   }
-  /* line 2463, ../sass/high90.scss */
+  /* line 2467, ../sass/high90.scss */
   body .content .post .post-body .product .fancybox img,
   body .content .post .post-body .app .fancybox img,
   body .search .post .post-body .product .fancybox img,
@@ -4279,7 +4285,7 @@ body #footer .cc-text img {
     background-color: white;
     border: 1px solid #e5e4df;
   }
-  /* line 2471, ../sass/high90.scss */
+  /* line 2475, ../sass/high90.scss */
   body .content .post .post-body .product .fancybox.icon img,
   body .content .post .post-body .app .fancybox.icon img,
   body .search .post .post-body .product .fancybox.icon img,
@@ -4287,7 +4293,7 @@ body #footer .cc-text img {
     border: 0;
     padding: 0.5em;
   }
-  /* line 2478, ../sass/high90.scss */
+  /* line 2482, ../sass/high90.scss */
   body .content .post .post-body .product .details,
   body .content .post .post-body .app .details,
   body .search .post .post-body .product .details,
@@ -4304,7 +4310,7 @@ body #footer .cc-text img {
     padding: 1.5em 0 0;
     text-align: left;
   }
-  /* line 2486, ../sass/high90.scss */
+  /* line 2490, ../sass/high90.scss */
   body .content .post .post-body .has-pullquote:before,
   body .search .post .post-body .has-pullquote:before {
     content: attr(data-pullquote);
@@ -4327,7 +4333,7 @@ body #footer .cc-text img {
     line-height: 1.3em;
     font-weight: 500;
   }
-  /* line 2503, ../sass/high90.scss */
+  /* line 2507, ../sass/high90.scss */
   body .content .post .post-footer,
   body .search .post .post-footer {
     display: block;
@@ -4340,7 +4346,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0.5em 0 0;
   }
-  /* line 2514, ../sass/high90.scss */
+  /* line 2513, ../sass/high90.scss */
   body .content .more-header,
   body .content .pagination-header,
   body .content .search-header,
@@ -4363,7 +4369,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2519, ../sass/high90.scss */
+  /* line 2523, ../sass/high90.scss */
   body .content .pagination,
   body .search .pagination {
     display: block;
@@ -4376,7 +4382,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2523, ../sass/high90.scss */
+  /* line 2527, ../sass/high90.scss */
   body .content .pagination .post,
   body .search .pagination .post {
     display: block;
@@ -4389,19 +4395,19 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2527, ../sass/high90.scss */
+  /* line 2531, ../sass/high90.scss */
   body .content .pagination .post.prev,
   body .search .pagination .post.prev {
     padding-left: 0.5em;
   }
-  /* line 2531, ../sass/high90.scss */
+  /* line 2535, ../sass/high90.scss */
   body .content .pagination .post.next,
   body .search .pagination .post.next {
     padding-right: 0.5em;
     border-left: 0 !important;
     border-right: 0.5em solid #de3907 !important;
   }
-  /* line 2537, ../sass/high90.scss */
+  /* line 2540, ../sass/high90.scss */
   body .content .pagination .post.next a .key,
   body .content .pagination .post.next a .title,
   body .search .pagination .post.next a .key,
@@ -4411,12 +4417,12 @@ body #footer .cc-text img {
 }
 /* @media screen and (min-width: 720px) */
 @media screen and (min-width: 45em) {
-  /* line 14, ../../../../../../../var/lib/gems/1.9.1/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_typography.scss */
+  /* line 14, ../../../../../../../Library/Ruby/Gems/2.0.0/gems/compass.takitapart.framework-0.0.2/stylesheets/takitapart/_typography.scss */
   body {
     font-size: 1.25em;
   }
 
-  /* line 2554, ../sass/high90.scss */
+  /* line 2558, ../sass/high90.scss */
   body #core {
     display: block;
     float: left;
@@ -4429,7 +4435,7 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 0;
   }
-  /* line 2561, ../sass/high90.scss */
+  /* line 2564, ../sass/high90.scss */
   body .content,
   body .search {
     display: block;
@@ -4442,7 +4448,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2565, ../sass/high90.scss */
+  /* line 2569, ../sass/high90.scss */
   body .content .message,
   body .search .message {
     display: block;
@@ -4456,7 +4462,7 @@ body #footer .cc-text img {
     margin-left: 8.33333%;
     padding: 0;
   }
-  /* line 2571, ../sass/high90.scss */
+  /* line 2575, ../sass/high90.scss */
   body .content .empty-message,
   body .search .empty-message {
     display: block;
@@ -4470,7 +4476,7 @@ body #footer .cc-text img {
     margin-left: 8.33333%;
     padding: 1.5em 0 0;
   }
-  /* line 2577, ../sass/high90.scss */
+  /* line 2581, ../sass/high90.scss */
   body .content .post,
   body .search .post {
     display: block;
@@ -4483,7 +4489,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2581, ../sass/high90.scss */
+  /* line 2585, ../sass/high90.scss */
   body .content .post .post-header,
   body .search .post .post-header {
     display: block;
@@ -4496,7 +4502,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2585, ../sass/high90.scss */
+  /* line 2589, ../sass/high90.scss */
   body .content .post .post-header .title-banner,
   body .search .post .post-header .title-banner {
     display: block;
@@ -4509,7 +4515,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0 0 0.5em 0;
   }
-  /* line 2589, ../sass/high90.scss */
+  /* line 2593, ../sass/high90.scss */
   body .content .post .post-header .title-banner img,
   body .search .post .post-header .title-banner img {
     display: block;
@@ -4522,7 +4528,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2595, ../sass/high90.scss */
+  /* line 2599, ../sass/high90.scss */
   body .content .post .post-header .title-pattern,
   body .search .post .post-header .title-pattern {
     display: block;
@@ -4536,7 +4542,7 @@ body #footer .cc-text img {
     margin-left: 8.33333%;
     padding: 0;
   }
-  /* line 2601, ../sass/high90.scss */
+  /* line 2605, ../sass/high90.scss */
   body .content .post .post-header .caption,
   body .search .post .post-header .caption {
     display: block;
@@ -4550,7 +4556,7 @@ body #footer .cc-text img {
     margin-left: 8.33333%;
     padding: 0.5em 0 0.5em;
   }
-  /* line 2608, ../sass/high90.scss */
+  /* line 2612, ../sass/high90.scss */
   body .content .post .post-core,
   body .search .post .post-core {
     display: block;
@@ -4564,7 +4570,7 @@ body #footer .cc-text img {
     margin-left: 8.33333%;
     padding: 0;
   }
-  /* line 2614, ../sass/high90.scss */
+  /* line 2618, ../sass/high90.scss */
   body .content .post .post-title,
   body .search .post .post-title {
     display: block;
@@ -4577,7 +4583,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0.5em 0 1em;
   }
-  /* line 2619, ../sass/high90.scss */
+  /* line 2623, ../sass/high90.scss */
   body .content .post .post-body,
   body .search .post .post-body {
     display: block;
@@ -4590,7 +4596,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2623, ../sass/high90.scss */
+  /* line 2627, ../sass/high90.scss */
   body .content .post .post-body .image-block, body .content .post .post-body caption,
   body .search .post .post-body .image-block,
   body .search .post .post-body caption {
@@ -4605,7 +4611,7 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 0 0 0.5em;
   }
-  /* line 2628, ../sass/high90.scss */
+  /* line 2632, ../sass/high90.scss */
   body .content .post .post-body .image-block.left, body .content .post .post-body caption.left,
   body .search .post .post-body .image-block.left,
   body .search .post .post-body caption.left {
@@ -4619,7 +4625,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0 2em 0 0;
   }
-  /* line 2632, ../sass/high90.scss */
+  /* line 2636, ../sass/high90.scss */
   body .content .post .post-body .image-block.left.small, body .content .post .post-body caption.left.small,
   body .search .post .post-body .image-block.left.small,
   body .search .post .post-body caption.left.small {
@@ -4635,7 +4641,7 @@ body #footer .cc-text img {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 2640, ../sass/high90.scss */
+  /* line 2644, ../sass/high90.scss */
   body .content .post .post-body .image-block.right, body .content .post .post-body caption.right,
   body .search .post .post-body .image-block.right,
   body .search .post .post-body caption.right {
@@ -4650,7 +4656,7 @@ body #footer .cc-text img {
     float: right;
     padding: 0 0 0 2em;
   }
-  /* line 2645, ../sass/high90.scss */
+  /* line 2649, ../sass/high90.scss */
   body .content .post .post-body .image-block.right.small, body .content .post .post-body caption.right.small,
   body .search .post .post-body .image-block.right.small,
   body .search .post .post-body caption.right.small {
@@ -4667,7 +4673,7 @@ body #footer .cc-text img {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 2654, ../sass/high90.scss */
+  /* line 2658, ../sass/high90.scss */
   body .content .post .post-body .image-block.wide, body .content .post .post-body caption.wide,
   body .search .post .post-body .image-block.wide,
   body .search .post .post-body caption.wide {
@@ -4682,7 +4688,7 @@ body #footer .cc-text img {
     margin-left: -10%;
     padding: 0 0 0.5em;
   }
-  /* line 2661, ../sass/high90.scss */
+  /* line 2665, ../sass/high90.scss */
   body .content .post .post-body aside,
   body .search .post .post-body aside {
     display: block;
@@ -4696,12 +4702,12 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 1.5em 2em 1.2em;
   }
-  /* line 2666, ../sass/high90.scss */
+  /* line 2670, ../sass/high90.scss */
   body .content .post .post-body aside blockquote,
   body .search .post .post-body aside blockquote {
     padding: 0.5em 0 0.5em;
   }
-  /* line 2670, ../sass/high90.scss */
+  /* line 2674, ../sass/high90.scss */
   body .content .post .post-body aside.left,
   body .search .post .post-body aside.left {
     display: block;
@@ -4716,7 +4722,7 @@ body #footer .cc-text img {
     margin-right: 2em;
     margin-bottom: 0.5em;
   }
-  /* line 2676, ../sass/high90.scss */
+  /* line 2680, ../sass/high90.scss */
   body .content .post .post-body aside.left.small,
   body .search .post .post-body aside.left.small {
     display: block;
@@ -4732,7 +4738,7 @@ body #footer .cc-text img {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 2685, ../sass/high90.scss */
+  /* line 2689, ../sass/high90.scss */
   body .content .post .post-body aside.right,
   body .search .post .post-body aside.right {
     display: block;
@@ -4748,7 +4754,7 @@ body #footer .cc-text img {
     margin-left: 2em;
     margin-bottom: 0.5em;
   }
-  /* line 2692, ../sass/high90.scss */
+  /* line 2696, ../sass/high90.scss */
   body .content .post .post-body aside.right.small,
   body .search .post .post-body aside.right.small {
     display: block;
@@ -4765,7 +4771,7 @@ body #footer .cc-text img {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 2702, ../sass/high90.scss */
+  /* line 2706, ../sass/high90.scss */
   body .content .post .post-body aside.wide,
   body .search .post .post-body aside.wide {
     display: block;
@@ -4779,7 +4785,7 @@ body #footer .cc-text img {
     margin-left: -10%;
     padding: 0.5em 0;
   }
-  /* line 2709, ../sass/high90.scss */
+  /* line 2713, ../sass/high90.scss */
   body .content .post .post-body aside.has-pullquote:before,
   body .search .post .post-body aside.has-pullquote:before {
     content: attr(data-pullquote);
@@ -4802,7 +4808,7 @@ body #footer .cc-text img {
     font-size: 1.5em;
     line-height: 1.3em;
   }
-  /* line 2725, ../sass/high90.scss */
+  /* line 2729, ../sass/high90.scss */
   body .content .post .post-footer,
   body .search .post .post-footer {
     display: block;
@@ -4815,7 +4821,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0.5em 0 0;
   }
-  /* line 2738, ../sass/high90.scss */
+  /* line 2735, ../sass/high90.scss */
   body .content .more-header,
   body .content .pagination-header,
   body .content .search-header,
@@ -4843,7 +4849,7 @@ body #footer .cc-text img {
     margin-left: 8.33333%;
     padding: 0;
   }
-  /* line 2745, ../sass/high90.scss */
+  /* line 2749, ../sass/high90.scss */
   body .content .bio,
   body .search .bio {
     display: block;
@@ -4860,7 +4866,7 @@ body #footer .cc-text img {
 }
 /* @media screen and (min-width: 800px) */
 @media screen and (min-width: 50em) {
-  /* line 2760, ../sass/high90.scss */
+  /* line 2763, ../sass/high90.scss */
   body #header,
   body #footer {
     display: block;
@@ -4874,7 +4880,7 @@ body #footer .cc-text img {
     margin-left: 16.66667%;
     padding: 0;
   }
-  /* line 2766, ../sass/high90.scss */
+  /* line 2770, ../sass/high90.scss */
   body #core {
     display: block;
     float: left;
@@ -4887,7 +4893,7 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 0;
   }
-  /* line 2773, ../sass/high90.scss */
+  /* line 2776, ../sass/high90.scss */
   body .content,
   body .search {
     display: block;
@@ -4900,7 +4906,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2777, ../sass/high90.scss */
+  /* line 2781, ../sass/high90.scss */
   body .content .message,
   body .search .message {
     display: block;
@@ -4914,7 +4920,7 @@ body #footer .cc-text img {
     margin-left: 16.66667%;
     padding: 0;
   }
-  /* line 2783, ../sass/high90.scss */
+  /* line 2787, ../sass/high90.scss */
   body .content .empty-message,
   body .search .empty-message {
     display: block;
@@ -4928,7 +4934,7 @@ body #footer .cc-text img {
     margin-left: 16.66667%;
     padding: 1.5em 0 0;
   }
-  /* line 2789, ../sass/high90.scss */
+  /* line 2793, ../sass/high90.scss */
   body .content .post,
   body .search .post {
     display: block;
@@ -4941,7 +4947,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2793, ../sass/high90.scss */
+  /* line 2797, ../sass/high90.scss */
   body .content .post .post-header,
   body .search .post .post-header {
     display: block;
@@ -4954,7 +4960,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2797, ../sass/high90.scss */
+  /* line 2801, ../sass/high90.scss */
   body .content .post .post-header .title-banner,
   body .search .post .post-header .title-banner {
     display: block;
@@ -4967,7 +4973,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0 0 0.5em 0;
   }
-  /* line 2801, ../sass/high90.scss */
+  /* line 2805, ../sass/high90.scss */
   body .content .post .post-header .title-banner img,
   body .search .post .post-header .title-banner img {
     display: block;
@@ -4980,7 +4986,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2807, ../sass/high90.scss */
+  /* line 2811, ../sass/high90.scss */
   body .content .post .post-header .title-pattern,
   body .search .post .post-header .title-pattern {
     display: block;
@@ -4994,7 +5000,7 @@ body #footer .cc-text img {
     margin-left: 16.66667%;
     padding: 0;
   }
-  /* line 2813, ../sass/high90.scss */
+  /* line 2817, ../sass/high90.scss */
   body .content .post .post-header .caption,
   body .search .post .post-header .caption {
     display: block;
@@ -5008,7 +5014,7 @@ body #footer .cc-text img {
     margin-left: 16.66667%;
     padding: 0.5em 0 0.5em;
   }
-  /* line 2820, ../sass/high90.scss */
+  /* line 2824, ../sass/high90.scss */
   body .content .post .pre-bar,
   body .search .post .pre-bar {
     display: block;
@@ -5023,7 +5029,7 @@ body #footer .cc-text img {
     padding: 0.5em 0 0 0;
     text-align: center;
   }
-  /* line 2826, ../sass/high90.scss */
+  /* line 2830, ../sass/high90.scss */
   body .content .post .pre-bar .date-ball,
   body .search .post .pre-bar .date-ball {
     display: block;
@@ -5032,7 +5038,7 @@ body #footer .cc-text img {
     width: 4em;
     margin: 0 auto;
   }
-  /* line 2833, ../sass/high90.scss */
+  /* line 2837, ../sass/high90.scss */
   body .content .post .pre-bar .date-ball .ball,
   body .search .post .pre-bar .date-ball .ball {
     position: absolute;
@@ -5043,7 +5049,7 @@ body #footer .cc-text img {
     border-radius: 50%;
     background-color: #e5e4df;
   }
-  /* line 2843, ../sass/high90.scss */
+  /* line 2847, ../sass/high90.scss */
   body .content .post .pre-bar .date-ball .text-block,
   body .search .post .pre-bar .date-ball .text-block {
     position: relative;
@@ -5062,17 +5068,17 @@ body #footer .cc-text img {
     margin: 0 auto;
     font-weight: 300;
   }
-  /* line 2860, ../sass/high90.scss */
+  /* line 2864, ../sass/high90.scss */
   body .content .post .pre-bar .date-ball .text-block.news.design.technology,
   body .search .post .pre-bar .date-ball .text-block.news.design.technology {
-    color: white;
+    color: #FFFFFF;
   }
-  /* line 2865, ../sass/high90.scss */
+  /* line 2869, ../sass/high90.scss */
   body .content .post .pre-bar .date-ball:hover,
   body .search .post .pre-bar .date-ball:hover {
     text-decoration: none;
   }
-  /* line 2870, ../sass/high90.scss */
+  /* line 2874, ../sass/high90.scss */
   body .content .post .pre-bar .icon,
   body .search .post .pre-bar .icon {
     width: 4em;
@@ -5080,7 +5086,7 @@ body #footer .cc-text img {
     clear: both;
     margin: 0.5em auto 0;
   }
-  /* line 2879, ../sass/high90.scss */
+  /* line 2883, ../sass/high90.scss */
   body .content .post .post-core,
   body .search .post .post-core {
     display: block;
@@ -5094,7 +5100,7 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 0;
   }
-  /* line 2885, ../sass/high90.scss */
+  /* line 2889, ../sass/high90.scss */
   body .content .post .post-title,
   body .search .post .post-title {
     display: block;
@@ -5107,12 +5113,12 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0.8em 0 0.7em;
   }
-  /* line 2889, ../sass/high90.scss */
+  /* line 2893, ../sass/high90.scss */
   body .content .post .post-title .title-date,
   body .search .post .post-title .title-date {
     display: none;
   }
-  /* line 2894, ../sass/high90.scss */
+  /* line 2898, ../sass/high90.scss */
   body .content .post .post-body,
   body .search .post .post-body {
     display: block;
@@ -5125,7 +5131,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 2898, ../sass/high90.scss */
+  /* line 2902, ../sass/high90.scss */
   body .content .post .post-body .image-block,
   body .search .post .post-body .image-block {
     display: block;
@@ -5139,7 +5145,7 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 0 0 0.5em;
   }
-  /* line 2903, ../sass/high90.scss */
+  /* line 2907, ../sass/high90.scss */
   body .content .post .post-body .image-block.left,
   body .search .post .post-body .image-block.left {
     display: block;
@@ -5153,7 +5159,7 @@ body #footer .cc-text img {
     margin-left: -25%;
     padding: 0 2em 0 0.5em;
   }
-  /* line 2908, ../sass/high90.scss */
+  /* line 2912, ../sass/high90.scss */
   body .content .post .post-body .image-block.left.small,
   body .search .post .post-body .image-block.left.small {
     display: block;
@@ -5169,7 +5175,7 @@ body #footer .cc-text img {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 2917, ../sass/high90.scss */
+  /* line 2921, ../sass/high90.scss */
   body .content .post .post-body .image-block.right,
   body .search .post .post-body .image-block.right {
     display: block;
@@ -5184,7 +5190,7 @@ body #footer .cc-text img {
     float: right;
     padding: 0 0.5em 0 2em;
   }
-  /* line 2923, ../sass/high90.scss */
+  /* line 2927, ../sass/high90.scss */
   body .content .post .post-body .image-block.right.small,
   body .search .post .post-body .image-block.right.small {
     display: block;
@@ -5201,7 +5207,7 @@ body #footer .cc-text img {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 2933, ../sass/high90.scss */
+  /* line 2937, ../sass/high90.scss */
   body .content .post .post-body .image-block.wide,
   body .search .post .post-body .image-block.wide {
     display: block;
@@ -5215,7 +5221,7 @@ body #footer .cc-text img {
     margin-left: -25%;
     padding: 0 0 0.5em;
   }
-  /* line 2940, ../sass/high90.scss */
+  /* line 2944, ../sass/high90.scss */
   body .content .post .post-body .caption,
   body .search .post .post-body .caption {
     display: block;
@@ -5229,7 +5235,7 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 0 0 0.5em;
   }
-  /* line 2945, ../sass/high90.scss */
+  /* line 2949, ../sass/high90.scss */
   body .content .post .post-body .caption.left,
   body .search .post .post-body .caption.left {
     display: block;
@@ -5245,13 +5251,13 @@ body #footer .cc-text img {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 2952, ../sass/high90.scss */
+  /* line 2956, ../sass/high90.scss */
   body .content .post .post-body .caption.left p,
   body .search .post .post-body .caption.left p {
-    border-top: 1px solid #dddddd;
+    border-top: 1px solid #ddd;
     padding-top: 0.5em;
   }
-  /* line 2958, ../sass/high90.scss */
+  /* line 2962, ../sass/high90.scss */
   body .content .post .post-body .caption.right,
   body .search .post .post-body .caption.right {
     display: block;
@@ -5269,13 +5275,13 @@ body #footer .cc-text img {
     margin-bottom: 0;
     text-align: left;
   }
-  /* line 2967, ../sass/high90.scss */
+  /* line 2971, ../sass/high90.scss */
   body .content .post .post-body .caption.right p,
   body .search .post .post-body .caption.right p {
-    border-top: 1px solid #dddddd;
+    border-top: 1px solid #ddd;
     padding-top: 0.5em;
   }
-  /* line 2973, ../sass/high90.scss */
+  /* line 2977, ../sass/high90.scss */
   body .content .post .post-body .caption.wide,
   body .search .post .post-body .caption.wide {
     display: block;
@@ -5289,7 +5295,7 @@ body #footer .cc-text img {
     margin-left: -25%;
     padding: 0 0 0.5em;
   }
-  /* line 2980, ../sass/high90.scss */
+  /* line 2984, ../sass/high90.scss */
   body .content .post .post-body aside,
   body .search .post .post-body aside {
     display: block;
@@ -5303,12 +5309,12 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 1.5em 2em 1.2em;
   }
-  /* line 2985, ../sass/high90.scss */
+  /* line 2989, ../sass/high90.scss */
   body .content .post .post-body aside blockquote,
   body .search .post .post-body aside blockquote {
     padding: 0.5em 0 0.5em;
   }
-  /* line 2989, ../sass/high90.scss */
+  /* line 2993, ../sass/high90.scss */
   body .content .post .post-body aside.left,
   body .search .post .post-body aside.left {
     display: block;
@@ -5324,7 +5330,7 @@ body #footer .cc-text img {
     margin-right: 2em;
     margin-bottom: 0.5em;
   }
-  /* line 2996, ../sass/high90.scss */
+  /* line 3000, ../sass/high90.scss */
   body .content .post .post-body aside.left.small,
   body .search .post .post-body aside.left.small {
     display: block;
@@ -5342,7 +5348,7 @@ body #footer .cc-text img {
     margin-bottom: 0;
     font-size: 0.5em;
   }
-  /* line 3007, ../sass/high90.scss */
+  /* line 3011, ../sass/high90.scss */
   body .content .post .post-body aside.right,
   body .search .post .post-body aside.right {
     display: block;
@@ -5359,7 +5365,7 @@ body #footer .cc-text img {
     margin-left: 2em;
     margin-bottom: 0.5em;
   }
-  /* line 3015, ../sass/high90.scss */
+  /* line 3019, ../sass/high90.scss */
   body .content .post .post-body aside.right.small,
   body .search .post .post-body aside.right.small {
     display: block;
@@ -5378,7 +5384,7 @@ body #footer .cc-text img {
     margin-bottom: 0;
     font-size: 0.5em;
   }
-  /* line 3027, ../sass/high90.scss */
+  /* line 3031, ../sass/high90.scss */
   body .content .post .post-body aside.wide,
   body .search .post .post-body aside.wide {
     display: block;
@@ -5392,7 +5398,7 @@ body #footer .cc-text img {
     margin-left: -25%;
     padding: 0.5em 0;
   }
-  /* line 3034, ../sass/high90.scss */
+  /* line 3038, ../sass/high90.scss */
   body .content .post .post-body .has-pullquote:before,
   body .search .post .post-body .has-pullquote:before {
     content: attr(data-pullquote);
@@ -5414,7 +5420,7 @@ body #footer .cc-text img {
     font-size: 1.5em;
     line-height: 1.3em;
   }
-  /* line 3049, ../sass/high90.scss */
+  /* line 3053, ../sass/high90.scss */
   body .content .post .post-footer,
   body .search .post .post-footer {
     display: block;
@@ -5427,7 +5433,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0.5em 0 0;
   }
-  /* line 3063, ../sass/high90.scss */
+  /* line 3059, ../sass/high90.scss */
   body .content .more-header,
   body .content .bio,
   body .content .pagination-header,
@@ -5460,14 +5466,14 @@ body #footer .cc-text img {
 }
 /* @media screen and (min-width: 960px) */
 @media screen and (min-width: 60em) {
-  /* line 3077, ../sass/high90.scss */
+  /* line 3081, ../sass/high90.scss */
   body #container {
     width: 960px;
     padding: 0;
     margin: 0 auto;
     float: none;
   }
-  /* line 3085, ../sass/high90.scss */
+  /* line 3088, ../sass/high90.scss */
   body #header,
   body #footer {
     display: block;
@@ -5481,7 +5487,7 @@ body #footer .cc-text img {
     margin-left: 16.66667%;
     padding: 0;
   }
-  /* line 3091, ../sass/high90.scss */
+  /* line 3095, ../sass/high90.scss */
   body #core {
     display: block;
     float: left;
@@ -5494,7 +5500,7 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 0;
   }
-  /* line 3098, ../sass/high90.scss */
+  /* line 3101, ../sass/high90.scss */
   body .content,
   body .search {
     display: block;
@@ -5507,7 +5513,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 3102, ../sass/high90.scss */
+  /* line 3106, ../sass/high90.scss */
   body .content .post,
   body .search .post {
     display: block;
@@ -5520,7 +5526,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 3106, ../sass/high90.scss */
+  /* line 3110, ../sass/high90.scss */
   body .content .post .post-header,
   body .search .post .post-header {
     display: block;
@@ -5533,7 +5539,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 3110, ../sass/high90.scss */
+  /* line 3114, ../sass/high90.scss */
   body .content .post .post-header .title-banner,
   body .search .post .post-header .title-banner {
     display: block;
@@ -5546,7 +5552,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0 0 0.5em 0;
   }
-  /* line 3114, ../sass/high90.scss */
+  /* line 3118, ../sass/high90.scss */
   body .content .post .post-header .title-banner img,
   body .search .post .post-header .title-banner img {
     display: block;
@@ -5559,7 +5565,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 3120, ../sass/high90.scss */
+  /* line 3124, ../sass/high90.scss */
   body .content .post .post-header .title-pattern,
   body .search .post .post-header .title-pattern {
     display: block;
@@ -5573,7 +5579,7 @@ body #footer .cc-text img {
     margin-left: 16.66667%;
     padding: 0;
   }
-  /* line 3126, ../sass/high90.scss */
+  /* line 3130, ../sass/high90.scss */
   body .content .post .post-header .caption,
   body .search .post .post-header .caption {
     display: block;
@@ -5587,7 +5593,7 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 0.5em 0 0.5em;
   }
-  /* line 3133, ../sass/high90.scss */
+  /* line 3137, ../sass/high90.scss */
   body .content .post .pre-bar,
   body .search .post .pre-bar {
     display: block;
@@ -5602,7 +5608,7 @@ body #footer .cc-text img {
     padding: 0.5em 0 0 0;
     text-align: center;
   }
-  /* line 3139, ../sass/high90.scss */
+  /* line 3143, ../sass/high90.scss */
   body .content .post .pre-bar .date-ball,
   body .search .post .pre-bar .date-ball {
     display: block;
@@ -5611,7 +5617,7 @@ body #footer .cc-text img {
     width: 4em;
     margin: 0 auto;
   }
-  /* line 3146, ../sass/high90.scss */
+  /* line 3150, ../sass/high90.scss */
   body .content .post .pre-bar .date-ball .ball,
   body .search .post .pre-bar .date-ball .ball {
     position: absolute;
@@ -5622,7 +5628,7 @@ body #footer .cc-text img {
     border-radius: 50%;
     background-color: #e5e4df;
   }
-  /* line 3156, ../sass/high90.scss */
+  /* line 3160, ../sass/high90.scss */
   body .content .post .pre-bar .date-ball .text-block,
   body .search .post .pre-bar .date-ball .text-block {
     position: relative;
@@ -5640,12 +5646,12 @@ body #footer .cc-text img {
     text-align: center;
     margin: 0 auto;
   }
-  /* line 3173, ../sass/high90.scss */
+  /* line 3177, ../sass/high90.scss */
   body .content .post .pre-bar .date-ball:hover,
   body .search .post .pre-bar .date-ball:hover {
     text-decoration: none;
   }
-  /* line 3178, ../sass/high90.scss */
+  /* line 3182, ../sass/high90.scss */
   body .content .post .pre-bar .icon,
   body .search .post .pre-bar .icon {
     width: 4em;
@@ -5653,7 +5659,7 @@ body #footer .cc-text img {
     clear: both;
     margin: 0.5em auto 0;
   }
-  /* line 3187, ../sass/high90.scss */
+  /* line 3191, ../sass/high90.scss */
   body .content .post .post-core,
   body .search .post .post-core {
     display: block;
@@ -5667,7 +5673,7 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 0;
   }
-  /* line 3193, ../sass/high90.scss */
+  /* line 3197, ../sass/high90.scss */
   body .content .post .post-title,
   body .search .post .post-title {
     display: block;
@@ -5680,12 +5686,12 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0.8em 0 0.7em;
   }
-  /* line 3197, ../sass/high90.scss */
+  /* line 3201, ../sass/high90.scss */
   body .content .post .post-title .title-date,
   body .search .post .post-title .title-date {
     display: none;
   }
-  /* line 3202, ../sass/high90.scss */
+  /* line 3206, ../sass/high90.scss */
   body .content .post .post-body,
   body .search .post .post-body {
     display: block;
@@ -5698,7 +5704,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0;
   }
-  /* line 3206, ../sass/high90.scss */
+  /* line 3210, ../sass/high90.scss */
   body .content .post .post-body .image-block,
   body .search .post .post-body .image-block {
     display: block;
@@ -5712,7 +5718,7 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 0 0 0.5em;
   }
-  /* line 3211, ../sass/high90.scss */
+  /* line 3215, ../sass/high90.scss */
   body .content .post .post-body .image-block.left,
   body .search .post .post-body .image-block.left {
     display: block;
@@ -5726,7 +5732,7 @@ body #footer .cc-text img {
     margin-left: -25%;
     padding: 0 2em 0 0;
   }
-  /* line 3216, ../sass/high90.scss */
+  /* line 3220, ../sass/high90.scss */
   body .content .post .post-body .image-block.left.small,
   body .search .post .post-body .image-block.left.small {
     display: block;
@@ -5742,7 +5748,7 @@ body #footer .cc-text img {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 3225, ../sass/high90.scss */
+  /* line 3229, ../sass/high90.scss */
   body .content .post .post-body .image-block.right,
   body .search .post .post-body .image-block.right {
     display: block;
@@ -5757,7 +5763,7 @@ body #footer .cc-text img {
     float: right;
     padding: 0 0 0 2em;
   }
-  /* line 3231, ../sass/high90.scss */
+  /* line 3235, ../sass/high90.scss */
   body .content .post .post-body .image-block.right.small,
   body .search .post .post-body .image-block.right.small {
     display: block;
@@ -5774,7 +5780,7 @@ body #footer .cc-text img {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 3241, ../sass/high90.scss */
+  /* line 3245, ../sass/high90.scss */
   body .content .post .post-body .image-block.wide,
   body .search .post .post-body .image-block.wide {
     display: block;
@@ -5788,7 +5794,7 @@ body #footer .cc-text img {
     margin-left: -25%;
     padding: 0 0 0.5em;
   }
-  /* line 3248, ../sass/high90.scss */
+  /* line 3252, ../sass/high90.scss */
   body .content .post .post-body .caption,
   body .search .post .post-body .caption {
     display: block;
@@ -5802,7 +5808,7 @@ body #footer .cc-text img {
     margin-left: 0%;
     padding: 0 0 0.5em;
   }
-  /* line 3253, ../sass/high90.scss */
+  /* line 3257, ../sass/high90.scss */
   body .content .post .post-body .caption.left,
   body .search .post .post-body .caption.left {
     display: block;
@@ -5818,7 +5824,7 @@ body #footer .cc-text img {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 3261, ../sass/high90.scss */
+  /* line 3265, ../sass/high90.scss */
   body .content .post .post-body .caption.right,
   body .search .post .post-body .caption.right {
     display: block;
@@ -5835,7 +5841,7 @@ body #footer .cc-text img {
     margin-top: 0;
     margin-bottom: 0;
   }
-  /* line 3270, ../sass/high90.scss */
+  /* line 3274, ../sass/high90.scss */
   body .content .post .post-body .caption.wide,
   body .search .post .post-body .caption.wide {
     display: block;
@@ -5849,7 +5855,7 @@ body #footer .cc-text img {
     margin-left: -25%;
     padding: 0 0 0.5em;
   }
-  /* line 3277, ../sass/high90.scss */
+  /* line 3281, ../sass/high90.scss */
   body .content .post .post-body aside,
   body .search .post .post-body aside {
     display: block;
@@ -5864,12 +5870,12 @@ body #footer .cc-text img {
     padding: 1.5em 2em 1.2em;
     font-size: 0.9em;
   }
-  /* line 3283, ../sass/high90.scss */
+  /* line 3287, ../sass/high90.scss */
   body .content .post .post-body aside blockquote,
   body .search .post .post-body aside blockquote {
     padding: 0.5em 0 0.5em;
   }
-  /* line 3287, ../sass/high90.scss */
+  /* line 3291, ../sass/high90.scss */
   body .content .post .post-body aside.left,
   body .search .post .post-body aside.left {
     display: block;
@@ -5885,7 +5891,7 @@ body #footer .cc-text img {
     margin-right: 2em;
     margin-bottom: 1em;
   }
-  /* line 3294, ../sass/high90.scss */
+  /* line 3298, ../sass/high90.scss */
   body .content .post .post-body aside.left.small,
   body .search .post .post-body aside.left.small {
     display: block;
@@ -5903,7 +5909,7 @@ body #footer .cc-text img {
     margin-bottom: 0;
     font-size: 0.5em;
   }
-  /* line 3305, ../sass/high90.scss */
+  /* line 3309, ../sass/high90.scss */
   body .content .post .post-body aside.right,
   body .search .post .post-body aside.right {
     display: block;
@@ -5920,7 +5926,7 @@ body #footer .cc-text img {
     margin-left: 2em;
     margin-bottom: 1em;
   }
-  /* line 3313, ../sass/high90.scss */
+  /* line 3317, ../sass/high90.scss */
   body .content .post .post-body aside.right.small,
   body .search .post .post-body aside.right.small {
     display: block;
@@ -5939,7 +5945,7 @@ body #footer .cc-text img {
     margin-bottom: 0;
     font-size: 0.5em;
   }
-  /* line 3325, ../sass/high90.scss */
+  /* line 3329, ../sass/high90.scss */
   body .content .post .post-body aside.wide,
   body .search .post .post-body aside.wide {
     display: block;
@@ -5953,7 +5959,7 @@ body #footer .cc-text img {
     margin-left: -25%;
     padding: 0.5em 0;
   }
-  /* line 3332, ../sass/high90.scss */
+  /* line 3336, ../sass/high90.scss */
   body .content .post .post-body .has-pullquote:before,
   body .search .post .post-body .has-pullquote:before {
     content: attr(data-pullquote);
@@ -5975,7 +5981,7 @@ body #footer .cc-text img {
     font-size: 1.5em;
     line-height: 1.3em;
   }
-  /* line 3347, ../sass/high90.scss */
+  /* line 3351, ../sass/high90.scss */
   body .content .post .post-footer,
   body .search .post .post-footer {
     display: block;
@@ -5988,7 +5994,7 @@ body #footer .cc-text img {
     box-sizing: border-box;
     padding: 0.5em 0 0;
   }
-  /* line 3361, ../sass/high90.scss */
+  /* line 3357, ../sass/high90.scss */
   body .content .more-header,
   body .content .bio,
   body .content .pagination-header,
@@ -6019,55 +6025,55 @@ body #footer .cc-text img {
     padding: 0;
   }
 }
-/* line 3370, ../sass/high90.scss */
+/* line 3374, ../sass/high90.scss */
 .high90 {
   background-color: #de3907 !important;
-  color: white !important;
+  color: #FFFFFF !important;
 }
 
-/* line 3375, ../sass/high90.scss */
+/* line 3379, ../sass/high90.scss */
 .news {
   background-color: #de3907 !important;
-  color: white !important;
+  color: #FFFFFF !important;
 }
 
-/* line 3380, ../sass/high90.scss */
+/* line 3384, ../sass/high90.scss */
 .high90cast {
   background-color: #f98d28 !important;
-  color: white !important;
+  color: #FFFFFF !important;
 }
 
-/* line 3385, ../sass/high90.scss */
+/* line 3389, ../sass/high90.scss */
 .development {
   background-color: #fbc71c !important;
 }
 
-/* line 3389, ../sass/high90.scss */
+/* line 3393, ../sass/high90.scss */
 .technology {
   background-color: #519548 !important;
-  color: white !important;
+  color: #FFFFFF !important;
 }
 
-/* line 3394, ../sass/high90.scss */
+/* line 3398, ../sass/high90.scss */
 .productivity {
   background-color: #26ade3 !important;
-  color: white !important;
+  color: #FFFFFF !important;
 }
 
-/* line 3399, ../sass/high90.scss */
+/* line 3403, ../sass/high90.scss */
 .design {
   background-color: #4386af !important;
-  color: white !important;
+  color: #FFFFFF !important;
 }
 
-/* line 3404, ../sass/high90.scss */
+/* line 3408, ../sass/high90.scss */
 .ideas {
   background-color: #743792 !important;
-  color: white !important;
+  color: #FFFFFF !important;
 }
 
-/* line 3409, ../sass/high90.scss */
+/* line 3413, ../sass/high90.scss */
 .all {
   background-color: #363635 !important;
-  color: white !important;
+  color: #FFFFFF !important;
 }
