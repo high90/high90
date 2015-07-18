@@ -1,7 +1,7 @@
 ---
 title: 'Foreign Fallout of Security Dragnet'
 author: [Erik Hess]
-categories: [technology, mindfulness]
+categories: [technology, ideas]
 tags: [security, prism, surveillance]
 banner:
 caption:

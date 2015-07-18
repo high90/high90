@@ -1,8 +1,8 @@
 ---
 title: 'Timing Control Points'
 author: [Erik Hess]
-categories: [flying]
-tags: [productivity]
+categories: [productivity]
+tags: [flying]
 banner: tcp-1.png
 ---
 

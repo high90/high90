@@ -1,7 +1,7 @@
 ---
 title: 'Letters to the Editor'
 author: [Erik Hess]
-categories: [ideas]=
+categories: [ideas]
 tags: [writing, emptiness]
 banner: nokken.jpg
 caption: N&oslash;kken &ndash; Theodor Kittelsen [Nasjonalbiblioteket](https://www.flickr.com/photos/national_library_of_norway/12924042635)
