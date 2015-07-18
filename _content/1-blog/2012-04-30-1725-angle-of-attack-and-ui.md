@@ -1,8 +1,8 @@
 ---
 title: 'Angle of Attack and UI'
 author: [Erik Hess]
-categories: [design, technology, flying]
-tags: [ui]
+categories: [design, technology]
+tags: [ui, flying]
 ---
 {{ theme:partial src="image" title="Air France Flight 447" file="tail.jpg" }}
 

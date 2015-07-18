@@ -1,8 +1,8 @@
 ---
 title: Five Minute GTD Overview
 author: [Erik Hess]
-categories: 
-tags: [gtd, productivity]
+categories: [productivity]
+tags: [gtd]
 ---
 [When Office Technology Overwhelms, Get Organized][1]
 

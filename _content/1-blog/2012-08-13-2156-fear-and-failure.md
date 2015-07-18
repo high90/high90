@@ -1,8 +1,8 @@
 ---
 title: 'Fear and Failure'
 author: [Erik Hess]
-categories: [ideas, flying]
-tags: [fear, failure, the boat]
+categories: [ideas]
+tags: [fear, failure, the boat, flying]
 favorite: yes
 banner: ramp.png
 caption: "Right for lineup."

@@ -1,8 +1,8 @@
 ---
 title: 'More simple Type2Phone and Keyboard Maestro tricks'
 author: [Erik Hess]
-categories: [technology]
-tags: [type2phone, 'keyboard maestro', productivity]
+categories: [technology, productivity]
+tags: [type2phone, 'keyboard maestro']
 ---
 Logitech's recent announcement of a new [bluetooth solar keyboard][1] for Mac and iOS devices got me pretty excited. In addition to being a beautiful keyboard, it features a handy multi-device pairing system which you can use to swap between up to three bluetooth devices.
 
