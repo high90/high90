@@ -1,0 +1,38 @@
+<h2 class="pagination-header">Nearby Posts</h2>
+
+<div class="pagination">
+    {{ entries:previous folder="high90cast" }}
+      {{ if !no_results }}
+      <div class="post design prev">
+        <a href="{{ url }}" class="newer">
+          <div class="key">Newer</div>
+          <div class="title">{{ title|widont }}</div>
+        </a>
+      </div>
+      {{ else }}
+      <div class="post design prev none">
+        <a href="" class="newer">
+          <div class="key"></div>
+          <div class="title"></div>
+        </a>
+      </div>
+      {{ endif }}
+    {{ /entries:previous }}
+    {{ entries:next folder="high90cast" }}
+      {{ if !no_results }}
+      <div class="post high90 next">
+        <a href="{{ url }}" class="older">
+          <div class="key">Older</div>
+          <div class="title">{{ title|widont }}</div>
+        </a>
+      </div>
+      {{ else }}
+      <div class="post high90 next none">
+        <a href="" class="older">
+          <div class="key"></div>
+          <div class="title"></div>
+        </a>
+      </div>
+      {{ endif }}
+    {{ /entries:next }}
+</div>
