@@ -16,4 +16,4 @@ From the site's header:
 
 The whole site is full of beautifully-wrong-yet-perfect recreations of 1970s-era design like the awesome book covers above. 
 
-Be careful while visiting. If you're like me you might not stop until you've scoured the whole site.
+Be careful while visiting. If you're like me you might not stop until you've read through the whole site.
