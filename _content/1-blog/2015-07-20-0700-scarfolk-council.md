@@ -3,7 +3,7 @@ title: 'Scarfolk Council'
 author: [Erik Hess]
 categories: [design]
 tags: [humor]
-banner: scarfolk.jpg
+banner: scarfolk-crop.jpg
 caption: Covers from Scarfolk Council's [Poverty & 1970s Pelican Books](http://scarfolk.blogspot.com/2015/07/poverty-1970s-pelican-books.html)
 link: http://scarfolk.blogspot.com/
 ---
