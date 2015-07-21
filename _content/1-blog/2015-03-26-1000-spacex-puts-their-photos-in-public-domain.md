@@ -1,6 +1,6 @@
 ---
 title: 'SpaceX Photos go Public Domain'
-categories: [ideas]
+categories: [technology, design, ideas]
 tags: [copyright, spacex, photos]
 author: [Erik Hess]
 banner: orbcomm-launch.jpg
