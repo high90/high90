@@ -16,4 +16,4 @@ What struck me most about the article was how none of the author's points seemed
 
 Unfortunately, that sort of attitude is not the current reality in the US.
 
-Before anyone thinks that the kind of systems the article describes aren't affordable here, keep in mind that Switzerland [beats the US](https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(PPP)_per_capita) in per-capita GDP (corrected for Purchasing Power Parity &ndash; basically a way of leveling the cost-of-living playing field) and has a substantially lower [public debt to GDP ratio](https://en.wikipedia.org/wiki/List_of_countries_by_public_debt).
+Before anyone thinks that the kind of systems the article describes aren't affordable here, keep in mind that Switzerland [beats the US](https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(PPP)_per_capita) in per-capita GDP corrected for [Purchasing Power Parity](https://en.m.wikipedia.org/wiki/Purchasing_power_parity) &ndash; basically a way of leveling the cost-of-living playing field. Switzerland also has a substantially lower [public debt to GDP ratio](https://en.wikipedia.org/wiki/List_of_countries_by_public_debt).
