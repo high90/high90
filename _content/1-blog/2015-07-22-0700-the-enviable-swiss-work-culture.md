@@ -4,7 +4,7 @@ author: [Erik Hess]
 categories: [productivity]
 tags: [work-life balance, benefits, switzerland]
 banner: matterhorn.jpg
-caption: [George Eastman House](https://flic.kr/p/55EGhq)
+caption: '[George Eastman House](https://flic.kr/p/55EGhq)'
 link: http://www.vox.com/2015/7/21/8974435/switzerland-work-life-balance
 ---
 
