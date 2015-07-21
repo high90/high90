@@ -10,7 +10,7 @@ link: http://www.nasaspaceflight.com/2015/07/spacex-falcon-9-failure-investigati
 
 [NASA Space Flight](http://www.nasaspaceflight.com) is one of my favorite places to get detailed space news. Their RSS feed and news articles are free, although they offer even more depth via their [L2](http://www.nasaspaceflight.com/l2/) subscription service. I like that they have a more technical approach than other space news sites.
 
-[Their most recent post](http://www.nasaspaceflight.com/2015/07/spacex-falcon-9-failure-investigation-focuses-update/) offers several new details on the SpaceX CRS-7 failure investigation:
+[Their latest post](http://www.nasaspaceflight.com/2015/07/spacex-falcon-9-failure-investigation-focuses-update/) offers several new details on the SpaceX CRS-7 failure investigation:
 
 > SpaceX CEO and Chief Designer Elon Musk has updated the status of the investigation into the failure of the Falcon 9 rocket during its ill-fated CRS-7 Dragon mission. The preliminary findings point to a support strut in the Second Stage LOX tank breaking, releasing a helium pressurization bottle (Composite Overwrapped Pressure Vessel) that began the series of events that resulted in the loss of the vehicle.
 
