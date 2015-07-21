@@ -8,7 +8,7 @@ caption: '[George Eastman House](https://flic.kr/p/55EGhq)'
 link: http://www.vox.com/2015/7/21/8974435/switzerland-work-life-balance
 ---
 
-Vox ran an [interesting piece] (http://www.vox.com/2015/7/21/8974435/switzerland-work-life-balance) yesterday on how much nicer it is to work in Switzerland than the US:
+Vox ran an [interesting piece](http://www.vox.com/2015/7/21/8974435/switzerland-work-life-balance) yesterday on how much nicer it is to work in Switzerland than the US:
 
 > And then it hit me: Either I had become a completely privileged jerk or my own country was not as amazing as I had once thought it to be. This wasn't an unusually bad offer: It was just American Reality.
 
