@@ -8,7 +8,7 @@ caption: If you build it, they will come [SpaceX](https://www.flickr.com/photos/
 link: http://www.nasaspaceflight.com/2015/07/spacex-falcon-9-failure-investigation-focuses-update/
 ---
 
-[NASA Space Flight](http://www.nasaspaceflight.com) is one of my favorite places to get detailed space news. Their RSS feed and news articles are free (although they offer even more depth via their [L2](http://www.nasaspaceflight.com/l2/) subscription service) and they usually have a more technical focus than other space news sites.
+[NASA Space Flight](http://www.nasaspaceflight.com) is one of my favorite places to get detailed space news. Their RSS feed and news articles are free, although they offer even more depth via their [L2](http://www.nasaspaceflight.com/l2/) subscription service. I like that they have a more technical approach than other space news sites.
 
 [Their most recent post](http://www.nasaspaceflight.com/2015/07/spacex-falcon-9-failure-investigation-focuses-update/) offers a lot of details on the current state of the SpaceX CRS-7 failure investigation:
 
