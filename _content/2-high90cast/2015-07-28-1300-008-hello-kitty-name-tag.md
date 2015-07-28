@@ -2,7 +2,7 @@
 title: "008 - Hello Kitty Name Tag"
 author: [Erik Hess, Bob VanderClay, Mark VanderClay, Potatowire]
 categories: [high90cast]
-tags: [hello kitty pistols, rsi, erik's tiny wrists, pocketwatches, monocles, vertical bowlers, keyboards]
+tags: [hello kitty, pistols, rsi, erik's tiny wrists, pocketwatches, monocles, vertical bowlers, keyboards]
 banner: pistol.jpg
 caption: 'It wasn't a Glock [Nationaal Archief](https://flic.kr/p/65yk9B)'
 download: http://audio.simplecast.fm/14710.mp3
