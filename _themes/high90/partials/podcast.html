@@ -1,0 +1,15 @@
+<aside class="product podcast {{ class }}">
+  <a class="fancybox" alt="{{ name }}" title="{{ name }}" rel="page" href="{{ _site_url }}assets/img/{{ image }}" >
+      <img src="{{ _site_url }}{{ transform src="assets/img/{{ image }}" height="256" action="resize" }}" />
+  </a>
+  <ul class="details">
+    <li class="name"><a href="{{ itunes }}">{{ name }}</a></li>
+    <li class="description">{{ description }}</li>
+    {{ if site }}
+      <li class="link"><a href="{{ site }}">Home Page</a></li>
+    {{ endif }}
+    {{ if itunes }}
+      <li class="link"><a href="{{ itunes }}">iTunes</a></li>
+    {{ endif }}
+  </ul>
+</aside>
