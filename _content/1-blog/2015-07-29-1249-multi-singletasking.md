@@ -3,8 +3,8 @@ title: 'Multi-Singletasking'
 author: [Erik Hess]
 categories: [productivity]
 tags: [multitasking, podcasts, concentration, mindfulness, flying]
-banner: vintagezen.jpg
-caption: Caption text
+banner: f-4-ramp.jpg
+caption: [SDASM Archives](https://flic.kr/p/sfa8f2)
 ---
 
 Walking the dog while listening to podcasts is about as close to singletasking as I get these days, so I particularly enjoyed a recent talk by [Gil Fronsdal](http://www.audiodharma.org/teacher/1/) of [Audio Dharma](http://www.audiodharma.org/) entitled [*Doing One Thing at a Time*](http://www.audiodharma.org/talks/audio_player/5887.html).
