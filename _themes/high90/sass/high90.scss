@@ -194,7 +194,9 @@ $dark-grey: #363635;
   &.galileo,
   &.mindfulness,
   &.buddhism,
-  &.flying {
+  &.flying,
+  &.gifbrewery,
+  &.gif {
   display: block;
     padding: 0;
     background-position: 50% 50%;
@@ -748,6 +750,15 @@ $dark-grey: #363635;
   &.galileo {
     background-image: url('../../../assets/icons/galileo.png');
     height: 3.2em !important;
+  }
+
+  &.gifbrewery {
+    background-image: url('../../../assets/icons/gifbrewery.png');
+  }
+
+  &.gif {
+    background-image: url('../../../assets/icons/gif.png');
+    background-size: 3.5em auto !important;
   }
 }
 
