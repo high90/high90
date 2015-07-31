@@ -191,7 +191,12 @@ $dark-grey: #363635;
   &.gtd,
   &.jupiter,
   &.breakin,
-  &.galileo {
+  &.galileo,
+  &.mindfulness,
+  &.buddhism,
+  &.flying,
+  &.gifbrewery,
+  &.gif {
   display: block;
     padding: 0;
     background-position: 50% 50%;
@@ -201,7 +206,8 @@ $dark-grey: #363635;
 //    @include break-inside(avoid);
   }
 
-  &.tomcat {
+  &.tomcat,
+  &.flying {
     background-image: url('../../../assets/icons/flying.png');
     background-size: 4.5em auto;
     width: 5em !important;
@@ -685,7 +691,9 @@ $dark-grey: #363635;
     background-image: url('../../../assets/icons/heretics-icon.png');
   }
 
-  &.emptiness {
+  &.emptiness,
+  &.mindfulness,
+  &.buddhism {
     background-image: url('../../../assets/icons/emptiness.png');
   }
 
@@ -742,6 +750,15 @@ $dark-grey: #363635;
   &.galileo {
     background-image: url('../../../assets/icons/galileo.png');
     height: 3.2em !important;
+  }
+
+  &.gifbrewery {
+    background-image: url('../../../assets/icons/gifbrewery.png');
+  }
+
+  &.gif {
+    background-image: url('../../../assets/icons/gif.png');
+    background-size: 3.5em auto !important;
   }
 }
 
@@ -1194,6 +1211,10 @@ body {
 				padding: 0.5em 0 0.8em 0;
 				height: auto;
 			}
+
+      iframe {
+        margin-top: 0.5em;
+      }
 
 			p:first-child {
 				font-size: 1.3em;
@@ -1695,7 +1716,8 @@ body {
 
         }
 
-        &.album .fancybox img {
+        &.album .fancybox img,
+        &.podcast .fancybox img {
           padding: 0 !important;
         }
 
