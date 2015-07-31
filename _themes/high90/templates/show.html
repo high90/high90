@@ -85,7 +85,11 @@
         {{ else }}
           <a href="{{ url }}">{{ title }}</a>
         {{ endif }}
-      	</h2> 
+      	</h2>  
+        {{ if subtitle }}
+          <h3 class="subtitle">{{ subtitle }}</h3>
+        {{ endif }}
+        
       	<div class="title-date">Posted <span class="nice-date">{{ datestamp format="M d, 'y" }}</span> at <span class="time">{{ datestamp format="g:i A" }}</span></div> 
         <div class="title-author">By
           
