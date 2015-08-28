@@ -5,9 +5,9 @@ categories: [high90cast]
 tags: [the bag matrix, neo, maxpedition, goruck, osprey]
 banner: bag.jpg
 caption: '[Library of Congress](https://flic.kr/p/oeG5cF)'
-download: http://audio.simplecast.fm/15331.mp3
-player: https://simplecast.fm/e/15331
-twitter: https://simplecast.fm/s/8bb990ee
+download: http://audio.simplecast.fm/16152.mp3
+player: https://simplecast.fm/e/16152
+twitter: https://simplecast.fm/s/31638956
 summary: 'Bob enters the Matrix. Erik isn't worried about magnets anymore. Mark gets mad over a stripped screw.'
 ---
 
