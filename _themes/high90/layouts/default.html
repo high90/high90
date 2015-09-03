@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-		
+
 		<title>
 			{{ if categories_sentence_list ~ "/(high90cast)/" }}high90cast{{ else }}{{ _site_name }}{{ endif }}
 			{{ if segment_1 }}
@@ -18,13 +18,13 @@
   	<link href="{{ theme:css src="prettify"}}" type="text/css" rel="stylesheet" />
 
 		<!-- fonts -->
-		<script src="//use.typekit.net/cdt3fjz.js"></script>
+		<script src="https://use.typekit.net/cdt3fjz.js"></script>
 		<script>try{Typekit.load();}catch(e){}</script>
 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 		<!-- scripts -->
 		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-  	<script type="text/javascript" src="{{ theme:js src="jquery.fancybox.pack.js"}}"></script> 
+  	<script type="text/javascript" src="{{ theme:js src="jquery.fancybox.pack.js"}}"></script>
   	<script type="text/javascript" src="{{ theme:js src="high90.js"}}"></script>
   	<script type="text/javascript" src="{{ theme:js src="prettify.js"}}"></script>
   	<script type="text/javascript" src="{{ theme:js src="jquery.fancybox.pack.js"}}"></script>
@@ -41,7 +41,7 @@
   		<meta name="keywords" content="{{ if tags }}{{ tags_list }}{{ endif }}">
 
 		<script>
-		  $(document).ready(function(){ 
+		  $(document).ready(function(){
 		    $("#huffduffer").click(function() {
 		      window.open('http://huffduffer.com/add?popup=true&page='+encodeURIComponent(location.href),'huffduff','scrollbars=1,status=0,resizable=1,location=0,toolbar=0,width=360,height=480');
 		    });
@@ -63,7 +63,7 @@
 	      </p>
 			</div>
 		</div>
-		{{ location:start_maps smart_include="true" }}  
+		{{ location:start_maps smart_include="true" }}
 		<!-- Google Analytics -->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
