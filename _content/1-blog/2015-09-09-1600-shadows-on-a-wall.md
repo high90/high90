@@ -10,13 +10,13 @@ caption: [Turkey in Photographs](https://flic.kr/p/rFcfjk)
 
 It’s September again.
 
-Like I have each fall for about a decade, today I sat in the office surrounded by friends and fellow tech geeks, watching another beautifully executed Apple event evolve to its logical conclusion. Just like every year, I wondered how they continue to make so many amazing products. Once again, I want them all (well, maybe not that Rose-colored Apple Watch).
+Like I have each fall for about a decade, today I sat in the office surrounded by friends and fellow tech geeks, watching another beautifully executed Apple event evolve to its logical conclusion. Just like every year, I wondered how they continue to make so many amazing products. Once again, I want them all (well, maybe not that Rose-colored Apple Watch Sport).
 
 Looking at the audience, I realized that at some point and to a greater or lesser degree I’ve been everyone in that room.
 
 I’ve been an unabashed fan of Apple products specifically and technology in general&mdash;stunned and delighted at how their devices get better and smaller without fail, every year. I’ve been a writer and podcaster, looking at how those devices can improve lives, save time, and build cool things. I’ve been a creator, part of a team making a product that I desperately hope its users love as much as I do. I’ve been a presenter, pitching a customer on how my team’s product will solve their problems, save them time, and make their jobs easier.
 
-Another year, and another set of beautiful images sliding by on the wall of a very large room. Another year of me sitting and watching as images of those images and the people watching them slid by on a much smaller screen, in our much smaller room here at high90 HQ.
+Another year, and another set of beautiful images sliding by on the wall of a very large room. Another year of me sitting and watching as images of those images and the people watching them slide by on a much smaller screen, in our much smaller room here at high90 HQ.
 
 At one point during today’s event I realized that I’d forgotten about one group. It’s a group I’ve never been a part of. As soon as I noticed that group, I knew it was the group I really wanted to belong to all these years.
 
