@@ -1,33 +1,30 @@
 ---
-title: 'Shadows on a Wall'
-author: [Erik Hess]
+title: 'Why Publish'
+author: [Bob VanderClay]
 categories: [ideas]
-tags: [the cave, apple]
-banner: projector.jpg
-caption: [Turkey in Photographs](https://flic.kr/p/rFcfjk)
+tags: [writing]
+banner:
+caption: []()
 ---
 
 
-It’s September again.
+This post started off titled "Why Write?", but that really wasn't interesting to me. I write all the time, and more importantly, I know why I write. Writing forces me to give shapes to my ideas and thoughts. Even when I can't put words to paper, I'll talk outloud to myself.
 
-Like I have each fall for about a decade, today I sat in the office surrounded by friends and fellow tech geeks, watching another beautifully executed Apple event evolve to its logical conclusion. Just like every year, I wondered how they continue to make so many amazing products. Once again, I want them all (well, maybe not that Rose-colored Apple Watch Sport).
+No, writing isn't a problem. What I'm not doing is *publishing*.
 
-Looking at the audience, I realized that at some point and to a greater or lesser degree I’ve been everyone in that room.
+It's taken a lot of thought -- and many drafts -- to get here, a place where I can articulate the disconnect.
 
-I’ve been an unabashed fan of Apple products specifically and technology in general&mdash;stunned and delighted at how their devices get better and smaller without fail, every year. I’ve been a writer and podcaster, looking at how those devices can improve lives, save time, and build cool things. I’ve been a creator, part of a team making a product that I desperately hope its users love as much as I do. I’ve been a presenter, pitching a customer on how my team’s product will solve their problems, save them time, and make their jobs easier.
+> “Language serves not only to express thought but to make possible thoughts which could not exist without it.”
+> Bertrand Russell
 
-Another year, and another set of beautiful images sliding by on the wall of a very large room. Another year of me sitting and watching as images of those images and the people watching them slide by on a much smaller screen, in our much smaller room here at high90 HQ.
+It's not as simple as words giving form to my thoughts. It's bidirectional. Words don't just *give shape* to my thoughts, they *actually shape* them. Writing reprograms me. I am changed.
 
-At one point during today’s event I realized that I’d forgotten about one group. It’s a group I’ve never been a part of. As soon as I noticed that group, I knew it was the group I really wanted to belong to all these years.
+This presents a problem. Whatever challenge I was facing, no longer presents a problem. The changes to my mind won't even allow me to see the challenge in the first place. And why would I ever share such an obvious idea with the world?
 
-*I want to be one of the happy people on the wall.*
+The impossible, achieved, is no longer impossible. I can't help but feel that success somehow diminishes my accomplishments. That's an unproductive and dangerous direction of thought.
 
-I want to go about my life and not care one bit more about what piece of technology I'm using to capture the moment than I care about what kind of shoes I wear. I want to just take a video of my kid, laugh with him, then throw my device back in my pocket and forget about it. I don’t want to think about that video until we decide to laugh at it again ten years later. I want to be too busy to remember to charge my devices at night. I want to not even realize that they’re completely out of juice until well into the next day because I was too busy just… living.
+Fortunately, writing is not the only way to reprogram one's mind. Reading has the same effect. I am privileged to live in a time where it's never been easier for anyone to make themselves heard.
 
-Instead I’m sitting here tied to a chair, in a cave, watching shadows on a wall. It’s a beautiful cave. I decorated it. I picked the chair. I tied the ropes.
+Every day I come across at least one article, story, or post that makes me think differently. Perhaps I might do the same.
 
-I want untie those ropes, stand up, turn around, and walk out of the cave. I know the shadows on the wall aren’t real, but maybe they represent something that is.
-
-I want to see what’s making those shadows and maybe start making some myself.
-
-If anyone’s looking for me I’ll be outside.
+And *that's* why I will publish.
