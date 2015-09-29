@@ -16,7 +16,7 @@
 _license_key:
 
 # Show future items
-future: false
+future: true
 
 _language: en
 
@@ -124,7 +124,7 @@ _environments:
     - '*.localip'
   ak:
     - 'http://akimbokimono.com:8888*'
-  staging: 
+  staging:
     - '*draft.high90.com*'
   live:
     - '*high90.pub*'
