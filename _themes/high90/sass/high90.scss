@@ -1843,7 +1843,21 @@ body {
 	      }
 	    }
 		}
-	}
+
+    #comments {
+	    @include column(12,12);
+	    padding: 0;
+
+      .redirect {
+        color: $bright-link;
+
+        &:hover {
+          color: $dark-link;
+        }
+      }
+
+    }
+  }
 
   .bio {
     @include column(12,12);
