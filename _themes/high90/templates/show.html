@@ -85,14 +85,14 @@
         {{ else }}
           <a href="{{ url }}">{{ title }}</a>
         {{ endif }}
-      	</h2>  
+      	</h2>
         {{ if subtitle }}
           <h3 class="subtitle">{{ subtitle }}</h3>
         {{ endif }}
-        
-      	<div class="title-date">Posted <span class="nice-date">{{ datestamp format="M d, 'y" }}</span> at <span class="time">{{ datestamp format="g:i A" }}</span></div> 
+
+      	<div class="title-date">Posted <span class="nice-date">{{ datestamp format="M d, 'y" }}</span> at <span class="time">{{ datestamp format="g:i A" }}</span></div>
         <div class="title-author">By
-          
+
         </div>
       </div>
       <div class="post-body">
@@ -125,19 +125,23 @@
         <ul class="category-list">
           {{ categories }}
             <li><a href="{{ _site_root }}blog/categories/{{ name }}">{{ name }}</a></li>
-          {{ /categories }}     
+          {{ /categories }}
         </ul>
         {{ if tags }}
           <p class="title">Topics</p>
           <ul class="tag-list">
             {{ tags }}
               <li><a href="{{ _site_root }}blog/tags/{{ name|slugify }}">{{ name }}</a></li>
-            {{ /tags }}    
+            {{ /tags }}
           </ul>
         {{ endif }}
       </div>
+
+      <div class="comments">
+        {{ disqus:comments account="high90" }}
+      </div>
   </div>
-  </div> 
+  </div>
 
   {{ theme:partial src="show-pagination" }}
   {{ theme:partial src="search-box" }}

@@ -1,5 +1,10 @@
 theme_name: high90
 
+#Comments + Disqus
+
+disqus_account: high90
+show_comments: yes
+
 # used in the feed
 site_language: en
 contact_email: admin@high90.com

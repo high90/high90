@@ -85,12 +85,12 @@
           {{ else }}
             <a href="{{ url }}">{{ title }}</a>
           {{ endif }}
-        </h2> 
+        </h2>
         {{ if subtitle }}
           <h3 class="subtitle">{{ subtitle }}</h3>
         {{ endif }}
-        
-        <div class="title-date">Posted <span class="nice-date">{{ datestamp format="M d, 'y" }}</span> at <span class="time">{{ datestamp format="g:i A" }}</span></div> 
+
+        <div class="title-date">Posted <span class="nice-date">{{ datestamp format="M d, 'y" }}</span> at <span class="time">{{ datestamp format="g:i A" }}</span></div>
         <div class="title-author">By {{ author_sentence_url_list }}</div>
       </div>
 
@@ -118,13 +118,13 @@
 
                           {{ title|widont }} &rarr;
 
-                      </h2> 
+                      </h2>
 
                       <div class="title-date"><span class="nice-date">{{ datestamp format="M d, Y" }}</span> &ndash; <span class="time">{{ datestamp format="g:i A" }}</span></div>
                     </div>
 
                   </a>
-                </li> 
+                </li>
 
               {{ /get_content }}
 
@@ -189,19 +189,23 @@
         <ul class="category-list">
           {{ categories }}
             <li><a href="{{ _site_root }}blog/categories/{{ name }}">{{ name }}</a></li>
-          {{ /categories }}     
+          {{ /categories }}
         </ul>
         {{ if tags }}
           <p class="title">Tags</p>
           <ul class="tag-list">
             {{ tags }}
               <li><a href="{{ _site_root }}blog/tags/{{ name|slugify }}">{{ name }}</a></li>
-            {{ /tags }}    
+            {{ /tags }}
           </ul>
         {{ endif }}
       </div>
+
+      <div class="comments">
+        {{ disqus:comments account="high90" }}
+      </div>
     </div>
-  </div> 
+  </div>
 
   {{ /entries:listing }}
 
