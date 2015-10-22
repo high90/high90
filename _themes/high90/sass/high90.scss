@@ -191,7 +191,9 @@ $dark-grey: #363635;
   &.gtd,
   &.jupiter,
   &.breakin,
-  &.galileo {
+  &.galileo,
+  &.macdrifter,
+  &.disqus {
   display: block;
     padding: 0;
     background-position: 50% 50%;
@@ -742,6 +744,16 @@ $dark-grey: #363635;
   &.galileo {
     background-image: url('../../../assets/icons/galileo.png');
     height: 3.2em !important;
+  }
+
+  &.macdrifter {
+    background-image: url('../../../assets/icons/macdrifter.png');
+    background-size: 3em auto;
+    height: 4.2em !important;
+  }
+
+  &.disqus {
+    background-image: url('../../../assets/icons/disqus.png');
   }
 }
 
