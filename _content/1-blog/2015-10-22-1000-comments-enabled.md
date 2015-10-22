@@ -23,7 +23,7 @@ Third, we wanted a way to expand on each post in context, and with less friction
 
 So why Disqus?
 
-We use [Statamic](http://statamic.com) as our CMS. It's fantastic, and offers a nice balance of static and dynamic features. The one thing it doesn't currently offer is native comments. It does offer great support for Disqus via a first-party plugin, so we've gone there. It seemed like a better choice than changing the whole CMS.
+We use [Statamic](http://statamic.com) as our CMS. It's fantastic and offers a nice balance of static and dynamic features. The one thing it doesn't currently offer is native comments. It does offer great support for Disqus via a first-party plugin, so we've gone there. It seemed like a better choice than changing the whole CMS.
 
 We've got some great stuff ahead of us. We're excited to share it with you and hear what you think about it.
 
