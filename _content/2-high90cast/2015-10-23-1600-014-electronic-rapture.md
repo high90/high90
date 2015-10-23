@@ -8,7 +8,7 @@ caption: '[State Library of New South Wales](https://flic.kr/p/616drp)'
 download: http://audio.simplecast.fm/19119.mp3
 player: https://simplecast.fm/e/19119
 twitter: https://simplecast.fm/s/6eb7e3a8
-summary: 'Erik stays mobile. Mark takes a Charter. Bob wants to stay free.'
+summary: 'Erik stays mobile. Mark takes a Charter. Bob likes being free.'
 ---
 
 The guys pretend they have an electronic apocalypse and get $2,000 to buy devices, services, and accessories to start over from scratch and build a new web app. Here are their choices:
