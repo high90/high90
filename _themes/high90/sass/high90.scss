@@ -193,7 +193,8 @@ $dark-grey: #363635;
   &.breakin,
   &.galileo,
   &.macdrifter,
-  &.disqus {
+  &.disqus,
+  &.vim {
   display: block;
     padding: 0;
     background-position: 50% 50%;
@@ -754,6 +755,10 @@ $dark-grey: #363635;
 
   &.disqus {
     background-image: url('../../../assets/icons/disqus.png');
+  }
+
+  &.disqus {
+    background-image: url('../../../assets/icons/vim.png');
   }
 }
 
