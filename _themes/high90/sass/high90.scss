@@ -1598,12 +1598,20 @@ body {
           background-color: $green;
           color: $white;
           @include box-shadow($green 0 0 0 0.2em);
+
+          a {
+            color: $light-green;
+          }
         }
 
         &.dark-green {
           background-color: $dark-green;
           color: $white;
           @include box-shadow($dark-green 0 0 0 0.2em);
+
+          a {
+            color: $light-green;
+          }
         }
 
         &.bright-blue {
@@ -1636,6 +1644,12 @@ body {
           @include box-shadow($dark-grey 0 0 0 0.2em);
         }
 
+        h2 {
+          text-align: center;
+          margin-top: 0;
+          margin-bottom: 1.5em;
+        }
+
         h3 {
           font-family: "livory", serif;
           font-style: italic;
@@ -1648,8 +1662,13 @@ body {
 
           i {
             display: block;
+            margin-top: 0.8em;
             margin-bottom: 0.3em;
             font-size: 2.2em;
+          }
+
+          &:first-of-type i {
+            margin-top: 0;
           }
         }
 
