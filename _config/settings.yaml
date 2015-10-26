@@ -30,7 +30,7 @@ _site_name: high90
 _content_root: _content
 
 # Used for permalinks
-_site_url: http://high90.com/
+_site_url: http://high90.com
 
 # Folder name of your desired theme
 _theme: high90
