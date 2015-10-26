@@ -127,7 +127,9 @@ _environments:
   staging:
     - '*draft.high90.com*'
   live:
-    - '*high90.com*'
+    - 'http://high90.com*'
+    - 'http://www.high90.com*'
+
 
 # Set to 'true' if you want to log system messages
 _log_enabled: false

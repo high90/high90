@@ -1,6 +1,12 @@
 # Turn on the Rewrite Engine
 RewriteEngine On
 
+RewriteCond %{HTTP_HOST} ^high90\.pub$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.high90\.pub$ [OR]
+RewriteCond %{HTTP_HOST} ^themindfulbit\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.themindfulbit\.com$
+RewriteRule (.*)$ http://high90.com/$1 [R=301,L]
+
 
 # ------------------------------------------------------------------------------
 # Dynamic RewriteBase
@@ -48,5 +54,3 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.php [QSA,L]
 
-RewriteRule ^[0-9]+/?[0-9]+/?[0-9]+/?([^/]+)/?$ /blog/$1 [R=301,L]
-RewriteRule ^articles/?[0-9]+/?[0-9]+/?[0-9]+/?([^/]+)\.html$ /blog/$1 [R=301,L]
