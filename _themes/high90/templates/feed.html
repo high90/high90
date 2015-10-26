@@ -14,7 +14,7 @@
       {{ entries:listing folder="blog|high90cast" limit="10" }}
          <item>
          <title><![CDATA[{{ if link }}{{ title }} &rArr;{{ else }}{{ title }}{{ endif }}]]></title>
-         <author>{{ author }}</author>
+         <author><![CDATA[{{ author }}]]></author>
          <link>
             {{ if link }}
                {{ link }}
