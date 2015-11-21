@@ -22,6 +22,6 @@ Can make a Heav'n of Hell, a Hell of Heav'n.
 
 We've all experienced our own hells and heavens, often in the places we least expect them. 
 
-As Milton suggests, too many times these hells are created by an excess of *self*. Likewise, sometimes all it takes to turn that hell into heaven is to forget yourself and offer a hand to another being struggling alongside you. 
+As Milton suggests, too many times these hells are created by an excess of *self*. Likewise, sometimes all it takes to turn that hell into heaven is to forget yourself and offer a hand to another being who is struggling beside you. 
 
 Heaven and hell are where we find them and (more often) where we make them.
