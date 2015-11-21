@@ -2,7 +2,7 @@
 title: 'Heaven and Hell'
 author: [Erik Hess]
 categories: [ideas]
-tags: [mindfulness]
+tags: [buddhism, mindfulness]
 banner: frog-heaven.jpg
 caption: [OSU Special Collection](https://flic.kr/p/5V9xEJ)
 ---
@@ -17,8 +17,8 @@ This bit of commentary on a Zen koan grabbed my attention today:
 
 The story immediately brought to mind Milton's immortal line from [Paradise Lost](https://www.dartmouth.edu/~milton/reading_room/pl/book_1/text.shtml):
 
-> The mind is its own place, and in it self 
-> Can make a Heav'n of Hell, a Hell of Heav'n.
+> The mind is its own place, and in it self  
+Can make a Heav'n of Hell, a Hell of Heav'n.
 
 We've all experienced our own hells and heavens, often in the places we least expect them. 
 
