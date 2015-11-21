@@ -2,7 +2,7 @@
 title: 'Heaven and Hell'
 author: [Erik Hess]
 categories: [ideas]
-tags: [buddhism, mindfulness]
+tags: [mindfulness, emptiness]
 banner: frog-heaven.jpg
 caption: [OSU Special Collection](https://flic.kr/p/5V9xEJ)
 ---
