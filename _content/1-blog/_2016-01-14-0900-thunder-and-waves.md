@@ -1,8 +1,8 @@
 ---
 title: 'Thunder and Waves'
-author: [Erik Hess]()
-categories: [technology]()
-tags: [naturespace, thundergod]()
+author: [Erik Hess]
+categories: [technology]
+tags: [naturespace, thundergod]
 banner: storm-ship.jpg
 caption: [National Library of New Zealand]()(https://flic.kr/p/5EaUb1)
 ---
