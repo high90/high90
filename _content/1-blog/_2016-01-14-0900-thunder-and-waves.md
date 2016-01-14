@@ -3,7 +3,7 @@ title: 'Thunder and Waves'
 author: [Erik Hess]()
 categories: [technology]()
 tags: [naturespace, thundergod]()
-banner: ship-in-storm.jpg
+banner: storm-ship.jpg
 caption: [National Library of New Zealand]()(https://flic.kr/p/5EaUb1)
 ---
 
@@ -23,7 +23,7 @@ I gave up on background noise for sleeping, and after graduating from pilot trai
 
 I snore. This proved to be inconvenient for my wife. She's on call a few nights a week, which often means the phone rings at all hours. This was inconvenient for me. Soon our son was born. He joined us in our room for the first few weeks of his life. None of us could sleep, since someone was always making a racket.
 
-{{ theme:partial src="image" class="right" title="Naturespace for iOS" file="naturespace-shot.jpg" }}
+{{ theme:partial src="image" class="right" title="Naturespace for iOS" file="naturespace-screen.png" }}
 
 [Naturespace][5] came to our rescue. Their first iOS app was called *Thundergod*, and it played five different tracks with varying storm intensities. The key advantage it had was that the tracks were all perfectly looped. No gaps, no jarring resets.
 
