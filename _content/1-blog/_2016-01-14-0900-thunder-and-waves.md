@@ -39,7 +39,7 @@ My son still uses his iHome dock, but a few years ago [Bob][7] talked me into bu
 
 The PLAY:1 doesn't have a line-in, so we attached the 3GS via line-in to a PLAY:5 downstairs. The Sonos app pipes it to the bedroom without an issue. It doesn't even need to be playing on the PLAY:5 to do so. Using [Macronos][9] on a Nexus 5, the bedroom speakers get auto-switched to thunderstorms every night at bedtime. I would happily pay a regular subscription fee to have a Naturespace channel on Sonos. It would save a lot of hardware and hassle.
 
-Twenty years later, I'm still not very good at focusing in a noisy environment. Whenever it's time to sit down and really concentrate, I fire up Naturespace, put on a pair of headphones, and get to work. Soothed once again, the noisy parts of my brain crawl into another crevice in the rock wall, sit back, and enjoy the show.9
+Twenty years later, I'm still not very good at focusing in a noisy environment. Whenever it's time to sit down and really concentrate, I fire up Naturespace, put on a pair of headphones, and get to work. Soothed once again, the noisy parts of my brain crawl into another crevice in the rock wall, sit back, and enjoy the show.
 
 [5]:	http://www.naturespace.com/
 [6]:	https://itunes.apple.com/app/naturespace-relax-meditate/id312618509?mt=8
