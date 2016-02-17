@@ -194,7 +194,8 @@ $dark-grey: #363635;
   &.galileo,
   &.macdrifter,
   &.disqus,
-  &.vim {
+  &.vim,
+  &.naturespace {
   display: block;
     padding: 0;
     background-position: 50% 50%;
@@ -759,6 +760,10 @@ $dark-grey: #363635;
 
   &.vim {
     background-image: url('../../../assets/icons/vim.png');
+  }
+
+  &.naturespace {
+    background-image: url('../../../assets/icons/naturespace.png');
   }
 }
 
