@@ -3,8 +3,8 @@ title: 'YouTube Downloads from the Command Line'
 author: [Bob VanderClay]
 categories: [productivity]
 tags: [youtube, command line]
-banner: vintagezen.jpg
-caption: Caption text
+banner: oh-no-television.jpg
+caption: [Tyne & Wear Archives](https://flic.kr/p/qoGD8j)
 ---
 
 I had almost given up.
@@ -18,7 +18,7 @@ Fortunately, I came across `youtube-dl`, an open-source, command-line tool to do
 Installation is incredibly easy, with [instructions][1] for Linux, OS X, and an even executable provided for Windows users. I went the Homebrew route:
 
 ```
-`brew install youtube-dl
+$ brew install youtube-dl
 ```
 `
 The project’s `README` is comprehensive. You can filter downloads by any criteria imaginable, choose which size and format is downloaded, post-process those downloads, and save those files in any format, with a custom naming scheme if so desired.
@@ -26,7 +26,7 @@ The project’s `README` is comprehensive. You can filter downloads by any crite
 It’s intimidating for sure. Fortunately, you can ignore most of the options. Most of the time, I use:
 
 ```
-`$ youtube-dl [URL]
+$ youtube-dl [URL]
 ```
 
 The URL isn’t anything fancy. No need to inspect the page source for a stream address. The YouTube URL in your browser is all it takes.
