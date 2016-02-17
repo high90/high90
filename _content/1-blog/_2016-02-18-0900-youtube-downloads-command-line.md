@@ -20,7 +20,7 @@ Installation is incredibly easy, with [instructions][2] for Linux, OS X, and an 
 ```
 $ brew install youtube-dl
 ```
-`
+
 The project’s `README` is comprehensive. You can filter downloads by any criteria imaginable, choose which size and format is downloaded, post-process those downloads, and save those files in any format, with a custom naming scheme if so desired.
 
 It’s intimidating for sure. Fortunately, you can ignore most of the options. Most of the time, I use:
