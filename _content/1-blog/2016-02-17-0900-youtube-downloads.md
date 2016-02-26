@@ -13,9 +13,9 @@ I simply wanted to download a video off YouTube.
 
 Forget Google. There are searches that just seem to exude a certain sliminess that only the Internet can provide.
 
-Fortunately, I came across [`youtube-dl`][1], an open-source, command-line tool to download YouTube videos.
+Fortunately, I came across [youtube-dl][1], an open-source, command-line tool to download YouTube videos.
 
-Installation is incredibly easy, with [instructions][2] for Linux, OS X, and an even executable provided for Windows users. I went the Homebrew route:
+Installation is incredibly easy, with [instructions][2] for Linux, OS X, and even an executable provided for Windows users. I went the Homebrew route:
 
 ```
 $ brew install youtube-dl
