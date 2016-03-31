@@ -13,7 +13,7 @@ I know you hate not being good at things. You want a shortcut, not necessarily t
 
 So, you turn to the experts. Good thinking. See how they got started. See where they ran into problems along the way. Maybe get in touch with them, ask how you should get started. Maybe get some feedback on your progress.
 
-But that’s not what you do, is it?
+<p class="has-pullquote" data-pullquote="I hate to break it to you, but you're not good at eBay.">But that’s not what you do, is it?</p>
 
 Not a chance. That’s slow. That’s boring. That’s beneath you. You're better than that.
 
