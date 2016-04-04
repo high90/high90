@@ -4,7 +4,7 @@ author: [Erik Hess]
 categories: [design]
 tags: [blogging, jekyll, squarespace]
 banner: bridge-construction.jpg
-caption: [State Library of New South Wales](https://flic.kr/p/a3Mnb7)
+caption: '[State Library of New South Wales](https://flic.kr/p/a3Mnb7)'
 link: http://www.practicallyefficient.com/2016/04/03/static-and-free.html
 ---
 
@@ -12,7 +12,7 @@ Eddie Smith [describes](http://www.practicallyefficient.com/2016/04/03/static-an
 
 > My time with Squarespace ended today. It was never an entirely happy marriage between us, and it’s not worth spilling every detail why, but I will say that the main thing that ultimately drove me from Squarespace for good was its poorly implemented Markdown editor.
 
-While I'm thinking about it, don't forget to update your RSS reader to his new feed:
+Don't forget to update your RSS reader to his new feed:
 
 [http://www.practicallyefficient.com/feed.xml](http://www.practicallyefficient.com/feed.xml)
 
