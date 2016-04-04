@@ -6,9 +6,10 @@ tags: [blogging, jekyll, statamic]
 banner: bridge-construction.jpg
 caption: [State Library of New South Wales](https://flic.kr/p/a3Mnb7)
 link: http://www.practicallyefficient.com/2016/04/03/static-and-free.html
+type: link
 ---
 
-Eddie Smith describes the process of his blog [Practically Efficient](http://www.practicallyefficient.com) from Squarespace to Github-hosted Jekyll:
+Eddie Smith describes the process of moving his blog [Practically Efficient](http://www.practicallyefficient.com) from Squarespace to Github-hosted Jekyll:
 
 > My time with Squarespace ended today. It was never an entirely happy marriage between us, and it’s not worth spilling every detail why, but I will say that the main thing that ultimately drove me from Squarespace for good was its poorly implemented Markdown editor.
 
