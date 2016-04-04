@@ -6,6 +6,7 @@ tags: [blogging, jekyll, squarespace]
 banner: bridge-construction.jpg
 caption: [State Library of New South Wales](https://flic.kr/p/a3Mnb7)
 link: http://www.practicallyefficient.com/2016/04/03/static-and-free.html
+summary:
 ---
 
 Eddie Smith [describes](http://www.practicallyefficient.com/2016/04/03/static-and-free.html) moving his blog [Practically Efficient](http://www.practicallyefficient.com) from Squarespace to Github-hosted Jekyll:
@@ -21,5 +22,3 @@ There are many options, and Eddie chose an excellent one.
 Don't forget to update your RSS reader to his new feed:
 
 [http://www.practicallyefficient.com/feed.xml](http://www.practicallyefficient.com/feed.xml)
-
-Text.
