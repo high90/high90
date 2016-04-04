@@ -6,7 +6,6 @@ tags: [blogging, jekyll, statamic]
 banner: bridge-construction.jpg
 caption: [State Library of New South Wales](https://flic.kr/p/a3Mnb7)
 link: http://www.practicallyefficient.com/2016/04/03/static-and-free.html
-
 ---
 
 Eddie Smith describes the process of his blog [Practically Efficient](http://www.practicallyefficient.com) from Squarespace to Github-hosted Jekyll:
