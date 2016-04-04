@@ -21,3 +21,5 @@ There are many options, and Eddie chose an excellent one.
 Don't forget to update your RSS reader to his new feed:
 
 [http://www.practicallyefficient.com/feed.xml](http://www.practicallyefficient.com/feed.xml)
+
+Text.
