@@ -2,7 +2,7 @@
 title: 'Static and Free'
 author: [Erik Hess]
 categories: [design]
-tags: [blogging, jekyll, statamic]
+tags: [blogging, jekyll, squarespace]
 banner: bridge-construction.jpg
 caption: [State Library of New South Wales](https://flic.kr/p/a3Mnb7)
 link: http://www.practicallyefficient.com/2016/04/03/static-and-free.html
