@@ -197,7 +197,8 @@ $dark-grey: #363635;
   &.vim,
   &.naturespace,
   &.github,
-  &.practicallyefficient {
+  &.practicallyefficient,
+  &.infinity {
   display: block;
     padding: 0;
     background-position: 50% 50%;
@@ -774,6 +775,11 @@ $dark-grey: #363635;
 
   &.practicallyefficient {
     background-image: url('../../../assets/icons/practicallyefficient.png');
+  }
+
+  &.infinity {
+    background-image: url('../../../assets/icons/infinity.png');
+    height: 3em;
   }
 }
 
@@ -1386,6 +1392,12 @@ body {
 					font-size: 1em;
 				}
 
+        &.poetry {
+          font-style: italic;
+          font-size: 1.3em;
+          line-height: 1.5em;
+        }
+
 				p:last-child {
 					margin: 0;
 					padding-bottom: 0;
@@ -1806,6 +1818,17 @@ body {
 
           .link {
             line-height: 1.4em
+          }
+        }
+
+        &.album .details {
+
+          .name {
+            padding-bottom: 0;
+          }
+
+          .price {
+            display: none;
           }
         }
       }
