@@ -50,3 +50,10 @@ RewriteRule ^(.*)$ index.php [QSA,L]
 
 RewriteRule ^[0-9]+/?[0-9]+/?[0-9]+/?([^/]+)/?$ /blog/$1 [R=301,L]
 RewriteRule ^articles/?[0-9]+/?[0-9]+/?[0-9]+/?([^/]+)\.html$ /blog/$1 [R=301,L]
+
+# BEGIN FEEDPRESS
+RewriteEngine On
+RewriteCond %{HTTP_USER_AGENT} !FeedValidator [NC]
+RewriteCond %{HTTP_USER_AGENT} !FeedPress [NC]
+RewriteRule ^feed/?$ http://feedpress.me/high90 [R=302,NC,L]
+# END FEEDPRESS
