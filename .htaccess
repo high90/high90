@@ -1,6 +1,14 @@
 # Turn on the Rewrite Engine
 RewriteEngine On
 
+# BEGIN FEEDPRESS
+RewriteEngine On
+RewriteCond %{HTTP_USER_AGENT} !FeedValidator [NC]
+RewriteCond %{HTTP_USER_AGENT} !FeedPress [NC]
+RewriteRule ^feed/?$ http://feedpress.me/high90 [R=302,NC,L]
+# END FEEDPRESS
+
+
 RewriteCond %{HTTP_HOST} ^high90\.pub$ [OR]
 RewriteCond %{HTTP_HOST} ^www\.high90\.pub$ [OR]
 RewriteCond %{HTTP_HOST} ^themindfulbit\.com$ [OR]
