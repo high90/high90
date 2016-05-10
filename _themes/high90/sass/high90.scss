@@ -974,6 +974,53 @@ body {
   }
 }
 
+#about-header {
+  @include column(12,12);
+  padding: 1em 0;
+  background-image: url('../img/about-header.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  img {
+    @include column(8,12);
+    @include push(2,12);
+    padding: 0;
+  }
+}
+
+#about-text {
+  @include column(12,12);
+  padding: 2em 0 0;
+
+  h1 {
+    font-size: 1.5em;
+    text-align: center;
+    padding: 0.5em 0;
+  }
+
+  a {
+    color: $dark-link;
+
+    &:hover {
+      color: $bright-link
+    }
+  }
+
+  ul {
+    padding-left: 1em;
+  }
+
+  .contact-icon {
+    display: inline-block;
+    height: 1em;
+    width: auto;
+    margin-right: 1em;
+    position: relative;
+    top: 0.2em;
+  }
+
+}
+
 .search-box {
 	@include column(12,12);
 	padding: 0;
@@ -2675,6 +2722,12 @@ body {
 			padding: 0;
 		}
 
+    #about-text {
+      @include column(10,12);
+      @include push(1,12);
+      padding: 2em 0 0;
+    }
+
 		.content,
 	  .search {
 	  	@include column(12,12);
@@ -2885,6 +2938,12 @@ body {
       @include column(12,12);
       @include push(0);
       padding: 0;
+    }
+
+    #about-text {
+      @include column(8,12);
+      @include push(2,12);
+      padding: 2em 0 0;
     }
 
     .content,

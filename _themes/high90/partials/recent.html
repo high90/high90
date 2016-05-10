@@ -11,26 +11,52 @@
     <p><em>Looks like you're reading the only post on this site. That's CRAZY!!!</em></p>
 
     {{ else }}
-  
-    <li class="post">
-      <a alt="{{ title }}" title="{{ title }}" rel="page" href="{{ url }}" >
 
-        <div class="post-image {{ categories_spaced_list }}">
-          <img src='{{ transform src="/assets/img/{{ banner }}" width="600" height="400" action="smart" }}' />
-        </div>
+      {{ if medium }}
 
-        <div class="post-title">
-          <h2 class="title">
+      <li class="post">
+        <a alt="{{ title }}" title="{{ title }}" rel="page" href="{{ medium }}" >
 
-              {{ title|widont }}
+          <div class="post-image {{ categories_spaced_list }}">
+            <img src='{{ transform src="/assets/img/{{ banner }}" width="600" height="400" action="smart" }}' />
+          </div>
 
-          </h2> 
+          <div class="post-title">
+            <h2 class="title">
 
-          <div class="title-date"><span class="nice-date">{{ datestamp format="M d, Y" }}</span> &ndash; <span class="time">{{ datestamp format="g:i A" }}</span></div>
-        </div>
+                {{ title|widont }}
 
-      </a>
-    </li> 
+            </h2>
+
+            <div class="title-date"><span class="nice-date">{{ datestamp format="M d, Y" }}</span> &ndash; <span class="time">{{ datestamp format="g:i A" }}</span></div>
+          </div>
+
+        </a>
+      </li>
+
+      {{ else }}
+
+      <li class="post">
+        <a alt="{{ title }}" title="{{ title }}" rel="page" href="{{ url }}" >
+
+          <div class="post-image {{ categories_spaced_list }}">
+            <img src='{{ transform src="/assets/img/{{ banner }}" width="600" height="400" action="smart" }}' />
+          </div>
+
+          <div class="post-title">
+            <h2 class="title">
+
+                {{ title|widont }}
+
+            </h2>
+
+            <div class="title-date"><span class="nice-date">{{ datestamp format="M d, Y" }}</span> &ndash; <span class="time">{{ datestamp format="g:i A" }}</span></div>
+          </div>
+
+        </a>
+      </li>
+
+      {{ endif }}
 
     {{ endif }}
 
